@@ -1,0 +1,28 @@
+<div>
+<h2>Inspiration</h2>
+<p>I wanted to visualize a few books i was reading like a timeline - instant movies, now double it with making it interactive and explore the book with questions the pdf didn't even have the knowledge of, </p>
+<p>there's more but im in a rush to finish the submission</p>
+<h2>What it does</h2>
+<p>It takes an PDF and visualizes them, basically creating instant movies for the pdf, there are subtitles capabilities, background music, generative art and much more</p>
+<h2>How we built it</h2>
+<p>created a simple landing page where we can import and select the text on the pdf simply by highlighting it (in future to be converted into a timeline feature) and that selected portion first shifts to the right side so we can look at the text before creating the videos</p>
+<p>The video generator is the main ingredient as it has multi-agentic workflow</p>
+<p>simply put it's input &gt; Story + Vibe of the story + Voiceover (openai) &gt; Voiceover audio (11labs) &gt; Prompts for each scene based on all the previous data + User INput (openai) &gt; Generating the media (fal ai) &gt; Stitching together + Creating subtitles + sequence setting etcc etc (python, moviepy, ffmpeg etc)</p>
+<p>used Lovable for the front end help created variations and picked the best</p>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>choosing a name</li>
+<li>literally every step</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>video generator engine</li>
+</ul>
+<h2>What we learned</h2>
+<p>AI is the future and building things </p>
+<h2>What's next for Kiddle</h2>
+<p>The core functionality can be expanded laterally across various sectors but first i'd like to crack into the children's audible alternative niche</p>
+<p>then maybe expand into research help, real time news, presentations etc</p>
+<p>Technically a lot of features need to be implemented mainly the timeline feature and a ton of optimizations as rn its just spaghettiii </p>
+<p>PEACE OUT</p>
+</div>

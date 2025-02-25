@@ -1,0 +1,20 @@
+<div>
+<h2>Context</h2>
+<p>In our fast-paced recruitment landscape, we often struggle with inefficient candidate screening. We talked with Ammaar, a design lead at ElevenLabs who told us that a position filled up with <strong>over a thousand applicants</strong> within a week, and nearly <strong>40%</strong> were unqualified.</p>
+<p>To solve this, we automated the screening interview process using the ElevenLabs Conversational API, ensuring a consistent, engaging, and bias-free initial screening for every candidate.</p>
+<p>On the interviewer side, we developed a powerful <strong>analytics platform to provide real-time insights into candidate responses, communication skills, and cultural fit</strong>.</p>
+<h2>Key Features</h2>
+<p><strong>Interviewer Control</strong>: Companies have full control over the screening interview. We allow interviewers to adjust the following.</p>
+<ul>
+<li>Questions asked during screening</li>
+<li>Time allotted</li>
+<li>Skills and metrics to evaluate for candidate fitness</li>
+</ul>
+<p><strong>Candidate Flexibility</strong>:  We developed the screening as a call to make the process candidate friendly. Candidates can request a one-time screening call at anytime to go over their experiences and questions required by the company.</p>
+<h2>Analytics Platform</h2>
+<p>What use is a screening interview if companies cannot gather accurate, reliable data on candidates? Hirelabz supports a robust analytics platform for its initial launch.</p>
+<ul>
+<li><strong>Candidate Overview</strong>: Real-time status listing (pending, interviewing, interviewed) of each application. Accessible links to candidate portfolio, resumes, and websites. </li>
+<li><strong>Interview Breakdown</strong>: Summary and rating of each interview, including detailed breakdowns of industry skills with reasoning for each. Skills can be tailored by the company for different job postings.</li>
+</ul>
+</div>

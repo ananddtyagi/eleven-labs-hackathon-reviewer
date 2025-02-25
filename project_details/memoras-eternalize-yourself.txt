@@ -1,0 +1,220 @@
+<div>
+<p>It may sound like something out of <a href="https://en.wikipedia.org/wiki/Black_Mirror" rel="nofollow"><em>Black Mirror</em></a>, but it's simply a reflection of the AI-driven world we live in today.</p>
+<h2>Table of Contents</h2>
+<ul>
+<li><a href="#why-it-matters" rel="nofollow">Why It Matters</a>
+<ul>
+<li><a href="#personal-significance" rel="nofollow">Personal Significance</a></li>
+<li><a href="#business-significance" rel="nofollow">Business Significance</a></li>
+</ul></li>
+<li><a href="#real-problems-that-memoras-solves" rel="nofollow">Real Problems That Memoras Solves</a></li>
+<li><a href="#how-its-made-phase-1-generating-the-user-pattern" rel="nofollow">How It's Made: Phase 1 — Generating the User Pattern</a>
+<ul>
+<li><a href="#1-basic-information" rel="nofollow">1. Basic Information</a></li>
+<li><a href="#2-video-processing" rel="nofollow">2. Video Processing</a></li>
+<li><a href="#3-social-media-data-import" rel="nofollow">3. Social Media Data Import</a></li>
+<li><a href="#4-user-description-generation" rel="nofollow">4. User Description Generation</a></li>
+</ul></li>
+<li><a href="#how-its-made-phase-2-conversation" rel="nofollow">How It's Made: Phase 2 — Conversation</a>
+<ul>
+<li><a href="#1-answer-generation" rel="nofollow">1. Answer generation</a></li>
+<li><a href="#2-audio-output" rel="nofollow">2. Audio Output</a></li>
+<li><a href="#3-video-output" rel="nofollow">3. Video Output</a></li>
+</ul></li>
+<li><a href="#other-important-features" rel="nofollow">Other Important Features</a></li>
+<li><a href="#tech-stack" rel="nofollow">Tech Stack</a>
+<ul>
+<li><a href="#backend" rel="nofollow">Backend</a></li>
+<li><a href="#frontend" rel="nofollow">Frontend</a></li>
+<li><a href="#third-party-services" rel="nofollow">Third-Party Services</a></li>
+<li><a href="#cloud-services" rel="nofollow">Cloud Services</a></li>
+</ul></li>
+<li><a href="#team" rel="nofollow">Team behind the project</a></li>
+</ul>
+<hr/>
+<h2>Why It Matters <a rel="nofollow"></a></h2>
+<h3>Personal Significance <a rel="nofollow"></a></h3>
+<ul>
+<li><strong>Preservation of Identity</strong>: In a world where we risk losing cultural and personal heritage, Memoras ensures your story is kept safe for future generations.<br/></li>
+<li><strong>Self-Reflection and Personal Growth</strong>: Interacting with your own digital persona provides a unique mirror into your thoughts and behaviors. This heightened introspection can lead to personal insights, helping you evolve and better understand yourself.</li>
+<li><strong>Sentimental Value</strong>: Relive cherished moments and allow your loved ones to experience your presence.</li>
+</ul>
+<h3>Business Significance <a rel="nofollow"></a></h3>
+<ul>
+<li><strong>Personalized Content Creation</strong>: A "digital you" can produce customized, on-brand content around the clock—amplifying marketing efforts without additional manpower.<br/></li>
+<li><strong>Customer Engagement</strong>: Your digitally cloned self can handle routine queries or personalized messages, creating deeper engagement and building loyalty.<br/></li>
+<li><strong>Scalable Support Services</strong>: Integrate your digital persona into customer support channels (WhatsApp, Instagram, Telegram, X, LinkedIn) to handle inquiries, provide guidance, and reduce overhead.<br/></li>
+<li><strong>Brand Consistency</strong>: Centralize and automate messaging across different platforms, ensuring a unified brand voice that resonates with your audience.<br/></li>
+<li><strong>New Revenue Streams</strong>: By licensing or collaborating with other platforms, your "digital self" can become an asset—delivering exclusive content, appearances, or interactive experiences.<br/></li>
+<li><strong>Legacy and Continuity</strong>: Even if key team members or brand figureheads move on, their expertise, voice, and presence remain accessible for training and mentorship.</li>
+</ul>
+<hr/>
+<h2>Real Problems That Memoras Solves <a rel="nofollow"></a></h2>
+<ol>
+<li><p><strong>Fragmented Digital Footprint</strong><br/>
+With content spread across various social media platforms, individuals risk losing track of precious memories. Memoras aggregates and organizes your data into a single, cohesive timeline.</p></li>
+<li><p><strong>Memory and Identity Loss</strong><br/>
+As technology evolves, older platforms may shut down or become inaccessible. Memoras ensures your digital legacy isn't lost in outdated systems or forgotten passwords.</p></li>
+<li><p><strong>Inconsistent Brand Voice</strong><br/>
+Businesses often struggle to maintain a unified tone and style across multiple channels. A digitally cloned spokesperson, created through Memoras, offers consistent messaging and brand representation.</p></li>
+<li><p><strong>High Overhead in Customer Engagement</strong><br/>
+Organizations invest significant resources into 24/7 customer support. Memoras cuts costs by automating basic interactions while retaining a personal touch through voice and video synthesis.</p></li>
+<li><p><strong>Limited Reach for Personal and Professional Legacy</strong><br/>
+Whether it's a cultural icon or a family member, once they're gone, their wisdom and essence can be lost. Memoras safeguards that legacy, allowing future generations to learn from and interact with a faithfully recreated presence.</p></li>
+<li><p><strong>Data Overload Without Meaningful Context</strong><br/>
+Scrolling through endless photos and posts can be overwhelming. By curating and presenting key moments and stories, Memoras transforms raw data into an engaging, narrative-driven experience.</p></li>
+</ol>
+<hr/>
+<h2>How It's Made: Phase 1 — Generating the User Pattern <a rel="nofollow"></a></h2>
+<h3>1. Basic Information <a rel="nofollow"></a></h3>
+<ul>
+<li><strong>User Input</strong><br/>
+We collect basic info from the user like name, date of birth and profile picture, just as metadata.</li>
+</ul>
+<h3>2. Video Processing <a rel="nofollow"></a></h3>
+<ul>
+<li><strong>Data Collection</strong><br/>
+We ask the user to record a 10-seconds video looking straight to the camera and speaking a defined text.</li>
+<li><strong>Data Processing</strong><br/>
+<ol>
+<li><strong>Audio Extraction</strong><br/>
+Using <a href="https://ffmpeg.org" rel="nofollow">FFmpeg</a>, we extract the audio track from the user's 10-second video.<br/></li>
+<li><strong>Voice Cloning</strong><br/>
+This audio is then processed through the <a href="https://elevenlabs.io" rel="nofollow">ElevenLabs</a> API to create a synthetic voice profile for the user.<br/></li>
+<li><strong>Video Storage</strong><br/>
+The original video is retained for use in future stages of video generation (e.g., lip-syncing).</li>
+</ol></li>
+</ul>
+<h3>3. Social Media Data Import <a rel="nofollow"></a></h3>
+<ul>
+<li><p><strong>Data Collection</strong><br/>
+The user exports their Facebook/Instagram data as a ZIP file containing multiple files (json, webm, mp4, webp...), detailing the user activity regarding posts, comments, likes, connections, inbox messages, ads, and more. Every activity type is parsed and stored in a specialized database. Even users with low social media usage can end up with ~150 tables cataloging their digital footprint. </p></li>
+<li><p><strong>Data Processing</strong> </p>
+<ol>
+<li><strong>JSON Files</strong><br/>
+They are parsed and stored in two ways: structured data is stored in a SQL database, while unstructured data is stored in a vector database.</li>
+<li><strong>Image Files</strong><br/>
+For images (e.g., stories and post images), we use the <a href="https://huggingface.co/docs/transformers/model_doc/blip" rel="nofollow">BLIP model</a> to generate descriptive captions. These descriptions, along with file metadata, are saved in the database.<br/></li>
+<li><strong>Video Files</strong><br/>
+We extract key frames from each video and apply the image process to generate textual descriptions. A summarization algorithm then condenses these descriptions into a concise overview of the video's content.<br/></li>
+<li><strong>Audio Files</strong><br/>
+Audio recordings are transcribed using <a href="https://github.com/openai/whisper" rel="nofollow">Whisper</a>, producing textual descriptions for each file.</li>
+</ol></li>
+</ul>
+<h3>4. User Description Generation <a rel="nofollow"></a></h3>
+<ul>
+<li><strong>User Analyzer Agent</strong><br/>
+After all data is consolidated, our LLM-powered agent performs a thorough analysis to create a multi-layered user profile. It focuses on three key outputs:</li>
+</ul>
+<ol>
+<li><strong>User's Bio</strong> (≈500 characters)<br/></li>
+<li><strong>Full Description</strong> (≈3000 characters)<br/></li>
+<li><strong>Speech Pattern Analysis</strong><br/>
+ A detailed breakdown of the user's intonations, pauses, and other non-verbal cues to ensure authenticity in voice reproduction.</li>
+</ol>
+<p>Once this phase is complete, the user's Memora is ready to become an interactive, AI-driven representation of their identity.</p>
+<hr/>
+<h2>How It's Made: Phase 2 — Conversation <a rel="nofollow"></a></h2>
+<p>When a user initiates a dialogue with a Memora, the system employs an <strong>Agentic RAG (Retrieval-Augmented Generation)</strong> approach. This ensures responses accurately reflect the user's personality, history, and preferences by drawing on the user's <strong>profile</strong> and <strong>database</strong>. The conversation flow typically unfolds as follows:</p>
+<h3>1. Answer generation <a rel="nofollow"></a></h3>
+<ul>
+<li>The user's query is analyzed against their consolidated data—posts, comments, likes, and any other relevant information—to form a contextually appropriate response.<br/></li>
+<li>An LLM then composes the final text, weaving together personal details and communication style captured during Phase 1.</li>
+</ul>
+<h3>2. Audio Output <a rel="nofollow"></a></h3>
+<ul>
+<li>The text response is passed through the user's <strong>voice cloning model</strong> (powered by <a href="https://elevenlabs.io" rel="nofollow">ElevenLabs</a>) to produce an audio output that sounds just like the user.</li>
+</ul>
+<h3>3. Video Output <a rel="nofollow"></a></h3>
+<ul>
+<li>If a video response is requested, we leverage the <a href="https://fal.ai" rel="nofollow">Fal-AI lip-sync</a> model to sync the user's cloned voice with their original video footage.<br/></li>
+<li>This process merges the synthetic audio with visual cues—resulting in a fully animated, lifelike video response. You can see an example of final video generation <a href="https://v3.fal.media/files/zebra/qxgYQ9ZN9W1CffXPFEGgB_2b46badb-4b08-4581-a5f2-c0e00b288764_output.mp4" rel="nofollow">here</a></li>
+</ul>
+<p>This comprehensive system allows Memoras to deliver replies that feel authentic and personal, transforming static data into interactive, human-like conversations.</p>
+<hr/>
+<h2>Other Important Features <a rel="nofollow"></a></h2>
+<ul>
+<li><p><strong>Languages</strong><br/>
+Memoras supports multiple languages, allowing users to interact and retrieve data in their native tongue. This language-agnostic approach ensures a seamless experience regardless of the user's linguistic background.</p></li>
+<li><p><strong>Intelligent Information Retrieval</strong><br/>
+By harnessing both SQL queries and vector databases, Memoras can handle complex user queries. It accurately interprets intent and pinpoints the most relevant information within the user's extensive data.</p></li>
+<li><p><strong>Share &amp; Explore</strong><br/>
+Users can explore publicly available Memoras, engaging in conversations with digital personas of other individuals. For private Memoras, owners can selectively share access with specific people, maintaining control over who can interact.</p></li>
+<li><p><strong>Privacy &amp; Data Security</strong><br/>
+At Memoras, safeguarding personal information is paramount. We implement robust guardrails to prevent the disclosure of sensitive data during conversations, ensuring users can trust the platform with their most precious memories.</p></li>
+</ul>
+<hr/>
+<h2>Tech Stack <a rel="nofollow"></a></h2>
+<h3>Backend <a rel="nofollow"></a></h3>
+<ul>
+<li><strong><a href="https://www.python.org/" rel="nofollow">Python</a></strong><br/>
+The core language used for server-side processing and data manipulation.</li>
+<li><strong><a href="https://fastapi.tiangolo.com/" rel="nofollow">FastAPI</a></strong><br/>
+A modern, high-performance web framework ideal for building APIs quickly and efficiently.</li>
+<li><strong><a href="https://www.sqlalchemy.org/" rel="nofollow">SQLAlchemy</a></strong><br/>
+An ORM (Object Relational Mapping) tool that manages database interactions for structured data.</li>
+<li><strong><a href="https://github.com/hwchase17/langchain" rel="nofollow">LangChain</a></strong><br/>
+Provides an interface and framework for LLM (Large Language Model) operations, enabling sophisticated AI-driven features.</li>
+<li><strong><a href="https://github.com/openai/whisper" rel="nofollow">Whisper</a></strong><br/>
+A speech recognition model used to transcribe audio inputs and generate text from voice data.</li>
+<li><strong><a href="https://huggingface.co/docs/transformers" rel="nofollow">Transformers</a></strong><br/>
+A library from Hugging Face that enables state-of-the-art NLP and computer vision models, including BLIP.</li>
+<li><strong><a href="https://pandas.pydata.org/" rel="nofollow">Pandas</a></strong><br/>
+A data manipulation and analysis library, particularly useful for handling large sets of structured data.</li>
+<li><strong><a href="https://pypi.org/project/docling/" rel="nofollow">Docling</a></strong><br/>
+Assists with document processing and transformation tasks.</li>
+<li><strong><a href="https://mutagen.readthedocs.io/en/latest/" rel="nofollow">Mutagen</a></strong><br/>
+Used for handling audio metadata in various file formats.</li>
+<li><strong><a href="https://openai.com/" rel="nofollow">OpenAI</a></strong><br/>
+Powers various LLM-based features and potentially additional AI functionality.</li>
+<li><strong><a href="https://elevenlabs.io" rel="nofollow">ElevenLabs</a></strong><br/>
+Provides high-quality voice cloning services to generate synthetic voice profiles.</li>
+<li><strong><a href="https://fal.ai" rel="nofollow">Fal-AI</a></strong><br/>
+Utilized for lip-sync model capabilities, seamlessly integrating voice and video.</li>
+<li><strong><a href="https://huggingface.co/docs/transformers/model_doc/blip" rel="nofollow">BLIP</a></strong><br/>
+A model specifically used for generating image captions and visual content descriptions.</li>
+</ul>
+<h3>Frontend <a rel="nofollow"></a></h3>
+<ul>
+<li><strong><a href="https://nextjs.org/" rel="nofollow">Next.js</a></strong><br/>
+A React-based framework for building production-grade web applications with server-side rendering.</li>
+<li><strong><a href="https://next-auth.js.org/" rel="nofollow">NextAuth</a></strong><br/>
+A flexible authentication solution for Next.js, simplifying user login and session management.</li>
+<li><strong><a href="https://www.radix-ui.com/" rel="nofollow">Radix</a></strong><br/>
+A set of UI primitives enabling customizable and accessible components.</li>
+<li><strong><a href="https://react.dev/" rel="nofollow">React</a></strong><br/>
+A JavaScript library for building user interfaces and managing component-based views.</li>
+<li><strong><a href="https://lodash.com/" rel="nofollow">Lodash</a></strong><br/>
+A utility library offering helpful functions for data manipulation and transformation.</li>
+<li><strong><a href="https://tailwindcss.com/" rel="nofollow">Tailwind CSS</a></strong><br/>
+A utility-first CSS framework for styling and layout customization.</li>
+<li><strong><a href="https://ui.shadcn.com/" rel="nofollow">Shadcn UI</a></strong><br/>
+A collection of accessible UI components and styles built on Tailwind.</li>
+<li><strong><a href="https://lucide.dev/" rel="nofollow">Lucide</a></strong><br/>
+An icon library providing customizable vector icons for the web.</li>
+<li><strong><a href="https://www.typescriptlang.org/" rel="nofollow">TypeScript</a></strong><br/>
+A strongly typed superset of JavaScript, enhancing code reliability and maintainability.</li>
+</ul>
+<h3>Third-Party Services <a rel="nofollow"></a></h3>
+<ul>
+<li><strong><a href="https://elevenlabs.io" rel="nofollow">ElevenLabs</a></strong><br/>
+High-fidelity voice cloning and speech synthesis API.</li>
+<li><strong><a href="https://fal.ai" rel="nofollow">Fal-AI</a></strong><br/>
+Advanced lip-sync model for generating synchronized video content.</li>
+<li><strong><a href="https://auth0.com/" rel="nofollow">Auth0</a></strong><br/>
+An identity and authentication service that secures user logins and manages session tokens.</li>
+<li><strong><a href="https://posthog.com/" rel="nofollow">PostHog</a></strong><br/>
+An analytics platform offering product analytics, session recording, and feature flags.</li>
+</ul>
+<h3>Cloud Services <a rel="nofollow"></a></h3>
+<ul>
+<li><strong><a href="https://azure.microsoft.com/" rel="nofollow">Azure</a></strong><br/>
+Offers hosting, cloud computing services, and additional AI capabilities where needed.</li>
+</ul>
+<hr/>
+<h2>Team behind the project <a rel="nofollow"></a></h2>
+<ul>
+<li><p><a href="https://www.linkedin.com/in/dhiogocorrea/" rel="nofollow"><strong>Dhiogo Corrêa</strong></a>: Dhiogo is an AI &amp; Tech Executive with a strong background in AI strategy, big data, and product innovation. As a CTO and educator, he has guided teams through complex machine learning projects and co-founded successful ventures such as LinkFit. His passion lies in leveraging advanced technologies to deliver impactful solutions, bridging the gap between cutting-edge research and real-world applications. <em>In Memora's project, Dhiogo was responsible of most of ideation and bussiness case, all the logic of data collection and processing, agents building and orchestration, prompt engeneering, and some of the frontend code.</em></p></li>
+<li><p><a href="https://www.linkedin.com/in/tiago-spana/" rel="nofollow"><strong>Tiago Spana</strong></a>: Tiago is a seasoned .NET and DevOps engineer, recognized for his expertise in cloud-based architectures and multiple Microsoft Azure certifications (AZ-900, AZ-204, AZ-400). Having held senior positions in companies like Neogrid and Predify, he excels at orchestrating CI/CD pipelines and scalable solutions. His commitment to continuous improvement and dedication to best practices drive Memoras’ robust and efficient infrastructure. <em>In Memora's project, Tiago was responsible to develop backend logic, some of the frontend code and devops (mostly deploys).</em></p></li>
+</ul>
+</div>

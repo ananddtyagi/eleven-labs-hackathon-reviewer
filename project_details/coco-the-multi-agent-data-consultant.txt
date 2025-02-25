@@ -1,0 +1,48 @@
+<div>
+<h3><strong>Inspiration</strong></h3>
+<p>Businesses often turn to data consultants for insights, but the process is far from streamlined. Clients must explain their needs in multiple steps, wait for reports, and manually create presentations from raw data. Despite the availability of advanced research tools, none of them can structure their findings into a coherent, actionable format like a <strong>presentation</strong>. We built <strong>CoCo</strong> to bridge this gap—a multi-agent AI consultant that collects user requirements, conducts deep research, and delivers a structured, insightful presentation, just like a human consultant would.  </p>
+<h3><strong>What it does</strong></h3>
+<p>CoCo is an AI-driven multi-agent system that simplifies business research and strategy formulation through an interactive experience.  </p>
+<ul>
+<li><strong>Conversational Data Collection:</strong> Users provide input through a natural voice conversation, making it easy to specify their needs.<br/></li>
+<li><strong>Multi-Agent Research:</strong> A manager agent oversees specialized agents to conduct in-depth research based on the user’s industry and business focus.<br/></li>
+<li><strong>AI-Generated Presentations:</strong> The system compiles findings into well-structured slides that <strong>analyze the market, provide industry insights, and offer strategic recommendations</strong>—similar to how a real consultant would.<br/></li>
+<li><strong>Natural Language Editing:</strong> Users can refine and update their presentations using simple text commands.<br/></li>
+<li><strong>Real-Time Editing:</strong> A dynamic UI enables quick modifications and adjustments to the PPT, ensuring the presentation is always up to date.<br/></li>
+</ul>
+<h3><strong>How we built it</strong></h3>
+<p>We combined multiple cutting-edge technologies to make CoCo intuitive and efficient:  </p>
+<ul>
+<li><strong>Frontend:</strong> Built majorly with <strong>Lovable</strong>, it uses <strong>Vite</strong> for fast performance, <strong>TypeScript</strong> for scalable code, and <strong>React</strong> for a smooth UI. </li>
+<li><strong>Backend:</strong><br/>
+<ul>
+<li><strong>Conversational AI:</strong> Powered by <strong>ElevenLabs</strong>, it serves as the backbone for collecting and interpreting user requirements.<br/></li>
+<li><strong>Multi-Agent Research:</strong> Uses <strong>GPT-4o-mini</strong> with <strong>CodeAgents from Hugging Face</strong> to process and analyze research findings.<br/></li>
+<li><strong>Presentation Generation:</strong> A dedicated <strong>Presentation agent</strong> converts research insights into structured slides using code written for <strong>Reveal.js</strong>, dynamically creating presentations with relevant content and visuals.<br/></li>
+</ul></li>
+</ul>
+<h3><strong>Challenges we ran into</strong></h3>
+<p>Developing a <strong>multi-agent</strong> system that efficiently <strong>coordinated three key agents</strong>—the <strong>voice agent, deep research agent, and presentation editing agent</strong>—was challenging. Since we were new to building multi-agent architectures, ensuring seamless communication and role distribution among them took significant effort.  </p>
+<h3><strong>Accomplishments that we're proud of</strong></h3>
+<p>We successfully built a <strong>fluid multi-agent system</strong> where:  </p>
+<ul>
+<li>The voice agent enables a natural, interactive consulting experience.</li>
+<li>The research agents extract, analyze, and compile industry-specific insights from the web.</li>
+<li>The presentation agent dynamically structures data into professional, editable slides.
+This allows users to receive <strong>fact-based, actionable recommendations in a visually compelling format</strong>. </li>
+</ul>
+<h3><strong>What we learned</strong></h3>
+<p>Throughout this project, we gained valuable insights into:  </p>
+<ul>
+<li>Building and managing multi-agent systems efficiently.</li>
+<li>Integrating ElevenLabs’ conversational AI for a smooth user experience.</li>
+<li>Developing our own mini deep research tool rather than integrating existing ones.</li>
+</ul>
+<h3><strong>What's next for CoCo</strong></h3>
+<p>Our next steps focus on <strong>enhancing the intelligence</strong>:  </p>
+<ul>
+<li>Enabling the real-time presentation editing agent to visualize and crunch data dynamically.</li>
+<li>Allowing CoCo Presentation Agent to autonomously gather additional insights when requested.
+These improvements will make CoCo even more powerful, helping users make informed business decisions with minimal effort.<br/></li>
+</ul>
+</div>

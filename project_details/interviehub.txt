@@ -1,0 +1,9 @@
+<div>
+<p>Have you ever wished you could practice conversations without the pressure? Or share your experiences to help others grow?</p>
+<p>Welcome to InterviewHub – where AI-powered conversations meet real human stories.
+Our platform brings together two groups of amazing people:</p>
+<p>First, we have learners – people looking to improve their conversation skills. Whether you're preparing for important meetings, social situations, or just want to become a better communicator...</p>
+<p>Practice with our AI companions in natural, flowing conversations. Get real-time feedback, suggestions, and guidance from our intelligent interview assistant.</p>
+<p>Then we have our story sharers – individuals with unique experiences and perspectives who want to make a difference.</p>
+<p>Create an AI version of yourself, share your story, and help others learn through meaningful conversations. Your experiences become interactive learning opportunities for others.</p>
+</div>

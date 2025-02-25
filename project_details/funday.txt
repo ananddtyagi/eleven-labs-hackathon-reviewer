@@ -1,0 +1,46 @@
+<div>
+<h1>FunDay: Start Your Day with a Smile 🌟</h1>
+<h2>Project Overview</h2>
+<p>FunDay is a delightful service that delivers personalized audio jokes to your email inbox every morning. We believe that starting your day with laughter can make everything better, which is why we've created this simple yet effective way to add a dash of humor to your daily routine.</p>
+<h2>What We Do</h2>
+<ul>
+<li>Send you a daily joke based on topics you love</li>
+<li>Convert jokes into easy-to-listen audio clips</li>
+<li>Deliver them right to your inbox at your preferred time</li>
+<li>Support multiple languages so everyone can enjoy</li>
+</ul>
+<h2>Why FunDay?</h2>
+<p>Imagine waking up to a perfectly timed joke that matches your sense of humor. Whether you're into:</p>
+<ul>
+<li>Clean family fun</li>
+<li>Clever wordplay</li>
+<li>Pop culture references</li>
+<li>Science and tech humor</li>
+<li>Or any of our 20+ other categories</li>
+</ul>
+<p>FunDay ensures you get content that actually makes YOU laugh.</p>
+<h2>How It Works</h2>
+<ol>
+<li><strong>Pick Your Favorites</strong>: Choose from our wide range of joke categories.</li>
+<li><strong>Set Your Time</strong>: Tell us when you'd like to receive your daily dose of humor.</li>
+<li><strong>Sit Back and Smile</strong>: We'll handle the rest, delivering fresh jokes to your inbox every day.</li>
+</ol>
+<h2>The Magic Behind the Scenes</h2>
+<p>We combine human creativity with modern technology to:</p>
+<ul>
+<li>Generate unique, personalized jokes</li>
+<li>Create clear, natural-sounding audio</li>
+<li>Deliver your daily laugh right on schedule</li>
+</ul>
+<h2>Looking Ahead</h2>
+<p>We're constantly working to make your mornings even brighter with:</p>
+<ul>
+<li>More joke categories</li>
+<li>Additional language options</li>
+<li>New delivery formats</li>
+<li>Enhanced personalization</li>
+</ul>
+<p>FunDay isn't just about jokes – it's about starting each day on a positive note, one laugh at a time.</p>
+<hr/>
+<p><em>"Because every day should start with a smile!"</em> ✨</p>
+</div>

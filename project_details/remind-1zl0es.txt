@@ -1,0 +1,29 @@
+<div>
+<h1>Deployed on RPI due to issues with types during build which I couldn't resolve (and time was less) .So site might load slow. Sorry for the inconvenience.</h1>
+<h2>Inspiration</h2>
+<p>ReMIND was born out of a deeply personal experience. My grandmother, the person who meant the most to me, was diagnosed with dementia. As I got caught up in my own life, I wasn’t able to be there for her as much as I wanted. Eventually, she stopped recognizing me, and that pain is something I carry with me. This project is my way of giving back to families who, like mine, are struggling to balance their busy lives with caring for loved ones who need them the most. I wanted to create something that would help families who never want something like this to happen to their elderly but are just bound by their work.</p>
+<h2>What it does</h2>
+<p>ReMIND is a personal conversational AI designed to help dementia patients stay connected with their families. It uses the voice of their loved ones to engage in meaningful conversations, reliving cherished memories. The app also tracks memory retention and mental health through personalized quizzes of their past (short term and long term) and schedule based calls with conversation felt repetitive assessments, helping in analyzing the progression of dementia and helping families understand how much the disease has affected their loved one. It’s a tool to bridge the gap between families and ensure no one feels forgotten.</p>
+<h2>How I built it</h2>
+<p>Some of the amazing features of ElevenLabs, such as cloning voice, conversational AI and its connection to phone call based services like twilio got me this idea. I built 
+1) a web application where families can schedule AI conversational calls with their cloned voice giving a past memory context and information about their relation to the patient (like i am aryan and i scheduled one for my grandma about our trip to Kerala). We it can be as detailed as possible for providing better context. We also include questions about the memory along with answers to AI (ex: which year we went to kerala, who got bit by spider then, what was the name of the resort, etc). We can schedule repetivite calls with time difference between consequtive calls (ex 1 hr, 12hrs, 1 day). It will call them and have the same conversations and based on the answers the pateint gives in each slot, we can derive analytics of short and long term memory retention.</p>
+<p>I used a cron service and the scheduled the call generations using that.</p>
+<h2>Challenges I ran into</h2>
+<p>The major challenge was that this wasnt the first idea i had. After one day completion i got this idea and before this i was working on a different idea. so i had to rush into completing this.</p>
+<p>1) It was my first time working with cron service and setting it up would be the hardest part. 
+2) It was also my first time working on frontend and i wanted to use this hackathon to learn in the process so i didnt use any AI tools from our sponsors.
+3) I ran into a NextJS build issue in the end, so I am running it on dev on my raspberry pi which is tunneling to my domain name suing cloudfare tunnel :p 
+4) Integrating Audio Record Feature and using that call the ElevenLabs API to clone teh voice was also new and hard.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>1) I got to learn frontend and I am very proud of what all I have learnt in thsi experience.
+2) I really loved working on ElevenLabs platform. Their services are so fun and have the potential of creating a big impact.
+3) Was able to successfully establish cron service and integrate it with supabase using triggers. SOmething  I never thought i would do.
+4) Most proud of the emotional impact ReMIND can have. It’s not just a tech solution; it’s a tool that could truly make a difference in someone’s life. Making this project was an emotional ride.</p>
+<h2>What we learned</h2>
+<p>1) How far along tech has come.
+2) How easy is it to making wonderful applcations on AI in thsi landscape.
+3) How easy communities have made to integrate multiple application to each other. Mostly loved the NextJS + Supabase integration. Just loved it.</p>
+<h2>What's next for ReMIND</h2>
+<p>They are a lot of potholes. Due to time crunch i could not implement multiple language selection feature.
+I am planning to complete this project and make it production grade. So that people in need can actually use and benefit ou tof this</p>
+</div>

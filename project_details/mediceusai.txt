@@ -1,0 +1,57 @@
+<div>
+<h2>Inspiration</h2>
+<p>The project was inspired by a real-world problem faced by doctors in Poland and beyond. Surgeons and medical teams should be fully focused on their patients, but current surgical workflows require them to track medications, procedures, and complications while operating, leading to inefficiencies and potential errors. Recognizing this gap, we set out to build an AI-powered assistant to streamline surgical documentation and improve patient safety.</p>
+<h2>What it does</h2>
+<p>MediceusAI is an AI-powered surgical assistant that listens, documents, and organizes every critical moment of surgery in real time. It:</p>
+<ul>
+<li>Digitalizes medical documentation – Converts paper-based records into digital format.</li>
+<li>Monitors narcotic drug usage – Tracks the administration of controlled substances like fentanyl.</li>
+<li>Ensures strict authorization control – Prevents unauthorized access to sensitive medical data.</li>
+<li>Eliminates manual note-taking – Allows medical personnel to focus entirely on the patient.</li>
+<li>Captures and documents surgical actions, medications, and procedures in real-time.</li>
+<li>Generates structured post-surgery reports with key events.</li>
+<li>Organizes patient records and operating room data for seamless hospital workflow.</li>
+</ul>
+<h2>How we built it</h2>
+<p>Repository: <a href="https://github.com/Krzychu-Z/mediceus-ai" rel="nofollow">https://github.com/Krzychu-Z/mediceus-ai</a></p>
+<ul>
+<li>ElevenLabs – Conversational AI for real-time voice interaction.</li>
+<li>Next.js – Frontend framework for the user dashboard.</li>
+<li>Python Flask – Backend for AI processing and API integrations.</li>
+<li>Vercel – Web page template generation.</li>
+<li>SQLite – Database for operations and events storage.</li>
+</ul>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>Handling real-time voice processing – Ensuring low-latency transcription with high accuracy in a noisy operating room environment.</li>
+<li>Speaker diarization – Differentiating between multiple voices (surgeons, nurses, anesthesiologists) remains a technical challenge, to be done in the future.</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>✅ Successfully built an AI-powered real-time transcription system tailored for surgical environments.</li>
+<li>✅ Received interest from a hospital in Poland, validating the real-world demand for our solution.</li>
+<li>✅ Developed a structured post-surgery report feature, making medical documentation seamless.</li>
+<li>✅ Integrated a narcotic drug tracking system, enhancing medication safety and compliance.</li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>🔹 The complexity of hospital procurement cycles – Hospitals have long sales cycles and require extensive regulatory approvals.</li>
+<li>🔹 The importance of real-world validation – Conversations with doctors provided key insights into workflow pain points and feature prioritization.</li>
+<li>🔹 Optimizing AI for high-noise environments – Real-time voice processing in surgical settings requires advanced noise cancellation and robust diarization models.</li>
+</ul>
+<h2>What's next for MediceusAI</h2>
+<p>🚀 Upcoming Features &amp; Expansion Plans:</p>
+<ul>
+<li>Voice Diarization – Accurately distinguish between multiple speakers.</li>
+<li>EHR Integration – Seamless connection with hospital electronic health record systems.</li>
+<li>AI-Powered Data Insights – Provide advanced analytics on surgical performance.</li>
+<li>Hardware Partnerships – Collaborate with AI-powered microphones &amp; OR devices.</li>
+<li>Warehouse of Narcotic Drugs – Integration with hospital-controlled substance tracking systems.</li>
+</ul>
+<p>📈 Business &amp; Growth Strategy:</p>
+<ul>
+<li>Expand first to private hospitals and clinics before onboarding larger healthcare institutions.</li>
+<li>Develop a production-grade solution in collaboration with an interested hospital.</li>
+<li>Secure investment (~1.5M PLN) to bring the MVP to market in 6 months.</li>
+</ul>
+</div>

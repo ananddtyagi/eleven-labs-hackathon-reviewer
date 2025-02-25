@@ -1,0 +1,16 @@
+<div>
+<p>Inspiration</p>
+<p>The idea for BIG BALL sprang from my love of quirky game NPCs and a desire to breathe life into a simple blob with personality and interactivity. I envisioned a wobbly, chatty companion to banish boredom, inspired by animated characters and the magic of AI-powered audio to make even a shapeless blob feel vibrant and engaging.</p>
+<p>What it does</p>
+<p>BIG BALL is an interactive webpage starring a 3D blob that talks back in real time. Users type messages, and the blob responds with lively, AI-generated speech via ElevenLabs’ Conversational AI API. While I aimed for the blob to jiggle in sync with its voice, I ended up with a static (but still charming) blob that chats dynamically, keeping boredom at bay with its playful responses.</p>
+<p>How I built it</p>
+<p>I kicked off with a blob crafted in Spline, embedding it into my webpage with Spline’s script tag. Using Lovable.dev, I prompted the platform to set up a text input field, connect to ElevenLabs’ Conversational AI API for real-time speech, and integrate a conversational AI to generate replies. I streamed the audio through ElevenLabs and tried to use the Web Audio API to drive a jiggle effect via Spline’s jiggleAmount variable, but when that didn’t pan out, I focused on nailing the conversational flow instead.</p>
+<p>Challenges I ran into</p>
+<p>The biggest hurdle was getting the blob to jiggle—I couldn’t get Spline’s jiggleAmount variable to sync properly with the audio waveform, despite wrestling with the runtime API and Web Audio integration. The Spline embed’s limitations made animation tricky, and debugging Lovable.dev’s auto-generated code added headaches, especially when the ElevenLabs audio stream lagged or misfired. Balancing these moving parts tested my patience!</p>
+<p>Accomplishments that I’m proud of</p>
+<p>I’m stoked to have a talking blob that responds in real time—it’s a fun, interactive win even without the jiggle. Successfully tying together Spline, ElevenLabs, and Lovable.dev into a cohesive experience feels huge. I’m especially proud of the blob’s personality shining through its voice (think “I’m your blob pal, here to chill!”), making it a delight to chat with.</p>
+<p>What I learned</p>
+<p>I got a crash course in real-time audio streaming with ElevenLabs and the Web Audio API, plus the quirks of Spline embeds—turns out variables aren’t as plug-and-play as I hoped. Lovable.dev taught me how AI-driven tools can speed up development (and where they stumble), and I learned to pivot when my jiggle dreams hit a wall, focusing instead on a solid conversational core.</p>
+<p>What’s next for BIG BALL</p>
+<p>Next up, I’m determined to crack the jiggle code—maybe tweaking Spline’s animation setup or switching to a GLTF export for more control. I’d love to add blob variety (think colors, voices, and moods), juice up the conversational AI with more depth, and polish the audio sync. Down the line, I see BIG BALL as a mobile app or a customizable widget, bringing blob joy everywhere.</p>
+</div>

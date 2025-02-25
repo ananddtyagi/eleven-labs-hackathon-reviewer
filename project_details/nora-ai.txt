@@ -1,0 +1,81 @@
+<div>
+<h2>About the Project</h2>
+<h3><strong>The Inspiration Behind Nora AI</strong></h3>
+<p>Before becoming an engineer, I was an early childhood teacher. In my class, I had two siblings with speech delays. Their mother—a single parent working tirelessly to make ends meet—had little time to engage them in meaningful conversations. The cause of their speech delay wasn’t biological; it was simply a lack of exposure to language.  </p>
+<p>This experience stayed with me. As I transitioned into engineering, I realized that <strong>AI has the potential to bridge this gap</strong> by providing <strong>interactive, language-rich conversations</strong> to children who might not otherwise have access to them. That’s why we built <strong>Nora AI</strong>—a <strong>multilingual, interactive AI companion</strong> designed to help children <strong>develop confidence in communication</strong>, no matter their circumstances.  </p>
+<hr/>
+<h3><strong>What We Learned</strong></h3>
+<p>Building Nora AI was more than just applying AI models—it was about understanding <strong>how children learn, how AI can support that process, and how to ensure safe, meaningful interactions</strong>.  </p>
+<p>We explored:  </p>
+<ul>
+<li><strong>Speech-to-Text (STT) and Text-to-Speech (TTS)</strong> using <strong>ElevenLabs</strong> to make interactions engaging and natural.<br/></li>
+<li><strong>Multi-AI Agent Collaboration</strong> to enable <strong>Nora AI, supporting characters, and interactive elements</strong> to work together seamlessly in conversations.<br/></li>
+<li><strong>Parent Feedback Mechanism</strong>, providing structured insights on the child’s speech patterns, vocabulary use, and engagement, aligned with the <strong>Early Years Learning Framework (EYLF)</strong>.<br/></li>
+<li><strong>ElevenLabs Conversational AI</strong> for <strong>real-time speech synthesis and natural-sounding dialogue</strong>.<br/></li>
+</ul>
+<p>Beyond the technical aspects, we learned the importance of <strong>responsible AI</strong>—creating a system that is <strong>emotionally intelligent, safe, and engaging</strong> for young learners.  </p>
+<hr/>
+<h3><strong>How We Built Nora AI</strong></h3>
+<p>Nora AI was designed with <strong>AI-driven personalization and real-time interaction</strong> at its core.  </p>
+<h4><strong>Tech Stack &amp; Core Features:</strong></h4>
+<ul>
+<li><p><strong>Conversational AI (ElevenLabs Conversational AI)</strong> </p>
+<ul>
+<li>Real-time, interactive conversation through <strong>embedded ElevenLabs AI widget</strong>.<br/></li>
+<li>Child-friendly voice output for an engaging and accessible experience.<br/></li>
+</ul></li>
+<li><p><strong>Speech &amp; Transcript Processing</strong> </p>
+<ul>
+<li><strong>Speech-to-Text (STT)</strong> for real-time transcription.<br/></li>
+<li>Fetches complete conversation transcripts for <strong>language analysis</strong>.<br/></li>
+</ul></li>
+<li><p><strong>Multi-AI Agent Collaboration</strong> </p>
+<ul>
+<li>Enables <strong>Nora AI and supporting characters</strong> (e.g., space-themed guides, farm animals, underwater creatures) to engage dynamically.<br/></li>
+</ul></li>
+<li><p><strong>Automated Transcript Retrieval</strong> </p>
+<ul>
+<li>Fetch the child’s conversation transcript with a single click.<br/></li>
+<li>Includes both <strong>Nora’s responses</strong> and the <strong>child’s dialogues (labeled “Little Explorer”)</strong>.<br/></li>
+</ul></li>
+<li><p><strong>Language Development Analysis &amp; Parent Feedback (Google Gemini AI &amp; Automated Transcript Retrieval)</strong> </p>
+<ul>
+<li>The transcript is processed by <strong>Google Gemini</strong> to analyze:<br/></li>
+<li>Child’s speech patterns and language usage.<br/></li>
+<li>Main topics and engagement levels.<br/></li>
+<li>Positive developmental highlights and areas for improvement.<br/></li>
+<li>Suggested conversation starters and hands-on activities.<br/></li>
+</ul></li>
+<li><p><strong>User Interface &amp; Parent Insights</strong> </p>
+<ul>
+<li>Built with <strong>Streamlit (Python)</strong> for an intuitive, lightweight web interface.<br/></li>
+<li>Space, Sea, Jungle, Farm Exploration Themes for an engaging UI.<br/></li>
+<li><strong>Parent dashboard</strong> generates structured reports aligned with <strong>EYLF</strong>, helping parents support learning at home.<br/></li>
+</ul></li>
+</ul>
+<hr/>
+<h3><strong>Challenges We Faced</strong></h3>
+<p>Every AI project comes with obstacles, and Nora AI was no exception.  </p>
+<h4><strong>1️⃣ Handling Multi-Turn Conversations with Multiple AI Agents</strong></h4>
+<p>Ensuring that multiple AI characters <strong>respond naturally, follow context, and stay engaging</strong> was a challenge. We designed an <strong>agent coordination system</strong> to structure <strong>interactive storytelling and guided play</strong>.  </p>
+<h4><strong>2️⃣ Balancing Engagement with Safety</strong></h4>
+<p>The AI needed to be <strong>playful yet responsible</strong>. We implemented:  </p>
+<ul>
+<li><strong>Conversational guardrails</strong> to gently <strong>redirect inappropriate language</strong>.<br/></li>
+<li><strong>Emotionally intelligent responses</strong> to support children through <strong>expressive, empathetic interactions</strong>.<br/></li>
+</ul>
+<h4><strong>3️⃣ Providing Parent-Friendly Insights Without Overwhelming Data</strong></h4>
+<p>We simplified our approach to <strong>parent reports</strong>, ensuring:  </p>
+<ul>
+<li><strong>Concise conversation summaries.</strong><br/></li>
+<li><strong>Language milestone tracking.</strong><br/></li>
+<li><strong>Actionable suggestions to extend learning at home.</strong><br/></li>
+</ul>
+<hr/>
+<h3><strong>Final Thoughts</strong></h3>
+<p>Nora AI is more than just a tool—it’s a <strong>bridge between AI, education, and real-world impact</strong>.  </p>
+<p>For children, it’s a <strong>friendly companion that makes communication fun</strong>.<br/>
+For parents, it’s a <strong>support system that provides insights and guidance</strong>.<br/>
+For educators, it’s a <strong>scalable way to reinforce language development</strong>.  </p>
+<p>Through AI, we’re not just helping children learn language—we’re <strong>giving them a voice</strong>.  </p>
+</div>

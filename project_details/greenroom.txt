@@ -1,0 +1,70 @@
+<div>
+<h2>Inspiration</h2>
+<p>AI assistants are used by salespeople, teachers, pastors, therapists, consultants, and more, but they always feel all or nothing—either the AI takes full control, or the user has to micromanage every detail. There’s no middle ground where AI can think ahead while remaining adaptable.</p>
+<p>Thinking ahead while talking is hard—whether you’re a teacher guiding a discussion, a doctor explaining options to a patient, or a consultant steering a meeting. AI should help, but most systems either force rigid automation or demand constant manual input. We wanted a solution where:</p>
+<ul>
+<li>AI plans ahead dynamically but lets users override and steer when needed.</li>
+<li>AI’s thought process is visible instead of hidden inside a black-box model.</li>
+<li>The interface feels intuitive and real-time, without requiring perfect prompts.</li>
+</ul>
+<h2>What It Does</h2>
+<p>Greenroom is a real-time, visual AI conversation control system. Instead of just responding to input, the AI:</p>
+<ul>
+<li>Plans ahead based on the conversation flow.</li>
+<li>Visualizes its own thought process on a whiteboard (tldraw).</li>
+<li>Lets the user intervene—adjusting tone, context, and direction on the fly.</li>
+<li>Updates dynamically when users make changes, adapting in real-time.</li>
+</ul>
+<p>For example, if a therapist is guiding a session, they can see the AI’s planned direction and adjust if the conversation needs a different tone. If a salesperson realizes the client needs a new approach, they can steer the AI’s strategy mid-call. The AI doesn’t just react—it actively co-directs the conversation while remaining flexible.</p>
+<h2>How We Built It</h2>
+<ul>
+<li>Frontend: React, TypeScript, Vite, Tailwind</li>
+<li>Backend: Bun.</li>
+<li>AI &amp; Voice Systems:
+
+<ul>
+<li>OpenAI GPT models for conversation planning and response generation.</li>
+<li>ElevenLabs API for real-time voice synthesis.</li>
+<li>WebSockets for smooth, lag-free media streaming.</li>
+<li>Web Speech API for live speech recognition.</li>
+</ul></li>
+<li>Whiteboard Logic:
+    - We love tldraw!!!
+
+<ul>
+<li>AI-generated “thought nodes” show conversation direction.</li>
+<li>Users can adjust tone, context, and structure dynamically.</li>
+<li>The AI updates its strategy in response to changes.</li>
+</ul></li>
+</ul>
+<h2>Challenges We Ran Into</h2>
+<ol>
+<li> Keeping AI flexible without making it unpredictable—it needs to plan ahead but stay responsive when the user intervenes.</li>
+<li> Real-time synchronization—AI updates, voice output, and whiteboard visuals all needed to stay in sync without lag.</li>
+<li> Designing an intuitive UI—people don’t naturally think in prompts, so we had to make sure the canvas felt effortless to use.</li>
+<li> Managing AI-generated pacing—AI needed to anticipate conversation flow without forcing rigid structure.</li>
+</ol>
+<h2>Accomplishments That We’re Proud Of</h2>
+<ul>
+<li>Visual AI control system—we moved beyond text prompts into spatial, interactive control.</li>
+<li>Seamless real-time updates—AI adjusts its responses and thought process instantly when the user makes a change.</li>
+<li>Fluid integration of speech, text, and visual planning—all conversation elements work together naturally.</li>
+<li>Balance between automation and control—AI directs, but users always have visibility and intervention power.</li>
+</ul>
+<h2>What We Learned</h2>
+<ul>
+<li>Real-time AI planning is hard—it needs to think ahead without overcommitting to a single path.</li>
+<li>Users don’t just want control—they want visibility. Even if they don’t intervene, seeing the AI’s plan builds trust and understanding.</li>
+<li>Text-based prompting has limits—a whiteboard approach makes AI adjustments much more intuitive.</li>
+<li>Tone and pacing matter more than expected—people don’t just want the right response, they want the right delivery.</li>
+</ul>
+<h2>What’s Next for Greenroom</h2>
+<ul>
+<li>Integrating more knowledge sources—allowing users to bring in external docs, research, and structured data.</li>
+<li>More granular AI steering—expanding how users can guide tone, pacing, and structure.</li>
+<li>Collaborative mode—multiple users being able to co-direct a conversation in a team setting.</li>
+<li>Expanding AI personas—letting users train the AI on specific conversational styles.</li>
+<li>Beyond conversations—exploring applications in scriptwriting, guided learning, and AI-assisted interviews.</li>
+</ul>
+<p>Greenroom isn’t just about fixing AI assistants—it’s about rethinking how we interact with AI in real-time.</p>
+</div>

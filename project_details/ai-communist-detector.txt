@@ -1,0 +1,56 @@
+<div>
+<h2>Longer Demo Video</h2>
+<p><a href="https://youtu.be/ZxGu4Iudwc0" rel="nofollow">https://youtu.be/ZxGu4Iudwc0</a></p>
+<h2>Inspiration</h2>
+<p>What began as a playful "communist detector" evolved into a sophisticated tool for analyzing political ideologies through natural conversation. This multi-agents system analyzes political beliefs through natural conversations. It overcomes the limitations of traditional political surveys, which can be easily manipulated.</p>
+<h2>Papers</h2>
+<p>"Ideology Detection Using Recursive Neural Networks" by Mohit Iyyer, Peter Enns, Jordan Boyd-Graber, and Philip Resnik, published in the Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (2014).</p>
+<p><a href="https://aclanthology.org/P14-1105.pdf" rel="nofollow">https://aclanthology.org/P14-1105.pdf</a></p>
+<p>"Beyond Binary Labels: Political Ideology Prediction of Twitter Users" by Daniel Preoţiuc-Pietro, Jordan Carpenter, Christopher Schwartz, Lyle Ungar, and Arthur Spirling, published in the Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (2017).</p>
+<p><a href="https://www.sas.upenn.edu/%7Edanielpr/files/moderates17acl.pdf" rel="nofollow">https://www.sas.upenn.edu/~danielpr/files/moderates17acl.pdf</a></p>
+<h2>What it does</h2>
+<ul>
+<li><p>Analyzes political sentiments through natural conversations that started from a defined set of interview questions, designed to incite political opinions in a nonintrusive way.</p></li>
+<li><p>Continuously learns and adapts from ongoing interactions to generate more insightful and accurate analysis.</p></li>
+</ul>
+<h2>How we built it</h2>
+<p>It uses a dual-AI pipeline.</p>
+<ul>
+<li><p>ElevenLabs AI manages voice interaction and conversation flow.</p></li>
+<li><p>ChatGPT-4o reads and analyzes the transcript, using the insights we gained about the user to generate system prompts for ElevenLabs AI Agents.</p></li>
+</ul>
+<p>Using multiple agents, we are able to do this in a continuous loop that results in analysis that is more insightful as the interview goes on.</p>
+<h2>Challenges we ran into</h2>
+<ul>
+<li><p>The current version only supports one user at a time, as it is a prototype. A more scalable solution requires more time to implement.</p></li>
+<li><p>The transcript processing currently takes longer than desired. However, we have already figured out how to do it more efficiently in future versions.</p></li>
+<li><p>Collaborative iterations on prompt design were challenging. It is also the part that we spent the most development time on.</p></li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li><p>Thanks to Lovable, we were able to implement the frontend in a short amount of time. That gave us the luxury of using three.js effects in our project.</p></li>
+<li><p>With the help of AI tools like Cursor and Lovable, we were able to finish a deliverable product, even though it was our first time using many of the technologies.</p></li>
+<li><p>The result of the LLM in generating relevant and funny responses surpassed expectations. The analysis is insightful and accurate.</p></li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li><p>How to use multiple AI agents as a team to capitalize on their individual strengths.</p></li>
+<li><p>The project shows how handcrafted code can complement AI tools to produce unique products in a timely manner.</p></li>
+<li><p>Deepened understanding of how to iterate prompts and navigate the limitations and personalities of different LLMs. For example, as some models were unable to process our transcripts because of its political nature.</p></li>
+</ul>
+<h2>What's next for AI Communist Detector</h2>
+<p>Using this multi-agent approach, we can:</p>
+<ul>
+<li><p>Identify harmful ideologies and foster safer online environments.</p></li>
+<li><p>Apply the dynamic interviewing method to surveys and research interviews.</p></li>
+<li><p>Adapt the technology for use as an aide in behavior-based interviews.</p></li>
+</ul>
+<h2>Team information</h2>
+<p>Natalie Ermak: Backend, User Experience</p>
+<p>Paul Ummalukacholk: Frontend, Design, 3d Modeling</p>
+<p>Kevin Kang: Backend</p>
+<p>Darvin Yeung: Full Stack, Prompting</p>
+<h2>Compliance:</h2>
+<p>We acknowledge adherence to ElevenLabs x 16z Worldwide Hackathon rules and deadlines.</p>
+<p>"Marx Head" (<a href="https://skfb.ly/6X7oI" rel="nofollow">https://skfb.ly/6X7oI</a>) by wojciechmiedziocha is licensed under Creative Commons Attribution </p>
+</div>

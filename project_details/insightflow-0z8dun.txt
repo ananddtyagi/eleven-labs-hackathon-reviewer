@@ -1,0 +1,18 @@
+<div>
+<h2>Inspiration</h2>
+<p>About 42% of startups fail due to an inability to achieve PMF, often cited as the most challenging factor leading to startup failure. Many people say that talking to users will help test their ideas and direct them to PMF. However, Startups often (1) don’t have the expertise to talk to users to make informed product and business decisions, (2) even if they have the expertise they have limited resources to perform the task–interviewing users takes time. We would like to help startups reach product market fit as fast as possible using our service. </p>
+<h2>What it does</h2>
+<p>Our AI researcher conducts real user interviews to help startup founders uncover key insights about their target audience. By automating interviews, data collection, and analysis, we deliver actionable insights with unmatched speed, enabling founders to reach product-market fit faster and with confidence. With rapid turnaround times, startups can make data-driven decisions quickly, gaining a competitive edge in their market.</p>
+<h2>How we built it</h2>
+<p>We built it using ElevenLabs conversational AI technology coupled with OpenAI's ChatGPT.</p>
+<h2>Challenges we ran into</h2>
+<p>We had to go through numerous iteration on prompt engineering for the AI researcher to conduct interview properly and efficiently.  We ran out the ElevenLabs credit and have to setup local TTS service to finish the demo.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>We have achieved developing our MVP within two days. We will continue to advance based on what we have achieved so far, and we are very excited about what we plan to build. </p>
+<h2>What we learned</h2>
+<p>While existing AI foundational model and application tools are very useful, it takes some time and effort to optimize them when we use multiple applications. Optimizing them to yield the best outcome takes time and it is an iterative process. </p>
+<h2>What's next for InsightFlow</h2>
+<p>We are building AI research agents specialized in different UX research methods to support startups throughout their journey.</p>
+<p>Early-stage startups can use UX research to identify their target users and key pain points. Once these insights are clear, they move into concept development and prototyping—where UX research helps refine design and usability based on user feedback.</p>
+<p>Since startups require different types of research at various stages, our AI-powered agents will provide specialized, on-demand research tailored to their evolving needs—ensuring they make informed decisions at every step.</p>
+</div>

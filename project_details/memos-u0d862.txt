@@ -1,0 +1,31 @@
+<div>
+<h1>memos: Intelligent Voice Memos that Generate Personal Software</h1>
+<h2>Inspiration</h2>
+<p>The main inspiration was thinking about the next era of software. We're living in a transitional period in regards to software, but the applications we build remain largely static.</p>
+<p>A interesting idea is the concept of <strong>personal software</strong>: applications designed on the spot to solve a specific purpose. This is doable today if the user has the willpower to do it. But it would be even better if the software designed itself, by understanding what the user needs and providing the application for it without the user needing to articulate every detail. Similar to the ability of neurons to rewire themselves via <a href="https://en.wikipedia.org/wiki/Neuroplasticity" rel="nofollow">Neuroplasticity</a>.</p>
+<h2>What it does</h2>
+<p><a href="https://memos.aim.tools" rel="nofollow">memos</a> is a webapp that receives audio input while chatting and keeping the user engaged. It then processes' these inputs and intelligently organizes them into different (or the same) memos.</p>
+<p>These files can contain AI calls, have ingested context and basically become simple applications that can be run directly on memos.</p>
+<p>The agents autonomously interpret your needs and generates mini-applications, essentially turning voice commands into personal software.</p>
+<h2>How we built it</h2>
+<ul>
+<li><strong>Frontend:</strong> Developed with NextJS and inspired by the design of Teenage Engineering products, our interface is built with customized shad/cn components and Tailwind CSS.</li>
+<li><strong>Backend:</strong> We integrated ElevenLabs Conversational AI for real-time interaction and the Vercel AI SDK to process inputs into .AIM files. <a href="https://aim.tools" rel="nofollow">AIM</a> is a publicly available programming language where code blocks naturally merge with markdown, making the underlying logic easy to understand and modify.</li>
+<li><strong>Deployment:</strong> For hackathon efficiency, all files are stored in the browser during development. We deployed the solution on Vercel using Fluid Compute to handle the heavy lifting of LLM file processing and execution.</li>
+</ul>
+<h2>Challenges we ran into</h2>
+<p>Even using structured outputs the results were not deterministic enough to always have the correct syntax. We managed to achieve a nice consistency by optimizing the prompts but for it to be perfect will have to think of additional type safeties.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>We successfully built an end-to-end flow that takes user input from voice to organized, executable memos. This validates our vision of intelligent voice memos that autonomously generate personal software, marking a significant step toward a more intuitive interaction with digital tools.</p>
+<h2>What we learned</h2>
+<p>The project deepened our understanding of:</p>
+<ul>
+<li>Prompting LLMs to generate code in specific syntaxes.</li>
+<li>Coordinating specialized agents for distinct tasks.</li>
+<li>Seamlessly integrating conversational AI into a user-centric application.</li>
+</ul>
+<h2>What's next for memos</h2>
+<p><a href="https://memos.aim.tools" rel="nofollow">memos</a> is an example of a different way to interact with software, and after the hackathon we plan to make it more production ready by having auth and proper file storage.</p>
+<p>As for new features and ideas we want to set up a conversational agent with memo context (today the agent is focused on gathering content not on explaining information).</p>
+<p>And for the long term we want to optimize the intelligent capabilities of memos to rewrite themselves and provide the user with solutions without him asking for it.</p>
+</div>

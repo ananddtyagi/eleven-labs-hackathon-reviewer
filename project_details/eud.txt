@@ -1,0 +1,26 @@
+<div>
+<h2>Inspiration</h2>
+<p>Eudaimonia is the Greek concept of “a state of good spirit, a life of purposeful activity governed by reason, and the highest form of human flourishing.” It is an ideal that few have fully achieved—until now. With the power of conversational AI, we have the potential to make this state of well-being accessible to everyone.</p>
+<h2>What it does</h2>
+<p>Lucia, our conversational AI agent, helps users track their mental health daily through targeted questions. These questions adapt based on individual goals, whether they involve improving mental well-being, shifting identities, or building self-esteem. No matter your objective, Lucia provides insights and prompts to help you recognize patterns and take action in ways you might not have noticed before.</p>
+<h2>How we built it</h2>
+<p>Built using supabase, 21st.dev, lovable, elevenlabs, make, and aws</p>
+<h2>Challenges we ran into</h2>
+<p>Trying to get the conversational AI to properly populate the database with the user data. </p>
+<h2>Accomplishments that we're proud of</h2>
+<p>A well rounded system that can be used to easily implement future APIs and customer data</p>
+<h2>What we learned</h2>
+<p>How much the AI space has developed. It's insane to think about the speed of progress!</p>
+<h2>What's next for Eudemonia</h2>
+<pre class="language-nolang"><code>• Integrate Health Data: Enable users to sync data from Apple Health, Whoop, Fitbit, and other platforms.
+• Advanced Psychological Evaluations: Implement more detailed mental health assessments for personalized insights.
+• Refine the Mental Health Scoring System: Enhance Lucia’s ability to provide meaningful and actionable feedback.
+• Develop a Mobile App: Make Eudaimonia more accessible on the go.
+• Create Pre-Set Tracks: Offer tailored question sets for different goals, such as:
+• Mental health improvement
+• Learning a sport
+• Mastering coding
+• Developing leadership skills
+</code></pre>
+<p>etc... etc... IMO huge potential</p>
+</div>

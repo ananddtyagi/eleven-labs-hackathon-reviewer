@@ -1,0 +1,151 @@
+<div>
+<p><strong>Revolutionizing Hackathon Judging with AI-Agents</strong></p>
+<h2>Overview</h2>
+<p>JuryNova is an AI-powered platform designed to transform the hackathon judging experience. Born out of the spirit of innovation at the <strong>ElevenLabs x A16z Worldwide Hackathon</strong>, JuryNova leverages advanced language models and specialized AI agents to deliver fair, detailed, and rapid evaluations of hackathon projects. Our goal? To empower judges, reduce subjectivity, and ensure every brilliant idea gets the attention it deserves.</p>
+<hr/>
+<h2>The Problem</h2>
+<p>Hackathon judging can be incredibly challenging. Judges often face:</p>
+<ul>
+<li><strong>Time constraints:</strong> Evaluating a high volume of projects quickly.</li>
+<li><strong>Subjectivity:</strong> Personal biases and varying expertise can lead to inconsistent evaluations.</li>
+<li><strong>Overlooked details:</strong> Missing key technical or market insights in a rush.</li>
+</ul>
+<p>Traditional methods simply don’t scale when innovation is happening at lightning speed. We needed a solution that could combine thorough analysis with rapid decision-making.</p>
+<hr/>
+<h2>Our Solution: JuryNova</h2>
+<p>JuryNova addresses these challenges by integrating multiple AI agents that collectively analyze every project from various angles:</p>
+<h3>1. Market Research Agent</h3>
+<ul>
+<li><strong>In-depth Analysis:</strong> Assesses the project's target market, growth potential, and competitive landscape.</li>
+<li><strong>Business Viability:</strong> Evaluates whether a project has a sustainable edge.</li>
+<li><strong>Data-Driven Insights:</strong> Uses AI to identify market trends that might be missed by human eyes.</li>
+</ul>
+<h3>2. Code Analysis Agent</h3>
+<ul>
+<li><strong>Comprehensive Code Review:</strong> Scans the project's codebase to assess quality and adherence to hackathon guidelines.</li>
+<li><strong>Tech Stack Evaluation:</strong> Verifies if the technology used is robust and innovative.</li>
+<li><strong>Quality Metrics:</strong> Checks for best practices, ensuring projects are both creative and technically sound.</li>
+</ul>
+<h3>3. Chat Agent</h3>
+<ul>
+<li><strong>Interactive Q&amp;A:</strong> Allows judges to ask project-specific questions and get contextual responses.</li>
+<li><strong>Voice-Enabled Interaction:</strong> Powered by ElevenLabs, making the interface more accessible and engaging.</li>
+<li><strong>Unified Insights:</strong> Combines feedback from other agents to provide a rounded view of each project.</li>
+</ul>
+<h3>4. Search Agent</h3>
+<ul>
+<li><strong>Semantic Search:</strong> Processes natural language queries to quickly locate relevant project information.</li>
+<li><strong>Efficient Navigation:</strong> Helps judges sift through submissions and focus on the standout projects.</li>
+</ul>
+<p>Together, these agents provide a holistic analysis that saves time, minimizes bias, and highlights both strengths and weaknesses across projects.</p>
+<hr/>
+<h2>How It Works</h2>
+<h3>Backend</h3>
+<ul>
+<li><strong>Framework &amp; API:</strong> Built on Flask API to manage server-side logic.</li>
+<li><strong>Database:</strong> MongoDB stores all project data, evaluations, and AI-generated insights.</li>
+<li><strong>AI Integration:</strong><br/>
+<ul>
+<li><strong>Google Vertex AI &amp; Mistral LLM:</strong> Power the language and code analysis.</li>
+<li><strong>LangChain:</strong> Coordinates interactions between our AI agents.</li>
+</ul></li>
+<li><strong>Voice Interface:</strong> ElevenLabs API brings natural voice interactions to the platform.</li>
+</ul>
+<h3>Frontend</h3>
+<ul>
+<li><strong>Modern Web App:</strong> Developed with SvelteJS for a dynamic and responsive user interface.</li>
+<li><strong>UI/UX Design:</strong> Utilizes TailwindCSS and DaisyUI to ensure a clean, intuitive experience.</li>
+<li><strong>Routing &amp; State Management:</strong> Powered by Svelte SPA Router and robust state management libraries.</li>
+<li><strong>Additional Features:</strong><br/>
+<ul>
+<li><strong>CSV Import:</strong> Bulk upload projects using PapaParse.</li>
+<li><strong>Real-Time Feedback:</strong> Toast notifications and animated text effects enhance interactivity.</li>
+</ul></li>
+</ul>
+<hr/>
+<h2>Technologies Used</h2>
+<ul>
+<li><strong>Backend:</strong><br/>
+<ul>
+<li>Python, Flask API<br/></li>
+<li>MongoDB<br/></li>
+</ul></li>
+<li><strong>AI &amp; Machine Learning:</strong><br/>
+<ul>
+<li>Google Vertex AI<br/></li>
+<li>Mistral LLM<br/></li>
+<li>LangChain<br/></li>
+<li>ElevenLabs (Voice)</li>
+</ul></li>
+<li><strong>Frontend:</strong><br/>
+<ul>
+<li>SvelteJS<br/></li>
+<li>TailwindCSS &amp; DaisyUI<br/></li>
+<li>Svelte SPA Router<br/></li>
+<li>Axios, PapaParse</li>
+</ul></li>
+</ul>
+<hr/>
+<h2>Setup &amp; Installation</h2>
+<h3>Backend Setup</h3>
+<pre class="language-bash"><code># Clone the repository
+git clone https://github.com/JuryNova/JuryNova-AI.git
+
+# Navigate into the project directory and create a virtual environment
+python -m venv venv
+# Activate the virtual environment:
+# Windows:
+.\venv\Scripts\activate
+# Unix/MacOS:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Set up environment variables
+echo GOOGLE_APPLICATION_CREDENTIALS=path/to/service-worker.json &gt; .env
+echo ELEVENLABS_API_KEY=your_key_here &gt;&gt; .env
+echo MISTRAL_API_KEY=your_key_here &gt;&gt; .env
+
+# Run the server
+python server.py
+</code></pre>
+<p>The backend server will run at <code>http://localhost:8000</code>.</p>
+<h3>Frontend Setup</h3>
+<pre class="language-bash"><code># From the project root, navigate to the frontend folder
+cd frontend
+
+# Install frontend dependencies
+npm install
+
+# Create a .env file and set the API base URL
+echo "VITE_BASEURL=http://localhost:8000/api" &gt; .env
+
+# Start the development server
+npm run dev
+</code></pre>
+<p>The frontend should be accessible on your local development URL (commonly at <code>http://localhost:5000</code> or as configured).</p>
+<h2>Future Enhancements</h2>
+<p>We’re excited about the possibilities that lie ahead:</p>
+<ul>
+<li><p><strong>Richer AI Insights</strong>: We plan to incorporate additional AI models and real-world data sources to further refine our analysis, making the evaluations even more insightful.</p></li>
+<li><p><strong>Real-Time Collaborative Judging</strong>: Enabling live collaboration among judges can foster richer discussions and more dynamic decision-making during hackathons.</p></li>
+<li><p><strong>Advanced Analytics Dashboard</strong>: Developing an interactive dashboard that visualizes project trends, strengths, and areas for improvement will help both judges and participants gain deeper insights.</p></li>
+<li><p><strong>Mobile Optimization</strong> : We aim to enhance the mobile experience, ensuring that judges can review and interact with projects seamlessly on any device.</p></li>
+<li><p><strong>User-Centric Customizations</strong>: Future updates will include customizable evaluation criteria, allowing hackathon organizers to tailor the judging process to the specific theme and objectives of their event.</p></li>
+</ul>
+<hr/>
+<h2>Acknowledgments</h2>
+<p>A heartfelt thank you to:</p>
+<ul>
+<li><strong>ElevenLabs:</strong> For their cutting-edge voice technology.</li>
+<li><strong>Google Vertex AI &amp; Mistral AI:</strong> For powering our analysis with state-of-the-art language models.</li>
+<li><strong>MongoDB:</strong> For providing a scalable and reliable database solution.</li>
+<li><strong>SvelteJS, TailwindCSS, and DaisyUI:</strong> For enabling a modern, user-friendly interface.</li>
+<li>And, of course, the organizers of the <strong>ElevenLabs x A16z Worldwide Hackathon</strong> for creating an environment that fosters innovation and collaboration.</li>
+</ul>
+<hr/>
+<h2>Final Thoughts</h2>
+<p>JuryNova represents a leap forward in the way hackathons are judged. By harnessing the power of Agents, we’ve created a system that not only speeds up the judging process but also brings consistency and depth to project evaluations. </p>
+<p>Thank you for exploring JuryNova. We’re excited to hear your thoughts and to continue evolving this platform!</p>
+</div>

@@ -1,0 +1,41 @@
+<div>
+<h2>Inspiration</h2>
+<p>In today's fast-paced digital world, we often find ourselves overwhelmed by the myriad of tasks we need to accomplish on our devices. Switching between applications, managing emails, scheduling appointments, and staying updated with the latest information can be time-consuming and mentally draining. We envisioned a solution that could seamlessly integrate these tasks, learn from our behavior, and act proactively to assist us—much like a personal assistant. This aspiration led us to create <strong>Alfred</strong>, an on-device AI companion designed to simplify and enhance the way we interact with our laptops.</p>
+<h2>What it does</h2>
+<p>Alfred is an AI-powered assistant that resides on your device, capable of handling virtually anything you would do on your laptop. By learning from your user behavior—such as search history, recent activities, and file usage—Alfred indexes all your information to execute tasks efficiently. Whether it's:</p>
+<ul>
+<li><strong>Managing Emails</strong>: Checking your unread emails and providing concise summaries.</li>
+<li><strong>Note-taking</strong>: Listening to your conversations (with your permission) to jot down important notes.</li>
+<li><strong>Information Retrieval</strong>: Answering questions about the latest news or specific data.</li>
+<li><strong>Coding Assistance</strong>: Writing code based on your requirements or making changes to existing files.</li>
+<li><strong>Browser Automation</strong>: Performing tasks like setting calendar invites, reading emails, or generating reports from your data analytics platforms.</li>
+</ul>
+<p>Alfred acts as an all-in-one agent that continuously learns and adapts from your interactions. With a sophisticated queuing mechanism, it can handle multiple concurrent requests. For example, while Alfred is summarizing your emails, you can still engage in conversation or assign new tasks. Once a task is completed, Alfred will promptly notify you and offer the results, ensuring a smooth and uninterrupted workflow.</p>
+<h2>How we built it</h2>
+<ol>
+<li><p><strong>Frontend Development</strong>: We used React to create a dynamic and responsive user interface that allows users to interact with Alfred effortlessly.</p></li>
+<li><p><strong>Backend Development</strong>: The backend was developed using Python, which facilitated the integration of various AI models and ensured robust performance.</p></li>
+<li><p><strong>Agentic Workflow with Function Calling</strong>: We implemented an agentic workflow that allows Alfred to perform tasks autonomously by calling specific Agents as needed. The agents are equipped with RAG to retrieve the relevant context to offer the best responses.</p></li>
+<li><p><strong>AI Technologies</strong>: We integrated Whisper for speech recognition, LLM to ensure the conversational flow and provide context to the agents during function calling, and text-to-speech capabilities to enable seamless voice interactions. We setup an Agentic RAG system for getting the context to the Agents.</p></li>
+<li><p><strong>Communication Protocol</strong>: WebRTC was used to handle real-time communication, ensuring smooth and efficient interactions between the user and Alfred.</p></li>
+</ol>
+<h2>Challenges we ran into</h2>
+<ul>
+<li><p><strong>Concurrent Task Handling</strong>: Implementing an efficient queuing system that can manage multiple tasks without conflicts or delays required careful planning and optimization. Ensuring that Alfred could handle several requests simultaneously while maintaining responsiveness was crucial. This involved implementing subprocess with event handling.</p></li>
+<li><p><strong>Quick responses</strong>: One of the hardest problems to solve for was the quick response times to offer the best User Experience. We solved this by relying on faster inference engines like Groq and using APIs to reduce load on the device. </p></li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<p>We were proud of the range of features we were able to handle. </p>
+<ul>
+<li><strong>On-device AI Processing</strong>: Achieving on-device processing that safeguards user privacy while maintaining high performance.</li>
+<li><strong>Seamless Multitasking</strong>: Developing a concurrent task management system that allows Alfred to handle multiple requests smoothly.</li>
+</ul>
+<h2>What we learned</h2>
+<p>Understood the complexities involved in scaling such a system across different devices and user bases.</p>
+<h2>What's next for Alfred, On-device Voice AI Companion</h2>
+<ul>
+<li><strong>Third-party Integrations</strong>: Incorporating more apps and services to broaden the range of tasks Alfred can handle.</li>
+<li><strong>Enhanced Learning Algorithms</strong>: Improving the behavioral learning models for even more accurate predictions and personalized assistance.</li>
+<li><strong>Developer SDK</strong>: Offering a software development kit (SDK) for developers to build custom plugins and functionalities for Alfred.</li>
+</ul>
+</div>

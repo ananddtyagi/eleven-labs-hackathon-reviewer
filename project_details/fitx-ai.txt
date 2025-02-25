@@ -1,0 +1,29 @@
+<div>
+<h2>Inspiration</h2>
+<p>As a young builder, I create something new every day. But while working on my projects, I realized that maintaining fitness is just as important as building tech. When I discovered the worldwide hackathon hosted by ElevenLabs, I saw an opportunity to create something that could help both myself and others stay fit. That’s how the idea for FitX AI was born—a health-focused AI assistant designed to make fitness more accessible and personalized.</p>
+<h2>What It Does</h2>
+<p>FitX AI is an intelligent health and fitness assistant that helps users stay active and reach their fitness goals. It offers:</p>
+<h2>Meditation</h2>
+<p>Calorie estimation from food images AI agent
+Voice interaction for hands-free guidance</p>
+<h2>How We Built It</h2>
+<p>My teammate, Priyanka, and I started by brainstorming the product idea and designing the UI. We then moved on to development, implementing AI-powered features to provide personalized fitness support. Initially, we tried integrating ElevenLabs for voice assistance but faced technical limitations, so we switched to Google API services for better performance.</p>
+<h2>Challenges We Ran Into</h2>
+<p>Integration Issues: We spent a lot of time trying to make ElevenLabs work, but eventually, we had to pivot to Google APIs.
+Working with Lovable: We encountered some roadblocks using this tool but managed to troubleshoot and resolve them.
+Balancing AI Accuracy &amp; Performance: Ensuring the AI provided useful recommendations while keeping the system efficient was a key challenge.</p>
+<h2>Accomplishments That We're Proud Of</h2>
+<p>Successfully building a functional and intelligent fitness assistant.
+Overcoming technical challenges and adapting to new tools.
+Collaborating effectively as a team to bring FitX AI to life.</p>
+<h2>What We Learned</h2>
+<p>The importance of flexibility when integrating APIs.
+Troubleshooting AI-related challenges and refining the user experience.
+Effective teamwork and problem-solving under time constraints.</p>
+<h2>What’s Next for FitX AI</h2>
+<p><strong>We plan to:</strong></p>
+<p>Add AI-driven workout personalization.
+Add real-time health tracking features.
+Enhance voice interaction for a seamless fitness experience.
+Expand to wearable device integration.</p>
+</div>

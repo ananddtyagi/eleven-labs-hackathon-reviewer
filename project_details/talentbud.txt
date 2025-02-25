@@ -1,0 +1,17 @@
+<div>
+<h2>Inspiration</h2>
+<p>This project started to solve a real life problem. Often times for the role we were looking for people we would spend a lot of time into recruiting candidates and then doing the technical interview, only to find out mid-interview that those candidates did not succeeded  in their latest projects, and some of them after years of experience have never saw a project go from A to Z. </p>
+<h2>What it does</h2>
+<p>AI Agents that Schedule, Conduct Interview, Classify, Summarize and Remind.
+Organizations can reduce a huge amount of time, by entering the candidates emails, from that candidates they receive an automatic invite for the pre-screening, which they can do at any time with a limit of 2 weeks. Our Screening agent is unbiased and work in any timezone, this agent will provide unbiased feedback for candidates in real time while also at the end of the screening both parties will get a brief of the screening. This helps greatly to reduce the friction and time between recruiting and getting a feedback loop started. Candidates will get instant feedback after the screening, they have access to it and work on improve themselves.</p>
+<h2>How we built it</h2>
+<p>When we first started the project, we wanted to implement 2 agents that would join a Google Meet or a zoom Link and with video on to mimic the real life interview experience. From there we split the work in 3 parts, Roy Handled everything that was make.com integration and this includes : scheduling, shooting up emails, reminders, CV summarizer, post interview Brief generation. Alexis did the Supabase Tables and integration,  added authentication, organizations, candidates flows, created dashboards, pretty much FullStacking developing the app. Robert did the Agent integration part and checkmarks during the interview, also helped setup the project with his dnb-stack and helped with the deployment on Vercel.</p>
+<h2>Challenges we ran into</h2>
+<p>We tried to have an agent to connect to a google meet meeting, we managed to do that, but after it was hard to stream the audio back to a conversational agent from elevenlabs and we dropped the idea. Also we stayed only with 1 agent and have the whole call inside our app. We also ran into the challenge while trying to create scheduled events for the user in their calendar, but then we pivoted and decided that the user should join and start at any time with a 2 weeks deadline.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Having in the end a robust working app, the speed of development, the collaboration and integration of this various services. It felt great to work together even thought we met on discord hours before the event starting and our ability to quickly solve problems on the spot and pivot to simpler solutions when needed.</p>
+<h2>What we learned</h2>
+<p>We learned about Recall.ai agent, Elevenlabs conversation agent and it's limitations. We learned that simplicity is king and when we suspected something is becoming too complex, what's next is only worse so we pivoted. Focus on working simple things, not complex overhauls that don't work. </p>
+<h2>What's next for TalentBud</h2>
+<p>Agents joining a Meeting with a real life avatar and interacting more naturally with the users. Agents to be able to see the candidates too. Multiple language support.</p>
+</div>

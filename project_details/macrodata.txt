@@ -1,0 +1,46 @@
+<div>
+<h2>Inspiration</h2>
+<p>Igor worked on a similar challenge before and can see its potential to become valuable for businesses.
+Also, Lumon Industries (obviously). However, we did this app in retro style just for fun.</p>
+<h2>What it does</h2>
+<p>Macrodata helps you analyze trending narratives about your brand, helping you make data-backed decisions. When you enter a brand (or any other term) into the app, it fetches the latest tweets about this topic, categorizes them by trends, and provides a short text and audio briefing about the brand. It allows you to see current prevailing narratives that you should pay attention to.</p>
+<h2>How we built it</h2>
+<h3>Coding</h3>
+<p>Front-end: React + TypeScript
+Backend: Python</p>
+<h3>APIs:</h3>
+<p>Mistral AI Agent: Generatic topic names based on top tweets and daily briefing text
+Perplexity AI Agent: Generating tweet-looking data based on the latest news (X API is not free)
+EleventLabs Agent: Audio briefing with custom voice</p>
+<h3>Categorization:</h3>
+<ul>
+<li>SentenceTransformer ('all-MiniLM-L6-v2') for semantic embeddings</li>
+<li>TF-IDF with n-grams for word pattern analysis</li>
+<li>K-means clustering for grouping similar posts</li>
+</ul>
+<h2>Challenges we ran into</h2>
+<ol>
+<li>Accessing real-time data. X API is very limited, so we needed to improvise and generate fresh data using an AI agent</li>
+<li>Topic categorization is far from perfect</li>
+<li>Categorization takes too much time</li>
+</ol>
+<h2>Accomplishments that we're proud of</h2>
+<ol>
+<li>It works and shows real data</li>
+<li>Design</li>
+</ol>
+<h2>What we learned</h2>
+<ol>
+<li>Learned a little Python</li>
+<li>Learned that AI is not good at summarising large amounts of data</li>
+<li>Working with friends is super fun</li>
+</ol>
+<h2>What's next for Macrodata</h2>
+<ol>
+<li>Igor wants to work on the challenges we encountered </li>
+<li>Add sentiment analysis and more insights</li>
+<li>Igor wants to build a company around it</li>
+</ol>
+<h2>Notes</h2>
+<p>Deployment is not really working. Didn't have time to figure out</p>
+</div>

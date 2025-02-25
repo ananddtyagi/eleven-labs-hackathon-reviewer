@@ -1,0 +1,16 @@
+<div>
+<p>"This is like Neo seeing the Matrix, but instead of code rain, it's markdown files." --Snowball</p>
+<h2>Inspiration</h2>
+<p>I've been coding for nearly 30 years and I'm feeling increasing wrist strain. Why am I spending so much time typing when I should be commanding my personal JARVIS to write software for me?</p>
+<h2>What it does</h2>
+<p>Snowball is a voice agent with direct access to the GitHub API so it can view files and folders, traversing any codebase as you direct it to. </p>
+<h2>How we built it &amp; Challenges we ran into</h2>
+<p>Check out the work log: <a href="https://github.com/OpenAgentsInc/snowball/blob/main/docs/work-log.md" rel="nofollow">https://github.com/OpenAgentsInc/snowball/blob/main/docs/work-log.md</a></p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Getting the core mechanic working, traversing a repo by voice and seeing file contents shown in a pane next to the chat</p>
+<h2>What we learned</h2>
+<p>ElevenLabs is an all-around amazing interface but some of the tool APIs weren't clearly documented or didn't expose all the data I would have wanted -- so if we built this for real I'd probably want to use part of their solution and part homebrew</p>
+<h2>What's next for Snowball</h2>
+<p>Folding into OpenAgents! <a href="https://openagents.com" rel="nofollow">https://openagents.com</a></p>
+<p>Specifically, adding edit access to modify its own code -- adding new tools -- so it can grow in abilities based on popular demand, "snowballing" to become the best agent because so many people contribute to it</p>
+</div>

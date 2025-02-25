@@ -1,0 +1,38 @@
+<div>
+<p>Inspiration:
+Interview preparation can be daunting, and many candidates struggle with confidence, structure, and feedback. Agent Mock was inspired by the need for an AI-driven platform that offers personalized mock interviews and tailored insights to help individuals improve their interview performance.</p>
+<p>What It Does:
+Conducts AI-powered mock interviews to simulate real-world interview scenarios.
+Provides personalized feedback to help users improve their answers.
+Supports both technical and HR-style interviews.
+Delivers an engaging, animated user experience using Framer Motion.
+Allows users to access the platform easily via a simple and intuitive UI.</p>
+<p>How We Built It:
+Frontend: Built using React.js with Tailwind CSS for styling and Framer Motion for animations.
+Routing: Implemented using React Router for smooth navigation.
+Icons &amp; Socials: Integrated with React Icons for branding and social media links.
+Profile Integration: Displays the developer’s profile and links to GitHub and LinkedIn.
+LLM model: Gemini-pro
+Conversation Implementation: Elevenlabs
+LLM Observation: Posthog
+Email automation: Make AI</p>
+<p>Challenges We Ran Into:
+Optimizing real-time animations without affecting performance.
+Ensuring a responsive and accessible UI across different devices.
+Handling user navigation smoothly between different sections.
+Refining the mock interview logic to provide meaningful feedback.</p>
+<p>Accomplishments That We're Proud Of:
+Successfully built an AI-driven interview assistant.
+Created a visually appealing, animated UI using Framer Motion.
+Integrated social profiles and a structured information layout.
+Made the platform scalable and ready for further enhancements.</p>
+<p>What We Learned:
+Implementing smooth animations using Framer Motion.
+Enhancing UI/UX design for an intuitive user experience.
+Building dynamic routing and navigation in React.
+Structuring an application to provide scalable AI-driven solutions.</p>
+<p>What's Next for Agent Mock:
+Expanding question sets and difficulty levels for different job roles.
+Integrating mock interview recordings for self-evaluation.
+Launching a mobile-friendly version for on-the-go interview prep.</p>
+</div>

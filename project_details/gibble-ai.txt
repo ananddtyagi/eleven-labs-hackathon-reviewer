@@ -1,0 +1,17 @@
+<div>
+<h2>Inspiration</h2>
+<p>Products like Storylane and Supademo use HTML and CSS sandboxed environments to provide step-by-step guides. The problem with these platforms is that business owners need to configure and maintain multiple guides for every specific use case, predicting what users might ask about their platform. Additionally, many of these guides have overlapping steps, yet each one must be maintained separately, leading to repetitive work.</p>
+<p>Gibble AI solves this problem by allowing you to teach it about your platform once, after which it autonomously provides interactive demos and answers complex questions through a conversational voice agent.</p>
+<h2>What it does</h2>
+<p>In addition to offering product guides, Gibble AI serves as a proof of concept (PoC) for your product. It answers repetitive queries that business owners might otherwise need to handle manually, reducing both bounce rate and churn rate.</p>
+<h2>How we built it</h2>
+<p>Gibble AI leverages LiveKit’s WebRTC infrastructure for real-time conversations, Deepgram for speech-to-text (STT), OpenAI’s GPT-4o as the LLM, and Eleven Labs for voice synthesis. The LiveKit server is securely hosted using Docker on an AWS EC2 instance. The frontend is built with Next.js and ShadCN for quick prototyping and UI development.</p>
+<h2>Challenges we ran into</h2>
+<p>One major challenge was deploying the LiveKit agent, as LiveKit uses the UDP protocol for networking. I spent about 1.5 hours troubleshooting this issue, but once I figured it out, everything worked smoothly.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>I successfully completed the hackathon challenge and now have a deployed version of Gibble AI that I can present to potential VCs to secure funding for further development.</p>
+<h2>What we learned</h2>
+<p>Through this process, I gained valuable experience in real-time communication technologies, cloud deployment, and optimizing AI-driven voice interactions for business applications.</p>
+<h2>What's next for Gibble AI</h2>
+<p>The next step for Gibble AI is to build a platform where users can train it on their website using a Chrome extension. This extension will allow business owners to explain their platform like a real person, making the onboarding process seamless. Additionally, we plan to scale the system to handle more users efficiently.</p>
+</div>

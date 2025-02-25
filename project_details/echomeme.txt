@@ -1,0 +1,34 @@
+<div>
+<h3><strong>About the Project</strong></h3>
+<h4><strong>🎯 Inspiration</strong></h4>
+<p>The internet thrives on memes, and short-form video content is exploding on platforms like <strong>TikTok, Instagram Reels, and YouTube Shorts</strong>. Inspired by <a href="https://github.com/elevenlabs/elevenlabs-examples/tree/main/examples/sound-effects/video-to-sfx" rel="nofollow">this ElevenLabs example</a>, we set out to create an <strong>AI-powered tool that instantly transforms any video into a viral meme</strong>—with <strong>automatic voiceovers, captions, and sound effects</strong>—eliminating the need for manual editing.  </p>
+<h4><strong>🛠 How We Built It</strong></h4>
+<p>I combined <strong>AI-driven video understanding, meme automation, and real-time rendering</strong> to make content creation effortless:  </p>
+<ul>
+<li><strong>AI Video Analysis</strong> – Uses <strong>Gemini’s multimodal API</strong> to extract key moments, detect expressions, and understand context.<br/></li>
+<li><strong>AI Voiceovers</strong> – Leverages <strong>text-to-speech (TTS) &amp; deepfake voice models</strong> to generate meme-worthy narration.<br/></li>
+<li><strong>Auto-Generated Captions</strong> – Dynamically styled meme typography in real-time.<br/></li>
+<li><strong>Ultra-Fast Video Export</strong> – Instead of relying on ffmpeg, we use <strong>WebCodec acceleration</strong> for faster exports directly in the browser.<br/></li>
+</ul>
+<h4><strong>🔧 Tech Stack</strong></h4>
+<ul>
+<li><strong>AI Speech &amp; Voice</strong>: ElevenLabs for voice synthesis<br/></li>
+<li><strong>Video Processing</strong>: Gemini multimodal analysis + WebAssembly + <strong>WebCodec for export acceleration</strong><br/></li>
+<li><strong>Frontend &amp; Backend</strong>: Vue, Express.js / Parse-server<br/></li>
+</ul>
+<h4><strong>🚀 Challenges We Faced</strong></h4>
+<p>1️⃣ <strong>Perfecting Meme Timing</strong> – Aligning AI-generated speech &amp; subtitles with video moments.<br/>
+2️⃣ <strong>Balancing Realism &amp; Comedy</strong> – Making AI voices sound <strong>funny yet natural</strong>.<br/>
+3️⃣ <strong>Optimizing for Web</strong> – Ensuring smooth performance for instant meme generation.  </p>
+<h4><strong>🎉 What We Learned</strong></h4>
+<ul>
+<li>AI-generated voices can be <strong>shockingly funny</strong> when tuned for memes! 😂<br/></li>
+<li><strong>Comedic timing is everything</strong>—even AI needs to nail the punchline.<br/></li>
+<li>People <strong>love</strong> effortless content creation, especially when it’s <strong>ready to go viral</strong>.<br/></li>
+</ul>
+<h4><strong>🔥 What’s Next?</strong></h4>
+<p>✅ More <strong>AI voice styles</strong> (movie trailer voice, robotic sarcasm, anime dub, etc.)<br/>
+✅ <strong>Meme sound effects</strong> automatically matched to video clips<br/>
+✅ <strong>Community Sharing</strong> – A built-in platform for sharing &amp; remixing AI-generated memes  </p>
+<p>🚀 <strong>Try it now &amp; let AI turn your videos into viral memes!</strong></p>
+</div>

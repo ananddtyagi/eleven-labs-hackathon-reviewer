@@ -1,0 +1,10 @@
+<div>
+<h1>Playcade - AI Game Builder</h1>
+<h2>What if making games could be as fun and easy as playing games?</h2>
+<ul>
+<li><strong>CODE:</strong> Your AI developer builds your idea. Preview your game right away and iterate with feedback.</li>
+<li><strong>ART:</strong> Upgrade your game’s visuals with AI generated images. A simple sketch is worth a thousand words.</li>
+<li><strong>PLAY:</strong> Play your game and share with friends.</li>
+<li><strong>IDEATE:</strong> Not sure what game to make? Have a conversation with a game designer to get help fleshing your game idea out.</li>
+</ul>
+</div>

@@ -1,0 +1,32 @@
+<div>
+<h2>Inspiration</h2>
+<p>12 years ago I spent a weekend hacking on a web-based, interactive version of "The Last Question" by Isaac Asimov, using jQuery and (at the time) cutting-edge CSS text animation. It's still up here (but a bit janky now) <a href="https://github.com/tvararu/the-last-question" rel="nofollow">https://github.com/tvararu/the-last-question</a></p>
+<p>Recently with the advent of gen AI I've been thinking you could do a lot more: generate images from the book, full audio narration, you could even diverge from the plot and ask philosophical questions to the characters directly if you wanted to. You could personalise the experience a lot more to the reader.</p>
+<p>If you're familiar with the story, you know it also sort of predicted reasoning models, but I won't spoil more! (You should read it, takes 25mins!)</p>
+<h2>What it does</h2>
+<p>The Last Question (2025) is an AI storyteller where you talk to a conversational agent. The agent has the full text of the book in their context window and will attempt to faithfully guide you through. You can ask it questions at any point, and they'll do their best to answer.</p>
+<p>There is also a tiny LLM pipeline that takes every message in the conversation, parses it, and then generates an image using Flux on fal.</p>
+<h2>How we built it</h2>
+<p>First I went on ElevenLabs and checked out what's new. After experimenting with conversational AI agents, specifically the "video game character" example, I found that the agent was producing decent results and got to writing up an interface.</p>
+<p>I did start out on Lovable, but I couldn't find an easy way to get it to follow the Quickstart guide on AI agents from ElevenLabs' docs. I think I could have generated the boilerplate separately and then imported it as a GitHub project and that probably would have worked better.</p>
+<p>So I integrated an ElevenLabs conversational AI agent, using the Next.js starter kit from the official docs using the React client library. Fal AI JS client library, using a proxy. Deployed to Vercel. Mostly vibe-coded in Cursor (Claude 3.5 Sonnet New) using macOS' built-in voice transcription, no superwhisper or anything else.</p>
+<p>I decided to keep everything in one file, and there's not much error handling or automated testing.</p>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>The agent really likes to end every message with "Would you like to continue?" and trying to prompt it out causes it to ramble endlessly and reply with really long messages</li>
+<li>The conversation log is a bit janky because messages come in one chunk instead of using something like streaming</li>
+<li>Full duplex audio doesn't feel like the greatest fit for this usecase; rather generate chunks of text, use TTS, then generate replies on the user's behalf. I thought about building a "faux voice mode" where you don't use the user's microphone but instead generate TTS and send that back in the websocket, but would have been quite involved</li>
+<li>Unclear how to pause/resume the conversation with the agent using the official library, maybe not a capability yet?</li>
+<li>Getting nice looking images from Flux is possible but I'd probably have to spend a lot more time futzing the prompts, currently I'd say the results are a bit hit and miss and not sure they're a net positive on the experience</li>
+<li>I used up ~25% of my ElevenLabs credit just with testing, I hope the leftover allowance is enough in case judges want to test it out</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<p>I was really happy with how quickly I got a proof of concept working.</p>
+<p>This was my first time vibe-coding and I had a lot of fun.</p>
+<h2>What we learned</h2>
+<p>I definitely think current TTS and image gen tech is up to scratch for this usecase, but as usual, the idea isn't new, but execution is what matters.</p>
+<p>I don't feel like I nailed the execution, but that's fine for a quick and dirty hackathon setting.</p>
+<h2>What's next for The Last Question (2025)</h2>
+<p>If I do end up pursuing rebuilding this into a proper experience, I'd probably not use Agent mode from ElevenLabs, because it's quite expensive and full duplex communication isn't a necessity here. I'd rather just rely on the more classic TTS options and probably generate some canned replies for the user using an LLM.</p>
+<p>Also you could generalise this idea; you could make it work for any book, like a souped up version of ElevenReader.</p>
+</div>

@@ -1,0 +1,52 @@
+<div>
+<h1>CapAgent: Revolutionizing Sales Training with AI</h1>
+<h2>🚀 Inspiration</h2>
+<p>Consultative sales require highly skilled professionals who master both sales strategies and in-depth product knowledge. However, with a 20% turnover rate in sales teams, companies constantly struggle to train new employees without sacrificing the productivity of their best executives.</p>
+<p>We asked ourselves: How can we speed up this process without compromising sales? How can we empower new talent and help them become sales experts faster?</p>
+<p>That's how <strong>CapAgent</strong> was born—a tool designed to enhance the skills of aspiring salespeople, supporting both young professionals entering their first jobs and experienced individuals who struggle to adapt to new technologies. Our mission is to bridge the knowledge gap and provide a smarter, faster, and more efficient way to train sales teams.</p>
+<h2>💡 What It Does</h2>
+<p>CapAgent is an AI-powered training assistant that helps salespeople improve their skills through real-time coaching and post-call analysis. Key features include:</p>
+<ul>
+<li><strong>Real-time conversation coaching</strong>: The AI listens to sales calls and provides live recommendations to improve communication.</li>
+<li><strong>Speech-to-text conversion</strong>: Calls are transcribed automatically, making it easier to analyze and refine performance.</li>
+<li><strong>Post-call analysis &amp; feedback</strong>: After a conversation, CapAgent generates a comprehensive performance report with actionable insights.</li>
+<li><strong>User-friendly interface</strong>: Sales reps can upload audio files or record calls directly within the platform.</li>
+<li><strong>Secure data storage</strong>: All conversations are stored in Supabase for easy access and future reference.</li>
+</ul>
+<p>With CapAgent, companies can accelerate training, reduce dependency on senior executives for coaching, and ensure every salesperson reaches their full potential.</p>
+<h2>🏗 How We Built It</h2>
+<p>Developing CapAgent required careful planning and execution. Here’s how we brought it to life:</p>
+<ul>
+<li><strong>Frontend Interface</strong>: Designed using Lovable, ensuring an intuitive and engaging user experience.</li>
+<li><strong>Real-time AI Agent</strong>: Listens to conversations and provides instant recommendations without disrupting the sales flow.</li>
+<li><strong>Speech-to-Text Conversion</strong>: Utilizes <strong>Fal.AI</strong> to transcribe audio to text with high accuracy.</li>
+<li><strong>Post-Call Analysis</strong>: Calls are processed in <strong>Make</strong>, where a Large Language Model (LLM) evaluates interactions and generates a structured feedback report.</li>
+<li><strong>Database &amp; Storage</strong>: Supabase securely stores all interactions, allowing users to revisit past conversations and track progress.</li>
+</ul>
+<h2>🔥 Challenges We Ran Into</h2>
+<p>Building CapAgent was no easy feat. Some of our biggest challenges included:</p>
+<ul>
+<li><strong>Real-time audio streaming</strong>: Ensuring low-latency transmission to Make required extensive testing and optimizations.</li>
+<li><strong>Providing non-intrusive feedback</strong>: Balancing AI-driven guidance with a seamless sales experience was critical to adoption.</li>
+</ul>
+<p>By tackling these challenges head-on, we created a robust and efficient system that delivers real value to sales teams.</p>
+<h2>🏆 Accomplishments That We're Proud Of</h2>
+<ul>
+<li>Successfully built a fully functional AI-driven sales coaching tool in our <strong>first hackathon</strong>.</li>
+<li>Integrated cutting-edge AI technologies like <strong>Fal.AI</strong> and <strong>Make</strong> to enhance training efficiency.</li>
+<li>Developed a scalable and user-friendly solution that can be deployed across different sales environments.</li>
+<li>Overcame significant technical challenges, proving our ability to build innovative solutions under pressure.</li>
+</ul>
+<h2>🎓 What We Learned</h2>
+<p>This hackathon has been an incredible learning experience. We discovered amazing services that we will continue to use in future projects. More importantly, we gained deep insights into the sales industry—a high-stakes environment where performance is constantly evaluated, and training is crucial for success.</p>
+<p>Beyond the technology, we learned the importance of <strong>resilience, collaboration, and adaptability</strong>—all key traits for tackling real-world challenges.</p>
+<h2>🔮 What's Next for CapAgent</h2>
+<p>We believe CapAgent has the potential to revolutionize sales training. Our next steps include:</p>
+<ul>
+<li><strong>Refining the AI assistant</strong> to provide even more personalized and effective coaching.</li>
+<li><strong>Enhancing analytics &amp; reporting</strong> to offer deeper insights into sales performance.</li>
+<li><strong>Expanding integrations</strong> with existing CRM and sales platforms.</li>
+<li><strong>Testing with real sales teams</strong> to validate effectiveness and gather user feedback.</li>
+</ul>
+<p>This is just the beginning—CapAgent is on its way to transforming the way companies train and develop their sales force! 🚀</p>
+</div>

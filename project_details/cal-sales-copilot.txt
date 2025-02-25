@@ -1,0 +1,42 @@
+<div>
+<h2>Inspiration</h2>
+<p>The daily challenges faced by sales teams inspired me to create Cal Sales CoPilot. We noticed three key pain points:</p>
+<ul>
+<li>Manual narration of pitch decks consuming valuable time</li>
+<li>Lead qualification process being repetitive and time-consuming</li>
+<li>No-show meetings disrupting schedules and requiring manual follow-ups</li>
+</ul>
+<p>You can watch complete demo covering everything :- <a href="https://youtu.be/9o_8Y21MDNI" rel="nofollow">https://youtu.be/9o_8Y21MDNI</a></p>
+<h2>What it does</h2>
+<p>Cal Sales CoPilot is an AI-powered sales assistant that:</p>
+<ul>
+<li>Automatically narrates pitch decks using ElevenLabs' text to speech API.</li>
+<li>Qualifies leads through phone conversations and books meetings via cal.com
+Based on your logic for eg:- your team doesn’t have bandwidth for low ticket clients like small company size. etc. Our AI agent would make an outbound call and book a meeting if the lead meets the condition</li>
+<li>Manages no-shows by AI agent automatically calling to remind them about the meeting and rescheduling if they are not available right now.</li>
+<li>Generates audio summaries using text-to-speech API and transcripts post-meeting and send to all the attendees or hosts.</li>
+<li>Key Innovation: Uses phone numbers instead of emails for booking to avoid speech recognition errors in AI conversations. (<a href="https://github.com/calcom/cal.com/pull/17635" rel="nofollow">https://github.com/calcom/cal.com/pull/17635</a>)</li>
+</ul>
+<h2>How we built it</h2>
+<p>With help of Eleven Labs, Cal.com API, <a href="https://github.com/midday-ai/pitch/tree/main" rel="nofollow">https://github.com/midday-ai/pitch/tree/main</a>, Next JS, Typescript, Twilio.</p>
+<h2>Challenges we ran into</h2>
+<ol>
+<li>Speech recognition accuracy with email addresses (solved by using phone numbers)</li>
+<li>Integration complexity between multiple APIs</li>
+</ol>
+<h2>Accomplishments that we're proud of</h2>
+<p>Created a fully automated sales workflow
+Innovative solution for AI speech recognition limitations
+Seamless integration with cal.com
+Natural-sounding pitch narration
+Efficient no-show handling system</p>
+<h2>What we learned</h2>
+<ul>
+<li>Creating conversational AI agents on Eleven labs</li>
+</ul>
+<h2>What's next for Cal Sales CoPilot</h2>
+<p>AI-powered meeting insights and trend analysis
+Expanded qualification criteria
+Custom voice training for pitch narration
+Multi-language support for global sales teams</p>
+</div>

@@ -1,0 +1,81 @@
+<div>
+<h2>Inspiration</h2>
+<p>We recognized a stark disparity: large corporations can invest millions in technology and specialized teams, while small and medium business owners face steep technological barriers. This gap limits their growth and competitiveness. QuetzAI was born to democratize AI—empowering entrepreneurs to easily create and train their own AI agents to automate repetitive tasks so they can focus on high-value activities without being tied to 24/7 operations.</p>
+<h2>What it does</h2>
+<p>QuetzAI is a master agent that uses voice interactions to guide users in creating a personalized AI agent. By asking dynamic, targeted questions, it gathers essential business information to generate a custom prompt for the agent. Every chat interaction is analyzed to provide actionable feedback, continually refining the agent’s performance and enhancing conversion rates by pinpointing areas for improvement.</p>
+<h2>How we built it</h2>
+<p><strong>Tech Stack:</strong></p>
+<ul>
+<li><strong>Frontend:</strong><br/>
+<ul>
+<li>Framework: Next.js/React<br/></li>
+<li>Deployment: Vercel</li>
+</ul></li>
+<li><strong>Backend:</strong><br/>
+<ul>
+<li>Technology: Next.js with TypeScript<br/></li>
+<li>Deployment: Vercel</li>
+</ul></li>
+<li><strong>Audio Agent:</strong><br/>
+<ul>
+<li>Integration: ElevenLabs for processing voice interactions and extracting user requests</li>
+</ul></li>
+<li><strong>Chat Agent:</strong><br/>
+<ul>
+<li>Engine: Mistral, which processes message histories and generates dynamic responses based on a personalized prompt</li>
+</ul></li>
+<li><strong>Database:</strong><br/>
+<ul>
+<li>System: MongoDB<br/></li>
+<li>Usage: Stores user records—including Clerk IDs, personalized agent prompts, training progress, and chat messages</li>
+</ul></li>
+<li><strong>Authentication:</strong><br/>
+<ul>
+<li>Service: Clerk for user login and registration management
+<strong>Application Flow:</strong></li>
+</ul></li>
+<li><strong>Login/Registration:</strong><br/>
+Users access the site on Vercel and sign in or register via Clerk. An API call then creates a MongoDB record containing their unique Clerk ID, an initial empty prompt, training progress, and a welcome message.</li>
+<li><strong>Voice Interaction:</strong><br/>
+On the training page (/quetzai), users start a voice session by clicking "Talk to Me."<br/>
+<ul>
+<li>The call is initiated using a signed URL from ElevenLabs.<br/></li>
+<li>After the session, the conversation is captured via the ElevenLabs library.<br/></li>
+<li>Mistral processes the captured data to generate a new personalized prompt and an updated initial message for QuetzAI.<br/></li>
+<li>These updates are stored in MongoDB. If previous conversations exist, dynamic variables (including prior feedback) are used to fine-tune the prompt.</li>
+</ul></li>
+<li><strong>Chat Interaction:</strong><br/>
+Every message exchanged between the user and the agent is saved in MongoDB. When the user clicks the "Train" button, the system retrieves the complete conversation history and uses Mistral to generate insights and a detailed summary. This feedback refines the agent prompt and produces a new initial message that guides the user in addressing weak areas. The summary and improvement points are stored for use in the next voice session.</li>
+<li><strong>Results Section:</strong><br/>
+A dedicated results area aggregates conversation summaries, insights, and performance statistics. This section is dynamically personalized by Mistral to meet various business objectives—whether scheduling appointments, resolving support tickets, processing orders, or handling general inquiries.</li>
+</ul>
+<h2>Challenges we ran into</h2>
+<ul>
+<li><strong>Time Management:</strong><br/>
+Our team only works weekends, limiting us to 4-5 hours per day. This forced us to break our work into 2-hour blocks with frequent checkpoints to ensure we stayed on track.</li>
+<li><strong>Scope Definition:</strong><br/>
+With an ambitious project, it was essential to pinpoint high-impact features that could be developed quickly to maximize our limited time.</li>
+<li><strong>Rapid Adaptation:</strong><br/>
+The tight schedule required us to quickly learn new tools and optimize our workflow, ensuring we delivered a functional product within the constraints.</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<p>We are proud of delivering a fully functional MVP under severe time constraints. Despite limited hours, we seamlessly integrated voice interactions, chat functionalities, and real-time feedback—demonstrating that effective synchronization is possible even with strict deadlines.</p>
+<h2>What we learned</h2>
+<ul>
+<li><strong>New Tools:</strong><br/>
+We quickly mastered Mistral and Clerk, discovering that these tools are not only powerful but also user-friendly.</li>
+<li><strong>Focus and Efficiency:</strong><br/>
+A clear objective and disciplined time management can yield significant progress in a very short period.</li>
+<li><strong>Future Considerations:</strong><br/>
+We identified the need to develop offline capabilities to support areas with limited internet access—a critical step for broader adoption in Latin America.</li>
+</ul>
+<h2>What's next for QuetzAI</h2>
+<ul>
+<li><strong>Additional Integrations:</strong><br/>
+Connect QuetzAI with calendar systems, payment gateways like Stripe, and tech providers such as Meta to enhance functionality.</li>
+<li><strong>Offline Functionality:</strong><br/>
+Develop mechanisms for local data storage and synchronization, ensuring continuous operation even in low-connectivity regions.</li>
+<li><strong>Enhanced Personalization:</strong><br/>
+Fine-tune our models to better understand regional dialects and create specialized agent variants, further optimizing prompt generation and interaction for various business needs.</li>
+</ul>
+</div>

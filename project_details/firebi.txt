@@ -1,0 +1,31 @@
+<div>
+<h2>Inspiration</h2>
+<p>Our project was inspired by the need for faster, smarter decision-making in business environments. We realized that many companies struggle to transform scattered data — from news, open databases, and social media — into clear, actionable insights. This gap motivated us to build an AI-powered Business Intelligence agent that automates data collection, analysis, and visualization.</p>
+<h2>What it does</h2>
+<p>Our AI agent collects real-time data from various sources — such as news APIs, open data repositories, and social media platforms — and processes it using natural language processing (NLP) models. It then generates actionable insights, visualizes trends on interactive dashboards, and seamlessly integrates this information into CRM systems, helping businesses make informed decisions quickly.</p>
+<h2>How we built it</h2>
+<ol>
+<li><p>Data Collection: We integrated APIs like NewsAPI, World Bank, and OECD to pull relevant data, while using the Twitter API for monitoring social trends.</p></li>
+<li><p>Automation: Workflows were set up using Make and N8N to streamline data extraction and processing.</p></li>
+<li><p>AI Processing: A lightweight LLM was implemented to summarize raw data into concise insights.</p></li>
+<li><p>Visualization: We built a simple dashboard with real-time data visualization and Google Maps API for geolocalization.</p></li>
+<li><p>CRM Integration: Finally, we connected the agent to CRM platforms to ensure businesses can directly use the generated insights.</p></li>
+</ol>
+<h2>Challenges we ran into</h2>
+<p>Time zone confusion: The hackathon started 5 hours earlier than expected, so we had to rapidly restructure our plan and reassign tasks.</p>
+<p>Data limitations: Some APIs had restricted access or quotas, so we prepared static datasets as a fallback.</p>
+<p>Coordination under pressure: With limited time, we streamlined team communication to focus on core functionalities.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Building a functional MVP within a shortened timeframe.</p>
+<p>Successfully integrating AI models and automation tools to create a seamless data-to-decision pipeline.</p>
+<p>Designing a clear and interactive dashboard that highlights key business insights.</p>
+<h2>What we learned</h2>
+<p>The importance of agility when facing unexpected challenges.</p>
+<p>How to integrate AI and No Code tools like Make and N8N effectively.</p>
+<p>The value of clear team communication in high-pressure environments.</p>
+<h2>What's next for FireBI</h2>
+<p>Our next step is to enhance FireBI by:</p>
+<p>Expanding data sources to cover more industries and regions.</p>
+<p>Adding predictive analytics using advanced AI models. Improving CRM integrations for deeper business automation. Exploring partnerships to access premium data and APIs.</p>
+<p>We envision FireBI as a smart, adaptable solution for businesses looking to harness real-time data for strategic growth.</p>
+</div>

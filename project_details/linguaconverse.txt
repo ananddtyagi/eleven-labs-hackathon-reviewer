@@ -1,0 +1,72 @@
+<div>
+<h1>LinguaConverse</h1>
+<p><em>A platform for practicing both speaking and listening skills in any common language through user created scenarios. Learning is gamified through completing tasks during conversations.</em></p>
+<h2>Project Overview</h2>
+<h3>Problem</h3>
+<p>There are no convenient resources for practicing conversational skills in languages you are trying to learn. This is a huge roadblock to the successful learning of any non-first language, as studying vocabulary and grammar alone will not build strong language skills.</p>
+<h3>Solution</h3>
+<p>LinguaConverse solves this by providing a platform for having conversations in an endless number of user-customizable scenarios. It leverages ElevenLabs' Conversational AI for STT, TTS, and the conversational flow.</p>
+<p><strong>Scenarios</strong><br/>
+Scenarios can be customized with a name and a description of the scenario. 
+Tasks may also be added which gives the user a goal when having a conversation. 
+Tasks have a completion metric (completed, progress steps, percentage) and a description so natural language can be used to compute is status in context of the conversation.
+Scenarios can also have custom aesthetics through background, avatar image, video effects, ambient sound, and accent colour.</p>
+<p><strong>Conversations</strong><br/>
+Conversations can then be started from a scenario. They are immersive through the scenario's aesthetic customization. Subtitles will automatically show for the assistants last message, but these can be hidden to practice without them.<br/>
+During the conversation the tasks' completion statuses will automatically be computed on the backend and update live on the frontend. Grammar/Language warnings are also checked for, and they are output live to the frontend as well.<br/>
+Conversations can be paused at anytime. The user can always come back to a past conversation and continue from where they left off.
+During a conversation all words are saved to a user dictionary. It tracks the number of times the user has used a word themselves, or seen the assistant use a word.</p>
+<p><strong>Dictionary</strong><br/>
+During conversations, words are saved to the user dictionary. Users can view their dictionary at any time. This gives insight in to their strongest and weakest words. This could also be used to highlight in a conversation when a word is completely new to a user.</p>
+<h2>Technical Details</h2>
+<h3>Github Repo</h3>
+<p><a href="https://github.com/AidanMacMillan/eleven-labs-hackathon" rel="nofollow">https://github.com/AidanMacMillan/eleven-labs-hackathon</a></p>
+<h3>Key Details</h3>
+<ul>
+<li>Architected in a way to easily run natural language analysis in realtime on ElevenLab conversations.
+
+<ul>
+<li>All analysis is behind a Redis driven queue to allow any number of workers to pick up analysis jobs. This enables full horizontal scaling.</li>
+</ul></li>
+<li>Has it's own persistence to enable ElevenLabs conversations to be picked up later in the future even if the call has been ended.
+
+<ul>
+<li>This is supported through ElevenLabs Conversational AI's custom LLM feature, which point's to the application's own completions endpoint. The application can then hook into the conversation flow in any way it needs to.</li>
+</ul></li>
+<li>Gemini Flash 2.0 was chosen for both the conversation LLM as well as for AI analysis agents for checking task statuses, finding grammar/language errors in user messages, and finding words to save in the user's dictionary. It was chosen due to it's speed and quality.</li>
+</ul>
+<h3>Tech Stack</h3>
+<ul>
+<li>Main Application: Sveltekit
+
+<ul>
+<li>Frontend: svelte, tailwind</li>
+<li>API: Hono, Sveltekit Actions</li>
+</ul></li>
+<li>Database: postgres
+
+<ul>
+<li>drizzle-orm: used to manage the database schema and provide typescript types to other packages</li>
+</ul></li>
+<li>Conversation analysis: Node
+
+<ul>
+<li>bullmq: Used for queue and worker management</li>
+</ul></li>
+<li>Cache: Redis
+
+<ul>
+<li>Only used for the queue</li>
+</ul></li>
+<li>Realtime notifications: Soketi
+
+<ul>
+<li>Used by both the SvelteKit API, and Conversation Analysis server to push realtime data to the frontend</li>
+</ul></li>
+<li>LLM: Gemini Flash 2.0</li>
+</ul>
+<h2>Team Information</h2>
+<p>This projected was completed solo for the online hackathon by Aidan MacMillan. This includes all planning, coding, and execution.</p>
+<h2>Compliance</h2>
+<p>All rules and deadlines of the hackathon were followed.</p>
+</div>

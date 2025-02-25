@@ -1,0 +1,16 @@
+<div>
+<h2>Inspiration</h2>
+<p>Declutter your routine App (for busy professional like me)</p>
+<h2>What it does</h2>
+<p>Customize your daily tasks into digestible blocks, and convert it to voice with encouragement/inspiration to keep in track, and voice to text/email/your social media account as reminder </p>
+<h2>How we built it</h2>
+<p>Loveable, ElevenLab, Make </p>
+<h2>Challenges we ran into</h2>
+<p>Data Parse issue, User Interface, Personalization for daily tasks, Time Frame, API orchestration </p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Build the app in less than 48 hours </p>
+<h2>What we learned</h2>
+<p>It is helpful to use AI to build agentic AI possible. Make is powerful to connect the dots. Loveable is so easy to use as a personal AI app assistant with lots flexibility. ElevenLab make adjustable (character-driven) text-to-voice possible. </p>
+<h2>What's next for Peronsal Declutter App</h2>
+<p>More User interactive sections, banner notification, interactive AI, user habit tracking (early riser/night owl), add-ons for user to choose their favorite voice character etc. </p>
+</div>

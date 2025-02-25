@@ -1,0 +1,19 @@
+<div>
+<h2>Inspiration</h2>
+<p>Elections are top of mind at the moment here in Ontario, Canada and throughout the world as of late. Because some government agencies might struggle to reach all of their electorate, we thought that we could help by providing an easy to use voice interface that answered the most important questions: where, when and how do I vote? And we wanted to provide it in as many languages as possible to serve an increasingly diverse set of voters. </p>
+<h2>What it does</h2>
+<p>A streamlined landing page with a single CTA to talk to a voice agent about the election. With just your postal code, it will provide you with information about where to vote and the relevant dates and times. It can also update the page itself to show you maps and provide links to more information. </p>
+<h2>How we built it</h2>
+<p>A Next-Forge monorepo with a Next.js frontend, API, Prisma, Neon, shadcn, ElevenLabs conversational AI agent with tool calling for real-world data, Firecrawl for initial agent context gathering, Lovable for initial prototyping and iteration, val.town for some API prototyping and testing. All hosted on Vercel with CI/CD on GitHub. </p>
+<h2>Challenges we ran into</h2>
+<p>Debugging the tool calling for APIs we don't control has been difficult. Because we need to rely on public data sources for election data, this is an ongoing challenge.  Also because a lot of the prompts and configuration of the agents live outside the codebase on ElevenLabs it makes it more difficult to test as a group or iterate. </p>
+<h2>Accomplishments that we're proud of</h2>
+<p>For someone who doesn't speak English or French (the two "main" languages), we have created the easiest solution for them to get election information with a short conversation in their mother tongue. </p>
+<h2>What we learned</h2>
+<p>Electoral data (districts, addresses, etc) is much more complicated than we originally thought. </p>
+<h2>What's next for VoterAssist</h2>
+<ul>
+<li>We would like to turn this into a general platform for any type of election. You can imagine a full admin dashboard that lets you create an election and view metrics. This could become a valuable democratic tool and we hope to refine it as it matures. </li>
+<li>Lots and lots more refinement of the prompts, data sources, and interface. We'd like to offer direct phone dial-in and SMS for folks who might not be as internet savvy. </li>
+</ul>
+</div>

@@ -1,0 +1,24 @@
+<div>
+<h3>Inspiration</h3>
+<p>Our vision was to create a seamless platform that transforms text into dynamic, engaging video storytelling—bridging the gap between written content and visual media.</p>
+<h3>What It Does</h3>
+<p>Sun AI allows users to effortlessly convert articles or images into compelling video narratives. By inputting a URL or uploading an image, our AI agent analyzes the content and generates an engaging video using AI-powered narration and visuals.</p>
+<h3>How We Built It</h3>
+<p>We developed Sun AI using Next.js and deployed it on Vercel, integrating several powerful AI tools to enhance the experience:</p>
+<p>ElevenLabs for high-quality, natural-sounding text-to-speech conversion.
+Fal AI for AI-generated video creation.
+Mistral &amp; OpenAI for advanced content understanding and processing.
+Supabase for secure and efficient data storage.
+Vercel AI SDK for seamless AI-powered interactions.
+Challenges We Encountered
+Building a smooth and efficient AI pipeline while maintaining video quality and real-time processing was a significant challenge. Optimizing the synergy between multiple AI models required careful engineering and testing.</p>
+<h3>Accomplishments We Are Proud Of</h3>
+<p>One of our biggest achievements is the high-quality, visually engaging, and immersive video generation our platform delivers. Sun AI transforms static content into entertaining, digestible, and shareable stories, making information consumption more enjoyable.</p>
+<h3>What We Learned</h3>
+<p>Through this journey, we gained deep insights into AI-powered video synthesis, fine-tuning models for text-to-video transformation, and ensuring realistic speech synthesis with ElevenLabs. Our experience with Fal AI was particularly enlightening, allowing us to optimize video storytelling automation.</p>
+<h3>Future Plans for Sun AI</h3>
+<p>We're just getting started! Our upcoming enhancements include:</p>
+<p>Developing a pricing page to offer scalable plans for different user needs.
+Improving request handling to ensure faster and more efficient content processing.
+Exploring additional AI-driven customization features to make video narratives even more personalized.</p>
+</div>

@@ -1,0 +1,40 @@
+<div>
+<h2>Inspiration</h2>
+<p>Doctors often face a high volume of repetitive medical inquiries every day. Many common questions—such as those about migraine symptoms—can be automated using AI agents. Simple tasks, like sending receipts and scheduling appointments, can also be handled automatically. For example, when addressing common migraine concerns, the AI agent can match a patient’s symptoms to the most appropriate supplements for treatment and recommend the best options accordingly.</p>
+<h2>What It Does</h2>
+<p>The Virtual Migraine Reception AI Agent can:</p>
+<ol>
+<li><strong>Answer Questions:</strong> Respond to common migraine-related inquiries in both text and real-time audio.</li>
+<li><strong>Supplement Recommendations:</strong> Suggest supplements for migraine treatment based on symptoms.</li>
+<li><strong>Generate Receipts:</strong> Create PDF receipts for purchases.</li>
+<li><strong>Conduct Assessments:</strong> Perform three migraine assessments—ID Migraine, MIDAS, and HIT-6.</li>
+<li><strong>Schedule Appointments:</strong> Arrange appointments for clinic visits.</li>
+</ol>
+<h2>How We Built It</h2>
+<ul>
+<li><p><strong>Website Development:</strong><br/>
+We used <em>Lovable</em> to build a basic website that simulates a doctor’s site and features several migraine-related products. A mock login system was developed using simulated patient data, which includes previous purchase histories.</p></li>
+<li><p><strong>AI Agent Integration:</strong><br/>
+We utilized <a href="https://www.chat-data.com/" rel="nofollow">Chat Data</a> to create an embeddable AI agent that serves doctors both on the website and via WhatsApp. Chat Data provides built-in integrations, a framework for multi-modal AI agents, and a medical database with authenticated sources to answer migraine-related questions. Its AI actions enable tasks such as generating PDF receipts and scheduling appointments.</p></li>
+<li><p><strong>Appointment Scheduling:</strong><br/>
+We employed <a href="https://www.make.com/en" rel="nofollow">Make</a> to process appointment function calls from Chat Data and record the appointments in a <a href="https://docs.google.com/spreadsheets/d/1VwSEoZgCYpfOk5nKaOhcn-93CR0zG7hAUy9ZTbuPXo0/edit?gid=0#gid=0" rel="nofollow">Google Spreadsheet</a>, simulating the appointment scheduling process.</p></li>
+<li><p><strong>User Data Integration:</strong><br/>
+After logging in, the website sends the user’s purchase history to the chatbot. This allows the AI agent to access the patient’s previous medical history, enabling it to provide tailored responses to receipt requests and general migraine-related questions using the authenticated medical database from Chat Data.</p></li>
+</ul>
+<h2>Challenges</h2>
+<ul>
+<li><strong>Appointment Data:</strong><br/>
+We encountered difficulties retrieving and modifying users’ existing appointments. Since the AI agent does not have access to the doctors’ booking schedules, it may inadvertently schedule conflicting appointments. Additionally, the agent currently cannot query the database to modify existing appointments.</li>
+</ul>
+<h2>Accomplishments</h2>
+<ul>
+<li><p><strong>Task Automation:</strong><br/>
+The AI agent successfully handles nearly all simple tasks on the website, including answering basic migraine questions with responses backed by authenticated sources.</p></li>
+<li><p><strong>Accuracy &amp; Scalability:</strong><br/>
+With medical information sourced from reputable databases, the accuracy of its responses is guaranteed. The solution is also easily scalable to include additional functionalities, such as enabling direct purchases through chat or retrieving real-time drug information when a relevant API is provided.</p></li>
+</ul>
+<h2>What We Learned</h2>
+<p>We gained valuable experience using the Lovable, Make, and Chat Data tools. Most importantly, we learned how to design an AI agent that effectively addresses doctors’ challenges by automating routine tasks.</p>
+<h2>What’s Next for the Virtual Migraine Reception AI Assistant</h2>
+<p>Our next steps include enhancing the AI agent with additional functionalities. We plan to pilot the improved solution with real migraine doct</p>
+</div>

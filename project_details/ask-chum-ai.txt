@@ -1,0 +1,61 @@
+<div>
+<h1>🐙 Ask Chum AI: Project Story 🌊</h1>
+<h2>🌟 Inspiration</h2>
+<p>The AI landscape is expanding at an unprecedented rate. With thousands of new AI tools emerging, professionals, developers, and enthusiasts alike struggle to navigate the overwhelming choices. The problem isn’t just about discovery—it’s about <strong>finding the right tool</strong> at the right time for the right need.</p>
+<p>We were inspired to create <strong>Ask Chum AI</strong> to be a <strong>trusted AI guide</strong>—a platform that understands individual needs, learns from community interactions, and delivers intelligent, <strong>personalized recommendations</strong> rather than generic lists. We envisioned an AI that feels <strong>like a friend</strong>—curious, collective, connected, and caring.</p>
+<h2>🛠️ What It Does</h2>
+<p><strong>Ask Chum AI</strong> solves AI tool overload by:</p>
+<ul>
+<li><strong>Learning about you</strong> – Building a persona based on your AI interests, skill level, and workflow.</li>
+<li><strong>Crowdsourcing insights</strong> – Gathering recommendations from real users and industry experts.</li>
+<li><strong>Filtering the noise</strong> – Cutting through hype and surfacing only the most relevant AI tools.</li>
+<li><strong>Evolving over time</strong> – Improving based on feedback, new AI advancements, and real-world use cases.</li>
+</ul>
+<h2>🏗️ How We Built It</h2>
+<p>We designed Ask Chum AI with a multi-layered approach:</p>
+<ol>
+<li><strong>Conversational AI Interface</strong> – Users interact with Chum via natural language, making tool discovery seamless.</li>
+<li><strong>Custom AI Matching Algorithm</strong> – A <strong>scoring and ranking model</strong> that adapts to individual needs.</li>
+<li><strong>Real-Time Data Collection</strong> – Chum constantly updates its knowledge base by analyzing AI trends, user interactions, and expert insights.</li>
+<li><strong>Community-Driven Learning</strong> – The more Chum interacts, the smarter it gets, refining suggestions over time.</li>
+</ol>
+<h3>🛠️ Tech Stack</h3>
+<ul>
+<li><strong>LLMs &amp; AI APIs</strong> – ElevenLabs for voice interactions, Claude 3.5 Sonnet for Chum.</li>
+<li><strong>Database &amp; Automation</strong> – Airtable + Make.com to manage knowledge aggregation.</li>
+<li><strong>Web Platform</strong> –Lovable for an intuitive front-end experience.</li>
+<li><strong>AI Tools Used</strong> – ChatGPT, Sora, Perplexity, Claude, Cursor, Exa, Grok3, Meta.ai, Adobe Firefly.</li>
+</ul>
+<h2>🏄 Challenges We Ran Into</h2>
+<ul>
+<li><strong>Balancing Personalization &amp; Bias</strong> – Ensuring AI tool recommendations are <strong>useful</strong> without favoring certain tools unfairly.</li>
+<li><strong>Data Overload</strong> – Managing thousands of AI tools and maintaining <strong>up-to-date insights</strong>.</li>
+<li><strong>Building a Trustworthy AI Assistant</strong> – Making Chum feel helpful, engaging, and aligned with <strong>real user needs</strong> rather than just another AI search engine.</li>
+</ul>
+<h2>🎉 Accomplishments That We're Proud Of</h2>
+<ul>
+<li><strong>Developed a Seamless AI Discovery Experience</strong> – Built an intuitive, user-friendly platform for AI tool recommendations.</li>
+<li><strong>Integrated Cutting-Edge AI Models</strong> – Successfully incorporated ElevenLabs for conversational AI and multiple LLMs for smarter recommendations.</li>
+<li><strong>Community Engagement</strong> – Fostered user feedback loops to enhance AI tool accuracy and personalization.</li>
+</ul>
+<h2>📚 What We Learned</h2>
+<ul>
+<li><strong>Users need more than a directory</strong> – They want <strong>curation, guidance, and insights</strong>, not just a long list of AI tools.</li>
+<li><strong>Community is key</strong> – AI discovery improves <strong>when people share their real experiences</strong> with tools.</li>
+<li><strong>Conversational AI makes discovery easier</strong> – Instead of endless research, users prefer an assistant that <strong>understands intent and offers tailored suggestions</strong>.</li>
+</ul>
+<h2>🚀 What's Next for Ask Chum AI</h2>
+<p>Ask Chum AI is just getting started! We plan to:</p>
+<ul>
+<li><strong>Expand integrations</strong> with Slack, Notion, and other workflow tools.</li>
+<li><strong>Develop user-generated AI reviews</strong> to further refine tool recommendations.</li>
+<li><strong>Enhance AI Infinity Tools</strong> – Predicting what AI tools <strong>should</strong> exist based on user needs.</li>
+<li><strong>Improve AI Explainability</strong> – Ensuring transparency in recommendations and decision-making.</li>
+</ul>
+<p></p>
+<h3>Special Thanks</h3>
+<p>Thank you to <strong>Boardy B. from Boardy.ai</strong> for his time and patience and expertise with voice assistants.</p>
+<p></p>
+<hr/>
+<p>This hackathon project was proudly alongside AI tools from <strong>ElevenLabs</strong> and <strong>Lovable.dev</strong>, and with AI models including <strong>ChatGPT, Sora, Perplexity, Deepseek, Claude, Cursor, Exa, Grok3, Meta.ai, and Adobe Firefly</strong>.</p>
+</div>

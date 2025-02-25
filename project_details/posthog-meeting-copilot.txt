@@ -1,0 +1,34 @@
+<div>
+<h2>Inspiration</h2>
+<p>We know how important it is to keep an eye on our metrics, but it’s easy to skip them in standups or other meetings. Plus, if someone suddenly asks a “hey, what was our conversion rate last week?” kind of question, everyone ends up scrambling through different tabs and dashboards.</p>
+<h2>What it does</h2>
+<p>The PostHog Meeting Copilot is a friendly voice assistant that joins your meetings, automatically shares (and even summarizes) your key PostHog dashboards and insights. So, no more screen-sharing chaos or awkward silences trying to find that one data point—just smooth, data-driven discussions every time.</p>
+<p>Email <code>parthgandhi@outlook.com</code> or <code>ishaan.shrivastava@gmail.com</code> if you want to try it out.</p>
+<h2>How we built it</h2>
+<p>We integrated with the Posthog apis to get all insights/dashboards/embeds. We then used multiple <code>gpt-4o</code> calls to get relevant metrics, summarize them, and give a user-friendly output through the Elevenlabs voice agent.</p>
+<h2>Challenges we ran into</h2>
+<ol>
+<li>We underestimated how hard it would be to do an arbitrary HogQL generator. </li>
+<li>Google Meet/Zoom do not have good integrations for conversational agents.</li>
+</ol>
+<p>Along the way, we also discovered a bug in the Posthog client library: <a href="https://discord.com/channels/1066739690436313158/1342583407607283722/1343197902738165853" rel="nofollow">https://discord.com/channels/1066739690436313158/1342583407607283722/1343197902738165853</a></p>
+<h2>Accomplishments that we're proud of</h2>
+<ol>
+<li>It works! </li>
+<li>We actually liked the problem we were solving for and face it regularly.</li>
+<li>We learnt at least 4-5 new tools/frameworks/technologies over the weekend.</li>
+<li>We were able to effectively prune our original vision to make sure we still have a minimum-lovable-product by submission time.</li>
+</ol>
+<h2>What we learned</h2>
+<ol>
+<li>How to effectively use the Elevenlabs conversational voice agent</li>
+<li>How to use lovable, and when to directly code or use an AI tool.</li>
+<li>How to solve interesting problems with the new modalities that have emerged</li>
+</ol>
+<h2>What's next for PostHog Meeting Copilot</h2>
+<p>We’ve also started working on a couple of additional features - </p>
+<ol>
+<li>Google meet and Zoom integration, so the bot can automatically join all your virtual meetings through calendar invites.</li>
+<li>An ad-hoc query generator that lets you ask arbitrary questions that are not in an existing insight. It generates and executes the right HogQL from user input.</li>
+</ol>
+</div>

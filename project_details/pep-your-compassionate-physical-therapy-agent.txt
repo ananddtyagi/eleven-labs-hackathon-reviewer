@@ -1,0 +1,49 @@
+<div>
+<h1>Pep - Your Compassionate Physical Therapy Agent 🏋️‍♂️🎙</h1>
+<h2>Inspiration💡</h2>
+<p>We both have a lot of physical therapy experiences and realized that the biggest problem with PT is that patients often fail to stick to their prescribed exercises. This inspired us to create Pep – a Duolingo-style experience for physical therapy, making it fun, engaging, and easy to stay committed.</p>
+<h2>What Pep does 🎯</h2>
+<p>Physical therapy only works if you actually do it – but it's hard to stay motivated without instant rewards or feedback. Pep fixes this.
+Here’s how Pep helps users stick to their PT exercises (not all have been implemented):</p>
+<ul>
+<li>Pep sends an endearing reminder at the right time.</li>
+<li>Gamification sparks motivation for each micro-exercise.</li>
+<li>One-tap start minimizes friction and makes it easy to begin.</li>
+<li>Pep’s in-exercise voice offers feedback and companionship throughout.</li>
+<li>Pep proactively logs symptoms and improvements with real-time honesty.</li>
+<li>Pep celebrates your progress, showing how today’s effort builds toward PT goals.</li>
+<li>Powered by AI, every interaction with Pep is fresh and personal – a compassionate companion guiding users through their PT journey.</li>
+</ul>
+<h2>Vision 🔭</h2>
+<p>While physical therapy exhibits a real need, the roadblocks to motivation and consistency are universal —  loss of novelty, transactional interactions, lack of feedback, forgetfulness, loneliness, etc. AI can effectively tackle this at a fraction of the cost of carefully designing a personalized, humanistic support system by hand (like Duolingo does). Pep can extend to other things people need help executing, whether it’s saving money, taking medication, making time for a hobby, or practicing better parenting.</p>
+<h3>How we built it 🔧</h3>
+<ul>
+<li>Pep is a Swift iOS app.</li>
+<li>We mainly use the 11labs Conversation AI Swift SDK to create a voice UI that interacts with users, providing live coaching and feedback.</li>
+<li>We had a lot of fun customizing client tools within the 11labs SDK.</li>
+<li>We also integrated Apple’s Vision Framework to detect user joints and evaluate exercise accuracy in real time.</li>
+</ul>
+<h3>Challenges we ran into 🛠</h3>
+<ul>
+<li>🔹 Memory Safety Issues in 11labs SDK
+The Swift SDK isn't designed well in terms of memory safety.
+Incorporating it with the Vision Framework caused severe conflicts in AVFoundation, leading to crashes on iPhones during testing.</li>
+<li>🔹 Chaining Multiple AI Agents
+We struggled with chaining two different AI agents to get the client tool usage correct.
+We had to carefully manage context switching and session persistence for seamless user interactions.</li>
+<li>🔹 Lack of Developer Resources
+We spent a lot of time debugging due to limited documentation and tool-use templates.
+We hope that in the future, 11labs provides better tool-use templates to simplify AI agent chaining.</li>
+</ul>
+<h3>What we learned 📚</h3>
+<ul>
+<li>How powerful conversational AI SDKs have become! 🤯</li>
+<li>How to integrate AI with multimodal interfaces (voice + vision).</li>
+<li>The challenges of real-time AI coaching and synchronizing AI agent transitions.</li>
+</ul>
+<h3>Team Member + Contributions</h3>
+<ul>
+<li>Lanruo: ElevenLabs conversational AI's (client) tool use and dynamic variables </li>
+<li>Yan: vision setup, swift boilerplate, concurrency, and cute dog gif!</li>
+</ul>
+</div>

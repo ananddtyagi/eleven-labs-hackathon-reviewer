@@ -1,0 +1,48 @@
+<div>
+<h2>Inspiration</h2>
+<p>Reading long articles takes time, and important insights often get lost in the clutter. We wanted to create a solution that extracts knowledge effortlessly and lets users listen to it like a podcast—making learning more accessible and engaging.</p>
+<h2>What it does</h2>
+<p>EchoDigest transforms any web article into an AI-powered audio experience by:</p>
+<ul>
+<li>Extracting key takeaways from a webpage</li>
+<li>Removing unnecessary clutter (ads, navigation, etc.)</li>
+<li>Generating structured knowledge cards</li>
+<li>Creating AI-powered voice narration that enhances comprehension</li>
+<li>Letting users read or listen in two viewing modes – List View (scrollable insights) and Stacked View (one-at-a-time with navigation)</li>
+</ul>
+<h2>How we built it</h2>
+<ul>
+<li>Frontend &amp; Backend → Built using Next.js for seamless performance</li>
+<li>Web Crawling → Integrated Crawl4AI with python to extract content from URLs</li>
+<li>AI Processing → Used Fal.ai + Gemini to clean, summarize, and generate conversational audio descriptions</li>
+<li>AI Narration → Utilized ElevenLabs text to speech API to create spoken insights</li>
+<li>Deployment → Planning to host on Vercel soon</li>
+</ul>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>Ensuring that the AI ignores irrelevant sections (ads, navigation, author bios) while keeping the core content meaningful</li>
+<li>Generating natural-sounding AI voice descriptions that don’t just repeat the text but instead make it more conversational</li>
+<li>Optimizing the user experience for both reading and listening in a seamless interface</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>Successfully built a working AI-powered pipeline that transforms any article into digestible audio insights</li>
+<li>Seamless integration of Crawl4AI, Fal.ai, and Next.js into a single automated workflow</li>
+<li>Creating an engaging, podcast-like narration that enhances learning</li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>Fine-tuning AI prompting to filter out unwanted sections and structure meaningful content is key</li>
+<li>Optimizing AI-generated voice descriptions can make a big difference in engagement</li>
+<li>Balancing reading &amp; listening experiences helps users absorb information in different ways</li>
+</ul>
+<h2>What's next for EchoDigest</h2>
+<ul>
+<li>Launch a hosted version on Vercel for public access</li>
+<li>Enhance AI-generated voiceovers to support multiple speakers for a true podcast feel</li>
+<li>Enable PDF &amp; YouTube transcript support for broader knowledge extraction</li>
+<li>Allow users to login, save and revisit their digested insights</li>
+</ul>
+<h2>Team info</h2>
+<p>Just me - Sriram Sureshkumar, check my website <a href="https://sriram.work" rel="nofollow">https://sriram.work</a></p>
+</div>

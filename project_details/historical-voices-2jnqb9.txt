@@ -1,0 +1,29 @@
+<div>
+<h2>Inspiration</h2>
+<p>We were both history fans and couldn't find a good historu chat AI tool so we decided to build our own.
+We tried to implement different stages of the person as a unique feature.</p>
+<h2>What it does</h2>
+<p>It's a web-based AI interaction system where the user can send speech/text to different persons at their different life stages and get real-time responses.</p>
+<h2>How we built it</h2>
+<p>The frontend was pretty much from scratch using lovable, we have a customized sqlite database.
+The chat feature was realized using gemini. </p>
+<h2>Challenges we ran into</h2>
+<p>The biggest challenge we ran into was that we couldn't configure anything properly out of elevenlabs api to our front-end service. Other than that a lack of time was also a problem. We spent too much time for the backend database.</p>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>functional and detailed front-end </li>
+<li>competitive, robust back-end </li>
+<li>successful api connection with elevenlabs</li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>time management is the key</li>
+<li>hackathon was actually more fun than we expected</li>
+</ul>
+<h2>What's next for Historical Voices</h2>
+<ul>
+<li>Connection with elevenlabs api and customization for voicings</li>
+<li>More historical figure coming on the way</li>
+<li>Map view </li>
+</ul>
+</div>

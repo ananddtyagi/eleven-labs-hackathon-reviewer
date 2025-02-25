@@ -1,0 +1,81 @@
+<div>
+<h3><strong>About the Project</strong></h3>
+<h4><strong>Inspiration</strong></h4>
+<p>Businesses drown in data but lack tools to turn it into actionable stories. Manual research, slide design, and rehearsals waste hours—time better spent closing deals or innovating. We built <strong>RPV</strong> to automate the <em>entire workflow</em>: research → analysis → presentation → delivery. Imagine a tool that lets executives focus on <em>what</em> to say, not <em>how</em> to say it.  </p>
+<h4><strong>What it does</strong></h4>
+<ol>
+<li><strong>Research</strong>: Parse PDFs (balance sheets, reports) and URLs (competitor sites, blogs).<br/></li>
+<li><strong>Presentation</strong>: Generate structured slides with AI-curated insights, visuals (Fal.AI), and data visualizations.<br/></li>
+<li><strong>Voice</strong>: Add ElevenLabs-powered narration that sounds like you, synced to slides.<br/></li>
+<li><strong>Engage</strong>: Answer live questions during presentations using context from your data.<br/></li>
+</ol>
+<p><strong>Business Impact</strong>:  </p>
+<ul>
+<li><strong>10x Faster Reporting</strong>: Turn 8 hours of manual work into 20 minutes.<br/></li>
+<li><strong>1:1 Personalization</strong>: Auto-generate tailored decks for investors, teams, or clients.<br/></li>
+<li><strong>Always "On"</strong>: Share narrated presentations 24/7 (e.g., investor updates while you sleep).<br/></li>
+</ul>
+<h4><strong>How we built it</strong></h4>
+<ul>
+<li><strong>Frontend</strong>: SvelteKit + Tailwind for a lightning-fast, intuitive interface.<br/></li>
+<li><strong>AI Core</strong>:<br/>
+<ul>
+<li><strong>Research</strong>: <code>pdf-parse</code> + Cheerio for data extraction; LLM for summarization.<br/></li>
+<li><strong>Presentation</strong>: Fal.AI generates infographics from data points; Mistral models refine slide flow.<br/></li>
+<li><strong>Voice</strong>: ElevenLabs API clones your tone or picks a professional voice.<br/></li>
+</ul></li>
+<li><strong>Analytics</strong>: PostHog tracks user engagement (e.g., slide views, Q&amp;A usage).<br/></li>
+<li><strong>Deployment</strong>: Vercel edge network for instant global access.<br/></li>
+</ul>
+<h4><strong>Challenges we ran into</strong></h4>
+<ul>
+<li><strong>Data Chaos</strong>: Parsing unstructured PDFs (e.g., financial tables) required regex + LLM hybrid logic.<br/></li>
+<li><strong>Voice-Slide Sync</strong>: Timing ElevenLabs audio to match slide transitions without lag.<br/></li>
+<li><strong>Context-Aware Q&amp;A</strong>: Keeping ChatGPT answers strictly tied to uploaded data (no hallucinations).<br/></li>
+</ul>
+<h4><strong>Accomplishments we're proud of</strong></h4>
+<ul>
+<li><strong>Sponsor Synergy</strong>: Deep integrations with <strong>ElevenLabs</strong> (voice), <strong>Fal.AI</strong> (visuals), and <strong>Vercel</strong> (scaling).<br/></li>
+<li><strong>Zero Manual Work</strong>: From raw data to voice-ready presentation in 4 clicks.<br/></li>
+<li><strong>Judges’ Hook</strong>: A polished demo showing a CEO turning a messy acquisition report into a board-ready pitch.<br/></li>
+</ul>
+<h4><strong>What we learned</strong></h4>
+<ul>
+<li><strong>AI’s Gaps Are Opportunities</strong>: Combining LLM with regex solved messy data parsing.<br/></li>
+<li><strong>Speed ≠ Sacrifice</strong>: SvelteKit’s reactivity let us build faster <em>and</em> cleaner than React.<br/></li>
+<li><strong>Trust Through Customization</strong>: Letting users tweak voices/visuals increased perceived value.<br/></li>
+</ul>
+<h4><strong>What's next for Research + Presentation + Voice</strong></h4>
+<ol>
+<li><strong>Research++</strong>:<br/>
+<ul>
+<li><strong>Real-Time Data</strong>: Pull live metrics (stock prices, social trends) into slides.<br/></li>
+<li><strong>Competitor Benchmarking</strong>: Auto-compare your data vs. industry rivals.<br/></li>
+</ul></li>
+<li><strong>Presentation++</strong>:<br/>
+<ul>
+<li><strong>Interactive Charts</strong>: Let viewers drill into data mid-presentation.<br/></li>
+<li><strong>Brand Kits</strong>: Apply company fonts/colors to slides automatically.<br/></li>
+</ul></li>
+<li><strong>Voice++</strong>:<br/>
+<ul>
+<li><strong>Multilingual Narration</strong>: ElevenLabs-powered Spanish, Mandarin, etc.<br/></li>
+<li><strong>Emotion Control</strong>: Adjust voice tone (e.g., "confident" vs. "empathetic").<br/></li>
+</ul></li>
+</ol>
+<hr/>
+<p><strong>Why RPV Will Win</strong>:  </p>
+<ul>
+<li><strong>Judges’ Criteria</strong>:<br/>
+<ul>
+<li><strong>Technical Depth</strong>: 2+ sponsor APIs used innovatively.<br/></li>
+<li><strong>Creativity</strong>: Merging research, design, and voice into one workflow.<br/></li>
+<li><strong>Impact</strong>: Saves businesses 100+ hours/year (demo a ROI calculator).<br/></li>
+</ul></li>
+<li><strong>Unmatched Polish</strong>: Most hackathon projects stop at slides—we added <em>voice</em>, <em>analytics</em>, and <em>interactivity</em>.<br/></li>
+</ul>
+<p><strong>Final Demo Hook</strong>:<br/>
+<em>“A founder uploads a startup pitch deck. RPV restructures it, adds competitor analysis from Crunchbase, narrates it in their voice, and answers investor questions—all while they prep for the next meeting.”</em> </p>
+<hr/>
+<p><strong>RPV isn’t just a tool—it’s the end of busywork.</strong> Let’s make "death by PowerPoint" a relic. 🚀</p>
+</div>

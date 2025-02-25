@@ -1,0 +1,29 @@
+<div>
+<h2>Inspiration</h2>
+<p>Coding is a universal language, but understanding it isn't always easy—especially for beginners, non-native speakers, and visually impaired individuals. We wanted to create a tool that makes code explanations more accessible by providing clear, AI-generated insights and spoken explanations in multiple languages.</p>
+<h2>What it does</h2>
+<p>SpeakCode AI takes any code snippet, explains it in natural language, and then converts the explanation into speech. Users can select their preferred language, making it an ideal tool for developers, students, and educators worldwide.</p>
+<h2>How we built it</h2>
+<p>Flask (Python) – Backend to process user input and communicate with AI APIs.
+OpenAI API – Generates detailed code explanations.
+ElevenLabs API – Converts text explanations into realistic speech.
+HTML, CSS, JavaScript – Frontend for an interactive, user-friendly experience.
+Render – Hosts the application for public access.</p>
+<h2>Challenges we ran into</h2>
+<p>Ensuring the voice matched the selected language dynamically.
+Handling API limitations and making efficient requests.
+Overcoming caching issues to update audio files properly.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Successfully integrating OpenAI and ElevenLabs APIs for seamless code-to-speech functionality.
+Making an accessible tool that helps learners understand code through both text and speech.
+Deploying a fully functional, publicly accessible app in a short timeframe.</p>
+<h2>What we learned</h2>
+<p>How to dynamically handle multilingual AI-generated content.
+Optimizing API requests to avoid caching and outdated responses.
+The importance of accessibility in coding education.</p>
+<h2>What's next for SpeakCode AI</h2>
+<p>Expanding language support for even more spoken translations.
+Enhancing UI/UX with a smoother, more intuitive experience.
+Adding interactive features, like a real-time code assistant.
+Exploring mobile app integration for on-the-go code learning.</p>
+</div>

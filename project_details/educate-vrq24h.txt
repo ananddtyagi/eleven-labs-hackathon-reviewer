@@ -1,0 +1,16 @@
+<div>
+<h2>Inspiration</h2>
+<p>We were inspired by the lack of a unified platform where students can learn, collaborate, and secure jobs while being part of a supportive community. We also wanted to address the needs of students with disabilities, making learning accessible to all.</p>
+<h2>What it does</h2>
+<p>Educate AI allows students to build communities, participate in hackathons, and prepare for jobs through AI-powered personalized learning, VR tools, and real-world projects—all in one place.</p>
+<h2>How we built it</h2>
+<p>We built Educate AI using advanced AI algorithms, integrated AR/VR tools for immersive learning, and backend support for community building and hackathon participation. The platform is optimized for accessibility and inclusivity.</p>
+<h2>Challenges we ran into</h2>
+<p>We faced challenges in creating a seamless user experience, integrating AI tools to accommodate students with disabilities, and ensuring the platform can scale while maintaining accessibility and performance.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>We are proud to have developed a platform that supports personalized learning for all students, including those with disabilities. We’ve also built a thriving pre-launch community of 500 users with a strong retention rate.</p>
+<h2>What we learned</h2>
+<p>We learned the importance of creating an inclusive platform that fosters collaboration while making cutting-edge technologies, like AI and AR/VR, more accessible for students from diverse backgrounds.</p>
+<h2>What's next for EDUCATE AI</h2>
+<p>We plan to scale the platform, expand our partnerships with educational institutions and employers, introduce new learning modules, and increase user engagement through gamified learning and more hackathons.</p>
+</div>

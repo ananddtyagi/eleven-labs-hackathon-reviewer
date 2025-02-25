@@ -1,0 +1,46 @@
+<div>
+<h2>Inspiration</h2>
+<p>Inspired by The Joe Budden podcast's production approach, where a behind-the-scenes team member researches topics in real-time to enrich discussions. As a podcast host, I recognized how valuable this role is for maintaining engaging, fact-based conversations. ScreenMan automates this support function, allowing hosts to focus on the conversation while maintaining accuracy and flow.</p>
+<p>This could further be applied to live streamers and live audio hosts on sports and radio shows.</p>
+<h2>What it does</h2>
+<p>ScreenMan is a web application that serves as an AI-powered research assistant for live conversations. Its key features include:</p>
+<ul>
+<li>Real-time speech transcription and context analysis</li>
+<li>Jeopardy-style display board showing relevant facts and media</li>
+<li>Topic transition suggestions</li>
+</ul>
+<h2>How we built it</h2>
+<p>Built on a modern tech stack combining real-time audio processing with AI services:</p>
+<ul>
+<li>Python server for audio buffering and OpenAI Whisper integration</li>
+<li>NextJS full-stack application managing the frontend and backend pipelines</li>
+<li>Multi-stage AI pipeline for:
+
+<ul>
+<li>Speech transcription</li>
+<li>Claim detection and search query optimization</li>
+<li>Web research and fact verification</li>
+<li>Context-aware content staging</li>
+</ul></li>
+<li>ElevenLabs text-to-speech for prompting narration</li>
+<li>PostHog for analytics and LLM generation tracking</li>
+</ul>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>Developed a text simulation system to accelerate testing and reduce API costs</li>
+<li>Engineered prompts for consistent, structured outputs across each distinct AI task</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>Created an intuitive interface that masks complex AI operations</li>
+<li>Achieved near real-time performance for the research pipeline (15secs vs a human 1min+)</li>
+<li>Building a practical tool that solves a real problem in content creation</li>
+</ul>
+<h2>What's next for ScreenMan</h2>
+<ul>
+<li>Speaker diarization for multi-person conversations</li>
+<li>Fine-tuned models to replace prompt engineering</li>
+<li>Local speech-to-text processing for improved latency and cost efficiency</li>
+<li>Production-ready online deployment for web app and servers</li>
+</ul>
+</div>

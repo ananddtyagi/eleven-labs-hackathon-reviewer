@@ -1,0 +1,77 @@
+<div>
+<h2>Inspiration</h2>
+<p>Traditional audio guides are expensive and limited, while photos alone don't tell the full story. We built an AI-powered tool that transforms any walk into an enriching narrative experience, making location-based storytelling accessible to everyone.</p>
+<h2>What it does</h2>
+<ul>
+<li>Create custom walking tours with AI-generated narratives</li>
+<li>Take photos and instantly get AI-crafted stories</li>
+<li>Listen to professional text-to-speech narration</li>
+<li>Build multi-chapter tours with location context</li>
+<li>Save and share walking tours with others</li>
+</ul>
+<h2>How we built it</h2>
+<p>Our stack is focused on real-time AI processing and smooth user experience:</p>
+<h3>Frontend</h3>
+<ul>
+<li><strong>React</strong> + <strong>Vite</strong> for fast, modern web development</li>
+<li><strong>TypeScript</strong> for type safety</li>
+<li><strong>Tailwind CSS</strong> + <strong>shadcn/ui</strong> for sleek UI</li>
+<li><strong>TanStack Query</strong> for data management</li>
+</ul>
+<h3>Backend &amp; Infrastructure</h3>
+<ul>
+<li><strong>Supabase</strong>
+<ul>
+<li>PostgreSQL database</li>
+<li>Edge Functions for AI processing</li>
+<li>Storage for media files</li>
+<li>Real-time subscriptions</li>
+</ul></li>
+</ul>
+<h3>AI Services</h3>
+<ul>
+<li><strong>OpenAI GPT-4</strong>
+<ul>
+<li>Story generation from images</li>
+<li>Context-aware chapter titles</li>
+<li>Narrative style adaptation</li>
+</ul></li>
+<li><strong>ElevenLabs</strong>
+<ul>
+<li>Text-to-speech narration</li>
+<li>High-quality voice synthesis</li>
+<li>Multiple voice options</li>
+</ul></li>
+</ul>
+<h2>Challenges we faced</h2>
+<ol>
+<li><strong>Concurrent Processing</strong>: Managing multiple API calls (GPT-4, ElevenLabs) while keeping the UI responsive</li>
+<li><strong>State Management</strong>: Handling complex tour building states across chapters</li>
+<li><strong>Media Processing</strong>: Efficient handling of images and audio streams</li>
+<li><strong>User Experience</strong>: Creating a seamless flow between capturing, generating, and playing content</li>
+</ol>
+<h2>What we learned</h2>
+<ul>
+<li>Advanced OpenAI API integration patterns</li>
+<li>ElevenLabs voice synthesis optimization</li>
+<li>Real-time state management with Supabase</li>
+<li>Complex media handling in the browser</li>
+</ul>
+<h2>What's next</h2>
+<ul>
+<li>Offline mode for downloaded tours</li>
+<li>GPS integration for location-aware playback</li>
+<li>Social features for tour sharing</li>
+<li>Multi-language support</li>
+<li>AR photo enhancements</li>
+</ul>
+<h2>Built With</h2>
+<ul>
+<li>Supabase (Database, Storage, Edge Functions)</li>
+<li>OpenAI GPT-4 (Story Generation)</li>
+<li>ElevenLabs (Text-to-Speech)</li>
+<li>React + TypeScript</li>
+<li>Tailwind CSS</li>
+<li>TanStack Query</li>
+</ul>
+</div>

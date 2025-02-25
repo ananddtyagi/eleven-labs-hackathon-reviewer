@@ -1,0 +1,51 @@
+<div>
+<h1>EchoHood – AI-Powered Hyperlocal Audio Guides</h1>
+<h2>Inspiration</h2>
+<p>Exploring a new city or moving to a new neighborhood can feel overwhelming. Traditional travel guides are generic, outdated, and lack relevance. Travelers, students, and new residents need real-time, personalized&amp;engaging insights to navigate their surroundings effortlessly.  </p>
+<h2>What It Does</h2>
+<p>EchoHood is an AI-powered hyperlocal audio guide that provides curated, location-based insights on:  </p>
+<ul>
+<li>Local landmarks and cultural hubs<br/></li>
+<li>Multilingual support for global users<br/></li>
+<li>Offline accessibility for uninterrupted exploration without roaming charges.</li>
+<li>Personalized voices and themes for a tailored experience<br/></li>
+</ul>
+<p>Users can choose a neighborhood or enable location-based discovery to explore through AI-generated audio guides, categorized by interests such as history, restaurants, shopping and safety.  </p>
+<h2>How We Built It</h2>
+<p>We leveraged AI and machine learning to generate dynamic, context-aware audio content. The platform integrates:  </p>
+<ul>
+<li>LLM-based guides with relevant insights<br/></li>
+<li>Multilingual speech synthesis for accessibility<br/></li>
+<li>Custom voices generated with ElevenLabs </li>
+</ul>
+<h2>Challenges We Ran Into</h2>
+<ul>
+<li>Ensuring hyperlocal accuracy across different cities and neighborhoods<br/></li>
+<li>Optimizing AI-generated content to feel natural in speach mode and make it engaging<br/></li>
+<li>Building an intuitive, user-friendly experience with seamless navigation within 2 days </li>
+</ul>
+<h2>Accomplishments That We're Proud Of</h2>
+<ul>
+<li>Creating AI-driven, on demand generated, personalized local guides tailored to specific areas<br/></li>
+<li>Developing multilingual, multi-voice support</li>
+<li>Create minimalistic UI for feature full multilanguage support</li>
+</ul>
+<h2>What We Learned</h2>
+<ul>
+<li>The importance of good data for AI-generated guide<br/></li>
+<li>Hyperlocal has higher interest and demand </li>
+<li>The actual need for offline-first travel and navigation solutions<br/></li>
+<li>Ways to streamline slow generation process and navigation app UX to make it feel real-time</li>
+</ul>
+<h2>What's Next for EchoHood</h2>
+<ul>
+<li>Expanding to more guides categories </li>
+<li>Integrate with high quality Points of Interest datasets </li>
+<li>Adding more customizable voice options and user-engagement featues</li>
+<li>Developing AI-powered fully automated guide like radio. </li>
+<li>Create native app</li>
+<li>Growing business partnerships with local establishments and real estate agencies<br/></li>
+<li>Refining monetization strategies through sponsored content and premium features<br/></li>
+</ul>
+<h3>Transform the way people explore.</h3>
+</div>

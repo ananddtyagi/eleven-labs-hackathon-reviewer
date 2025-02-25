@@ -1,0 +1,42 @@
+<div>
+<h1><a href="https://chad-xi.vercel.app/" rel="nofollow">Chad</a> - Connected Handfree AI Device - Your Car Companion</h1>
+<h2>Inspiration</h2>
+<p>Driving can be tough, especially when your passenger princess or prince isn't there.</p>
+<p>Also, when you're driving, it's probably the best time to use voice-based interaction.</p>
+<p>What if there were a delightful sidekick that could interact with you at all times?</p>
+<p>Plus, for the millions of older-generation cars on the road, Siri and CarPlay are not an option.</p>
+<p>Let's bring future technology to all vehicles. Let's fulfill the sci-fi promise made in the '80s and '90s.</p>
+<h2>What it does</h2>
+<p>Chad is a voice AI companion that can chat with you and help with tasks while your hands are occupied. Our vision is to combine Chad with great-looking hardware to create an AI assistant for any car - because even older generation vehicles deserve smart technology.</p>
+<p>The current MVP demonstrates Chad's conversational abilities and basic task execution. You can chat naturally with Chad, and try out practical features like asking him to open websites hands-free. Experience the future of driving assistance today!</p>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>Implementing and debuging an asynchronous multi-agent architecture to minimize latency and enhance user experience</li>
+<li>Integrating real-time streaming for both speech-to-text and text-to-speech services</li>
+<li>Setting up CI/CD pipelines on Railway and Vercel platforms for the first time</li>
+<li>Minimizing the time required to translate a non-standard web design into functional code</li>
+<li>Managing multiple API integrations while keeping the system responsive</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>We're proud that we turned a lot of cool ideas into a tangible final product!</li>
+<li>Mastered new technologies including ElevenLabs API and Railway deployment.</li>
+<li>Built a scalable architecture that can support future feature additions.</li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>The importance of async programming in creating responsive AI applications.</li>
+<li>Best practices for integrating multiple AI services in a single application.</li>
+<li>Modern deployment workflows using Railway and Vercel.</li>
+<li>Effective team collaboration under tight hackathon deadlines.</li>
+</ul>
+<h2>What's next for Chad</h2>
+<p>On the software front, we're excited to evolve Chad into an even more personable companion. We'll enhance his personality with voice customization through ElevenLabs, giving him a unique and warm character that drivers can connect with. By adding user authentication, Chad will remember your preferences and conversations, making each interaction more meaningful. We're also working on making him more emotionally expressive and adaptable – whether you're having a quiet chat or speaking over road noise, Chad will adjust naturally to keep the conversation flowing. Chad will also support more actions like play a song or search online.</p>
+<p>Looking ahead to the hardware journey, we envision bringing Chad to life in a beautifully designed physical form that seamlessly integrates with any vehicle. With Bluetooth connectivity and thoughtful engineering, we'll transform Chad from a digital companion into a tangible presence in your car, making every drive more engaging and enjoyable – no matter what year your car was made. </p>
+<h2>Team</h2>
+<p>We are two passionate computer science students at <a href="https://www.brown.edu" rel="nofollow">Brown University</a>.</p>
+<ul>
+<li><a href="https://www.yubojing.com/" rel="nofollow">Yubo Jing</a>: Full-Stack Developer</li>
+<li><a href="https://www.linkedin.com/in/hang-zhou-codebuster/" rel="nofollow">Hang Zhou</a>: Full-Stack Developer</li>
+</ul>
+</div>

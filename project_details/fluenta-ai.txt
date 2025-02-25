@@ -1,0 +1,40 @@
+<div>
+<h2>Inspiration</h2>
+<p>Language learners often struggle with finding immersive, real-time practice opportunities. Traditional apps lack interactive speaking experiences and personalized feedback. We built Fluenta AI to bridge this gap, empowering users to practice conversations in realistic scenarios with AI-driven guidance and actionable insights.</p>
+<h2>What it does</h2>
+<p>Fluenta AI is an immersive language coach that:</p>
+<p>Simulates <em>real-world conversations</em> (e.g., job interviews, café orders) using ElevenLabs' conversational AI.</p>
+<p>Generates <em>scenario-specific visuals</em> (e.g., Parisian cafés, offices) via fal.ai to enhance immersion.</p>
+<p>Provides <em>instant feedback</em> on pronunciation, fluency, and grammar using ElevenLabs' inbuilt agent analysis.</p>
+<p>Tracks progress with metrics like accuracy trends and common errors.</p>
+<h2>How we built it</h2>
+<p>How we built it</p>
+<p><em>Conversational Core:</em> ElevenLabs' conversational agent for real-time speech-to-text, text-to-speech, and pronunciation analysis.</p>
+<p><em>Model Used:</em> Gemini Flash 2.0 for dynamic situational conversations.</p>
+<p><em>Visual Immersion:</em> fal.ai API to create scenario-specific images (e.g., "Tokyo train station" for Japanese practice).</p>
+<p><em>Frontend:</em> Fully utilized lovable.dev for a responsive UI and speeding up development of the project.</p>
+<p><em>Analytics:</em> ElevenLabs' agent analysis data (e.g., pronunciation_score) visualized in tracking section.</p>
+<h2>Challenges we ran into</h2>
+<p>API Syncing: Getting lovable to call APIs the right way was difficult in the beginning. </p>
+<p>Feedback Granularity: Extracting actionable insights from ElevenLabs' analysis.</p>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li><p>Delivered real-time conversational practice.</p></li>
+<li><p>Built a context-aware feedback system that adapts to user proficiency.</p></li>
+<li><p>Integrated 3+ partner technologies (ElevenLabs, lovable, fal.ai) seamlessly.</p></li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li><p>Voice AI Nuances: Adjusting prosody and pauses in ElevenLabs' API for natural-sounding interactions.</p></li>
+<li><p>Balancing Immersion: Using fal.ai visuals to enhance—not distract from—the speaking experience.</p></li>
+</ul>
+<h2>What's next for Fluenta AI</h2>
+<ul>
+<li><p>Advanced Analytics: Gamified progress tracking (e.g., streaks, badges) and peer benchmarking.</p></li>
+<li><p>Visual Quiz System: Utilising fal.ai.</p></li>
+<li><p>Vent in Another Language system</p></li>
+</ul>
+<blockquote>
+<p>Fluenta AI is just getting started – we’re redefining fluency, one conversation at a time! 🌍✨</p>
+</blockquote>
+</div>

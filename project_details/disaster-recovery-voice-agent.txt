@@ -1,0 +1,55 @@
+<div>
+<h2>Inspiration</h2>
+<p>When I moved to Los Angeles in the first week of January 2025, I quickly found myself just 2 miles from evacuation zones during the wildfires. It made me realize how vulnerable we all are when disaster strikes—and how broken the recovery system can be. After disasters like hurricanes, floods, and wildfires, survivors face long wait times, fragmented information, and difficulty accessing essential resources. During one eight-week period, FEMA call centers failed to answer 2.3 million calls—leaving nearly half of all survivors without help. For those who got through, the average wait time was over an hour.</p>
+<p>A close friend of mine that works at FEMA told me this would be a game-changer, which reinforced my belief that we need a modern, scalable solution for disaster response.</p>
+<h2>What it does</h2>
+<p>The AI Emergency Hotline Agent provides instant, 24/7 access to critical recovery resources. It guides survivors through FEMA applications, housing options, and essential services while also helping emergency managers allocate resources more effectively. By collecting real-time data on survivor needs, it improves coordination with government agencies and NGOs, ensuring faster, more personalized support.</p>
+<p>Key features include:</p>
+<ul>
+<li>Multilingual support</li>
+<li>Automated follow-ups</li>
+<li>Real-time dashboards for tracking key metrics</li>
+<li>AI-powered resource guidance</li>
+</ul>
+<h2>How we built it</h2>
+<p>The system integrates multiple technologies to create an efficient, scalable, and AI-driven disaster response hotline:</p>
+<ul>
+<li><strong>ElevenLabs</strong> powers the AI-driven voice agent, handling speech synthesis and text-to-speech conversion to provide natural, human-like conversations for survivors.</li>
+<li><strong>SnapLogic</strong> is the backbone of workflow automation, orchestration, and data integration, allowing the system to access its various tools, databases, and dashboards.</li>
+<li><strong>Twilio</strong> provides phone number management and voice communication, ensuring that calls are routed efficiently and that survivors receive real-time automated assistance without long wait times.</li>
+<li><strong>GitHub</strong> is used for hosting and version control, particularly for analytics dashboards built with HTML, CSS, and JavaScript, which track and visualize real-time disaster response metrics.</li>
+</ul>
+<p>Together, these components allow the AI Emergency Hotline Agent to seamlessly process survivor requests, guide them through applications, and provide critical recovery information—all in seconds instead of hours.</p>
+<h2>Challenges we ran into</h2>
+<p>Building an AI solution for disaster response requires balancing accuracy, speed, and accessibility. Some key challenges included:</p>
+<ul>
+<li>Handling large-scale call volumes efficiently</li>
+<li>Ensuring the AI provides accurate, empathetic responses</li>
+<li>Integrating with existing government and nonprofit databases</li>
+<li>Overcoming language barriers for multilingual support</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>Designing a solution that can cut survivor wait times from over an hour to just seconds</li>
+<li>Creating a scalable system that can handle thousands of calls simultaneously using SnapLogic's enterprise grade orchestration</li>
+<li>Developing a real-time dashboard that helps emergency managers make data-driven decisions</li>
+<li>Receiving validation from FEMA contacts that this could revolutionize disaster recovery efforts</li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>Survivors need more than just information; they need guidance and follow-up support</li>
+<li>Government agencies and NGOs often struggle with outdated call center infrastructure</li>
+<li>AI-driven automation can dramatically improve response times and efficiency</li>
+<li>Real-time data collection can help emergency teams allocate resources faster</li>
+</ul>
+<h2>What's next for Disaster Recovery Voice Agent</h2>
+<p>We're working on expanding the system with:</p>
+<ul>
+<li>Wider integrations with FEMA, Red Cross, and state emergency management agencies</li>
+<li>SMS and chatbot support for survivors who prefer text-based communication</li>
+<li>Address validation to ensure survivors receive the most accurate location-based assistance</li>
+<li>Email validation for secure and reliable communication</li>
+<li>More personalization, such as sending safe house locations relative to the provided zip code</li>
+</ul>
+<p>Disasters will always happen, but response times don't have to be slow. This is just the beginning of using AI to transform disaster recovery and make sure no survivor is left waiting for help.</p>
+</div>

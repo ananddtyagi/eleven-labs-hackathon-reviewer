@@ -1,0 +1,30 @@
+<div>
+<h2><strong>Inspiration</strong></h2>
+<p>Patients have a difficult time ordering and filling their prescriptions. The current process takes too long and is inefficient. We think we can improve lives and save time with agents!</p>
+<h2><strong>What it does</strong></h2>
+<p>AI-powered medication concierge that simplifies prescription management in the UK by automating refill tracking, booking GP appointments, and assisting with communication where needed.</p>
+<h2><strong>How we built it</strong></h2>
+<p>By creating a customer flow in tldraw once we gathered information from various medical articles from the UK. We then  created the information architecture  data schema by utilizing the platform claude artifacts. We used lovable, to create the whole webapp, while utilizing  supabase database of prescriptions, pharmacies, users, doctors, login, and data management for Elevenlabs, we used the conversational AI functionality to integrate medical data about the patient and also about UK prescription drugs and deep medical info for easy retrieval through multilanguage agents easily</p>
+<h2><strong>Challenges we ran into</strong></h2>
+<p>Some of the files utilized do not  align with the AI Agent’s actual goal.  Certain files initially utilized contained unrelated data, such as digital clinical safety files, for better vectorization.  As this was an hackathon we first took on multiple pain points, but had to scale back for the scope of the mvp Instead of tackling multiple issues at once, we directed efforts towards a single problem with a well-defined solution.</p>
+<h2><strong>Accomplishments that we're proud of</strong></h2>
+<p>Creating a fully functional  AI Agent that  was able to not hallucinate from an actual working knowledge base and retrieve and communicate in natural language critical and accurate info that was led and confirmed by a licensed pharmacist.  Also, the medication list was a 2000-page pdf and it actually worked with almost no latency using a local embedding model and a self-hosted Milvus vector database. As well as diving into a problem and creating a concept that could potentially help patients' pain points in the long run.</p>
+<h2><strong>What we learned</strong></h2>
+<p>We must further deep dive into Patient’s pain points by developing more solutions that address their needs while considering the broader healthcare ecosystem and enhancing scalability. Work with GP surgeries, community pharmacies, and Integrated Care Boards (ICBs) to reduce health disparities, improve scalability, and address medication compliance challenges highlighted in the 2021 overprescribing report.</p>
+<h2><strong>What's next for Meridian-Minds</strong></h2>
+<ol>
+<li><p><strong>AI-ASSISTED COMMUNICATION:</strong>
+Enable the AI Agent to call GP surgeries and community pharmacies when relevant, ensuring seamless patient communication and care coordination.</p></li>
+<li><p><strong>THIRD-PARTY INTEGRATION:</strong>
+Integrate with platforms like Dr IQ (Evergreen), Pharmacy2U, and Patient Access (EMIS) to streamline patient services and medication management.</p></li>
+<li><p><strong>SMART APPOINTMENT BOOKING:</strong>
+Facilitate booking of GP appointments, blood tests (via Swiftqueue), and medication reviews through direct patient calendar connections.</p></li>
+</ol>
+<h2><strong>Bloopers/Outtakes</strong></h2>
+<p>We tried testing our agent in multiple languages....
+<a href="https://www.youtube.com/watch?v=BotGKiZBkeE&amp;feature=youtu.be" rel="nofollow">https://www.youtube.com/watch?v=BotGKiZBkeE&amp;feature=youtu.be</a></p>
+<p>NOTE: One of the team members could not join in devpost.com but is registered:
+Arun Nadarasa: <a href="mailto:socialprescribing@yahoo.com" rel="nofollow">socialprescribing@yahoo.com</a>
+Contributions: NHS clinical expert and entrepreneur with knowledge to curate our RAG and prepare documents for embedding. Overall problem solver and acted as voice of the client.</p>
+<p>The project was done in the Mountain Time timezone, was started on 8 AM on saturday 22nd of februrary 2025 and submitted on 7:34 PM on sunday 23rd of february 2025.</p>
+</div>

@@ -1,0 +1,5 @@
+<div>
+<p>I've always been fascinated by how AI can create immersive experiences, and horror storytelling felt like the perfect space to explore that. There's something about hearing a story in a chilling, realistic voice with eerie background music that makes it way more terrifying than just reading it.</p>
+<p>With AI voice technology getting so advanced, I started thinking—what if I could build an app that doesn’t just tell scary stories but performs them? Something that adapts the tone, pacing, and even sound effects to make each story feel alive. I want users to feel like they’re sitting by a crackling fire, listening to a ghostly voice whispering tales of terror, or trapped in a dark room with the voice of something... not quite human.</p>
+<p>I’ve already worked on AI-driven projects like AIdialog and real-time conversational assistants, so this felt like a natural next step—using AI to push storytelling into a new, more immersive experience. I want this app to be more than just a narrator reading a script. I want it to transport people into the world of the story.</p>
+</div>

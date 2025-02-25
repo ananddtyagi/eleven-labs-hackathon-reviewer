@@ -1,0 +1,22 @@
+<div>
+<h2>Inspiration</h2>
+<p>Our inspiration comes from the vision of enabling AI to understand and interact with the world at a human level. By leveraging multimodal capabilities, we aim to develop AI that can extract meaningful insights from video, transforming how people learn and apply skills. We believe this technology will bridge the gap between human expertise and machine intelligence, making advanced knowledge more accessible to everyone.</p>
+<h2>What it does</h2>
+<p>Our AI video technology enables users to extract specific parts of a video tailored to their prompt. This allows for highly customized insights, surpassing existing solutions by dynamically understanding and segmenting content with precision.</p>
+<h2>How we built it</h2>
+<p>We used Gemini 2 Flash for function calling paired with expert knowledge and media.</p>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>Hardware malfunctions – Our laptop broke mid-project, forcing us to adapt quickly.</li>
+<li>Switching OS– Transitioning from Windows to Mac during the project introduced unexpected software compatibility issues.</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<p>We have developed the most advanced AI video technology, far ahead of OpenAI's capabilities in extracting and structuring video content based on user prompts.</p>
+<h2>What we learned</h2>
+<ul>
+<li>Hardware failures can happen at any time, so having backups is essential.</li>
+<li>Switching from Windows to Mac mid-project brings hurdles including software differences and workflow adjustments.</li>
+</ul>
+<h2>What's next for Human Hands</h2>
+<p>We plan to expand this project to cover more skills and jobs, scaling our technology to assist professionals in various fields. Our goal is to push the limits of AI-assisted learning and practical skills </p>
+</div>

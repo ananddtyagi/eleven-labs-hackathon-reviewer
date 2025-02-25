@@ -1,0 +1,45 @@
+<div>
+<h2>About the Project</h2>
+<h3>Inspiration</h3>
+<p>As founders, we’ve experienced firsthand the chaos of managing endless meetings, emails, and tasks. We realized this is a universal problem for professionals and startups alike. That’s why we built <strong>Sassy</strong>, a 24/7 AI-powered assistant designed to <strong>automate the mundane</strong> and let you focus on what really matters. Everything you see here was built from scratch during the ElevenLabs Hackathon, using only widely available open-source technologies and public APIs.</p>
+<h3>What it does</h3>
+<p>Sassy is your <strong>virtual executive assistant</strong> that integrates with <strong>Google Calendar</strong> to manage your schedule and <strong>Google Docs</strong> to automatically create professional presentations. You can also talk to Sassy directly via the web using <strong>LiveKit</strong>, which powers real-time, natural voice interactions. We’re currently working on integrating <strong>WhatsApp</strong>, so users can send voice notes and chat with Sassy on the go. Every feature was developed during the hackathon, and we’re proud to showcase it here.</p>
+<h3>How we built it</h3>
+<p>We built Sassy entirely during the hackathon, leveraging the following technologies:</p>
+<ul>
+<li><strong>Frontend</strong>: We used <strong>Lovable</strong>, built on <strong>React + Vite</strong>, to create a smooth and responsive user interface. Adjustments and manual development were done using <strong>Cursor</strong>.</li>
+<li><strong>Backend</strong>: The core logic was developed in <strong>Python</strong>, with <strong>Node.js</strong> handling specific API integrations.</li>
+<li><strong>APIs</strong>: We integrated <strong>Google Calendar API</strong> for scheduling, <strong>Google Docs API</strong> for automated presentations, <strong>LiveKit</strong> for real-time voice interactions, and <strong>ElevenLabs</strong> for realistic, human-like voice synthesis.</li>
+<li><strong>Cloud</strong>: We relied on <strong>Supabase</strong> for the database.</li>
+</ul>
+<h3>Challenges we ran into</h3>
+<p>Building Sassy from scratch in such a short time was no easy feat. Some of the biggest challenges we faced were:</p>
+<ol>
+<li><strong>Voice latency</strong>: Ensuring Sassy’s responses were fast and natural, even with complex tasks.</li>
+<li><strong>Platform integrations</strong>: Connecting Google Calendar and Google Docs while ensuring everything worked smoothly.</li>
+<li><strong>Making it feel human</strong>: We didn’t want Sassy to sound like a robot. It took a lot of tweaking to get the tone and personality just right.</li>
+<li><strong>Time constraints</strong>: Developing a fully functional product in just a few days required intense focus and teamwork.</li>
+</ol>
+<h3>Accomplishments that we're proud of</h3>
+<p>Despite the challenges, we’re really proud of what we’ve accomplished:</p>
+<ul>
+<li><strong>Built from scratch</strong>: Everything you see was developed during the hackathon, with no prior work reused.</li>
+<li><strong>Seamless integrations</strong>: Sassy works effortlessly with Google Calendar and Google Docs.</li>
+<li><strong>Realistic voice</strong>: Thanks to ElevenLabs and LiveKit, Sassy sounds like a real person, not a machine.</li>
+<li><strong>User-centric design</strong>: Early testers have told us Sassy feels like a “game-changer” and would use it in their day-to-day.</li>
+</ul>
+<h3>What we learned</h3>
+<p>This hackathon taught us a lot, both technically and personally:</p>
+<ul>
+<li><strong>Balancing speed and quality</strong>: Building something functional in a short time frame required us to prioritize effectively.</li>
+<li><strong>The power of collaboration</strong>: Our team worked seamlessly together, using Discord for constant communication and problem-solving.</li>
+<li><strong>Resilience</strong>: Every bug and failed integration taught us to keep pushing forward.</li>
+</ul>
+<h3>What's next for Sassy</h3>
+<p>We’re just getting started. Here’s what’s next:</p>
+<ol>
+<li><strong>WhatsApp integration</strong>: Allowing users to send voice notes and chat with Sassy on the go.</li>
+<li><strong>Smarter AI</strong>: Making Sassy even better at understanding context and predicting your needs.</li>
+<li><strong>Team features</strong>: Letting entire teams use Sassy to collaborate more efficiently.</li>
+</ol>
+</div>

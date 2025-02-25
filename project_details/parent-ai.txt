@@ -1,0 +1,31 @@
+<div>
+<p>We're both dads that love their kids and really need some sleep (so hackathon sounds like a great idea, doesn't it? ;)) We've been dreaming of AI that answers all crazy kids' questions. So they can better discover and understand the world.</p>
+<h2>Inspiration</h2>
+<p>Endless "why"s.
+Desperate silence.
+Google fatigue.</p>
+<h2>What it does</h2>
+<p>AI answers kids.
+Explains stuff.
+Dad jokes (maybe).</p>
+<h2>How we built it</h2>
+<p>AI + kid data.
+Voice.
+Caffeine IV.</p>
+<h2>Challenges we ran into</h2>
+<p>Kids
+APIs
+Staying awake</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Kids like it.
+It works.
+We're alive.</p>
+<h2>What we learned</h2>
+<p>Kids are weird.
+AI is cool.
+Sleep is a myth.</p>
+<h2>What's next for Parent AI</h2>
+<p>More answers.
+More features.
+More coffee.</p>
+</div>

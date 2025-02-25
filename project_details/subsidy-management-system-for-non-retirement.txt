@@ -1,0 +1,24 @@
+<div>
+<h2>Inspiration</h2>
+<p>I was inspired to create this project to solve a problem in LATAM regarding the lack of retirement opportunities and the excessive work that older people face without rest.</p>
+<h2>What it does</h2>
+<p>"There is a database of candidates who are over the retirement age but, for some reason, will not be able to retire. The LLM (Large Language Model) selects the best candidate, then the subsidy transfer is made. If the transfer is successful, a call is made to the beneficiary, using elevenlab agent"</p>
+<h2>How we built it</h2>
+<p>The base is Python, and we used libraries such as Elevenlabs, pydantic, langchain, openAI, crewai</p>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>Integration challenges, library management, and ensuring smooth communication between different systems.</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>We were able to integrate everything in a short period and create a platform that can be used by governments to provide subsidies to those in need.</li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>We learned how to create an agent, integrate multiple APIs, and leverage the power of agents in real-world applications.</li>
+</ul>
+<h2>What's next for the Subsidy Management System for Non-Retirement</h2>
+<ul>
+<li>We plan to implement a more robust platform that can connect with financial systems and scale to accommodate more users and functionalities.</li>
+</ul>
+</div>

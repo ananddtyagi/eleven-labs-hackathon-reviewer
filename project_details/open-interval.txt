@@ -1,0 +1,16 @@
+<div>
+<h2>Inspiration</h2>
+<p>I have a breathwork sequence that I love which I can only share via an app called Seconds Pro, because it follows a perfectly timed sequence, using countdowns and intervals. I wanted a way to share it which gave the exact guidance I would typically give, alongside the flexibility to "switch off" the tutorial mode and just do the practice.</p>
+<h2>What it does</h2>
+<p>Open Interval, at its heart, makes it easy to create and share interval timers, and sequenced exercises. Using a standardised JSON format, you can easily create your sequence using AI, and paste it into your editor. From there, you can add high quality voice queues with a voice of your choice, with just a couple clicks.</p>
+<h2>How we built it</h2>
+<p>I used a standard stack of Nextjs, Typescript, Tailwind for frontend. Clerk for auth. Neon Postgres for the DB (vercel). UploadThing for .mp3 file storage. Vercel for deployment. Eleven Labs for text to speech. </p>
+<h2>Challenges we ran into</h2>
+<p>The time crunch was a challenge. My goal was ambitious for what I felt I could achieve alone. Getting things working locally and saving the .mp3 files from Eleven Labs to my local filesystem was fairly easy. But getting them to conform to a pipeline with UploadThing, using the backend took a bit for me to figure out.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>I'm proud to have a platform with 1 working interval timer on it, that really highlights the power of Eleven Labs and what is possible to create.</p>
+<h2>What we learned</h2>
+<p>Voice to text generation is still fairly expensive. I would not allow users to sign up and freely use the creator tools without imposing strict limits or asking them to pay for credits first.</p>
+<h2>What's next for Open Interval</h2>
+<p>I will finishing polishing the core user experience for public users, and then make it easier for creators to build even higher quality sequences to share with their audiences.</p>
+</div>

@@ -1,0 +1,22 @@
+<div>
+<h2>Inspiration</h2>
+<p>We were inspired by the idea of building something that felt dynamic and a little chaotic.  The concept of putting Agents in a virtual space, equipping them with tools, and giving them general direction seemed like a fun concept.</p>
+<h2>What it does</h2>
+<p>This project allows you to join what is effectively a dynamic virtual meeting.  The agents then autonomously determine which other "expert agents" are needed to address the user's stated problem. Communication is primarily voice-based, but you can also request agents to provide forms for file uploads or text input. Agents have access to search, a virtual file system, and other tools. Once they understand your goal, they will work towards it, sometimes in a somewhat chaotic and disorganized manner – much like a human team might.</p>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>Prompt engineering was challenging, particularly in striking the right balance in agent recruitment to avoid adding too many or too few.</li>
+<li>The voice handoff between agents was technically challenging and remains an area for improvement.  Specifically, during transitions between agents, there is a risk of losing user input if no agent is actively connected at that precise moment.</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>We successfully built a fairly complex system for agent interaction, incorporating a range of useful tools, all developed from scratch.</li>
+<li>We are particularly proud of moments when the agent handoff works smoothly, resulting in agents effectively collaborating and performing significant work.</li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>Ensuring agents reliably utilize the appropriate tools in different situations remains a key challenge.</li>
+</ul>
+<h2>What's next for RoundTable</h2>
+<p>Not sure yet :)</p>
+</div>

@@ -1,0 +1,113 @@
+<div>
+<h1>Hugo Tour Guide</h1>
+<p>A next-generation AI travel companion designed to offer personalized, immersive experiences while you explore new cities and cultures. By combining state-of-the-art natural language processing, voice interactivity, and intelligent route planning, Hugo Tour Guide transforms the way you travel. Give it a try!</p>
+<hr/>
+<h2>Inspiration</h2>
+<p>We are passionate travelers who spend up to two months each year exploring the world. However, traditional travel guides and packaged tours often fall short when it comes to truly personalized, in-depth experiences. We frequently find ourselves piecing together recommendations from diverse sources such as Reddit, Google Reviews, and local forums—resulting in disjointed itineraries and inefficient planning.</p>
+<p>Moreover, the idea of hiring a local guide, though appealing, is often cost-prohibitive (typically over $200 per day) and can be hindered by language barriers. With experiential travel on the rise—72% of consumers in a Booking.com survey expressed a preference for immersive, culturally rich experiences over generic sightseeing tours—we saw an opportunity. We envisioned an AI that could serve as a knowledgeable, interactive, and multilingual travel companion, effectively replacing the traditional local guide.</p>
+<hr/>
+<h2>What it Does</h2>
+<p>Hugo Tour Guide is your personal AI travel companion that adapts to your interests and journey in real time. Key features include:</p>
+<ul>
+<li><p><strong>Dynamic Preference Capture:</strong><br/>
+Through voice or text interactions, the AI gathers details such as age group, occupation, hobbies, culinary interests, art, history, and even the planned duration of your city walk.</p></li>
+<li><p><strong>Personalized Itinerary Planning:</strong><br/>
+Combining your preferences, current travel history, and external data sources (e.g., top Reddit recommendations, popular forum posts, and Google Maps reviews), Hugo Tour Guide generates one or more tailored route options.</p></li>
+<li><p><strong>Interactive Route Adjustment:</strong><br/>
+Whether before or during your journey, you can adjust your itinerary using voice or text commands—adding, removing, or swapping out points of interest. The AI learns from these adjustments to refine future recommendations.</p></li>
+<li><p><strong>Guided Tour Mode:</strong><br/>
+Once you confirm your route, the AI maps out the itinerary and provides live, interactive explanations. You can click on any mapped location for detailed information and follow up with additional questions during the tour.</p></li>
+<li><p><strong>Multilingual Support:</strong><br/>
+To accommodate international travelers, the app supports multiple languages including Chinese, English, Japanese, and Korean.</p></li>
+</ul>
+<hr/>
+<h2>How We Built It</h2>
+<p>Our development process leveraged modern web and AI technologies:</p>
+<ul>
+<li><p><strong>Front-end:</strong> </p>
+<ul>
+<li>Built with <strong>React</strong> for a responsive and intuitive user interface.<br/></li>
+<li>Integrated with <strong>ElevenLabs API</strong> for high-quality text-to-speech conversion.<br/></li>
+<li>Utilized <strong>OpenAI API</strong> for accurate and natural speech-to-text conversion.</li>
+</ul></li>
+<li><p><strong>Back-end:</strong> </p>
+<ul>
+<li>Developed in <strong>Python</strong> with seamless integration of <strong>OpenAI API</strong> and <strong>Google Maps API</strong>.<br/></li>
+<li>Multiple intelligent agents were created to handle distinct tasks such as route planning and attraction introduction.</li>
+</ul></li>
+<li><p><strong>Personalization:</strong> </p>
+<ul>
+<li>The AI model, based on OpenAI, was fine-tuned with extensive prompt engineering to ensure recommendations feel natural and deeply personalized to each traveler.</li>
+</ul></li>
+</ul>
+<hr/>
+<h2>Challenges We Ran Into</h2>
+<p>Two primary challenges shaped our development:</p>
+<ol>
+<li><p><strong>Prompting is hard:</strong><br/>
+We aimed for simplistic design, yet with only a few logics and guidelines, but with a large amount of context data, we find it hard to make the LLM follow instruction properly, we had to cut guidelines and reduce scope to make it work properly. Given more time and resources, we would fine-tune LLMs with data collected through user usage or synthetically generated examples to fulfill all kinds of scenarios.</p></li>
+<li><p><strong>Tricky UI integration with Speech Interface:</strong><br/>
+Delivering a voice experience that mimics natural human conversation was challenging. We tested various speech synthesis APIs to find one that offered a smooth, natural, and comfortable interaction—vital for an engaging travel companion. Being able to quickly response and being able to deliver response in the correct language is crucial.</p></li>
+</ol>
+<hr/>
+<h2>Accomplishments That We're Proud Of</h2>
+<p>Within just two days, we successfully built a prototype that delivers precise and personalized travel recommendations. We continually optimized the voice centric human–AI interaction experience by refining recommendation logic and enhancing voice interactivity. The result is a system that not only meets but exceeds user expectations in delivering seamless, real-time travel guidance. We started with a very large scope and we quickly scoped down to identify the core value then we delivered this very streamlined experience.</p>
+<hr/>
+<h2>What We Learned</h2>
+<p>Our journey reinforced that while modern AI tools are incredibly powerful, they require meticulous fine-tuning and optimization to meet real user needs. Key insights include:</p>
+<ul>
+<li><p><strong>Guiding User Input:</strong><br/>
+People often provide vague descriptions of their preferences. Our AI needs to prompt and guide users to articulate their true needs, leveraging both prompt engineering and interactive design. Needs can then be collected by inferring on explicit and implicit needs.</p></li>
+<li><p><strong>Building Trust Through Transparency:</strong><br/>
+Users are more likely to trust the AI’s recommendations if they understand the decision-making process. Clearly conveying how choices are made helps build confidence in the system. We achive this in multiple ways, notably assuring the user we analyzed the data from large amount of reputation sources, and we also make recommendations based on user expressed preferences.</p></li>
+</ul>
+<hr/>
+<h2>What's Next for Hugo Tour Guide</h2>
+<p>Looking ahead, our focus is on evolving the MVP into a fully market-ready product. Planned improvements include:</p>
+<ul>
+<li><p><strong>Product Optimization:</strong> </p>
+<ul>
+<li>Streamlining front-end and back-end code by removing temporary implementations.<br/></li>
+<li>Enhancing UI design and integrating a user account system.</li>
+</ul></li>
+<li><p><strong>Data-Driven Personalization:</strong> </p>
+<ul>
+<li>Recording historical dialogues and user interactions to deliver increasingly personalized experiences.
+Data collected can then by used to sythensis more data for finetuning, so we can have a better aligned LLM for our usecase.</li>
+<li>Connect to even more data sources, for example wikidata to gather more relevant data. We can use it to answer questions, and guide user better on what to discover should they be interested.</li>
+<li>Better UI Experience, UI experience could be even better, perhaps we could also leverage GPS and Gyroscope to help guide the user during walking and trigger talking points along the way.</li>
+<li>Focus on targeted types of point of interests in different period to source even more data and tailor experiences for common and niche groups. </li>
+</ul></li>
+<li><p><strong>Expanding Use Cases:</strong> </p>
+<ul>
+<li><strong>B2C:</strong> Targeting digital nomads and backpackers who value deep exploration and flexible itineraries, promoting exclusive tour experiences via digital nomad communities.<br/></li>
+<li><strong>B2B:</strong> Partnering with boutique museums lacking in visitor traffic. Our city walk feature can help drive footfall, while our digital guide enhances museum tours—creating a win-win collaboration where museums promote our product in exchange for a digital guide solution.</li>
+</ul></li>
+</ul>
+<hr/>
+<h2>Team Information</h2>
+<ul>
+<li><strong>Yilun Sun</strong> – Product Manager and Designer<br/></li>
+<li><strong>Qiang Fang</strong> – Backend Engineer<br/></li>
+<li><strong>David Chen</strong> – Frontend Engineer<br/></li>
+<li><strong>Aiden Zhao</strong> – AI Engineer</li>
+</ul>
+<hr/>
+<h2>Technical Details</h2>
+<ul>
+<li><p><strong>Tech Stack:</strong></p>
+<ul>
+<li><strong>Front-end:</strong> React, EleventLabs API, OpenAI API<br/></li>
+<li><strong>Back-end:</strong> Python, OpenAI API, Google Maps API</li>
+</ul></li>
+<li><p><strong>Repository Links:</strong></p>
+<ul>
+<li><a href="https://github.com/drBearcub/hugo" rel="nofollow">Front-end Repository</a></li>
+<li><a href="https://github.com/FWQ1234/voice_view_backend" rel="nofollow">Back-end Repository</a></li>
+</ul></li>
+<li><p><strong>Product Flow:</strong><br/>
+View our <a href="https://docs.google.com/presentation/d/1shMrdmP5EI0qW8HGyrA0QUEUmgDvUmd6ryfRI5JBf74/edit#slide=id.p" rel="nofollow">agent workflow</a> for an in-depth look at our architecture and design process.</p></li>
+</ul>
+<hr/>
+<p>Hugo Tour Guide is committed to revolutionizing the travel experience by combining the best of AI and human interaction. We look forward to helping you explore the world like never before.</p>
+</div>

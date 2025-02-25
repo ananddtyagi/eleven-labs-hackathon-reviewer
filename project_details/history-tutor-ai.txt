@@ -1,0 +1,47 @@
+<div>
+<h2>Inspiration</h2>
+<p>I’ve been inspired by Andrej Karpathy’s vision for AI in education, especially with his company, Eureka Labs, which aims to create an “AI-native school” to make learning accessible and extensive for anyone. Seeing the excitement around Eureka Labs on social media and posts about its potential to transform education through AI teaching assistants motivated me to build History Tutor AI. I wanted to explore how hard it would be to create a personalized, interactive history tutor using real-time AI narration, inspired by Karpathy’s goal of scaling high-quality education globally.</p>
+<h2>What it does</h2>
+<p>History Tutor AI is an AI-powered platform that delivers interactive history lessons customized to the user's preferences. Users can choose from three distinct tutor personalities—Friendly, Strict, or Funny—and select or generate lessons on various historical topics. The AI tutor narrates lessons in real-time, allowing users to engage through voice interactions and interruptions, creating a dynamic and engaging learning experience.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Choose Your Tutor Personality</strong>: Select from three AI tutor personalities—Friendly (Sarah), Strict (Dr. Thompson), or Funny (Alex)—each with unique teaching styles to match your learning preferences.</li>
+<li><strong>Select or Generate Lessons</strong>: Pick from featured lessons like "Ancient Egyptian Pyramids" or "The Fall of Rome," or generate custom lessons by typing a topic such as "Renaissance Art."</li>
+<li><strong>Real-Time Voice Interactions</strong>: Engage in live voice interactions with the AI tutor, including the ability to interrupt and ask questions for a more immersive experience.</li>
+<li><strong>Personalized Feedback</strong>: Receive tailored feedback and encouragement based on the chosen tutor personality, enhancing motivation and learning.</li>
+<li><strong>Celebratory Finish</strong>: Enjoy a celebratory finish with confetti upon completing a lesson, adding a sense of accomplishment.</li>
+</ul>
+<h2>How I built it</h2>
+<p>Worked together with Lovable to build the full project using the following tools:</p>
+<ul>
+<li><strong>Frontend</strong>: Built with React and TypeScript, styled using Tailwind CSS and shadcn-ui for a modern, responsive, and user-friendly interface.</li>
+<li><strong>Backend</strong>: Utilized Supabase for edge functions, database management, and storage of lesson data.</li>
+<li><strong>AI Integration</strong>: Leveraged <strong>ElevenLabs</strong> for conversational AI and <strong>fal.ai</strong> for generating lesson content and images.</li>
+</ul>
+<h2>Challenges I ran into</h2>
+<ul>
+<li>Ensuring the AI tutor's responses were accurate and engaging across different personalities and historical topics, requiring careful configuration.</li>
+<li>Integrating real-time voice interactions smoothly, minimizing lag or errors to maintain a seamless user experience.</li>
+<li>Designing an intuitive interface that allows users to easily navigate between tutor personalities and lesson options without feeling overwhelmed.</li>
+</ul>
+<h2>Accomplishments that I'm proud of</h2>
+<ul>
+<li>Successfully implementing three distinct AI personalities that adapt their teaching style to the user's preference, enhancing personalization.</li>
+<li>Creating a seamless experience where users can interrupt lessons and receive immediate, context-aware responses, making learning more interactive.</li>
+<li>Designing a visually appealing and user-friendly interface that enhances the educational experience, making history lessons engaging and accessible.</li>
+</ul>
+<h2>What I learned</h2>
+<ul>
+<li>The complexities of configuring conversational AI for different personalities and educational contexts, balancing tone and accuracy.</li>
+<li>How to balance technical complexity with user experience, ensuring the app remains accessible and easy to use.</li>
+<li>The importance of real-time feedback in educational tools, as it significantly improves user engagement and motivation.</li>
+</ul>
+<h2>What's next for History Tutor AI</h2>
+<ul>
+<li>Create interactive quizzes to improve content retention, engaging users with adaptive questions after lessons.</li>
+<li>Expand the range of subjects beyond history to include science, math, and more, broadening the platform's educational scope.</li>
+<li>Add more tutor personalities or allow users to customize their own, increasing personalization options.</li>
+<li>Integrate analytics to track user progress and provide personalized learning paths, enhancing educational outcomes.</li>
+<li>Enhance image generation to include more dynamic visuals or even videos, making lessons more immersive.</li>
+</ul>
+</div>

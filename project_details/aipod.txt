@@ -1,0 +1,37 @@
+<div>
+<h2>Inspiration:</h2>
+<p>The inspiration comes from the desire to create a more intuitive and natural music listening experience. It aims to move beyond traditional button presses and taps, leveraging the power of voice and AI. The goal is likely to make music consumption more seamless and integrated with other aspects of the user's life, like staying informed with news.
+What it does:</p>
+<p>aiPod is an AI-powered music experience that allows users to control their music using natural voice commands.</p>
+<ul>
+<li>It integrates smart news updates from Perplexity AI, providing real-time information.</li>
+<li>It features a voice assistant powered by Eleven Labs for reminders and other interactions.</li>
+<li>In essence it is a voice first music control and information system.</li>
+</ul>
+<h2>How we built it:</h2>
+<p>The project utilizes "Function Tool Calling," indicating the use of advanced AI to interpret and execute voice commands related to music control.
+It integrates Perplexity AI for real-time news updates.
+Eleven Labs is used to create the voice assistant, enabling natural-sounding voice interactions.</p>
+<h2>Challenges we ran into:</h2>
+<p>While not explicitly stated, potential challenges likely include:
+Accurate voice command interpretation, especially with varying accents and background noise.
+Seamless integration of different AI services (Perplexity AI, Eleven Labs) into a cohesive user experience.
+Latency and responsiveness of voice commands.
+Creating a robust system that can handle a wide variety of music platforms.
+Ensuring the news information is relevant to the user.
+Accomplishments that we're proud of:</p>
+<h2>Successfully integrating advanced AI capabilities for seamless music control.</h2>
+<p>Implementing real-time news updates powered by Perplexity AI.
+Creating a natural-sounding voice assistant using Eleven Labs.
+Building a functional voice first music system.
+What we learned:</p>
+<h2>The project likely provided valuable experience in:</h2>
+<p>Working with and integrating various AI APIs.
+Developing voice-controlled interfaces.
+Understanding user interaction with voice assistants.
+The challenges and rewards of combining different AI technologies.</p>
+<h2>What's next for aiPod:</h2>
+<p>The developers are planning to add more exciting features, including personalized recommendations. This suggests a focus on enhancing the user experience through tailored content and features.
+Further development of the voice interactions.
+Expanding the number of music platforms that aiPod can control.</p>
+</div>

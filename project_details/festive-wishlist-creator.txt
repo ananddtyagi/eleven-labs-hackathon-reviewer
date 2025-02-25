@@ -1,0 +1,9 @@
+<div>
+<h2>Inspiration I wanted to see if I could hack together my first conversation AI project using ElevenLabs Agent API, I've heard a lot about it before this weekend. I also was very curious to try out Lovable and PostHog which I was able to do as a part of this process.</h2>
+<h2>What it does Allows users to chat with Santa about their wishlist in real-time as the Christmas card updates.</h2>
+<h2>How we built it Using Lovable for the front-end, Supabase for the backend, PostHog to track traces, Anthropic via the Github MCP tool when I would run into a snag. Using my own designed MCP tools(Terminal and RAT(Retrieval-augmented-thinking) when I had trouble</h2>
+<h2>Challenges we ran into Getting the fal.ai image to load in the background interestingly enough. Also realizing that the ElevenLabs widget was much easier to incorporate than the normal api call.</h2>
+<h2>Accomplishments that we're proud of That I was somehow able to finish this lol</h2>
+<h2>What we learned Use the ElevenLabs widget first to get the mvp of projects going before trying to switch to their regular api call</h2>
+<h2>What's next for Festive-Wishlist-Creator Getting the fal.ai images to load based on user's wishlist items.</h2>
+</div>

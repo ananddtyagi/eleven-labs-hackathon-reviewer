@@ -1,0 +1,52 @@
+<div>
+<p>Doable helps you to move forward with your tasks, even when you are overwhelmed. Inspired by a concept of Body Doubling, Doable is a personalised AI Conversational Agent that acts as your Voice Body Double, helping you to start, work and finish whatever tasks you have for yourself.</p>
+<hr/>
+<h2><strong>Why we built it?</strong></h2>
+<p>In the world where everybody is overwhelmed (76% of employees struggled at least once, 28% reporting that they feel burned out “very often”; 5% of the world are neurodiverse, 98% of new parents are sleep-deprived in the first 3 years of their baby life), it’s time to mix early successes of personalised digital coaching (<a href="https://hbr.org/2020/02/how-ai-is-reshaping-the-workplace" rel="nofollow">improving employee focus and productivity by up to 22%</a>, <a href="https://www.gartner.com/en/newsroom/press-releases/2022-hr-trends" rel="nofollow">60% higher employee satisfaction rate due to personalised experiences</a>) and well-known productivity technique known as body doubling.</p>
+<p>Doable provides a AI Voice Body Double whose personality is a perfectly balanced with your personality, helping you to initiate the task, discuss the best way to start, stay focused and finish as planned, while staying supportive and knowledgeable about executive function (ability to make plans, start, work on, finish tasks) limitations. You can use Doable on any kind of task, even when you are away from your keyboard</p>
+<p>We expect Doable to contribute to a <a href="https://journals.sagepub.com/doi/abs/10.1177/1087054720939709" rel="nofollow">35% increase in workplace productivity for neurodiverse individuals that comes from structured support</a> and produce a <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jclp.22964" rel="nofollow">20% increase in task completion coming from AI - assisted interventions</a>.</p>
+<p>But more importantly, create a sense of control, helping individuals build resilience and self-efficacy - the belief in their ability to succeed - which is critical for <a href="https://www.apa.org/news/press/releases/2019/05/workplace-burnout" rel="nofollow">people experiencing burnout</a> or <a href="https://psycnet.apa.org/doi/10.1037/ocp0000159" rel="nofollow">neurodiverse individuals</a>.</p>
+<hr/>
+<h2><strong>How we built it?</strong></h2>
+<p><em>NB! Please note that we haven’t finished integrating the timer into the “cool” interface, so you’ll see two interfaces in our demo video.</em></p>
+<p>Doable is an AI-built web-app, aiming to meaningfully leverage the fullest sponsorship stack of this hackathon (Lovable, Eleven Labs, Fal.ai, Make.com) with a minimal number of lines of code written by a human:</p>
+<ul>
+<li>ElevenLabs Conversational AI agent provides tailored voice companions for the user depending on the user personality and type of the task chosen: a) configuration and overrides (voice id, first message, prompts, context) are retrieved from Supabase; b) any new session context stored back to Supabase; c) tools and knowledge base is configured on the agent via Eleven Labs interface.</li>
+<li>Lovable.dev-fuelled front-end, with Supabase natively integrating the back-end data storage. </li>
+<li>Make.com integration capability is used to GET AI-prompts (describing both feel and colour scheme of the images, including examples) to generate videos in fal.ai for each of eight personality types. Generated videos URLs POSTed back to Supabase to be visualised by the front-end. </li>
+<li>Fal.ai covers video and audio integration features, picking up inputs from Supabase and returning back URLs to be available for the front-end .</li>
+</ul>
+<p><img alt="architecture" src="https://lcnlpgdathwgcprutluo.supabase.co/storage/v1/object/public/videos//tech_stack.png"/></p>
+<p>As the users open the app, we profile profile them in non-cognitive demanding way with videos (1,2), clarify their task, assign a matching Voice Double Personality (3) and try to generate productivity-supporting sound-scape (4), with the Voice Double supporting the person throughout the session (5,6)</p>
+<hr/>
+<h2><strong>Accomplishments that we're proud of</strong></h2>
+<p>Our MVP was to profile the user and then provide a conversational experience with a default configuration, yet thanks to leveraging the stack above, we progressed much further: </p>
+<ul>
+<li>personalised voices and configuration of AI Conversational agent, including tools and client-side interactions. </li>
+</ul>
+<p><strong><em>While none of us worked with ElevenLabs before - it was easy to grasp the main concepts and prototype away! Our favourite part about Conversational AI how easy an agent could be tailored with easy overrides of first messages and tuning prompts and how powerful variables are. Developing client-side tools was a blast too as it was unique mix of coding and prompting simultaneously. We saw first hand how agentic AI shines when a situation calls for thinking behind the box - in our video (sadly the test when Mark, our agent proposed to send a letter to the organisers requesting to extend the submission review timelines wasn't recorded).</em></strong></p>
+<ul>
+<li>videos are used for personality profiling instead of images, providing a more dynamic experience, tapping into “newness” to support executive function, yet still staying “non-cognitive” demanding. </li>
+</ul>
+<p><strong><em>With Fal.ai, we've been able to test several models and approaches to generate video which enabled quick iteration on the prompts and overall feel of the app, and it was a truly random prototyping.</em></strong> </p>
+<ul>
+<li>productivity-supporting soundscape augments user experience , tailored for the user personality and the type of the task (<em>haven’t been integrated in the main branch due to time constraints</em>). </li>
+</ul>
+<hr/>
+<h2><strong>What's next for Doable</strong></h2>
+<p>We’ve consciously limited ourselves in some project areas to focus on getting end-to-end solution at the end of the hackathon, yet our vision for Doable is much bigger, making it a supportive performance coach, suitable for all the types of executive disfunction: </p>
+<ul>
+<li>nuanced profiling based on more inputs: emotion, weather and user surroundings to produce one-of-a-kind soundscapes and agent personalities; </li>
+<li>feedback look (if user agrees) to use screen pointer movements (keyboard strokes, etc) as an input to decide on the user state;</li>
+<li>more agent personalities including historical figures, with users favouriting their best body doubles to reuse; </li>
+<li>robust analysis of what worked for the user and regular summaries to promote greater self-awareness (Posthog), fed back to the user to promote new ways of thinking; </li>
+<li>group sessions offering vs one-on-one virtual body double support.</li>
+</ul>
+<hr/>
+<h2><strong>Challenges we dealt with</strong></h2>
+<p>The biggest challenge for us was integrating different parts of the architecture together. While integration of Lovable with Supabase was nearly seamless (yet we stumbled on RLS policies on Supabase side), we’ve spent a considerable amount of time integrating Eleven Labs with Lovable and Make.com with Fal.ai.</p>
+<p>As we’ve set ourselves a goal to create an end-to-end app without writing a lot of code, integrating Lovable with Eleven Labs took two cycles of iterations - after the first attempt stumbled, Anya has developed a primer in code to check the logic working, while Dmitry re-promoted Lovable to get a refined foundation for integration, finally later integrating, yet only partially. <strong>Our lesson learned here is to focus Lovable on getting the bare bones of the app  out ASAP (that was true magic and we got there so fast!), taking gradually more control if a custom integration is nuanced and requires a lot of scenario-based back and forth between the different APIs</strong>.</p>
+<p>Similarly, when integrating Make.com and Fal.ai, Alexey bumped into discrepancies in documentation and unscripted behavior of API, especially when dealing with sound generation. We’ve employed python code integrations to get the sounds out to unblock the path, yet it would've been cooler to use specific blocks . </p>
+<p>Another group of challenges was related to moving forward with the project while iterating our understanding of it, keeping an eye on the end-to-end setup: we manually mapped the voices to the personalities, re-used visual AI generative prompts for audio generation and haven't spent any time optimising what goes into prompts and what goes into knowledge base. ** Our lesson learned here is to re-group often to stay on the critical path to deliver the minimal viable experience**</p>
+<p>Overall, we've had a great fun with tech (sadly we haven't had a chance to integrate PostHog!) and seeing our idea coming to fruition, and remember, it's definitely doable with Doable!</p>
+</div>

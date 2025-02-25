@@ -1,0 +1,33 @@
+<div>
+<h2>Inspiration</h2>
+<p>We believe that LLMs can be wonderful tools to assist individuals with inner work and self-reflection. Their ability to emulate and mirror the personality, values and principles of real, historical, fictional and archetypal characters opens up fascinating opportunities for meaningful conversations that resonate with us and what we are looking for in mentorship and outside perspectives.</p>
+<p>This project was made inspired by the wonderful work of Andrew Blevins and Jason Gnaz with insight-cascade, who pioneered the original concept of using Claude to build an advisory council for personal reflection and inner exploration.</p>
+<h2>What it does</h2>
+<p>council.ai or 'the council' asks you a series of questions about different aspects of your life, who you are, what you value, what matters to you, what inspires you, etc. Using this information we use a detailed and layered prompt to search the entirety of latent space for 10 current, historical, fictional or archetypal characters that might be most suitable for giving their perspectives to you about your problems, issues or questions.
+We use Fal AI to generate images of all ten of these and we use Claude Sonnet 3-5 to generate descriptions and justifications for why each was chosen for the individual.</p>
+<p>From this ten we allow the user to select the 3 most suitable for them. Once they do we use ElevenLabs Voice Design to custom generate an appropriate voice for each council members. Then we're ready to have a conversation.</p>
+<p>The user asks a simple or detailed question and using a sophisticated prompt we generated answers that pull in wisdom from all 3 advisors. The advisors are able to respond to the user and each other in-kind to build on different aspects of the conversation. As the conversation continues the user is able to explore deeper and deeper aspects of their lives from different perspectives.</p>
+<h2>How we built it</h2>
+<ul>
+<li>Built using next.js with serverless functions.</li>
+<li>Supabase for postgresSQL db and authentication</li>
+<li>Claude Sonnet 3-5 for primary inference and character generation</li>
+<li>AI-generated images of your advisors using Fal AI flux-lora</li>
+<li>Unique voice synthesis for each advisor using ElevenLabs Voice Design API</li>
+<li>TTS API with ElevenLabs with custom voice for authentic advisor interactions </li>
+<li>OpenAI Whisper for transcription</li>
+</ul>
+<h2>Challenges we ran into</h2>
+<p>Many.
+Principally, ElevenLabs has very strict copyright policies in voice design. You can't mention a specific person in the prompt or it will refuse the request. To get around this we iterated on and came up with a great prompt that allowed Claude to generate just the right information about what a given characters voice would sound like and feed that into the voice design API, getting us about 90% of the way there to an authentic representation of the characters voice.</p>
+<p>We also found that the Claude API calls and voice design API calls often took longer than we anticipated. To the point where Vercel's function calls were timing out. Luckily, one of our teamates had a Pro plan so we were able to push out the timeout period. Additionally we redeployed on fluidcompute which improved things significantly.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Honestly, the whole thing! We were able to go from creative idea to execution and get a fully working app up in less than a day that integrated 5-6 different AI technologies and was actually usable and useful.</p>
+<p>The whole team worked so well together and divvyd up the work well and each contributed significantly.</p>
+<p>We're particularly proud of the voice-gen workaround that we came up with as that was almost going to be a show stopper for us initially.</p>
+<h2>What we learned</h2>
+<p>We tested the waters with a lot of new APIs such as voice design and Fal AI and figured out how to creatively stitch different AI tools together.
+Also that Anthropic does quite reliable structured outputs purely via prompting.</p>
+<h2>What's next for council.ai</h2>
+<p>It depends. Currently it would be too expensive to host this as a public product due to the cost of the APIs for conversation and image gen we're using. But we think there may be real use for a purely text-based version of this and so we will most likely look at refactoring and deploying and putting it out there for anyone to use.</p>
+</div>

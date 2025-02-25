@@ -1,0 +1,83 @@
+<div>
+<h2>Inspiration</h2>
+<p>The project was born from a common challenge in online education: making video content more interactive and effective for learning. Traditional video platforms lack the tools to help students actively engage with the material and test their understanding in real-time. We saw an opportunity to use AI to transform passive video watching into an active learning experience.</p>
+<h2>What it does</h2>
+<p>Quokka enhances educational videos with:</p>
+<ul>
+<li>AI-generated quizzes with automatic timestamps</li>
+<li>Interactive chat discussions about video content</li>
+<li>Real-time transcription powered by fal.ai's Whisper</li>
+<li>Smart video management and organization</li>
+</ul>
+<h2>How we built it</h2>
+<p>The platform is built using modern web technologies:</p>
+<ul>
+<li>Clean, responsive UI built with Lovable's component system</li>
+<li>fal.ai integration for:
+
+<ul>
+<li>Video transcription</li>
+<li>Quiz generation</li>
+<li>Chat interactions</li>
+</ul></li>
+<li>Real-time video processing with timestamp synchronization</li>
+</ul>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>Implementing accurate video timestamp synchronization with quizzes</li>
+<li>Creating an intuitive UI that handles multiple AI features without overwhelming users</li>
+<li>Ensuring high-quality AI-generated content that truly aids learning</li>
+<li>Building a responsive design that works seamlessly across devices</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>Successfully integrated fal.ai's AI capabilities for real-time video processing</li>
+<li>Created a seamless and intuitive learning experience</li>
+<li>Built a polished UI using Lovable that handles complex features elegantly</li>
+<li>Developed an effective quiz generation system that enhances learning</li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>Integration of fal.ai's AI services with video content</li>
+<li>Building polished interfaces with Lovable</li>
+<li>Managing complex state for interactive features</li>
+<li>Video processing and playback optimization</li>
+</ul>
+<h2>What's next for Quokka</h2>
+<ul>
+<li>Advanced analytics to track learning progress</li>
+<li>Collaborative learning features for group study</li>
+<li>Custom quiz creation tools for educators</li>
+<li>Mobile app development for learning on-the-go</li>
+<li>Integration with more educational content providers</li>
+</ul>
+<h2>Tech Stack</h2>
+<p><strong>Frontend</strong></p>
+<ul>
+<li>React 18 + TypeScript + Vite</li>
+<li>Tailwind CSS + shadcn/ui for UI components</li>
+<li>React Query for data fetching &amp; state management</li>
+<li>React Player for video playback</li>
+</ul>
+<p><strong>Backend &amp; Infrastructure</strong></p>
+<ul>
+<li>Supabase for:
+
+<ul>
+<li>Authentication</li>
+<li>PostgreSQL Database</li>
+<li>Edge Functions</li>
+<li>File Storage</li>
+</ul></li>
+</ul>
+<p><strong>AI Integration</strong></p>
+<ul>
+<li>fal.ai for:
+
+<ul>
+<li>Video transcription</li>
+<li>Quiz generation</li>
+<li>Chat interactions</li>
+</ul></li>
+</ul>
+</div>

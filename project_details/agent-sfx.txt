@@ -1,0 +1,63 @@
+<div>
+<h2>Inspiration</h2>
+<p>We are game developers, and we know how challenging game development can be. Sound design often becomes an afterthought due to time and budget constraints.  </p>
+<p>Scouring sound effects and recording voiceovers is <strong>time-consuming and expensive</strong>, whether you're an indie dev or a AAA studio. We saw an opportunity to <strong>save time and costs</strong> while making high-quality audio <strong>more accessible</strong> to all developers.  </p>
+<p>Agent SFX allows game creators to generate <strong>professional voiceovers and sound effects instantly</strong>, streamlining the entire process.  </p>
+<h2>Team Info</h2>
+<ul>
+<li>Arian Allenson Valdez - lead developer/ideation</li>
+<li>Mikayla Pace - game developer/ideation</li>
+</ul>
+<h2>What it does</h2>
+<p>AgentSFX compromises of a godot plugin and a web app:</p>
+<p>As a Godot plugin, it automatically generates <strong>voiceovers and sound effects</strong> with AI. With a single click, it:</p>
+<ul>
+<li>Analyzes your node structure and a screenshot of your game</li>
+<li>Thinks of the possible sound bank for your game</li>
+<li>Creates a Sound Bank for your game that you can integrate</li>
+<li>Generates <strong>lifelike NPC dialogue</strong> using <strong>Eleven Labs</strong><br/></li>
+<li>Create <strong>background music</strong> with <strong>FAL</strong><br/></li>
+</ul>
+<p>This removes the need for external tools and/or manually scouring the internet/sound databases for audio, making sound design effortless.  </p>
+<p>As a web app, it only provides analysis for your screenshot, but we envision a full end to end workflow for audio design (i.e. revisions, finalizations, creating tickets, asking for feedback)</p>
+<p>We use Next.JS/Vercel for the web app</p>
+<h2>How we built it</h2>
+<p>The godot plugin itself consists of 3 'core' nodes, that the user can even use without the agent:</p>
+<ul>
+<li>AI_SFX - generates sound effect via prompts using Eleven Labs</li>
+<li>AI_Dialog - generates high quality voice acting using Eleven Labs</li>
+<li>AI_BGM - generates BGM using FAL</li>
+</ul>
+<p>We then have the 4th node AIAnalyzer, which serves as the AI Agent orchestrating the entire show. AI Analyzer:</p>
+<ul>
+<li>analyzes the node structure and screenshot (via FAL vision models)</li>
+<li>processes the analysis (via FAL LLM)</li>
+<li>proceeds to create the core nodes to a SoundsEffect node that the user can use</li>
+<li>the user can then integrate the node to the game engine</li>
+</ul>
+<p>Possible improvements are syncing/persisting audio keys, allowing users to make the AI 'reanalyze' things it has not yet seen/considered.</p>
+<p>For the web app, we use next.js + the same integrations.</p>
+<h2>Challenges we ran into</h2>
+<p>The entire thing actually was pretty smooth development wise - the hardest part of the hackathon was finding the right idea. We even thought of just skipping this one, but after seeing a random action heavy video clip (that only had sound effects), we thought - can we make an AI agent that analyzes a 'silent' game and generate the audio for it?</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Making essentially two tools (web app and godot plugin) in pretty much only 1 working day was something we are very proud of.</p>
+<p>The really seamless integration with Godot is something we're proud of as well! There are lots of improvements to be made still but it's already plenty useful!</p>
+<h2>What we learned</h2>
+<ul>
+<li>How to optimize <strong>AI workflows</strong> for real-time generation.<br/></li>
+<li>The power of <strong>automation</strong> in game development.<br/></li>
+<li>The challenges of <strong>AI-driven creative tools</strong> and how to refine them. </li>
+</ul>
+<h2>Compliance</h2>
+<ul>
+<li>We acknowledge adherence to hackathon rules and deadlines - heh we even started so late! :P </li>
+</ul>
+<h2>What's next for Agent SFX</h2>
+<ul>
+<li><strong>Customization options</strong> for voice styles and sound types.  In particular, allowing users to train their own voice through the web app, or through a sound bank in the engine.</li>
+<li>More tight integration with the game engine</li>
+<li>Expanding to <strong>other game engines</strong> beyond Godot</li>
+<li>Providing an end to end workflow using the web app. (brainstorming, task management, feedback, finalization) </li>
+</ul>
+<p>🚀 Agent SFX is just the beginning—our goal is to revolutionize AI-powered game audio!  </p>
+</div>

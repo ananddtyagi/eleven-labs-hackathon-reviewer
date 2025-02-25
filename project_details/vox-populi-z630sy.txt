@@ -1,0 +1,21 @@
+<div>
+<h2>Inspiration</h2>
+<p>We love playing video games, but even the most opened world games have finite amounts of combination of interactions, stories, or characters, which are time consuming and costly to develop. 
+We feel there are untapped opportunities in the video game industry to have a truly immersive and interactive experience for players. 
+What if you could interact and negotiate with every character in a game, or command a group of NPCs or even generate totally unique assets, using your voice and GenAI?</p>
+<h2>What it does</h2>
+<p>Vox Populi is a 3D game, with fully generated AI agents with a focus on conversation. You play a king and all other characters are your subjects. It focuses on three elements:
+<strong>Single Interaction:</strong> having conversations or commanding an action (such as attacking each other) using your voice
+<strong>Group Interaction (AOE):</strong> commanding a group of NPCs to perform an action. 
+<strong>Unique Asset Generation:</strong> Negotiating with the blacksmith to create unique armour or weapons through iterative discussion. </p>
+<h2>How we built it</h2>
+<p>We built out own game engine using NextJS and ThreeJS to handle custom AI entities, voice inputs, world interactions. Developed using Claude and Cursor.</p>
+<h2>Challenges we ran into</h2>
+<p>Complex inter-agent interactions, feature creep, developing a game engine from scratch in JS.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>We did it ! And got some wonderful core functionality developed.</p>
+<h2>What we learned</h2>
+<p>So much - Mostly to do with designing a reasonable game engine.</p>
+<h2>What's next for Vox Populi</h2>
+<p>We shall see - Lots of interest from other to either play it or open source the code. We shall see ;)</p>
+</div>

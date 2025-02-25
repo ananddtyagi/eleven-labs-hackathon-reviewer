@@ -1,0 +1,50 @@
+<div>
+<h1>📖 Project Story: Cassie – Your Personal AI Loan Agent</h1>
+<h2>🚀 About the Project</h2>
+<p>Finding the right loan is often a complex and time-consuming process, filled with confusing financial products and endless paperwork. <strong>Cassie</strong> is an AI-powered loan agent designed to simplify this journey effortless. By analyzing a user's financial needs, Cassie instantly recommends the best loan options from top financial institutions, using seamless voice interaction for an intuitive and personalized experience.</p>
+<h2>💡 What Inspired Us</h2>
+<p>We chat with some leads asking simple questions and common denominator was: 
+<strong>Why is applying for a loan still so complicated?</strong> 
+Traditional financial advisory services are slow, biased, and often inaccessible. With the rise of AI, we saw an opportunity to <strong>democratize loan guidance</strong> making it <strong>instant, unbiased, and available to everyone, anytime</strong>.</p>
+<h2>🛠️ How We Built It</h2>
+<p>Cassie was developed using:</p>
+<ul>
+<li><strong>ElevenLabs</strong> → For real-time voice interactions, ensuring natural, conversational engagement.</li>
+<li><strong>Make</strong> → To automate workflows, manage API requests, and webhooks to process interactions seamlessly.</li>
+<li><strong>OpenAI</strong> → For LLM-powered financial insights and personalized recommendations.</li>
+<li><strong>Gemini</strong> → For LLM-powered fastest personalized responses.</li>
+<li><strong>Google Sheets</strong> → For lead tracking and data storage.</li>
+<li><strong>Google Gmail</strong> → To deliver the email.</li>
+<li><strong>Google Forms</strong> → To request documentation.</li>
+<li><strong>Lovable</strong> → To create a simple, engaging landing page where users initiate conversations with Cassie.</li>
+</ul>
+<h2>⚡ Challenges We Faced</h2>
+<ol>
+<li><p><strong>Selecting the Right AI Stack</strong> </p>
+<ul>
+<li>We explored direct API integrations and <strong>Make</strong> for a scalable, no-code approach.</li>
+</ul></li>
+<li><p><strong>Generating Meaningful Loan Recommendations</strong> </p>
+<ul>
+<li>To have financial data accurate, we fine-tuned AI responses based on industry lending criteria.<br/></li>
+</ul></li>
+<li><p><strong>Optimizing Response Time</strong> </p>
+<ul>
+<li>We fine-tuned ElevenLabs API calls to ensure <strong>response times in fewer seconds</strong>, delivering a real-time, seamless user experience.</li>
+</ul></li>
+</ol>
+<h2>🎯 What We Learned</h2>
+<ul>
+<li>AI-powered financial guidance <strong>must be simple and conversational</strong> for users to trust it.</li>
+<li><strong>Seamless integrations</strong> between voice AI, workflow automation, and financial logic create an intuitive user experience.</li>
+<li><strong>Speed matters</strong>maintaining <strong>fewer-second response times</strong> significantly enhances usability.</li>
+</ul>
+<h2>🚀 What’s Next?</h2>
+<p>Cassie is just the beginning. Future iterations will include:</p>
+<ul>
+<li>✅ <strong>Real-time interest worldwide rate comparisons</strong><br/></li>
+<li>✅ <strong>Deeper personalization based on user profiles</strong><br/></li>
+<li>✅ <strong>Direct loan application processing</strong><br/></li>
+</ul>
+<p>🔹 <strong>Say goodbye to financial guesswork—Cassie makes Smart Finance Simple...</strong></p>
+</div>

@@ -1,0 +1,34 @@
+<div>
+<h1>About Caring AI</h1>
+<h2>Inspiration</h2>
+<p>In Japan, almost 68,000 people died alone (Kodokushi) last year. This phenomenon is not limited to the elderly—it affects young people as well. Caring AI aims to address this issue by providing companionship and support, ensuring that no one is truly alone.  </p>
+<h2>What it does</h2>
+<p>Caring AI provides children and social workers with a tool to track whether elders or individuals in need of attention are doing okay. It offers check-ins, task reminders, and meaningful conversations to improve well-being and reduce isolation.  </p>
+<h2>How we built it</h2>
+<p>I used Lovable, Twilio, and ElevenLabs Conversation AI to build the entire system, step by step, guided by Lovable. The platform integrates real-time voice interaction, AI-driven conversations, and scheduling calls to provide a seamless and caring experience.  </p>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>WebSocket connection by edge function is hard to debug.<br/></li>
+<li>Handling multiple scheduled calls and managing their status.<br/></li>
+<li>Managing call length and reflecting its status on the call dashboard.<br/></li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>Created an AI that provides a sense of companionship to users.<br/></li>
+<li>Resolved a real-life problem that can reduce costs for people and save lives.<br/></li>
+<li>Built an Agentic AI that provides value to both users and buyers.<br/></li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>A product is not about the technology it uses, but the problem it solves.<br/></li>
+<li>Small adjustments to prompts using dynamic variables can significantly impact the user experience.<br/></li>
+</ul>
+<h2>What's next for Caring AI</h2>
+<ul>
+<li>Support interval calls (Paid feature).<br/></li>
+<li>Transcript for call.<br/></li>
+<li>Payment / Subscription system.<br/></li>
+<li>Train your own voice / Create your own agent.<br/></li>
+<li>Support chat history for better deeper memory system for personalized long-term interactions.<br/></li>
+</ul>
+</div>

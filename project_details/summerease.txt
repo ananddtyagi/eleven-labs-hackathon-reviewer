@@ -1,0 +1,62 @@
+<div>
+<h2>Inspiration</h2>
+<p>In today’s fast-paced world, staying informed can feel overwhelming. With so many news sources and a constant stream of information, it’s easy to miss out on what truly matters. We wanted to create a solution that makes news consumption effortless, accessible, and engaging.</p>
+<p>The idea behind <strong>SummerEase</strong> was born from the need to simplify news delivery, offering users a convenient way to stay updated without reading long articles or scrolling through endless feeds. Inspired by podcasts and the growing trend of audio-based content, we envisioned a <strong>daily news assistant</strong> that delivers <strong>personalized audio updates</strong> directly to Telegram.</p>
+<hr/>
+<h2>What it does</h2>
+<p><strong>SummerEase</strong> is a news companion bot that provides users with <strong>daily audio updates</strong> on their favorite topics.</p>
+<p>By subscribing through our platform, users receive a <strong>curated selection of news</strong> in a <strong>short, digestible audio format</strong>, delivered directly to their <strong>Telegram at 9 AM Paris time</strong>.</p>
+<h3>Key Features:</h3>
+<ul>
+<li>🎙️ <strong>Daily audio news updates</strong> tailored to individual preferences</li>
+<li>🌍 <strong>Wide range of topics</strong> to choose from</li>
+<li>🔄 <strong>Easy subscription management</strong> via simple registration</li>
+<li>📲 <strong>Seamless Telegram integration</strong> for instant access</li>
+<li>❌ <strong>Effortless unsubscribe option</strong> for user convenience</li>
+</ul>
+<hr/>
+<h2>How we built it</h2>
+<p>The development of <strong>SummerEase</strong> involved multiple technologies:</p>
+<ul>
+<li>⚙️ <strong>MAKE</strong> for the automatic workflow (<strong>GPT-4o, ElevenLabs, etc.</strong>)</li>
+<li>🏗️ <strong>NestJS</strong> for backend and API development</li>
+<li>🚀 <strong>Node.js</strong> as the runtime environment for scalability and performance</li>
+<li>🤖 <strong>Telegram Bot API</strong> for seamless interaction with users</li>
+<li>📊 <strong>Airtable Integration</strong> to manage and store user preferences and news content</li>
+</ul>
+<hr/>
+<h2>Challenges we ran into</h2>
+<p>Building <strong>SummerEase</strong> came with several challenges:</p>
+<ul>
+<li>📰 <strong>Scraping</strong>: Extracting relevant and accurate news data from various sources</li>
+<li>🔗 <strong>Linking users to the bot and database</strong>: Ensuring seamless integration between Telegram users, our bot, and the database</li>
+<li>⏳ <strong>Response time</strong>: Currently still long but with room for optimization</li>
+<li>⚡ <strong>Parallelizing audio and text summary generation</strong>: Improving performance by generating both simultaneously</li>
+</ul>
+<hr/>
+<h2>Accomplishments that we're proud of</h2>
+<p>✅ Successfully deploying an <strong>AI-powered news-to-audio system</strong><br/>
+✅ Building a <strong>smooth user experience</strong> with easy subscription management<br/>
+✅ <strong>Automating</strong> the entire pipeline from news curation to audio delivery<br/>
+✅ Achieving a <strong>high engagement rate</strong> among early adopters  </p>
+<hr/>
+<h2>What we learned</h2>
+<p>Throughout this project, we gained valuable insights into:</p>
+<ul>
+<li>🎯 The importance of <strong>personalization</strong> in news consumption</li>
+<li>🎧 The growing demand for <strong>audio-first experiences</strong></li>
+<li>🗣️ How to optimize <strong>AI-generated speech</strong> for a more human-like experience</li>
+<li>🤖 The intricacies of <strong>building and deploying Telegram bots</strong> at scale</li>
+</ul>
+<p>Also… this was our <strong>first time working on AI agents</strong>, so we’re proud of our product! 🚀</p>
+<hr/>
+<h2>What's next for SummerEase</h2>
+<p>We’re excited about the future of <strong>SummerEase</strong> and have several enhancements planned:</p>
+<ul>
+<li>🌎 <strong>Multi-language support</strong> to expand our audience globally</li>
+<li>🎛️ <strong>More customization options</strong> for users to fine-tune their news preferences</li>
+<li>🔗 <strong>Integration with other platforms</strong> (WhatsApp, Discord, etc.)</li>
+<li>🎥 <strong>Generating videos</strong> about trending news topics</li>
+</ul>
+<p><strong>SummerEase is just the beginning of a new way to consume news—effortless, personalized, and hands-free!</strong> 🎙️✨</p>
+</div>

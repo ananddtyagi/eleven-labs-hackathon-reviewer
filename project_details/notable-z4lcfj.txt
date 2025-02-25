@@ -1,0 +1,42 @@
+<div>
+<h2>Inspiration</h2>
+<p>Customer feedback is a goldmine of insights, but reviewing recorded calls is tedious and time-consuming. Executives and teams spend hours sifting through conversations to find critical information. We wanted to create a solution that makes customer feedback more accessible, engaging, and actionable—turning hours of calls into digestible, insightful content.  </p>
+<h2>What It Does</h2>
+<p>Notable is an AI agent that transforms recorded customer calls into engaging, easy-to-consume podcasts for executives. It seamlessly integrates with call recording platforms, automatically analyzes key moments, and generates a podcast summarizing the most valuable insights. This allows teams to stay informed without the hassle of manual call reviews.  </p>
+<h2>How We Built It</h2>
+<p>We used:  </p>
+<ul>
+<li>React: for the frontend to create an intuitive and seamless user experience.<br/></li>
+<li>Supabase: for database management and authentication</li>
+<li>Supabase Edge functions: for text to speech and podcast script generation</li>
+<li>ElevenLabs: for high-quality AI-generated voice narration.<br/></li>
+<li>OpenAI: to analyze call transcripts, extract insights, and generate summaries.<br/></li>
+<li>Serverless architecture: to ensure scalability and efficiency.<br/></li>
+</ul>
+<h2>Challenges We Ran Into</h2>
+<ul>
+<li>Had to prompt a lot of times for the podcast script and text to speech generation to work on lovable.</li>
+<li>Ensuring AI correctly identifies key moments: across diverse conversations.<br/></li>
+<li>Optimizing podcast generation: to create engaging and coherent summaries.<br/></li>
+</ul>
+<h2>Accomplishments That We're Proud Of</h2>
+<ul>
+<li>Building a functional prototype within the hackathon timeframe. </li>
+<li>Developing an AI-powered system that accurately extracts key insights from conversations.<br/></li>
+<li>Creating a seamless user experience that enables executives to consume customer feedback effortlessly.<br/></li>
+</ul>
+<h2>What We Learned</h2>
+<ul>
+<li>The power of AI in automating manual processes and improving efficiency.<br/></li>
+<li>How to optimize AI models for real-time analysis and summarization.<br/></li>
+<li>The importance of user experience in driving adoption for AI-powered tools.<br/></li>
+<li>Effective teamwork under tight deadlines to deliver a working MVP.<br/></li>
+</ul>
+<h2>What's Next for Notable</h2>
+<ul>
+<li>Expanding integrations with more meeting and call recording platforms.<br/></li>
+<li>Personalized podcast summaries based on executive preferences.<br/></li>
+<li>Real-time call analysis for instant feedback during conversations.<br/></li>
+<li>Launching a beta version to gather more user feedback and refine the product.<br/></li>
+</ul>
+</div>

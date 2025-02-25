@@ -1,0 +1,25 @@
+<div>
+<h2>Inspiration</h2>
+<p>As a parent, I often feel the urge to complement my child's school education with specific life skills and inspiring topics that ignite their curiosity, such as money management or the wonders of space travel. I recognize that modern education systems can sometimes fall short in addressing individual learning needs, leaving gaps in knowledge and engagement. This realization inspired me to create EduBytes, an AI-driven platform designed to empower parents like me to actively participate in our children's educational journeys. With EduBytes, I can co-create dynamic and personalized learning experiences that align with my child's interests, making education not just a classroom activity but a collaborative adventure at home. </p>
+<h2>What it does</h2>
+<p>EduBytes empowers parents to create personalized learning experiences for their children. By utilizing a Multimodal Content Generation Engine, EduBytes generates tailored educational materials, including engaging video clips , informative illustrations, age-appropriate audio and simple text. <em>All under 3 minutes!</em> </p>
+<h2>How we built it</h2>
+<p>The tech stack is based on Python , Gradio for UI, Mistral as LLM for textual content , Fal.ai for images and short video clips and , of course, eleven labs for audio
+Took some useful feedback from kids , had a simple Trello baord to be disciplined and better organised </p>
+<h2>Challenges we ran into</h2>
+<p>Initial iterations were not on spot. Required lot of improvements to prompting , trialled out different video and image models available via fal.ai. Selecting correct voices on elevenlabs is an ongoing refinement activity. </p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Built this from scratch 
+I am a rusty developer and very proud of what I achieved. </p>
+<h2>What we learned</h2>
+<p>Plan ahead and loop in team members ahead of the event 
+Perhasp run a mock hak with the selected people </p>
+<h2>What's next for EduBytes:</h2>
+<p>Additional Content Guardrails
+Reusable Content Ecosystem - GitHub-style repository where parents can: Fork and Remix existing lessons
+Addressing cultural biases in image generation (e.g., ensuring "family" illustrations represent diverse household structures) 
+Community Hub Model to reuse pre-curated content
+Learning Byte Studio -  Teacher-focused interface for creating 3-5 minute review materials aligned with classroom lessons
+Interactive short quiz ( max 3 questions) based on content 
+Tech - move to crewai , authentication and user access control, consider moved to vercel , add posthog analytics </p>
+</div>

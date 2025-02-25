@@ -1,0 +1,29 @@
+<div>
+<h2>Inspiration</h2>
+<p>We’ve all faced moments needing a quick boost whether mastering Python or nailing a presentation. Books and long tutorials felt overwhelming, while short-form content lacked depth. Inspired by AI’s power to distill wisdom into bite-sized, engaging snippets like TikTok with purpose, we envisioned SparkBite: an AI agent turning any question into a 60-second mentoring video with actionable advice and vibrant visuals. The ElevenLabs x a16z WW Hackathon lit the spark to make it real!</p>
+<h2>What it does</h2>
+<p>SparkBite delivers instant, value-packed micromentoring. Enter a prompt like “How can I learn Python,” and it crafts a ~150-word, 60-second script—intro, 3 practical tips, and a motivational close—narrated by ElevenLabs’ lifelike voice. It generates 5x scene prompts, renders 5-second video clips with fal.ai’s PixVerse v3.5, and composes them into a seamless 60-second MP4 with audio. From coding to confidence, SparkBite offers daily wisdom in ~3 minutes!</p>
+<h2>How we built it</h2>
+<p>I built SparkBite solo, completely by lovable.dev’s AI assistant, using a Supabase Edge Function and React frontend:
+Script: Mistral generates a ~150-word script and 5 scene prompts—e.g., “Laptop with Python code” to “Celebrating a project.”
+Audio: ElevenLabs narrates the script into a 60-second clip, uploaded to Supabase Storage’s media bucket.
+Video: fal.ai’s PixVerse v3.5 creates 5x 5-second clips ($0.3 each), merged with fal-ai/ffmpeg-api/compose ($1) into a 60-second video with audio.
+Frontend: src/pages/Index.tsx—a simple input field triggers the function, displaying the video in a  tag.</p>
+<h2>How SparkBite Delivers Wisdom</h2>
+<p>Here’s a peek at SparkBite’s AI-driven pipeline, turning your prompt into a 60-second mentoring video:
+<a href="https://ibb.co/vxmyrZ42" rel="nofollow"><img alt="graph" src="https://i.ibb.co/fYt6K4dm/graph.png"/></a></p>
+<h2>Challenges we ran into</h2>
+<p>I started with Kling 1.6 took 6 minutes, too slow. FFmpeg wasn’t available in Edge Runtime, forcing frontend sync attempts that misaligned audio. So I used fal.ai's ffmpeg-api/compose. I tried to Image-to-video workflows (under $1) lacked scene quality. But find the optimal one PixVerse v3.5. Silent errors ("Video error: {}") tested my patience, but persistence paid off! 
+Time was my biggest foe .</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>First Hackathon: My debut, solo, from scratch. </p>
+<p>Value: ~150-word, 60-second videos. Scenes: </p>
+<p>Mistral’s dynamic prompts turned raw scripts into meaningful visuals.</p>
+<h2>What we learned</h2>
+<p>I learned chaining AI models Mistral, ElevenLabs, fal.ai into a cohesive agent. </p>
+<h2>What's next for SparkBite</h2>
+<p>Platform: Evolve into a full web app for daily boosts.
+Scenes: Boost quality with richer prompts or advanced models.
+Interactivity: Add chat, refine prompts live.
+Cost: Push below ~$2-$3 to scale smarter.</p>
+</div>

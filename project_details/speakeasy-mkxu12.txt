@@ -1,0 +1,16 @@
+<div>
+<h2>Inspiration</h2>
+<p>dating apps can simply feel a bit impersonal and judgy, since you have to decide a person's value simply by looking at a couple pictures and sentences about them. we aim to change that and make it more personal.</p>
+<h2>What it does</h2>
+<p>an app that makes dating much more interactive and immersive by providing virtual personas on profiles to talk to.</p>
+<h2>How we built it</h2>
+<p>supabase, sveltekit, 11labs conversational ai, fal.ai for image analysis</p>
+<h2>Challenges we ran into</h2>
+<p>setting up authentication and analyzing images in the signup flow. we ended up not using the authentication in the demo! we also ran into a bug with the eleven labs javascript sdk, and many of the errors we received were way too vague and nondescript.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>getting the pipeline to work for a full conversational onboarding process as well as creating a virtual persona based on that flow.</p>
+<h2>What we learned</h2>
+<p>this was not easy to make! but focusing on the core journey and ux instead of trying to implement some of the more typical extra features of dating apps.</p>
+<h2>What's next for speakeasy</h2>
+<p>fully fleshing out more traditional features like chats and more complete profiles.</p>
+</div>

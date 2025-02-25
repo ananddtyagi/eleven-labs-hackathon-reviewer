@@ -1,0 +1,94 @@
+<div>
+<h1>Building AI Manager: An Engineering Manager's Quest for Self-Automation</h1>
+<h2>The Inspiration</h2>
+<p>As a Senior Engineering Manager, I've spent countless hours in daily standups, reviewing PRs, planning sprints, and making sure my team has everything they need to succeed. While I love my job, I'm also a firm believer in automation and efficiency (okay, let's be honest - I'm lazy). This led me to an amusing yet ambitious goal: could I build an AI that could potentially make my role obsolete?</p>
+<h2>The Journey</h2>
+<h3>Initial Concept</h3>
+<p>Every engineering manager knows that a significant portion of our day involves predictable patterns: facilitating standups, unblocking teams, tracking progress, and ensuring communication flows smoothly. I figured if I could automate even a fraction of these tasks, it would either:</p>
+<ul>
+<li>Make me incredibly efficient at my job</li>
+<li>Successfully automate myself out of a job</li>
+<li>Create a hilarious AI disaster that would at least make for great engineering war stories</li>
+</ul>
+<p>I decided to start with daily standups because they're structured enough to automate but complex enough to be interesting.</p>
+<h2>Team Information</h2>
+<h3>Team Members</h3>
+<ul>
+<li>Daniel Wise (<a href="https://github.com/dubscode" rel="nofollow">@dubscode</a>) - Lead Developer
+
+<ul>
+<li>Full-stack development</li>
+<li>AI/ML integration</li>
+<li>System architecture</li>
+<li>Product design</li>
+</ul></li>
+</ul>
+<h2>Technical Details</h2>
+<h3>Tech Stack</h3>
+<h4>Frontend</h4>
+<ul>
+<li>Next.js 15 (React 19)</li>
+<li>TypeScript</li>
+<li>Tailwind CSS</li>
+<li>Radix UI Components</li>
+</ul>
+<h4>Backend</h4>
+<ul>
+<li>Next.js API Routes</li>
+<li>Drizzle ORM</li>
+<li>Neon PostgreSQL Database</li>
+<li>Clerk Authentication</li>
+<li>Inngest for job scheduling</li>
+</ul>
+<h4>AI/ML</h4>
+<ul>
+<li>OpenAI for natural language processing</li>
+<li>ElevenLabs for voice synthesis</li>
+<li>Linear API for task tracking integration</li>
+</ul>
+<h4>DevOps</h4>
+<ul>
+<li>Vercel Deployment</li>
+<li>Environment Management</li>
+<li>Analytics &amp; Speed Insights</li>
+<li>Progress tracking</li>
+<li>Team member status updates</li>
+</ul>
+<h3>Repository</h3>
+<p><a href="https://github.com/dubscode/ai-manager" rel="nofollow">GitHub Repository</a></p>
+<h2>Challenges and Solutions</h2>
+<h3>1. The Human Touch</h3>
+<p>The biggest challenge wasn't technical - it was figuring out how to capture the nuanced "manager sense" that comes from years of experience. You know, that sixth sense that tells you when "everything is fine" actually means "everything is on fire."</p>
+<h3>2. Context Awareness</h3>
+<p>Teaching AI to understand the difference between "I'm blocked" and "I'm blocked but I haven't actually tried anything yet" was... interesting.</p>
+<h3>3. The Empathy Factor</h3>
+<p>While AI can process natural language, making it understand the subtle difference between a developer having a bad day versus a developer about to quit required some creative problem-solving.</p>
+<h2>Key Learnings</h2>
+<ol>
+<li><p><strong>Engineering Management is Complex</strong>: Trying to automate my job made me realize just how many subtle human interactions go into being an effective engineering manager. The AI needs to understand not just what people say, but what they mean.</p></li>
+<li><p><strong>AI as an Amplifier</strong>: Rather than fully replacing an engineering manager (sorry, past me), AI Manager works better as a force multiplier - handling the routine tasks while leaving the human elements to humans.</p></li>
+<li><p><strong>The Irony</strong>: In trying to automate myself out of a job, I ended up creating more work for myself. The ultimate engineering manager's paradox!</p></li>
+</ol>
+<h2>Future Development</h2>
+<p>The roadmap is essentially "everything I wish I had time to do as an engineering manager":</p>
+<ul>
+<li>AI-powered code review assistance (because who actually enjoys reviewing CSS changes?)</li>
+<li>Automated sprint planning (goodbye, three-hour planning meetings!)</li>
+<li>Enhanced Linear integration (because if I have to ask "where's the ticket for that?" one more time...)</li>
+<li>Automated documentation generation (the dream!)</li>
+<li>Team analytics that actually mean something</li>
+</ul>
+<h2>Conclusion</h2>
+<p>While I haven't quite managed to automate myself out of a job (yet), AI Manager has evolved into something potentially more valuable: a tool that handles the repetitive aspects of engineering management, leaving more time for the human elements that actually make the role worthwhile.</p>
+<p>Plus, if it ever does become sophisticated enough to replace me entirely, I can at least say I engineered my own obsolescence. That's got to count for something on my next job application, right?</p>
+<p>The code is available on GitHub, though I'm still debating whether making it easier for other engineering managers to automate themselves is ethical or just good old-fashioned professional courtesy.</p>
+<p>This is just the beginning, and while I may not have succeeded in my original goal of professional self-obsolescence, I've created something that might actually make engineering management more efficient and enjoyable. And isn't that what being a lazy engineer is all about?</p>
+<h2>Compliance Statement</h2>
+<p>We hereby acknowledge and confirm that our submission:</p>
+<ul>
+<li>Adheres to all hackathon rules and guidelines</li>
+<li>Was completed within the designated hackathon timeframe</li>
+<li>Contains only original work or properly attributed open-source components</li>
+<li>Meets all submission deadlines and requirements</li>
+</ul>
+</div>

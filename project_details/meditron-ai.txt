@@ -1,0 +1,39 @@
+<div>
+<h2>Inspiration</h2>
+<p>The inspiration for MEDITRON stems from my own frustration with the GP and medical system, and the unstructured approach to AI and medicine. I am 100% convinced there is massive market to make initial medical consultations more accessible, efficient, and comprehensive with AI. I envisioned a system that could leverage the power of AI to bridge the gap between patients and healthcare providers, particularly in situations where immediate in-person consultation might be difficult or time-consuming. </p>
+<h2>What it does</h2>
+<p>MEDITRON is a multi-stage AI system that facilitates an AI-medical consultation. It starts with an initial triage conversation with a virtual doctor (Dr. Triago), powered by ElevenLabs, to gather symptoms and medical history. It then performs AI-driven research using Perplexity AI and Fal.ai's Any-LLM, querying multiple large language models (like GPT-4o, Claude 3.5 Sonnet, and Gemini Pro 1.5) from various medical perspectives. A second, more detailed conversation with another virtual doctor (Dr. Medika) follows, incorporating initial findings. Finally, MEDITRON synthesizes all gathered information into a comprehensive assessment, culminating in an audio message summary for the patient. It's like having a panel of AI medical experts analyze your case and provide preliminary guidance.</p>
+<h2>How I built it</h2>
+<p>I built MEDITRON using a combination of AI models and APIs, orchestrated through Python. Key components include:</p>
+<p>-ElevenLabs: Provides the conversational AI and text-to-speech capabilities, enabling realistic doctor-patient interactions and the final audio message.
+-Perplexity AI: Used for initial research based on the triage conversation.
+-Fal.ai's Any-LLM: Enables us to query a diverse range of LLMs, simulating a panel of medical specialists.
+-GPT-4o via Fal: Used for the final assessment due to its strong reasoning capabilities.
+-Python (with asyncio): The core language used to manage the workflow, handle asynchronous API calls, and process data.</p>
+<p>I focused on the intelligence and backand, in a way that it would be possible to then refactor to plug any UI on top or even use phone calls. </p>
+<h2>Challenges I ran into</h2>
+<p>Overall complexity - as the project grows, it is difficult to keep order and attention to details in 48 hours. Refactoring would be needed to make it more modular and clean. </p>
+<p>Context Management: Maintaining context throughout the multi-stage process and across different AI models was crucial. The dossier.txt file was instrumental in solving this.</p>
+<p>Prompt Engineering: Crafting effective prompts for each LLM to elicit relevant and accurate medical information required significant experimentation and refinement. Ensuring the different "perspectives" (specialist, holistic, risk) produced meaningfully different outputs was a challenge.</p>
+<p>Balancing Speed and Depth: Finding the right balance between the speed of the consultation and the depth of the research was important. We used asyncio to improve responsiveness.</p>
+<p>Eleven Labs Agent Configuration: The configuration of the Conversational AI at the Eleven Labs server was critical for a natural conversation flow, and it needed careful design and multiple iterations. Some issues understanding how to instantiate agents on the fly. </p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Successful Integration of Multiple AI Services: We seamlessly integrated three distinct AI platforms (ElevenLabs, Perplexity AI, and Fal.ai) into a cohesive system.</p>
+<p>Multi-Perspective Medical Analysis: The system successfully leverages multiple LLMs to provide a more comprehensive and balanced assessment than any single model could achieve.</p>
+<p>Realistic Conversational AI: The use of ElevenLabs creates a believable and engaging doctor-patient interaction.</p>
+<p>Asynchronous Operation: The use of asyncio allows for efficient parallel processing, improving the overall speed and responsiveness of the system in deep research.</p>
+<h2>What we learned</h2>
+<p>11L is amazing, but getting flexibility and personalization takes time.</p>
+<p>VOICE IS KING.</p>
+<p>The Importance of Prompt Engineering: The quality of the output from LLMs is highly dependent on the quality of the input prompts. With llms, less is more. Ask an instance to do ONE thing, and one only. </p>
+<p>The Challenges of Multi-Model Integration: Combining the outputs of different AI models requires careful consideration of their strengths and weaknesses. Also need to wait for completions. </p>
+<p>The Potential of AI in Healthcare: This project demonstrated 100 % the potential of AI to assist in medical consultations, but also highlighted the importance of human oversight.</p>
+<h2>What's next for Meditron AI</h2>
+<p>I am looking for cofounder and funding! and turn this into a product!!! LETS GOOOO</p>
+<p>Add expert validation, human-in-the-loop and knowledge assets.</p>
+<p>Refactor and make modular, faster, robust. Enhanced User Interface: Develop a user-friendly web interface for easier interaction.</p>
+<p>Integration with phone calls and messages. </p>
+<p>Add custom knowledge bases and RAG and graph rag retrieval systems. CRUCIAL.</p>
+<p>Clinical Validation: Conduct rigorous testing and validation to ensure the system's accuracy and reliability in a clinical setting.</p>
+<p>Feedback Loop: Implement a feedback mechanism to allow users and healthcare professionals to provide input and improve the system's performance over time.</p>
+</div>

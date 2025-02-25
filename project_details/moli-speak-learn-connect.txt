@@ -1,0 +1,44 @@
+<div>
+<p>Inspiration</p>
+<p>As a language learner, I face a major challenge—speaking fluently despite attending classes and earning certifications. Many learners struggle with hesitation, lack of confidence, and reliance on translations. Existing apps often focus on grammar and vocabulary but fail to provide immersive speaking practice. Moli was born from the need for a conversation-first AI coach that helps users think and respond naturally in German, without the crutch of translations.</p>
+<p><strong>What it does</strong></p>
+<p>Moli is an AI-powered German-speaking coach designed to build fluency through real-time conversations, instant feedback, and adaptive learning. It listens, corrects, and guides learners as they speak, helping them express themselves naturally without translating from English. Key features include:
+    • Real-time AI conversation for immersive practice
+    • Instant feedback
+    • Adaptive AI that tracks mistakes and suggests improvements
+    • Real-time hints to guide the user
+    • Engagement-based learning, ensuring users build confidence in speaking</p>
+<p><strong>How we built it:</strong></p>
+<p>Moli was developed using a combination of:
+    • Fal.AI for real-time speech processing
+    • LLMs for conversational AI and correction analysis
+    • Supabase for storing user interactions and session history
+    • Lovable
+    • Elevenlabs conversational AI
+    • Posthog
+    • Make</p>
+<p>By integrating these technologies, we built an AI agent that engages in meaningful conversations, provides dynamic corrections, and helps users track their growth.</p>
+<p><strong>Challenges we ran into:</strong>
+    • ElevenLabs - Credits quickly consumed while testing with audio 
+               - Solved this by using a textual transcript as mock for building UI features. 
+               - Saved Time and Cost
+    • Hard to decide where to place the tool calling - Frontend Vs ElevenLabs
+               - Went with Lovable created EdgeFunctions in Supabase 
+    • Time constraints: Building a working prototype with real-time interaction in just two days!
+                - Lovable to the rescue! - Built 100% no-code
+                - Saved Time and Energy, achieved powerful features quickly
+    • Finding right model - to get necessary JSON outputs
+                - Created UI Configurable Settings
+                - Brought flexibility and Supported with Debugging</p>
+<p><strong>Accomplishments that we’re proud of</strong>
+    • A fully functional AI conversation coach within the hackathon timeframe.
+    • Real-time corrections and feedback that help users speak naturally.
+    • A conversation-first approach, moving away from traditional translation-based learning.
+    • Learnt tools that are completely new - very quickly - PostHog, Loveable, ElevenLabs, fal, SupabseEdgeFunctions
+    • Equipped well for future hackathons and personal projects
+    • Built confidence in AI Tools</p>
+<p>What’s next for Moli - Speak. Learn. Connect
+    • Expand to more languages, making it a universal AI-speaking coach.
+    • Improve AI correction logic</p>
+<p>Moli is just getting started!  Let’s redefine language learning—one conversation at a time.</p>
+</div>

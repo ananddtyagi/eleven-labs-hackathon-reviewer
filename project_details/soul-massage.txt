@@ -1,0 +1,11 @@
+<div>
+<h2>Inspiration</h2>
+<p>I was depressed for a while and tried to use apps like betterhelp, but it doesn't resally solve my problem and I paid a lot of money for it.</p>
+<h2>What it does</h2>
+<p>It provides mental health therapies for a lot cheaper price with customized personalities and accessible 24h everyday</p>
+<h2>How we built it</h2>
+<ul>
+<li>nextjs</li>
+<li>elevenlabs conversational ai</li>
+</ul>
+</div>

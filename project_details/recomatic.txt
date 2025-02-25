@@ -1,0 +1,36 @@
+<div>
+<h1>Recomatic</h1>
+<h2>Inspiration</h2>
+<p>We wanted to build a powerful recommendation system that leverages the latest advancements in graph neural networks. Our goal was to create an intelligent agent that provides accurate movie recommendations based on both cast connections and genre attributes, ultimately assisting web retailers in enhancing customer experience.</p>
+<h2>What it does</h2>
+<p>Recomatic is a recommender system that takes movie titles as input and returns relevant movie suggestions. It constructs a movie network where connections are formed between movies sharing cast members. Additionally, each movie is assigned genres, enabling the system to leverage both network topology and attributes to generate vector representations. The system is delivered as an agent capable of providing recommendations alongside IMDb descriptions.</p>
+<h2>How we built it</h2>
+<p>We used a graph neural network to process and analyze the movie connections and attributes. The system builds a structured graph where movies with shared cast members are linked. It then applies machine learning techniques to generate meaningful movie embeddings, which power the recommendation engine. The agent delivering recommendations is integrated with an LLM monitored via PostHog, allowing retailers to track customer interactions and refine recommendations.</p>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>Integrating the recommendation system with an agent while ensuring smooth and natural interactions.</li>
+<li>Fast paced process of developing both machine learning and front-end </li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>Successfully implementing a graph neural network-based recommender system.</li>
+<li>Delivering an intelligent agent capable of providing high-quality movie recommendations.</li>
+<li>Creating a monitoring system using PostHog to track user engagement and feedback.</li>
+<li>Laying the foundation for a robust recommendation tool that can be further expanded.</li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>The power of graph neural networks in building recommendation systems.</li>
+<li>The importance of balancing network topology and movie attributes to generate meaningful recommendations.</li>
+<li>How to integrate machine learning models with monitoring tools like PostHog for real-time insights.</li>
+<li>The challenges and potential of developing AI-driven agents for retail applications.</li>
+</ul>
+<h2>What's next for Recomatic</h2>
+<ul>
+<li>Enhancing voice communication by enabling two-way voice interactions with the agent.</li>
+<li>Developing an agent dedicated to monitoring user experience and providing decision-making assistance based on PostHog insights.</li>
+<li>Further improving recommendation accuracy by refining the model and incorporating more data sources.</li>
+<li>Expanding Recomatic to support additional domains beyond movies, such as books or products.</li>
+<li>Equiping agent with more tools like GraphRAG, which would improve recommendations also based on  favourite actors</li>
+</ul>
+</div>

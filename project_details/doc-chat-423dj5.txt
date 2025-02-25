@@ -1,0 +1,51 @@
+<div>
+<h1>Building Doc-Chat: Breaking Language Barriers in Document Interaction</h1>
+<h2>The Inspiration</h2>
+<p>Our journey to create Doc-Chat began when we witnessed how language barriers prevent many people from accessing important documents. After seeing family members struggle with English medical documents, we envisioned a system that would allow anyone to have a natural conversation with documents in their preferred language.</p>
+<h2>What We Learned</h2>
+<p>Building Doc-Chat expanded our expertise in:</p>
+<ul>
+<li>Large Language Models and RAG (Retrieval Augmented Generation)</li>
+<li>Audio processing and real-time speech recognition</li>
+<li>Multi-lingual translation systems</li>
+<li>Voice synthesis and natural language generation</li>
+<li>Frontend development with Streamlit</li>
+</ul>
+<h2>How We Built It</h2>
+<p>We designed Doc-Chat with modularity in mind, separating the system into key components:</p>
+<ul>
+<li>Document processing with intelligent chunking and embedding</li>
+<li>Speech recognition and synthesis using Whisper and ElevenLabs</li>
+<li>Language translation through NLLB-200</li>
+<li>RAG-based response generation with Mistral AI</li>
+<li>User interface built with Streamlit for seamless interaction</li>
+</ul>
+<h2>Challenges We Faced</h2>
+<h3>1. Performance Optimization</h3>
+<p>Initially, the system had noticeable delays between user input and response. We implemented streaming audio processing and optimized buffer sizes to achieve near real-time interaction.</p>
+<h3>2. Language Accuracy</h3>
+<p>Maintaining accuracy across multiple languages was challenging. We solved this by implementing robust language detection and creating a custom preprocessing pipeline for technical terms.</p>
+<h3>3. Resource Management</h3>
+<p>Large documents initially strained system resources. We optimized through efficient document chunking and lazy loading techniques.</p>
+<h3>4. Team Details</h3>
+<h4>Shwetha Krishnamurthy</h4>
+<ul>
+<li>MBA Student and experienced Product Manager</li>
+<li>Responsible for RAG Setup and Streamlit Deployment</li>
+</ul>
+<h4>Rohan Srivastava</h4>
+<ul>
+<li>MBA Student and experienced Product Manager</li>
+<li>Responsible for Vector Database, Speech translation, Bot Development</li>
+</ul>
+<h2>What's Next</h2>
+<p>We're excited to continue developing Doc-Chat with plans to:</p>
+<ul>
+<li>Add real-time document highlighting</li>
+<li>Support more document formats</li>
+<li>Enhance the conversation memory system</li>
+<li>Improve technical terminology handling</li>
+</ul>
+<p>Through building Doc-Chat, we've learned that breaking down language barriers in information access is not just possible, but essential for making knowledge truly accessible to everyone.</p>
+<p>PS: We tried our best to deploy it to Streamlit community Cloud, but we kept running into deployment issues and gave up in the interest of time.</p>
+</div>

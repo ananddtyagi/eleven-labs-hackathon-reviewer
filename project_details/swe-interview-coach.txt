@@ -1,0 +1,25 @@
+<div>
+<h1>SWE Interview Coach</h1>
+<h2>Summary</h2>
+<p>This project uses ElevenLabs Conversation AI to make a real-time SWE Interview Coach. The Coach is able to ask you questions just like in a regular interview, but it also has context to a test coding environment and whiteboard that the interviewee would use in a real interview and that the Agent can actually get information from. As a result, people can actually practice a complete coding interview just like they would with a friend or mentor.</p>
+<h2>Team</h2>
+<p>Anand Tyagi - Solo dev on this project!</p>
+<h2>Inspiration</h2>
+<p>When I sat down to think about what I would build for this weekend, I wanted to create something to assist individuals in light of the recent layoffs and the increasing difficulty in landing software engineering jobs. I remember the challenges I faced while preparing for software engineering interviews, especially in terms of practicing with an interviewer who could ask follow-up questions and delve deeper into my thought process. The best way to practice used to be with a friend coding and system design interviews used to be with a friend, or someone in the industry. But now, you can do it with SWE Interview Coach!</p>
+<h2>What it does</h2>
+<p>SWE Interview Coach allows you to practice your coding and system design interview skills just like you would with a real interviewer. The voice agent provides real-time interaction, asks you follow-up questions on what you're doing, while also having access to all of the code and diagrams you're creating, giving it the context necessary to provide useful feedback in real time. Having it be a voice instead of a chat or text chat allows you to behave as though it were a real interview, so you can practice both speaking and writing your answers at the same time.</p>
+<h2>How I built it</h2>
+<p>I used ElevenLabs Conversational AI to power the Coach. The main loop involves having the Coach start the interaction and ingesting the problem the interviewee is looking at. Then, whenever the user is done making their updates and responding with their answer, the Coach uses tool calling to fetch the current state of their code or diagram, and uses that to determine what to say next. </p>
+<p>In terms of the tech stack, I used Next.js with Typescript, Shadcn component library, Monaco editor for the code editor and React Flow for the UML diagram maker.</p>
+<h2>Challenges we ran into</h2>
+<p>It was difficult to get the client side tool calling to work perfectly. Often the tool calls wouldn't fetch the most recent state of the variables I was storing the code, run output, or diagram data in. 
+Also, making sure all the nested contexts were setup correctly so that the user and agent see the same data at the same time was originally tricky but easily solvable with a little debugging.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Getting the loop of Talking to the agent -&gt; agent fetches data -&gt; agent uses data to inform response -&gt; agent responds to work was magical to see. Getting it to work in real time and actually use it and do practice interviews with it was an amazing experience. </p>
+<h2>What we learned</h2>
+<p>I learned how to use ElevenLabs Conversational AI!! It was a lot of fun to play around with and figure out what the strengths and current limitations of the system are. Figuring out how to get this kind of agent loop setup was also very informative. I also learned what PostHog's Session Replay tool is like and that was super cool to see working too!</p>
+<h2>What's next for SWE Interview Coach</h2>
+<p>1) Polishing up the website to make it useable for anyone.
+2) Making a full, 30 min interview session possible.
+3) Giving the user a review of their session and performance at the end (maybe using the Session Replay data from PostHog to help inform that (if that's possible?))</p>
+</div>

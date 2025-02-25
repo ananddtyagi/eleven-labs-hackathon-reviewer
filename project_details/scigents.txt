@@ -1,0 +1,46 @@
+<div>
+<h2>Inspiration</h2>
+<p>In today's fast-moving research world, finding the right papers quickly is a big challenge. Many researchers waste hours going through irrelevant papers. I got inspired to solve this problem using AI-powered agents to make research discovery fast and more efficient.  </p>
+<h2>What it does</h2>
+<p>My platform, <strong>ResearchSynth</strong>, helps researchers by automatically retrieving, filtering, and summarising research papers from arXiv. It provides:  </p>
+<ul>
+<li><strong>Smart Search</strong>: Uses AI to find the most relevant papers based on the research question.<br/></li>
+<li><strong>Automatic Summarisation</strong>: Generates easy-to-read summaries.<br/></li>
+<li><strong>Research Synthesis</strong>: Combines multiple papers into a single, well-structured synthesis.<br/></li>
+<li><strong>Interactive Q&amp;A</strong>: Users can ask follow-up questions to dig deeper into the research.<br/></li>
+</ul>
+<h2>How we built it</h2>
+<p>I used a combination of cutting-edge technologies to build this system:  </p>
+<ul>
+<li><strong>Frontend</strong>: Developed using Streamlit for an intuitive interface.<br/></li>
+<li><strong>Backend</strong>: Powered by Python Flask API.<br/></li>
+<li><strong>AI Models</strong>: Integrated OpenAI’s GPT for intelligent analysis and summarisation.<br/></li>
+<li><strong>Data Source</strong>: Fetches papers directly from arXiv using its API.<br/></li>
+<li><strong>Text Processing</strong>: Utilises PyPDF for extracting content from papers.<br/></li>
+</ul>
+<h2>Challenges we ran into</h2>
+<ul>
+<li><strong>Efficient Filtering</strong>: It was tough to ensure only the most relevant papers are selected.<br/></li>
+<li><strong>Summarisation Quality</strong>: Balancing conciseness with completeness was tricky.<br/></li>
+<li><strong>Handling Large Data</strong>: Processing multiple papers quickly without performance issues was a challenge.<br/></li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>Successfully built an AI-powered research tool that makes literature reviews easy.<br/></li>
+<li>Achieved high-quality summarisation that maintains key details of research papers.<br/></li>
+<li>Implemented caching and tool-use in AI Agents</li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li> Optimising search algorithms for better paper discovery.<br/></li>
+<li>Improving performance using caching. </li>
+<li>Building a robust and powerful AI Agent platform</li>
+</ul>
+<h2>What's next for ResearchSynth</h2>
+<ul>
+<li>Expanding to include more research sources beyond arXiv.<br/></li>
+<li>Add follow-up question feature.</li>
+<li>Adding citation management features for researchers.<br/></li>
+<li>Promote with sharing features of synthesis.</li>
+</ul>
+</div>

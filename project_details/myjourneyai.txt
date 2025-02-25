@@ -1,0 +1,46 @@
+<div>
+<h2>Inspiration</h2>
+<p>As someone who often struggles to find a person to exchange thoughts with during ideation and reflection, I wanted to build something that could help structure my ideas and prompt me with deeper questions. I envisioned an AI that could serve as a thinking partner, helping me refine my thoughts, explore possibilities, and document insights in a structured way.</p>
+<h2>What it does</h2>
+<p>JourneyAI currently features two core agents:</p>
+<ol>
+<li><strong>Reflection Agent</strong> - Helps users reflect on their thoughts by prompting them with structured questions, capturing insights, and organizing their reflections.</li>
+<li><strong>Ideation Agent</strong> - Assists in brainstorming by engaging users in interactive discussions, suggesting ideas, and helping them structure their thoughts into actionable plans.</li>
+</ol>
+<p>In the future, JourneyAI will integrate with Notion, allowing users to create Notion pages for each ideation session. Additionally, advanced features like scheduled deep research via cron jobs will help users automatically gather insights on their previous ideation notes.</p>
+<h2>How we built it</h2>
+<p>We developed JourneyAI using:</p>
+<ul>
+<li><strong>LLM-powered chat interactions</strong> for generating structured prompts and responses.</li>
+<li><strong>NextJS and TypeScript</strong> for a seamless and interactive frontend experience.</li>
+<li><strong>Backend using NextJS</strong> to handle AI processing and session management.</li>
+<li><strong>Database for session storage</strong>, enabling users to revisit past reflections and ideation sessions.</li>
+</ul>
+<h2>Challenges we ran into</h2>
+<ul>
+<li><strong>Balancing open-ended and structured responses</strong> – Ensuring that AI-generated prompts encourage deep thinking without feeling too rigid.</li>
+<li><strong>Session continuity</strong> – Maintaining context across interactions to make conversations feel natural and insightful.</li>
+<li><strong>Time constraints</strong> – Building and refining core features within a tight timeframe for the hackathon.</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>Successfully implementing two working agents that effectively assist with ideation and reflection.</li>
+<li>Creating a user-friendly interface that makes structured thinking more accessible.</li>
+<li>Laying the foundation for future integrations with tools like Notion.</li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>The importance of <strong>prompt engineering</strong> to guide meaningful AI-driven conversations.</li>
+<li>How to <strong>optimize AI interactions</strong> to balance creativity and structure.</li>
+<li>The potential of <strong>automation and scheduled research</strong> in enhancing ideation processes.</li>
+</ul>
+<h2>What's next for JourneyAI</h2>
+<ul>
+<li><strong>Notion integration</strong> – Enabling users to automatically create Notion pages for each ideation session.</li>
+<li><strong>Scheduled deep research</strong> – Implementing a cron job to periodically gather insights and additional context for past ideation notes.</li>
+<li><strong>More AI-powered agents</strong> – Expanding the platform with agents tailored for different thinking styles, such as strategic planning and creative storytelling.</li>
+</ul>
+<h2>Team</h2>
+<p>This is built by Ray, solo-ed the hackathon. Fully from ideation -&gt; code -&gt; product -&gt; pitch, with the help of Cursor.</p>
+<p>JourneyAI is just getting started, and I’m excited about the possibilities ahead!</p>
+</div>

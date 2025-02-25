@@ -1,0 +1,43 @@
+<div>
+<h2>Inspiration</h2>
+<p>I have done hundreds of data analyses in the past. For simple datasets, it often required a lot of boilerplate code to get insights. So I thought, why not use AI to automate this process?</p>
+<h2>What It Does</h2>
+<ul>
+<li>Upload your data, and the AI will generate a report with key statistics and insights.</li>
+<li>The report includes visualizations, summaries, and a spoken version of the findings.</li>
+</ul>
+<h2>How We Built It</h2>
+<h3>Backend</h3>
+<ul>
+<li><strong>Technology:</strong> Python backend, connected to the client via WebSocket.</li>
+<li><strong>AI-Powered Analysis:</strong> Uses OpenAI API to generate, execute, and refine the analysis script iteratively.</li>
+<li><strong>Report Generation:</strong> Creates reports in HTML and PDF formats.</li>
+<li><strong>Voice Summaries:</strong> Uses ElevenLabs API to generate a spoken version of the report.</li>
+</ul>
+<h3>Frontend</h3>
+<ul>
+<li><strong>Technology:</strong> Built with Svelte for an interactive and user-friendly experience.</li>
+<li><strong>Report Display:</strong> Provides an intuitive interface to explore results.</li>
+</ul>
+<h2>Challenges We Ran Into</h2>
+<ul>
+<li>Ensuring the quality and reliability of results, which varies based on data complexity.</li>
+<li>Pivoting from Streamlit to Svelte for a better UX.</li>
+</ul>
+<h2>Accomplishments That We're Proud Of</h2>
+<ul>
+<li>Built the entire project in <strong>less than two days</strong>.</li>
+<li>Successfully implemented real-time WebSocket communication for streaming AI-generated results.</li>
+</ul>
+<h2>What We Learned</h2>
+<ul>
+<li>How to use <strong>WebSockets</strong> to stream AI-generated results and status updates between frontend and backend.</li>
+<li>Optimizing the AI prompt engineering process to improve analysis quality.</li>
+</ul>
+<h2>What's Next for AI Data Analyst Agent</h2>
+<ul>
+<li><strong>Local LLM Support:</strong> Enhance privacy by running models locally.</li>
+<li><strong>Interactive Refinement:</strong> Allow users to iteratively refine reports.</li>
+<li><strong>Q&amp;A Mode:</strong> Enable interactive querying of datasets for deeper insights.</li>
+</ul>
+</div>

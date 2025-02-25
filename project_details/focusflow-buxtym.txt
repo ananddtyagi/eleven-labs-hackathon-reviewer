@@ -1,0 +1,21 @@
+<div>
+<h2>Inspiration</h2>
+<p>Star Trek, I suppose. </p>
+<h2>What it does</h2>
+<p>Helps me stay in the flow of work by making it easy to document thoughts that come to mind while working and then send to the tools I use. No more desk covered in stickies with random notes.</p>
+<h2>How I built it</h2>
+<p>Started with Lovable, but switched to Cursor
+ElevenLabs
+Claude
+n8n
+GitHub</p>
+<h2>Challenges we ran into</h2>
+<p>Lost a lot of work at one point, but GitHub to the rescue</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Having something that solves a personal pain point
+Creating a tool with voice</p>
+<h2>What we learned</h2>
+<p>A lot! </p>
+<h2>What's next for Focused</h2>
+<p>Take notes and run through AI </p>
+</div>

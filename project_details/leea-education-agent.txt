@@ -1,0 +1,58 @@
+<div>
+<h2>Inspiration</h2>
+<p>Children are natural learners, but traditional education methods often lack engagement and personalization. Every child has unique interests and learns at their own pace. We are creating an AI-powered learning companion—an autonomous agent that adapts to each child's curiosity, provides dynamic storytelling, and fosters interactive learning. By leveraging AI agents, we designed a system where learning is conversational, immersive, and personalized: a brave astronaut, a talking cat, or a friendly train conductor? Exploring the world have never been that fun.</p>
+<h2>What it does</h2>
+<p>Leea Education Agent is an autonomous AI learning companion that generates customized educational stories based on a child's:</p>
+<ul>
+<li>age</li>
+<li>interests</li>
+<li>activity time whether it’s the afternoon learning rush or evening calming story</li>
+<li>previous learning experience with Leea
+We are building set of agents:
+(1) Personalized animated character generator (with memory of all created characters).
+(2) The narrator agent that crafts an engaging, age-appropriate narrative and creates the stories and exercises.
+(3) The voiceover service: using the Eleven Labs API
+(4) Service for animation of the character with real time lip syncing.
+(5) The progress and pace agents for tracking the learning path, tone and suggesting the narrator high level plans and strategy.</li>
+</ul>
+<p>All generated content will be reviewed and refined with child psychologists and pediatricians to ensure educational and emotional safety.</p>
+<h2>How we built it</h2>
+<ul>
+<li>LLM-Powered Storytelling – AI-generated narratives dynamically adapt to the selected topic and character.<br/></li>
+<li>Eleven Labs API – High-quality, expressive text-to-speech for a natural voice experience.<br/></li>
+<li>AI-Driven Animation – Lip-sync technology animates characters in real-time for immersive storytelling.<br/></li>
+<li>Human-in-the-loop validation – Ensuring content safety and age-appropriate learning with expert reviews.<br/></li>
+</ul>
+<p>To create a truly agentic learning experience, we developed a system where multiple AI agents work together:  </p>
+<ol>
+<li>Storytelling Agent – Generates dynamic, interactive narratives tailored to the child's interests.<br/></li>
+<li>Knowledge Agent – Ensures factual accuracy by retrieving relevant, expert-verified educational content.<br/></li>
+<li>Emotional Intelligence Agent – Adapts tone, complexity, and pacing based on the child’s responses.<br/></li>
+</ol>
+<p>These agents collaborate autonomously to create an evolving, interactive learning journey.  </p>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>Real-time adaptation – Ensuring smooth, natural interactions required fine-tuning AI models for dynamic responsiveness.<br/></li>
+<li>Balancing storytelling with factual accuracy – We are integrating a knowledge verification system to keep content both engaging and educational.<br/></li>
+<li>Ethical AI design – AI-generated content for children requires strict safety measures, so we worked with child psychologists to refine prompts and interactions.<br/></li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>Developed an interactive AI agent that makes learning adaptive and conversational rather than static.<br/></li>
+<li>Successfully implemented multi-agent collaboration for more immersive educational experiences.<br/></li>
+<li>Integrated high-quality speech synthesis and animation, real-time lip-sync animation, and intelligent response adaptation to create a seamless learning journey.<br/></li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>Adaptive AI storytelling improves engagement and makes learning more intuitive for young minds.<br/></li>
+<li>Multi-agent collaboration creates more reliable, flexible, and dynamic AI interactions.<br/></li>
+<li>Collaboration with child psychologists and educators is crucial in developing AI-powered tools for kids.<br/></li>
+</ul>
+<h2>What's next for Leea Education Agent</h2>
+<ul>
+<li>Enhancing real-time conversation abilities to allow more natural back-and-forth interactions.<br/></li>
+<li>Introducing emotion detection to further adapt lessons based on child engagement.<br/></li>
+<li>Expanding to multiple languages and accessibility features for a global reach.<br/></li>
+<li>Exploring Web3 integration for collectible, interactive learning experiences.</li>
+</ul>
+</div>

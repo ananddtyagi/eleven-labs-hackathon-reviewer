@@ -1,0 +1,53 @@
+<div>
+<h2>What it does</h2>
+<p>This package equips ElevenLab's Conversational AI agent with tools to dynamically generate forms. When collecting precise information that’s hard to share by voice, the agent can spontaneously display a form with one or multiple input fields alongside the widget. The user can fill the form or even collaborate with the agent using their voice.</p>
+<h2>How we built it</h2>
+<p>We created this library as an extension to the ElevenLabs Conversational AI Widget. It’s a single JavaScript file hosted on a CDN that can be added to any HTML page via a <code>&lt;script&gt;</code> tag. It uses no external vendors or backend. The script provides the necessary client tool implementations, while the reusable system prompt and tool descriptions (available in the GitHub repo) guide the agent on how to use them.</p>
+<h2>Accomplishments that we're proud of</h2>
+<ol>
+<li>Created a powerful, fully functional open-source tool that eliminates friction in using voice interfaces facilitating their wider adoption.</li>
+<li>None of us had experience with conversational AI or voice agents before the hackathon, so building and publishing a working product in just two days is an accomplishment in itself.</li>
+<li>Despite a limited time-zone overlap, we collaborated effectively and delivered quickly, even though it was our first hackathon as a team.</li>
+</ol>
+<h2>Challenges we ran into</h2>
+<ol>
+<li>Creating a comprehensive yet concise demo.<br/></li>
+<li>Lack of a CLI or IaC tool for agent configuration (requiring us to build our own script).<br/></li>
+<li>The agent tends to provide excessive information, despite instructions to be as concise as possible.<br/></li>
+</ol>
+<h2>Future development</h2>
+<p>Future development will be guided by community feedback. If there is interest, the project will continue to evolve based on the needs and insights shared by the community. If ElevenLabs sees potential in such hybrid interfaces, this functionality could become part of the standard widget distribution.</p>
+<h2>Team</h2>
+<h3>Vlad Severin</h3>
+<ul>
+<li>Brainstorming ideas.</li>
+<li>Solution technical design.</li>
+<li>Research use cases for the demo.</li>
+<li>Solution implementation.</li>
+<li>Project overview.</li>
+<li>Devtools implementation.</li>
+</ul>
+<h3>Bohdan Petryshyn</h3>
+<ul>
+<li>Brainstorming ideas.</li>
+<li>Solution technical design.</li>
+<li>Research use cases for the demo.</li>
+<li>Solution implementation.</li>
+<li>Demo (preparations and recording).</li>
+<li>Hosting.</li>
+</ul>
+<h3>Yevhenii Medviediev</h3>
+<ul>
+<li>Brainstorming ideas.</li>
+<li>Solution technical design.</li>
+<li>Research use cases for the demo.</li>
+<li>Solution implementation.</li>
+<li>Technical documentation. </li>
+</ul>
+<h2>Compliance</h2>
+<ul>
+<li>The solution idea was brainstormed, designed, and implemented from scratch during the hackathon.</li>
+<li>No dependencies or paid solutions were used.</li>
+<li>A three-member team across three different time zones (Ukraine, Poland, Indonesia) worked on the project. We coordinated using Poland’s (CET) time. We started working on the project at Saturday 22 8am (CET)</li>
+</ul>
+</div>

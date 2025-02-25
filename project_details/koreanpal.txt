@@ -1,0 +1,16 @@
+<div>
+<h2>Inspiration</h2>
+<p>I wanted a better way to learn Korean</p>
+<h2>What it does</h2>
+<p>It's designed to just give someone an initial overview of Korean Hangul characters as well as generate lessons based off their interests.</p>
+<h2>How we built it</h2>
+<p>I built entirely in lovable with ElevenLabs and Fal's API is used as well.</p>
+<h2>Challenges we ran into</h2>
+<p>I really struggled with lovable at a certain point. It was helpful getting initially off the ground, but once the codebase got bigger, beyond 50-75 commits/messages. Really felt that it kept going in circles and lost a lot of time, but I think the beauty of a hackathon is that there wasn't a need to move off lovable. And in the future, I would probably use it for some initial ideation and then once I ran into this issue, I would just move to a different development platform locally. But it was really helpful with setting up databases and having broad-level security.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Finally, building something that takes in an AI API to generate content with OpenAI. as well as using ElevenLabs and Fal's APIs.</p>
+<h2>What we learned</h2>
+<p>Just how to use APIs and get a better sense of the challenges of building a language app.</p>
+<h2>What's next for KoreanPal</h2>
+<p>I'd like to reassess kind of what was built and probably use the database as a basis, but then start from complete scratch with generating new content and new ideas. </p>
+</div>

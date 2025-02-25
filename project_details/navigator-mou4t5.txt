@@ -1,0 +1,52 @@
+<div>
+<h1>Crypto Learning Hub: Interactive Voice-Based Cryptocurrency Education</h1>
+<h2>1. Project Overview</h2>
+<h3>Summary of the Problem / Solution</h3>
+<p><strong>Problem:</strong><br/>
+Cryptocurrency concepts can be complex and intimidating for newcomers. Many individuals face a steep learning curve and risk being misinformed about digital currencies and blockchain technology.</p>
+<p><strong>Solution:</strong><br/>
+Crypto Learning Hub is an AI-powered voice assistant that delivers personalized, interactive lessons on cryptocurrency topics. It simplifies complex crypto concepts through natural, conversational interactions, making learning accessible and engaging for everyone.</p>
+<p>Crypto Learning Hub is  designed to empower users on their journey to financial freedom. We aim to  redefine financial education and turn challenges into opportunities. </p>
+<p>The Learning Hub platform isn’t just about crypto; it offers a highly scalable and customizable experience that any company can use to position themselves as a trusted expert. Whether you're building a new venture or enhancing your business’s impact, a Learning Hub scales with your ambitions. </p>
+<p>We acknowledge adherence to hackathon rules and deadlines.</p>
+<hr/>
+<h2>2. Team Information</h2>
+<p><strong>Team Name:</strong><br/>
+Team Navigator</p>
+<p><strong>Team Members and Roles:</strong></p>
+<ul>
+<li><p><strong>Vanessa Saunders (Project Manager):</strong><br/>
+Coordinates project timelines and team collaboration, prepares project documentation .</p></li>
+<li><p><strong>Dantee Fluellen (Lead Developer):</strong><br/>
+Develops the AI integration and voice synthesis features.</p></li>
+<li><p><strong>Inam ul Rehman (AI Developer):</strong><br/>
+Design AI automation for use cases.</p></li>
+<li><p><strong>Misty Waters (UX/UI Designer):</strong><br/>
+Designs the user interface and ensures a seamless user experience.</p></li>
+</ul>
+<hr/>
+<h2>3. Technical Details</h2>
+<p><strong>Tech Stack:</strong></p>
+<ul>
+<li><p><strong>Frontend:</strong><br/>
+Next.js for dynamic and responsive user interfaces.</p></li>
+<li><p><strong>Backend:</strong><br/>
+Next.js for server-side logic and API integration.</p></li>
+<li><p><strong>AI Integration:</strong> </p>
+<ul>
+<li><strong>ElevenLabs API</strong> for realistic voice synthesis.<br/></li>
+<li><strong>Mistral API</strong> for natural language understanding and dynamic response generation.</li>
+</ul></li>
+<li><p><strong>Database:</strong><br/>
+ElevenLabs Knowledgebase.</p></li>
+<li><p><strong>Hosting:</strong><br/>
+Deployed on Vercel for efficient and scalable hosting solutions.</p></li>
+</ul>
+<p><strong>Public Repository:</strong><br/>
+<a href="https://github.com/DivineAlways/crypto-learning.git" rel="nofollow">Crypto Learning Hub GitHub Repository</a></p>
+<p><strong>Visuals:</strong><br/>
+Screenshots of the user interface and workflow diagrams are included in the repository documentation.</p>
+<hr/>
+<h2>4. Diagram: Tech Stack Interaction</h2>
+<p>Attached is a simple diagram illustrating the interaction between our components:</p>
+</div>

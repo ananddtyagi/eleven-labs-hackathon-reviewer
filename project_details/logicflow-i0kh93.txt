@@ -1,0 +1,62 @@
+<div>
+<h2>Inspiration</h2>
+<p>We were inspired by the shortcomings of traditional text-based debate and the untapped potential of voice-assisted interaction. We wanted to combine <strong>symbolic logic checks</strong> with <strong>AI-driven voice</strong> to create a more <strong>immersive</strong>, <strong>structured</strong>, and <strong>engaging</strong> debate and learning experience. Our goal was to empower users with stronger reasoning skills in a fun, community-driven environment.</p>
+<h2>What it does</h2>
+<p><strong>VeriVox</strong> is a voice-oriented debate and learning platform that:</p>
+<ul>
+<li>Integrates <strong>ElevenLabs</strong> voice APIs for <strong>real-time AI speech</strong> interaction.</li>
+<li>Uses <strong>audio reflective particles</strong> to visualize user engagement and states like recording, speaking, or standby.</li>
+<li>Incorporates a <strong>symbolic logic engine</strong> that validates the soundness of user statements (something typical LLMs struggle with).</li>
+<li>Teaches <strong>five fundamental logic symbols</strong> (And, Or, Not, If…then, If and only if) through an interactive tutorial.</li>
+<li>Offers an <strong>online multiplayer mode</strong> with achievements, letting users debate, play, and hone their logic skills together.</li>
+</ul>
+<h2>How we built it</h2>
+<ol>
+<li><p><strong>Voice Integration</strong> </p>
+<ul>
+<li>Leveraged <strong>ElevenLabs</strong> for natural-sounding AI voice and real-time speech output.</li>
+<li>Built a custom voice pipeline with web audio APIs to capture user input and provide swift feedback.</li>
+</ul></li>
+<li><p><strong>Symbolic Logic System</strong> </p>
+<ul>
+<li>Developed a custom <strong>logic validator</strong> that parses user statements and checks their internal consistency.</li>
+<li>Connected it to LLMs (GPT-4o) for natural language processing—while the formal logic engine does the “heavy lifting” on validity.</li>
+</ul></li>
+<li><p><strong>Audio Reflective Particles</strong> </p>
+<ul>
+<li>Implemented a <strong>visual layer</strong> in the frontend (React + WebGL or Canvas) that reacts dynamically to user voice states (e.g., “Recording,” “Listening,” “Idle”).</li>
+</ul></li>
+<li><p><strong>Online Game &amp; Achievements</strong> </p>
+<ul>
+<li>Created a <strong>multiplayer environment</strong> using Node.js + websockets, allowing real-time debate sessions.</li>
+<li>Implemented an <strong>achievement system</strong> in the database to track user progress (e.g., number of debates joined, logic tutorials completed).</li>
+</ul></li>
+</ol>
+<h2>Challenges we ran into</h2>
+<ul>
+<li><strong>Voice &amp; Symbolic Logic Integration</strong>: Balancing free-flowing AI conversation with strict logical validation required multiple checks and fail-safes.</li>
+<li><strong>Real-time Performance</strong>: Ensuring audio reflective particles and voice outputs remained smooth under multiplayer conditions.</li>
+<li><strong>Tutorial Design</strong>: Making symbolic logic approachable and enjoyable for beginners, yet still useful for advanced debaters.</li>
+<li><strong>Scalable Infrastructure</strong>: Handling voice processing and logic checking with minimal latency on the backend.</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li><strong>Seamless Voice + Logic</strong>: Successfully merged AI voice responses with an internal symbolic logic engine—a first of its kind for us.</li>
+<li><strong>Interactive Tutorial</strong>: Built a user-friendly introduction to five fundamental logic symbols, helping users quickly improve their reasoning skills.</li>
+<li><strong>Engaging Social Platform</strong>: Launched a multiplayer feature that encourages friendly debate, skill-building, and community interaction.</li>
+<li><strong>Achievement Gamification</strong>: Integrated a rewards system that keeps users motivated and tracks their logic proficiency over time.</li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>The importance of <strong>careful UX</strong> design for bridging voice interaction and formal logic, ensuring neither overwhelms new users.</li>
+<li>How to make <strong>LLMs</strong> and a <strong>formal logic engine</strong> collaborate effectively—LLMs handle natural language, while the symbolic logic system ensures semantic correctness.</li>
+<li>Techniques for optimizing <strong>real-time audio visualization</strong> without sacrificing system performance.</li>
+</ul>
+<h2>What's next for VeriVox</h2>
+<ul>
+<li><strong>Expanded Logic Library</strong>: Add more advanced logic operators (e.g., quantifiers, modal logic) for deeper debates.</li>
+<li><strong>Community &amp; Collaboration</strong>: Let users share logic maps, team up for group debates, and crowdsource best practices.</li>
+<li><strong>Multi-Language Voice Support</strong>: Adapt the platform for multiple languages and diverse cultural contexts.</li>
+<li><strong>Advanced AI Opponents</strong>: Develop more sophisticated voice-based AI adversaries with specialized knowledge in specific debate topics.</li>
+</ul>
+</div>

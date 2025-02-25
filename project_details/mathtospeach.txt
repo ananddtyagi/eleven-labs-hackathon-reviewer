@@ -1,0 +1,22 @@
+<div>
+<h2>Inspiration</h2>
+<p>I love running while listening to research papers PDFs. Many PDFs—rich with complex mathematical formulas and intricate graphs—remain challenging for TTS solutions. `I aimed to transform this static content into engaging audio, enabling a more intuitive and inclusive learning experience. Its dedicated for researchers, students and visually impaired users.</p>
+<h2>What it does</h2>
+<p>MathToSpeech converts PDF documents containing sophisticated math and graphical data into high-quality, synchronized audio narrations. It extracts text, interprets equations, and summarizes graphs using advanced AI models, then employs ElevenLabs’ natural TTS engine to produce a clear and dynamic auditory experience. Additionally, the application highlights text in real time as it is spoken.</p>
+<h2>How we built it</h2>
+<p>We built MathToSpeech as a full-stack web application with a modular AI pipeline orchestrated by CrewAI. The backend, developed in FastAPI, delegates tasks to specialized agents for OCR (using PyMuPDF and Tesseract), math parsing (via Sympy), and graph interpretation (leveraging OpenCV and an LLM). An NLP refinement agent polishes the combined text before the TTS agent sends it to ElevenLabs’ API. The React-based frontend handles file uploads, progress tracking, and synchronized audio playback with text highlighting.</p>
+<h2>Challenges we ran into</h2>
+<p>Integrating diverse AI components was complex. Accurately extracting and interpreting handwritten or embedded math, synchronizing word timings for text highlighting, and managing API rate limits were significant hurdles. Ensuring smooth interoperability between modules in the CrewAI pipeline also presented challenges. Still lot of work but so happy to see concept working.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>It works! Fairly simple solution consisting of just 3 agents with simple task can achieve so much!
+See video for last example - it's not only read its explains PDFs!</p>
+<h2>What we learned</h2>
+<p>ElevensLab API can be challenching - I had te resign from streaming. Lovable was suprisly deep in experinece. </p>
+<h2>What's next for MathToSpeach</h2>
+<ol>
+<li>Streaming of audio</li>
+<li>Real time processing of PDFs (currently its batch)</li>
+<li>More customizations options for audio output - simple, science explanatory etc...</li>
+<li>Mobile app for running</li>
+</ol>
+</div>

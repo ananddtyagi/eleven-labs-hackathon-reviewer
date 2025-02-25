@@ -1,0 +1,39 @@
+<div>
+<h1>Mythicist: Unleashing Infinite Procedurally Generated D&amp;D Adventures</h1>
+<p>Hey everyone! We’re a team of students who love gaming (and coding), and we’re excited to share our project: <strong>Mythicist</strong>!. Imagine a D&amp;D campaign where every session feels brand new, with dynamically generated worlds, characters, and quests. That’s exactly what we set out to create!</p>
+<hr/>
+<h2>What’s the Idea?</h2>
+<p>Traditional D&amp;D can sometimes feel a bit… predictable. With Mythicist, we wanted to change that feeling by doubling down with the power of procedural generation. Using <strong>fal</strong> for generative media and <strong>elevenlabs</strong> for dialogue, our platform crafts a fully dynamic, multiplayer experience. Every time you start a campaign, new assets and storylines are generated on the fly, giving you a fresh adventure every single time.</p>
+<hr/>
+<h2>How It Works</h2>
+<ul>
+<li><p><strong>Procedural Generation:</strong><br/>
+Our system uses <strong>fal</strong> to create unique visuals and assets in real time, ensuring that no two campaigns are ever the same.</p></li>
+<li><p><strong>Dynamic Dialogue:</strong><br/>
+With <strong>elevenlabs</strong>, characters in the game come alive with interactive, engaging dialogue that reacts to the ever-changing storyline.</p></li>
+<li><p><strong>Multiplayer Magic:</strong><br/>
+Team up with friends using <strong>partykit</strong>, form parties, and dive into adventures together—all in a fully deployed online app that makes coordinating a quest a breeze.</p></li>
+</ul>
+<hr/>
+<h2>The Journey</h2>
+<p>Building Mythicist in 40 hours was wild! We tackled challenges like synchronizing real-time content, model-selecting, and prompt-engineering to make sure every generated asset felt "<em>organic</em>" and immersive. Through <em>many</em> iterations, a very late night debugging session, and a whole lot of coffee &amp; Canes, we learned how to make a multiplayer application that streams content from elevenlabs and fal. One of our team members was also on a work trip across the country during the weekend, complicating things further.</p>
+<hr/>
+<h2>Tech Stack</h2>
+<ul>
+<li><strong>Webapp:</strong> next.js :)</li>
+<li><strong>Multiplayer:</strong> partykit</li>
+<li><strong>Database:</strong> turso</li>
+<li><strong>Auth:</strong> clerk</li>
+<li><strong>Generative Media:</strong> fal<br/></li>
+<li><strong>Dialogue:</strong> elevenlabs<br/></li>
+<li><strong>Repo:</strong> turbo</li>
+</ul>
+<p><a href="https://github.com/Lermatroid/mythicist" rel="nofollow">More found here</a></p>
+<p>We’re proud of getting all of these tools to work together (with scattered team members) 🤠. It wasn’t easy, but every challenge was fun.</p>
+<hr/>
+<h2>What’s Next?</h2>
+<p>We’re hope to continue this project and make it a fun platform people can use to play with their friends! We'd like to optimize our asset generation strategy to make it more economically feasible in the future (and to keep free!). Hopefully we can continue this mission and streamline this experience for everyone!</p>
+<hr/>
+<p>Thanks for checking out Mythicist! We can’t wait for you to roll the dice, form your party, and dive into a world where every adventure is one-of-a-kind. Happy questing!</p>
+<p>Feel free to explore our <a href="https://github.com/Lermatroid/mythicist" rel="nofollow">GitHub repository</a> for more details or to get involved.</p>
+</div>

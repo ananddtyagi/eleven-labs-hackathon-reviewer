@@ -1,0 +1,25 @@
+<div>
+<h2>MateAventuras:</h2>
+<p>Turn Learning into an Adventure What it does MateAventuras (Math-Adventures) is an educational helper for Spanish speaking kids 4-6 years old. It teaches basic math and geometry in a fun way. We created this project to help parents provide educational and entertainment content to their kids to get them to love math.</p>
+<h2>What inspired us</h2>
+<p>As educators we saw the need to merge education and entertainment through technology and to reach Latin American communities in peripheral areas with limited educational opportunities. The idea was to create a tool that allows kids to learn through short conversations and for parents to find interactive and personalized lessons.</p>
+<h2>How we built it:</h2>
+<p>Service Integration: We learned how to use Supabase, Make and Perplexity to manage authentication, workflow automation and content generation and curation. Interaction Design: We designed a simple and straightforward experience for both kids and parents. How we built the project Virtual Assistant </p>
+<h2>Design:</h2>
+<p>We built MateAventuras as an interactive tutor that guides users from different social backgrounds across Latin America to learn math and geometry. </p>
+<h3>Content Search and Selection:</h3>
+<p>We implemented a system that uses webhooks to search and display the best educational YouTube videos based on the topic requested. </p>
+<h3>Workflow Automation:</h3>
+<p>We used Make to manage real-time updates and queries to the Supabase database. User-Friendly ###Interface: 
+We designed a simple interface so parents and kids can interact without complications. </p>
+<h2>Challenges we faced:</h2>
+<p>-Configuring Row-Level Security policies in Supabase to update data securely. Data Formatting:
+-Converting JSON arrays to PostgreSQL array literals to avoid formatting errors. 
+-Coordinating multiple APIs and services to offer a unified experience. 
+-Designing prompts that are accurate, friendly and for both kids and parents. </p>
+<p>Despite the challenges we faced we were able to learn and experiment with new technologies and prove that learning can be an adventure for everyone.</p>
+<h2>Accomplishments we’re proud of:</h2>
+<p>We achieved a very natural and pleasant interaction, with an agent that can guide parents on the relevance of the topics, offer different approaches to math and curate content from the internet.And we are looking forward to bring an educational tool to Spanish speaking communities with limited access to education to expand their knowledge and have a smooth and fun interaction with a virtual tutor.</p>
+<h2>What’s next for <em>"MateAventuras"</em></h2>
+<p>In future versions of MateAventuras we will be able to generate videos autonomously and provide explanations with graphics so kids can interact with geometry concepts on screen to reinforce their learning.</p>
+</div>

@@ -1,0 +1,65 @@
+<div>
+<h2>About the Project</h2>
+<h3>Inspiration</h3>
+<p>TimeTraveler was inspired not only by classic sci-fi movies and the timeless allure of time travel,<br/>
+but also by the concept of <strong>anemoia</strong>—that deep nostalgia for memories you never had.  </p>
+<p>I was captivated by YouTube playlists that embrace this unique sentiment,<br/>
+and by the liminal ambient music that has become a favorite among Gen-Z.  </p>
+<p>This blend of imaginative longing and evocative soundscapes sparked the idea<br/>
+of creating an app where users can step into different eras—both past and future—<br/>
+and experience immersive worlds paired with heartfelt, personalized conversations.</p>
+<h3>What I Learned</h3>
+<ul>
+<li><p><strong>ElevenLabs Conversation AI:</strong><br/>
+I learned how to integrate and utilize ElevenLabs to generate natural, context-aware conversations.<br/>
+It was both challenging and incredibly fun.</p></li>
+<li><p><strong>fal.ai’s Capabilities:</strong><br/>
+I explored how fal.ai can quickly generate immersive images and even sound elements like a ringback tone,<br/>
+enhancing the overall experience.</p></li>
+<li><p><strong>Deepseek for Backstories:</strong><br/>
+Combining deepseek-generated backstories with ElevenLabs’ conversation AI allowed me to create<br/>
+rich, believable character narratives.</p></li>
+<li><p><strong>Technical Coordination:</strong><br/>
+Managing multiple AI services and ensuring they work together seamlessly taught me a lot<br/>
+about API integration and handling asynchronous workflows.</p></li>
+<li><p><strong>Working with Lovable:</strong><br/>
+Learning to use the least prompt to achieve the best result. 
+Identifying the root problem myself, then communicating it to Lovable, is often the best way to fix bugs.</p></li>
+</ul>
+<h3>How I Built It</h3>
+<ul>
+<li><p><strong>Concept Development:</strong><br/>
+The initial concept was centered around a phone booth where the user could time travel,<br/>
+with the phone ringing and initiating a conversation.<br/>
+However, due to the longer generation time for videos, I pivoted to using fal.ai to generate<br/>
+a fast, immersive image of the street as seen from a balcony in the chosen era.</p></li>
+<li><p><strong>Role &amp; Responsibilities:</strong><br/>
+I served as both the PM and Tech Lead, reviewing code, identifying and fixing bugs,<br/>
+and guiding the development process using Lovable.<br/>
+This involved closely monitoring changes, ensuring code stability,<br/>
+and integrating various components like ElevenLabs, fal.ai, and deepseek.</p></li>
+<li><p><strong>Tech Stack:</strong><br/>
+The project leverages Lovable for coding and project management,<br/>
+React.js for the frontend, ElevenLabs for voice synthesis and conversation,<br/>
+fal.ai for image and ringback audio generation, deepseek for generating rich backstories,<br/>
+and Supabase for the database and edge functions.</p></li>
+</ul>
+<h3>Challenges Faced</h3>
+<ul>
+<li><p><strong>Integration Complexity:</strong><br/>
+Coordinating between multiple APIs (ElevenLabs, fal.ai, deepseek) required careful orchestration<br/>
+to maintain a seamless user experience.</p></li>
+<li><p><strong>Regression Bugs:</strong><br/>
+Lovable’s frequent code changes led to regression issues that I had to track down and fix,<br/>
+ensuring that all functionalities worked as intended.</p></li>
+<li><p><strong>Balancing Speed and Immersion:</strong><br/>
+Initially planning for video generation, I had to adapt the concept to still images<br/>
+to meet performance needs while still delivering an immersive experience.</p></li>
+</ul>
+<h3>Final Thoughts</h3>
+<p>This project has been a rewarding journey that melds futuristic AI technology with the imaginative world of time travel.  </p>
+<p>It not only allowed me to dive deep into cutting-edge tools like ElevenLabs and fal.ai,<br/>
+but also provided invaluable lessons in project management and technical integration.  </p>
+<p>I had a lot of fun building and refining this app, and I hope it inspires others<br/>
+to explore the limitless possibilities at the intersection of creativity and technology.</p>
+</div>

@@ -1,0 +1,102 @@
+<div>
+<h2>Inspiration</h2>
+<p>My grandma has been battling Alzheimer’s for almost 20 years (we just celebrated her 90th birthday!). It started with small things—repeating stories, forgetting what she just did. She would confuse day with night, winter with summer. Gradually, she forgot her own name, then all of ours.</p>
+<p>I grew up with my grandma. When others lost patience, I tried to listen—to the same stories over and over. But I wasn’t perfect. Sometimes, I had work to do; sometimes, I wanted to spend time with friends. And every time I saw her sitting alone, guilt washed over me.</p>
+<p>Conversation is powerful for Alzheimer’s patients. It keeps their minds active and helps them feel connected and valued. My grandma also responded best to visual cues, and research shows that even an hour of daily visual engagement can slow cognitive decline.</p>
+<p>That’s why I built <strong>Grandma’s Girl</strong>—an AI companion with infinite patience. One that listens, engages, asks questions, and brings conversationConversation analysiss to life with images. A companion who never gets tired, who keeps her mind engaged—who, maybe, just maybe, helps her hold on to her memories a little longer, one conversation at a time.</p>
+<h2>What It Does</h2>
+<p><strong>Grandma's Girl</strong> is an AI companion that helps Alzheimer’s patients retain memories through conversation and visual aids. Inspired by caring for my grandma, it engages through speech and real-time image generation.</p>
+<h3>Key Features:</h3>
+<ul>
+<li><strong>Real-time voice conversations</strong> with an AI agent that speaks in a cloned voice of a familiar person (in this case, me!).</li>
+<li><strong>Intelligent image generation</strong> using text-to-image models and NLP techniques to create visuals based on conversation context.</li>
+<li><strong>A dynamic image gallery</strong> that visually maps stories, sparking memory recall.</li>
+<li><strong>A visual history tracker</strong> that helps caregivers monitor which images resonate most.</li>
+<li><strong>Conversation analysis</strong> to identify patterns in the patient’s recall, aiding caregivers in tracking cognitive decline over time.</li>
+</ul>
+<h2>How We Built It</h2>
+<p>This system is designed with a deep understanding of Alzheimer's care, ensuring warmth, familiarity, and engagement at every step.</p>
+<h3>Conversational AI &amp; Voice Cloning</h3>
+<ul>
+<li><strong>Conversational AI:</strong> Uses <strong>ElevenLabs’ AI agents</strong> for natural speech-to-text and text-to-speech interaction.</li>
+<li><strong>Voice Cloning:</strong> Familiar voices are essential. Alzheimer’s patients can feel anxious with unfamiliar ones, so I cloned my own voice as the granddaughter to provide comfort.</li>
+</ul>
+<h3>Carefully Designed System Prompts</h3>
+<ul>
+<li><strong>Basic Information Recall:</strong> Regularly prompts the patient about their name, hometown, and surroundings to reinforce memory and track cognitive function.</li>
+<li><strong>Interactive Conversations with Visual Cues:</strong> The agent detects relevant images and asks if they match the patient's memories.</li>
+<li><strong>Contextual Follow-Ups:</strong> Encourages the patient to recall what they just said, strengthening conversational continuity.</li>
+<li><strong>Storytelling Focus:</strong> Prioritizes questions about childhood and past events, as Alzheimer’s patients often recall these more vividly. (Yes, it’s counterintuitive)</li>
+<li><strong>Emotional Intelligence:</strong> Maintains a warm, patient, and positive tone—because making patients feel connected is just as important as cognitive recall.</li>
+</ul>
+<h3>Tool Use</h3>
+<p>Given the hackathon’s time constraints, I focused on essential tools:</p>
+<ul>
+<li><strong>Date &amp; Time Awareness:</strong> The agent provides real-time information to help patients stay oriented. Alzheimer’s patients often lose their sense of time, forgetting to eat or perform daily tasks.</li>
+<li><strong>Knowledge Base:</strong> A structured text file with basic personal and contextual information for the agent to retrieve and verify responses.</li>
+</ul>
+<h3>Evaluation Criteria for the Agent</h3>
+<ul>
+<li>Ensures the AI asks key questions (e.g., name, hometown, time of day).</li>
+<li>Accurately corrects misinformation using the knowledge base.</li>
+</ul>
+<p>See the attached <code>agent_criteria_evaluation.png</code> in the <code>Project Media</code> section</p>
+<h3>Data Collection for Cognitive Tracking</h3>
+<ul>
+<li>Extracts patient responses to basic questions.</li>
+<li>Helps caregivers and medical professionals track cognitive decline over time.</li>
+</ul>
+<p>See the attached <code>data_collection.png</code> in the <code>Project Media</code> section</p>
+<h3>Automatic Image Generation Based on Conversation</h3>
+<ul>
+<li><strong>Real-time visual aid generation</strong> to bring memories to life.</li>
+<li><strong>Model Choice:</strong> <strong>Flux Pro via Fal.ai API</strong> for personalized visuals.</li>
+<li><strong>NLP-Driven Triggers:</strong> Uses <strong>spaCy</strong> to detect strong visual elements (e.g., "I lived by a river with a lot of fish in it") and trigger image creation.</li>
+</ul>
+<h3>Minimalist, Intuitive UI (React App)</h3>
+<ul>
+<li><strong>Designed for Simplicity:</strong> No distractions—just the conversation and its associated images.</li>
+<li><strong>Gallery View:</strong> Past images are accessible on the side for recall.</li>
+<li><strong>Consistent Visual Style:</strong> To maintain a uniform style across generated images, additional prompts were provided to <code>Flux Pro</code>, and the <code>fine-tune strength</code> was adjusted.</li>
+<li><strong>Caregiver Insights:</strong> Helps caregivers track which images spark the strongest responses.</li>
+</ul>
+<h2>Tech Stack &amp; Architecture</h2>
+<ul>
+<li><strong>Backend:</strong> <code>Flask-SocketIO</code> for real-time WebSocket communication.</li>
+<li><strong>NLP Processing:</strong> <code>spaCy</code> for noun extraction and image trigger detection.</li>
+<li><strong>Event-Driven Architecture:</strong> Ensures smooth interaction between conversation and image generation.</li>
+<li><strong>Multi-threading:</strong> Prevents blocking operations during image generation.</li>
+<li><strong>Frontend:</strong> <code>React</code> for a modern, responsive experience.</li>
+</ul>
+<h2>Challenges We Ran Into</h2>
+<ul>
+<li><strong>Too many ideas, too little time.</strong> So many features to build, so many tools to explore!</li>
+<li><strong>Real-time updates &amp; WebSockets.</strong> Ensuring smooth communication between the frontend and backend took time.</li>
+<li><strong>The Infinite Conversation Loop.</strong> If the AI hears itself, it keeps talking… forever. (Fun, but expensive!) I spent a while debugging, thinking it was an async communication issue.</li>
+</ul>
+<h2>Accomplishments We’re Proud Of</h2>
+<ul>
+<li><strong>Built something I truly care about.</strong> My grandma is at an advanced stage, so she won’t benefit from this, but I hope it helps many others.</li>
+</ul>
+<h2>What We Learned</h2>
+<ul>
+<li><strong>ElevenLabs’ AI voice cloning is incredible.</strong> The accuracy is significantly better than speech-to-speech models, with almost no hallucinations.</li>
+<li><strong>Fal.ai is super easy to use.</strong> Ready-to-use APIs made integration smooth.</li>
+<li><strong>WebSockets can be tricky.</strong> Debugging real-time communication taught me a lot.</li>
+<li><strong>Fine-tuned my voice clone.</strong> Turns out, my voice is way more monotonous than I thought—I had to tweak it multiple times to make it sound warm and engaging.</li>
+</ul>
+<h2>What’s Next for Grandma’s Girl</h2>
+<p>This project was built with Alzheimer's patients in mind, but its potential goes beyond that.</p>
+<p>We all have images stuck in our minds. Drawing them out is difficult (unless you’re Picasso), but words come easier. Imagine an <strong>AI memory artist</strong> that turns our thoughts into visuals.</p>
+<h3>The Next Step? Interactive Image Refinement</h3>
+<p>Instead of generating a new image every time, the AI will:</p>
+<ul>
+<li><strong>Use past images as references.</strong></li>
+<li><strong>Engage in back-and-forth refinement.</strong></li>
+<li><strong>Ask: "Does this look like what you had in mind?"</strong></li>
+<li><strong>Iteratively build a scene based on user feedback.</strong></li>
+</ul>
+<p>A <strong>co-creative AI</strong> that brings our mental images to life—one conversation at a time.</p>
+<h3>Final Thoughts</h3>
+<p>This hackathon gave me the opportunity to build something deeply personal. While I couldn’t pack in every feature I envisioned, this is just the beginning. I hope <strong>Grandma’s Girl</strong> can be refined, expanded, and used by those who need it most. 💙</p>
+</div>

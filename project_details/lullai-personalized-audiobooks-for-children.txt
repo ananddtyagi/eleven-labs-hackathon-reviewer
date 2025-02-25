@@ -1,0 +1,52 @@
+<div>
+<h1>LullAI - Personalized Audiobooks for Children</h1>
+<h3>ElevenLabs x a16z Hackathon</h3>
+<h2>Team Information:</h2>
+<h4>Yun Ma, Liu Ling, Jiayue Zhang,</h4>
+<h2>Inspiration</h2>
+<p>Babies and toddlers are highly attuned to their parents' voices, finding comfort, security, and familiarity in their tone and rhythm. However, modern lifestyles often make it difficult for parents to be physically present for every bedtime story or soothing lullaby. Whether due to work commitments, travel, or other responsibilities, moments of shared reading can sometimes be missed in the critical stage of psychological development.  </p>
+<p>While many bedtime storybooks come with audio versions on the market, they often feature <strong>generic, robotic voices</strong> that lack the warmth and familiarity of a parent's voice, making it difficult to recreate the genuine storytelling experience only a parent can provide.  </p>
+<p><strong>LullAI</strong> addresses this by leveraging <strong>AI-powered voice cloning and text-to-speech techniques</strong>. It aims to bridge that gap—allowing parents to preserve their unique voice and use it to read stories to their children, even when they’re not physically present. Imagine a <strong>deployed parent</strong> still being able to read their child's favorite bedtime story, or a <strong>grandparent’s voice</strong> continuing to nurture a young one long after they’ve passed.  </p>
+<p>The project is inspired by the need to <strong>keep that connection alive</strong> in a meaningful and interactive way.  </p>
+<h2>What it does</h2>
+<p>This web app allows parents to <strong>clone their voice</strong> and use it to <strong>read books aloud</strong> to their newborns, infants, and toddlers. By leveraging AI-driven voice synthesis, the app creates a natural-sounding version of the parent’s voice that can narrate <strong>children’s books, bedtime stories, and lullabies</strong>. Parents can upload books or enter text, ensuring their children always hear a familiar and comforting voice, even when they are not physically present. </p>
+<h3>Key Features:</h3>
+<ul>
+<li><strong>Voice Cloning:</strong> Parents record a short sample, and the app generates an AI-powered synthetic voice. </li>
+<li><strong>Text-to-Speech Conversion:</strong> The cloned voice reads aloud stories in a natural, expressive manner. </li>
+</ul>
+<h2>How we built it</h2>
+<ul>
+<li><strong>Frontend:</strong> React.js with Next.js for a responsive and user-friendly UI, including Lovable assistance. </li>
+<li><strong>Backend:</strong> Node.js for API handling. </li>
+<li><strong>Voice Cloning &amp; AI Models:</strong> EvelenLabs’ cloning API and text-to-speech API. </li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>The <strong>importance of expressive AI voices</strong> in maintaining emotional warmth in storytelling. </li>
+<li>Best practices for <strong>AI application</strong> when having resourceful AI tools and models.
+
+<ul>
+<li>The potential <strong>real-world applications of AI-driven speech synthesis</strong> beyond just storytelling.<br/></li>
+</ul></li>
+</ul>
+<h2>What's Next for LullAI</h2>
+<ul>
+<li><strong>Integrating Translation Features</strong> – Enable automatic translation of foreign books for a wider range of stories.<br/></li>
+<li><strong>Finalizing Database for Personalization</strong> – Enhance fine-tuning capabilities to create a more personalized experience.<br/></li>
+<li><strong>Combining with AI APIs for Interactive Features</strong> – Allow children to <strong>talk to their parents' voices</strong>, making storytelling more engaging.<br/></li>
+<li><strong>Developing Mobile Apps for Offline Use</strong> – Build iOS and Android applications to provide seamless accessibility anytime, anywhere.<br/></li>
+<li><strong>Collaborating with Publishers</strong> – Partner with publishers so parents can <strong>purchase books online</strong> directly through our platform.<br/></li>
+<li><strong>Partnering with Local Daycare Centers</strong> – Introduce LullAI as a <strong>comfort assistant</strong> to help soothe babies in daycare environments. </li>
+</ul>
+<h2>Vision and Mission</h2>
+<ul>
+<li><strong>Strengthening the Parent-Child Bond Through AI</strong> - LullAI envisions a world where a parent’s voice remains an integral part of a child’s emotional and cognitive development, no matter the circumstances. Our technology ensures that even when parents are away, their voice continues to comfort, educate, and nurture their children.</li>
+<li><strong>Revolutionizing Storytime with Personalized AI</strong> - We aim to redefine storytelling by allowing parents to record and synthesize their voices, making bedtime stories more intimate, engaging, and emotionally connected. With LullAI, every story is told in the warm embrace of a parent's voice.</li>
+<li><strong>Making AI-Powered Parenting Accessible &amp; Seamless</strong> - LullAI strives to be an intuitive, effortless tool for parents, integrating seamlessly into daily routines. Our vision is to make voice cloning and AI-driven storytelling accessible to every family, fostering deep emotional connections through technology.</li>
+<li><strong>Enhancing Early Childhood Development</strong> - We believe that a familiar and loving voice enhances a child’s language development, cognitive skills, and emotional well-being. LullAI seeks to enrich early childhood experiences by making learning and storytelling more immersive, engaging, and deeply personal.</li>
+<li><strong>Creating a Legacy of Love Through Voice</strong> - Our long-term vision is to allow parents to leave a lasting imprint of love through their voice, enabling future generations to cherish and relive special moments through AI-powered storytelling.</li>
+</ul>
+<h2>Compliance</h2>
+<p>We adhere to hackathon rules and deadlines.</p>
+</div>

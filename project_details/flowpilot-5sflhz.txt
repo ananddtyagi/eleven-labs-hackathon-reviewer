@@ -1,0 +1,47 @@
+<div>
+<h2>Inspiration</h2>
+<p>FlowPilot was created to simplify workflow automation by integrating multiple AI agents. The goal was to enable seamless execution of tasks like summarizing URLs, preparing content, sending emails, scheduling meetings, and generating images.</p>
+<h2>What it does</h2>
+<p>Users can integrate their own custom AI agents and also use FlowPilot alongside PicaOS integrations.
+Choose between Pica AI for standard tasks or custom agents for specialized needs.
+Automate workflows like content summarization, knowledge extraction, image generation and real-time voice interactions.
+Can choose between Pica AI for standard tasks or custom agents for specific needs.</p>
+<h2>How we built it</h2>
+<ul>
+<li><strong>Backend</strong>: PicaOS, n8n for custom agents and API handling, hosted on DigitalOcean.</li>
+<li><strong>Frontend</strong>: Next.js for user interaction  , documentation of Picaos Lovable and v0.dev used for UI </li>
+<li><strong>AI Integration</strong>: GPT-4o for PicaOS, GPT-4o-mini and Google Gemini 2.0 for custom agentic workflows, ElevenLabs for voice agent interactions, and Fal.ai for image generation.</li>
+<li><strong>Database</strong>: PostgreSQL for storing workflow states<br/></li>
+<li><strong>APIs &amp; Webhooks</strong>: Custom webhook integration for dynamic responses<br/></li>
+</ul>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>Ensuring AI responses were accurate and relevant<br/></li>
+<li>Debugging n8n workflows for correct chatbot responses<br/></li>
+<li>Managing multiple UI elements like chat widgets<br/></li>
+<li>Optimizing workflow execution for faster responses<br/></li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>Successfully integrating multiple AI agents into a single workflow<br/></li>
+<li>Creating a user-friendly interface for managing workflows<br/></li>
+<li>Enabling real-time voice interactions using ElevenLabs<br/></li>
+<li>Adding AI-generated image capabilities with Fal.ai.</li>
+<li>Optimizing response times for a seamless user experience </li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>Thank you , I learned a lot but more importantly I learned that I have more to learn</li>
+<li>Effective handling of webhook-based AI interactions<br/></li>
+<li>Improving  workflow automation with platforms like n8n,make</li>
+<li>Debugging and optimizing multi-agent architectures<br/></li>
+<li>Enhancing user experience by balancing automation and customization<br/></li>
+</ul>
+<h2>What's next for FlowPilot</h2>
+<p>-Currently, it’s temporarily hosted for the judges to try—there's a lot of room for improvement.</p>
+<ul>
+<li>Expanding agent capabilities for more use cases<br/></li>
+<li>Adding more customization options for workflows<br/></li>
+<li>Improving UI for a better user experience<br/></li>
+</ul>
+</div>

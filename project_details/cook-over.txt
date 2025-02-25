@@ -1,0 +1,33 @@
+<div>
+<h2>Inspiration</h2>
+<ul>
+<li>When cooking, your hand is wet, you are surrounded by ingredients and equipments, you are using gloves, so on and so on.</li>
+<li>It is so annoying to keep going back to your phone to look at the recipe to find what to do next, how much water to use, what if I put too much sugar.</li>
+</ul>
+<h2>What it does</h2>
+<ul>
+<li>Hands-free, voice-controlled recipe navigation.</li>
+<li>Read and understand recipes from text and URL then adjust serving/ingredients to your liking.</li>
+<li>Intelligent task parallelization to save time when cooking: automatically analyze recipe to create an optimized cooking order (e.g. while water is boiling, go chop vegetables).</li>
+<li>Answer any question related to instruction such as "What is al dente?", "I added too much salt now what?", "How should my food look like?", "How do I know if the meat is cooked?"</li>
+<li>Real-time cooking guidance: guide user through the cooking process step by step, keep track of the conversation to know what the users need help with and provide appropriate suggestions.</li>
+</ul>
+<h2>How we built it</h2>
+<p>ElevenLabs for voice interface and Mistral for understanding request and generating response </p>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>Latency</li>
+<li>Hard to parse recipe</li>
+<li>Hard to ochestrate the workflow</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<p>Natural conversation interface to assist with any question while cooking</p>
+<h2>What we learned</h2>
+<ul>
+<li>So hard to create an optimal step by step instruction to save time when cooking</li>
+</ul>
+<h2>What's next for Cook Over</h2>
+<ul>
+<li>Mobile app</li>
+</ul>
+</div>

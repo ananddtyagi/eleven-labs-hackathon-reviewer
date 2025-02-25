@@ -1,0 +1,20 @@
+<div>
+<h2>Inspiration</h2>
+<p>As a home cook, I'm often manically running around and trying to manage a cook, there might be a pot boiling, some prep to do, and some protein sizzling all at the same time. Then, I realise I don't have the right ingredient, or, I'm not entirely sure when somethings done or what to look for. I have to open up Google and search, filtering through pages of information - all while the sizzling and crackling is going on. Time is running out. </p>
+<p>Cooking can be complicated, and static instructions just don't cut it, especially when things go wrong. I wanted to create an assistant that makes following step-by-step instructions a bit easier, and using conversational AI to help with the quick questions, like 'what is al dente', or, 'what oil should i use instead of peanut oil'</p>
+<h2>What it does</h2>
+<p>Rémy is an AI-powered cooking assistant that guides users through recipes with clear, step-by-step instructions. It adapts to the user’s pace, answers questions about techniques and ingredients, and provides real-time suggestions if something doesn’t go as expected.</p>
+<h2>How we built it</h2>
+<p>I was completely out of my depth here, I had some familiarity with elevenlabs, Make, APIs and webhooks, but as a Product Designer, building an app was out of my league. I used Cursor IDE to really do a lot of the heavy lifting, coupled with GPT. </p>
+<h2>Challenges we ran into</h2>
+<p>The hardest was going in with a no-code approach. Not having deep technical understanding required me to leverage new AI tools to build the app. While it was great to be able to get a prototype running, it was frustrating at times to troubleshoot and work with AI-assisted IDEs without that technical understanding.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Honestly, even with the challenges of working with code as a 'non-dev', it was amazing to see how far these tools have come in order to get a prototype off the ground without a dev. This was the first web app I've built, so that in itself was a huge accomplishment for me, and the challenge I set out for myself.</p>
+<h2>What we learned</h2>
+<p>A bunch of new tools, definitely not exposed to these sides of tech with my day-to-day, it's amazing to see how for AI powered/embedded tech has come in such a short time. I've been able to wrap my head around some new apps that I definitely want to dive further on after the hackathon.</p>
+<p>Also, if you don't have a technical teammate, definitely keep a lean scope and test endlessly while making perceived small changes.</p>
+<p>Like, while writing this I had Claude making constant code changes to try to troubleshoot why we couldn't get it working when deployed to vercel, so we changed all the timeouts and implemented polling. Thats absolutely crazy.</p>
+<h2>What's next for Rémy – Your cooking assistant</h2>
+<p>If I had more time, definitely to improve some core functionality. There's some UI bugs and tweaks I'd make. I wanted to get this hands-free and use Mistral, but I didn't have the time. I knew a good amount of Elevenlabs so that definitely helped with that side of things – however, I'd like to spend more time tweaking the agent.</p>
+<p>Defintely some improvements around personalisation, nutrition and dietary substitions.</p>
+</div>

@@ -1,0 +1,18 @@
+<div>
+<h2>Inspiration</h2>
+<p>As sales surged, an eCommerce company faced rising customer service costs and sought an innovative solution to balance efficiency with customer satisfaction. They asked us for help to create an AI agent tailored their SOP and business.</p>
+<h2>What it does</h2>
+<p>Delivers instant, automated responses, manages order/tracking inquiries, and boosts sales with smart product recommendations—all while reducing operational costs. </p>
+<h2>How we built it</h2>
+<p>Our goal was to create a chat widget to make an awesome customer service agent. We started with a simple approach, using Dify to quickly validate our ideas. Our primary focus was integrating with Shopify and tracking orders.</p>
+<h2>Challenges we ran into</h2>
+<p>Due to the limitations of Dify, we couldn’t display messages in a diverse format, such as images or a more visually appealing tracking interface. Instead, we had to rely on plain text or URLs, which led to a somewhat fragmented user experience.
+Additionally, we faced challenges with LLM hallucinations.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>A real user plans to adopt our Customer Service AI Agent to replace their current Shopify support system while ensuring high-quality interactions. This project holds significant commercial potential.</p>
+<h2>What we learned</h2>
+<p>Prompt engineering alone wasn’t enough to achieve the precise results we wanted—we still needed extensive logic and conditional handling to refine the output.</p>
+<h2>What's next for Customer Service AI Agent</h2>
+<p>AI will proactively resolve issues instead of just responding to queries. Agents will collaborate with human support dynamically, escalating complex issues only when necessary.
+AI-Led Sales &amp; Customer Retention: AI will not only solve issues but also upsell and cross-sell by predicting customer needs. Predictive AI will flag at-risk customers and offer personalized retention strategies.</p>
+</div>

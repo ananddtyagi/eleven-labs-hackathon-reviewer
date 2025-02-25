@@ -1,0 +1,116 @@
+<div>
+<h1>Sleep n' Sound: AI-Powered Bedtime Stories 🌙✨</h1>
+<hr/>
+<h2>📂 Pitch Deck</h2>
+<p>Check out our <strong>Pitch Deck</strong> to learn more about Sleep n' Sound and how we’re revolutionizing bedtime stories for busy parents:<br/>
+👉 <a href="https://www.canva.com/design/DAGf94QiTCY/okSP_0EwalVZntzokaLSbg/edit" rel="nofollow">View Pitch Deck on Canva</a></p>
+<hr/>
+<h2>🌟 Inspiration</h2>
+<p>As developers passionate about solving real-world problems, we were struck by the challenges parents face in balancing work, family, and sleep. According to research, <strong>70% of mothers with a college or post-grad degree struggle to balance family life with work</strong>, and <strong>7/10 parents lose an average of 3 hours of sleep a night</strong> in their child’s first year. This inspired us to create <strong>Sleep n' Sound</strong>, an AI-powered bedtime story app designed to save busy parents up to <strong>3 hours of sleep a night</strong>—one tale at a time.</p>
+<hr/>
+<h2>🛠️ What it does</h2>
+<p>Sleep n' Sound is a magical bedtime story app that:</p>
+<ol>
+<li><strong>Generates Custom Stories</strong>: Using OpenAI’s GPT-4, it creates unique, engaging stories tailored to your child’s preferences.</li>
+<li><strong>Brings Stories to Life</strong>: Each story is divided into <strong>4 segments</strong>, with:
+
+<ul>
+<li><strong>AI-Generated Images</strong>: Created using Fal.AI’s <code>fal-ai/flux-pro/v1.1-ultra</code> model.</li>
+<li><strong>Voice Narration</strong>: Powered by ElevenLabs’ text-to-speech model, allowing users to select a voice for storytelling.</li>
+</ul></li>
+<li><strong>Interactive Playback</strong>: Stories are played back segment by segment, with new images and narration every 15 seconds.</li>
+<li><strong>Save and Share</strong>: Users can save their favorite stories to their library or share them with others.</li>
+<li><strong>Story Library</strong>:
+
+<ul>
+<li><strong>Your Stories</strong>: A personal library of stories created by the user.</li>
+<li><strong>Public Stories</strong>: A community-driven library where users can browse and enjoy stories shared by others, fostering creativity and connection.</li>
+</ul></li>
+</ol>
+<hr/>
+<h2>🏗️ How we built it</h2>
+<ul>
+<li><strong>Planning</strong>: Before coding, we created workflow diagrams and wireframes using <strong>Excalidraw</strong> (check out our workflow <a href="https://excalidraw.com/#json=soosItSz-pVC6XVKgub1o,1vw4ob-RdN8YPCVg1MoUZQ" rel="nofollow">here</a>).</li>
+<li><strong>Frontend</strong>: Built using <strong>Lovable</strong>, with inspiration from  <strong>21st.dev</strong> for building polished UIs faster. </li>
+<li><strong>Backend</strong>: Powered by <strong>Supabase</strong> for database management and edge functions.</li>
+<li><strong>AI Integrations</strong>:
+
+<ul>
+<li><strong>Story Generation</strong>: OpenAI’s GPT-4 for creating structured, JSON-formatted stories.</li>
+<li><strong>Image Generation</strong>: Fal.AI’s <code>flux-pro/v1.1-ultra</code> model for generating vivid, story-specific images.</li>
+<li><strong>Voice Narration</strong>: ElevenLabs’ text-to-speech API for lifelike voiceovers.</li>
+</ul></li>
+<li><strong>Version Control</strong>: Managed via <strong>GitHub</strong> for seamless collaboration and deployment.</li>
+</ul>
+<hr/>
+<h2>🚧 Challenges we ran into</h2>
+<ol>
+<li><strong>Integrating Multiple AI Tools</strong>:
+
+<ul>
+<li>Combining Fal.AI, ElevenLabs, and OpenAI required careful handling of API responses, especially when merging base64-encoded audio and image URLs.</li>
+<li>Lovable initially struggled to debug issues with Fal.AI integration, so we manually resolved them by diving into the documentation and refining our API calls.</li>
+</ul></li>
+<li><strong>Supabase Limitations</strong>:
+
+<ul>
+<li>Lovable couldn’t directly inject SQL scripts into Supabase, so we had to manually handle database updates and edge functions since we could not get much help from discord to resolve this.</li>
+</ul></li>
+<li><strong>Time Constraints</strong>:
+
+<ul>
+<li>We wanted to integrate <strong>ElevenLabs voice cloning</strong>, a <strong>conversational AI agent</strong> for character interactions, and <strong>unique ambient sound effects</strong> for each segment but ran out of time.</li>
+</ul></li>
+<li><strong>Performance Concerns</strong>:
+
+<ul>
+<li> We noticed the end to end completion response times for GPT o4 turbo were initially quite long (45s+), which was a blocker for us given the target market and their typically shortened attention spans. By switching to GPT-4 we sped up edge function return times (15s) while maintaining high-quality story generation and avoiding the need to switch to a smaller model like GPT o1-mini.</li>
+</ul></li>
+</ol>
+<hr/>
+<h2>🎉 Accomplishments that we're proud of</h2>
+<ul>
+<li><strong>Successfully Integrated 3 AI Tools</strong>: We combined Fal.AI, ElevenLabs, and OpenAI to create a seamless, end-to-end storytelling experience.</li>
+<li><strong>Built an MVP in a Weekend</strong>: Despite the challenges, we delivered a functional, visually appealing app that solves a real problem for parents.</li>
+<li><strong>Overcame API Challenges</strong>: We manually debugged and resolved issues with Fal.AI and ElevenLabs integrations, ensuring smooth data flow between services.</li>
+<li><strong>Community-Driven Story Library</strong>: We implemented the <strong>Public Stories</strong> feature, allowing users to share and explore stories created by others.</li>
+</ul>
+<hr/>
+<h2>📚 What we learned</h2>
+<ul>
+<li><strong>Building with Multiple AI Tools</strong>: We learned how to connect and orchestrate multiple AI APIs to create a cohesive product just in a weekend (something we thought would take a long time)! </li>
+<li><strong>Debugging Complex Integrations</strong>: Working through API response formatting and edge cases taught us the importance of thorough testing and documentation.</li>
+</ul>
+<hr/>
+<h2>🚀 What's next for Sleep n' Sound</h2>
+<ol>
+<li><strong>Voice Cloning</strong>: Integrate ElevenLabs’ voice cloning feature to allow parents to narrate stories in their own voice.</li>
+<li><strong>Conversational AI Agent</strong>: Add a chatbot feature so kids can interact with characters from the story.</li>
+<li><strong>Ambient Sound Effects</strong>: Enhance each story segment with unique background sounds (e.g., rain, forest, ocean) for a more immersive experience.</li>
+</ol>
+<hr/>
+<h2>👥 Team Information</h2>
+<ul>
+<li><p><strong>Sijan Poudel</strong>:</p>
+<ul>
+<li>Came up with the idea.</li>
+<li>Built the workflow diagram and wireframes for the app.</li>
+<li>Built the frontend with Lovable and backend edge functions/database with Supabase.</li>
+<li>Handled AI integrations.</li>
+</ul></li>
+<li><p><strong>Eddy</strong>:</p>
+<ul>
+<li>Product flow schematics and workflows</li>
+<li>Contributed to backend functions for story creation using Open AI</li>
+<li>Automated story library updates</li>
+<li>Utility assessment, market analysis and deck formation</li>
+</ul></li>
+</ul>
+<hr/>
+<h2>✅ Compliance</h2>
+<p>We confirm that our project adheres to all hackathon rules and deadlines. All work was completed within the designated timeframe, and all third-party tools and APIs were used in compliance with their respective terms of service.</p>
+<hr/>
+<h2>💡 Final Thoughts</h2>
+<p>Sleep n' Sound started as a simple idea to help parents save time and sleep better. Through hard work, creativity, we built a platform that not only tells stories but also brings them to life. With features like <strong>Public Stories</strong>, we’re fostering a community of storytellers and making bedtime a little easier—and a lot more magical—for families everywhere.</p>
+<hr/>
+</div>

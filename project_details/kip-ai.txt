@@ -1,0 +1,31 @@
+<div>
+<h2>Inspiration</h2>
+<p>We were inspired by the daily struggle of navigating complex websites—lost in menus, unsure how to achieve goals. Kip was born to bridge Intercom-style chat with Fullstory-like screen awareness, guiding users with AI-powered pointers in just 48 hours.</p>
+<p>The name Kip comes from the british word kip that means talking a short nap. Kip is chilling on the side of the website and helps you achieve your goals.</p>
+<h2>What it does</h2>
+<p>Kip is an AI chat you add to any site with <code>&lt;script src="kip.js"&gt;</code>. Ask it, “How can I buy a Premium,” and it says points you all the steps you need to follow by highlighting elements step-by-step. It’s your chill, smart sidekick for web tasks.</p>
+<p>NOTHING IS SCIPTED, EVERYTHING HAPPENS LIVE.</p>
+<h2>How we built it</h2>
+<p>We crafted Kip in vanilla JS, in order to be easy to put it on your website. We used Gemini  API for the AI logic and ElevenLabs for voice, but focused on a fast, working prototype, where everything lives on the browser. Gemini has access to tools that can use to highlight and unhighlight elements.</p>
+<p>It uses:</p>
+<ul>
+<li>html2canvas for screenshot</li>
+<li>Gemini API for AI and tool usage</li>
+<li>ElevenLabs for voice</li>
+</ul>
+<h2>Team Info</h2>
+<p>Out team consists of two members:</p>
+<ul>
+<li>Andrew Kordampalos <a href="https://x.com/ckor" rel="nofollow">X</a> <a href="https://andrewckor.com" rel="nofollow">website</a></li>
+<li>Yannis Kolovos <a href="https://x.com/yannis_kolovos" rel="nofollow">X</a> <a href="https://msroot.me" rel="nofollow">website</a></li>
+</ul>
+<h2>Challenges we ran into</h2>
+<p>CORS blocked live website tests, slowing Gemini API calls. We build a static local website to demonstrate kip to meet the deadline. Balancing speed (48 hours) and polish was tough, but we prioritized a demo-able core.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>We built Kip from scratch in two days, creating a unique, botty experience with animated pointers and a sleek human-y logo. It’s scalable, user-friendly, and hits the AI agent theme—ready to guide anyone on any site, even without full AI/voice yet.</p>
+<h2>What we learned</h2>
+<p>We mastered rapid prototyping under pressure, navigating CORS, and DOM manipulation. We discovered Gemini’s latency quirks and how to optimize for live sites. Teamwork on Discord kept us on track, and we now know ElevenLabs’ potential for voice-driven agents.</p>
+<h2>What's next for Kip AI</h2>
+<p>Kip should go on a backend service that can serve any website without CORS issues.
+We need to improve screenshot abilities and package the whole kip.js into a new lighteweight package.  We’ll refine UX with animations, test scalability, and explore other APIs for richer features.</p>
+</div>

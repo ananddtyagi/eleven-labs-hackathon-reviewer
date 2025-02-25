@@ -1,0 +1,45 @@
+<div>
+<h2>Inspiration</h2>
+<p>Pocket Travel Agent was inspired by the challenges of trip planning and the growing demand for personalized travel assistance. With the rise of on-demand travel apps and AI integration in the travel industry, we saw an opportunity to create an intelligent, seamless travel companion that combines convenience with meaningful exploration—bringing together the best features of existing tools with cutting-edge AI technology.</p>
+<h2>What it does</h2>
+<p>Pocket Travel Agent is an AI-powered travel companion that offers:</p>
+<ul>
+<li>Personalized travel itineraries and a conversational planning assistant tailored to user preferences.</li>
+<li>Landmark recognition and photo-based sightseeing insights—just snap a picture, and the agent provides instant details.</li>
+<li>Engaging audio guides with historical and cultural facts about any destination.</li>
+<li>Multi-language support for international travelers.</li>
+<li>Real-time historical and artistic insights, like having an expert historian and art critic by your side.</li>
+</ul>
+<h2>How we built it</h2>
+<p>We developed Pocket Travel Agent using:</p>
+<ul>
+<li>Integrated voice recognition powered by Elevenlabs for seamless communication.</li>
+<li>Natural Language Processing for intuitive, conversational AI interactions.</li>
+<li>Advanced visual recognition algorithms with support from Mistral.ai.</li>
+<li>A cloud-based infrastructure for scalability and high performance.</li>
+</ul>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>Complex integration with multiple third-party APIs.</li>
+<li>Ensuring real-time data accuracy and reliability.</li>
+<li>Balancing offline functionality with up-to-date information.</li>
+<li>Designing an intuitive yet feature-rich user interface.</li>
+<li>Implementing strong security and privacy measures.</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>Delivering a seamless, AI-powered travel experience.</li>
+<li>Building a scalable platform capable of handling high user loads.</li>
+<li>Optimizing performance across various devices.</li>
+<li>Overcoming technical challenges without giving up.</li>
+<li>Enabling highly personalized travel experiences that enhance exploration.</li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>The importance of user-centric design in travel apps.</li>
+<li>Creating AI agents and integrating multiple data sources like Elevenlabs, Mistral.ai, Google Maps APIs, and Perplexity.ai.</li>
+<li>The value of personalization in improving user experience.</li>
+<li>Navigating the complexities of diverse travel data sources.</li>
+<li>Merging technology with cultural education for a richer travel experience.</li>
+</ul>
+</div>

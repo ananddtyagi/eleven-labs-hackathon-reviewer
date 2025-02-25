@@ -1,0 +1,8 @@
+<div>
+<h2>Inspiration</h2>
+<p>With so many hosting platforms, I was baffled, about how to calculate which service would cost how much. That's when I realized we could create a platform to give us website analytics.</p>
+<h2>What it does</h2>
+<p>it calculates the resources being used and gives you an estimation</p>
+<h2>How we built it</h2>
+<p>use loveable, clerk, fire crawl to build applications and supabase to store API keys</p>
+</div>

@@ -1,0 +1,106 @@
+<div>
+<h2>Inspiration</h2>
+<h3>Background</h3>
+<p>The global audio description services market size is projected to grow from USD 0.39 billion in 2024 to USD 0.64 billion by 2034, exhibiting a CAGR of 4.43% during the forecast period.</p>
+<h3>Problem</h3>
+<p>The majority of videos with audio description are still found in movies. Despite efforts from many video platforms, like YouTube and other streaming services, many users report limited availability of audio description support.</p>
+<h3>Opportunities</h3>
+<p>With the expansion of digital content, there is an opportunity to bridge this gap and make videos more inclusive and accessible for everyone.</p>
+<h2>What It Does</h2>
+<p><strong>ADA (Audio Description Agent)</strong> is a Discord-based service that transforms any video into an accessible experience for visually impaired users through real-time AI-generated audio descriptions. Here’s how it works:  </p>
+<ol>
+<li><strong>Voice Command</strong>: Users speak their request in Discord (e.g., “Play ‘Avatar’ from 30:00 to 40:00”). No complex commands—just natural language.<br/></li>
+<li><strong>Automated Processing</strong>:<br/>
+<ul>
+<li>Searches for the video using YouTube Data API.<br/></li>
+<li>Captures key frames (2s/frame via FFmpeg).<br/></li>
+<li>Analyzes scenes with OpenAI GPT-4o and generates descriptive narrations.<br/></li>
+</ul></li>
+<li><strong>Instant Delivery</strong>:<br/>
+<ul>
+<li>Returns a video link alongside an MP3 audio track containing synchronized scene descriptions.<br/></li>
+<li>Playback combines the original video with AI-generated audio, mimicking professional human-described content.<br/></li>
+</ul></li>
+<li><strong>Key Features</strong>:<br/>
+<ul>
+<li>Multi-language Support: 20+ languages via Discord’s voice interface.<br/></li>
+<li>Low Latency: Processes audio descriptions within 1.5× the video’s runtime.<br/></li>
+<li>Scalable Storage: Metadata (timestamps, text segments) organized in Google Sheets.<br/></li>
+</ul></li>
+</ol>
+<h2>How We Built It</h2>
+<h3>System Architecture</h3>
+<ul>
+<li>Frontend:<br/>
+<ul>
+<li>Discord Bot: Built with Python’s <code>discord.py</code>, handling voice commands and MP3 delivery.<br/></li>
+<li>Minimalist UI: Users speak directly in a channel—no "@" mentions or slash commands.<br/></li>
+</ul></li>
+<li>Middleware:<br/>
+<ul>
+<li>Make.com Automation: Orchestrates video search, frame extraction, and data routing.<br/></li>
+</ul></li>
+<li>Backend:<br/>
+<ul>
+<li>AI Modules:<br/></li>
+<li>GPT-4o for scene analysis (5 images/group, 1024-token context).<br/></li>
+<li>GPT-3.5-turbo for text alignment and continuity fixes.<br/></li>
+<li>TTS Synthesis: ElevenLabs Multilingual v2 (neutral narration style, 140–180 WPM).<br/></li>
+<li>Storage: Google Drive (media files) + Google Sheets (metadata tracking).<br/></li>
+</ul></li>
+</ul>
+<h3>Technical Innovations</h3>
+<ul>
+<li>Parallel Processing: FFmpeg frame extraction and GPT-4o calls run concurrently.<br/></li>
+<li>Dynamic Frame Sampling: Adjusts capture intervals (1–4s) based on motion detection.<br/></li>
+</ul>
+<h2>Challenges We Ran Into</h2>
+<ul>
+<li>Initial sync accuracy: 78% → Improved to 86% via dynamic TTS speed adjustment.<br/></li>
+<li>Mitigated with batch processing and fallback to GPT-3.5-turbo during peak loads.<br/></li>
+<li>Make.com’s non-realtime triggers caused delays → Pre-cached popular videos.<br/></li>
+<li>Iteratively trained GPT-4o to prioritize spatial and action descriptors (e.g., "slow pan to the left").<br/></li>
+</ul>
+<h2>What We Learned</h2>
+<ul>
+<li>Balancing Speed &amp; Quality: Hybrid AI pipelines (GPT-4o + GPT-3.5-turbo) reduce latency without sacrificing accuracy.<br/></li>
+<li>Design Simplicity Matters: Voice-only commands increased user adoption by 40% in early tests.<br/></li>
+<li>Scalability Trade-offs: Third-party APIs accelerated development but introduced dependency risks.<br/></li>
+<li>Ethical A: Audited training data to eliminate biased descriptions (e.g., avoiding gender/racial assumptions).<br/></li>
+</ul>
+<h2>Future Development</h2>
+<h3>Short-Term (2025)</h3>
+<ul>
+<li>Run lightweight GPT-4o Mini on NVIDIA Jetson Orin for offline processing while enabling crowdsourced refinement of AI outputs to build a high-quality dataset.<br/></li>
+<li>Prototype smart glasses integration with Sony IMX678 camera and bone-conduction audio.<br/></li>
+</ul>
+<h3>Long-Term (2026+)</h3>
+<ul>
+<li>Develop a collaborative annotation platform to crowdsource refinement of AI outputs, building a high-quality dataset for improved accuracy.<br/></li>
+<li>Implement vision transformers to identify emergency scenes (e.g., fire, falls) and trigger real-time alerts for user safety.<br/></li>
+</ul>
+<p><strong>Vision</strong>: Expand beyond entertainment into navigation and social interaction, creating a universal accessibility layer for the visually impaired.    </p>
+<h2>Team Members and Roles</h2>
+<ol>
+<li><p><strong>Annan Yang</strong> – <strong>Product Design/Developer &amp; Testing</strong></p>
+<ul>
+<li>Contributed to the overall system development and the ElevenLabs-related workflow.</li>
+<li>Led testing efforts to improve AI model performance and system accuracy.</li>
+</ul></li>
+<li><p><strong>Brett (Yirong) Bian</strong> – <strong>Developer &amp; Workflow Specialist</strong></p>
+<ul>
+<li>Developed the backend and built workflows using Make.com for video search, frame extraction, and data routing.</li>
+<li>Worked on integrating ElevenLabs TTS synthesis and developed associated workflows.</li>
+</ul></li>
+<li><p><strong>Chenghong Tang</strong> – <strong>Developer &amp; Automation Specialist</strong></p>
+<ul>
+<li>Developed the Discord bot and integrated voice command functionality for smooth user interaction.</li>
+<li>Contributed to building workflows and automation processes throughout the system.</li>
+</ul></li>
+<li><p><strong>Emily (Yingyi) Lei</strong> – <strong>Product Design &amp; Prompt Engineer</strong></p>
+<ul>
+<li>Conducted technical research, and designed the overall product concept, key features and user experience.</li>
+<li>Responsible for prompt engineering of models to ensure accurate scene descriptions and functionality.</li>
+</ul></li>
+</ol>
+</div>

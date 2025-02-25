@@ -1,0 +1,16 @@
+<div>
+<h2>Inspiration</h2>
+<p>I was wasting a lot of watching long youtube videos</p>
+<h2>What it does</h2>
+<p>It makes summary of videos and answer follow-up questions related to the video</p>
+<h2>How we built it</h2>
+<p>By using Streamlit module</p>
+<h2>Challenges we ran into</h2>
+<p>When using this streamlit module while generating the overall summary took us a lot of time</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>At the end I was managed to achieve what I thought Initially</p>
+<h2>What we learned</h2>
+<p>I learned a lot about streamlit module and make connection with API keys</p>
+<h2>What's next for Youtube Video Summarizer</h2>
+<p>You can make it advanced by some UI design and small modifications</p>
+</div>

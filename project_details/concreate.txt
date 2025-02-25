@@ -1,0 +1,29 @@
+<div>
+<h2>Inspiration</h2>
+<p>A significant portion of video content today is created using just stock footage and human voiceovers, especially for independent content creators who lack the budget for animations or live shoots. However, even with pre-existing assets, many YouTubers report that the entire process - from ideation to scripting, curating footage, recording voiceovers, and editing - can take up to <strong>five hours</strong> for just a short <strong>five-minute video</strong>. We decided to completely automate this labor-intensive workflow with an AI agent, empowering anyone to effortlessly create high-quality video content in mere minutes.</p>
+<h2>What it does</h2>
+<p>ConCreate is an AI content creator agent that transforms an idea into a polished video in just minutes.</p>
+<p>Powered by <strong>OpenAI</strong>'s GPT-4 and <strong>ElevenLabs</strong>' text-to-speech models, ConCreate:</p>
+<ul>
+<li>Expands the idea into a full script based on the user’s desired video length.</li>
+<li>Generates a voiceover using the user's preferred voice.</li>
+<li>Automatically <strong>searches for and selects</strong> the best online stock footage.</li>
+<li>Seamlessly edits everything into a <strong>polished, ready-to-share video</strong>.</li>
+</ul>
+<h2>Technical implementation</h2>
+<p>ConCreate is a web application built with <strong>Next.js</strong> and <strong>TypeScript</strong>. The AI agent, powered by <strong>OpenAI’s GPT-4</strong>, orchestrates the entire process by handling:</p>
+<ul>
+<li>Script Generation – Expanding user-provided ideas into structured, engaging video scripts of desired length.</li>
+<li>Stock Footage Retrieval – Searching the <strong>Pexels</strong> API for the most relevant footage to match each script segment.</li>
+<li>Voiceover Synthesis – Leveraging the <strong>ElevenLabs</strong> API to generate expressive, natural-sounding voiceovers.</li>
+<li>Editing – Utilizing the <strong>FFmpeg</strong> package to intelligently trim and sequence stock footage, then synchronizing it with the generated voiceover to produce a polished video.</li>
+</ul>
+<h2>Team information</h2>
+<p>Our team consists of two members: Eric Xue and Doria Cai. Our contributions are as follows:</p>
+<ul>
+<li><strong>Eric Xue</strong> – Frontend &amp; backend development, idea formation</li>
+<li><strong>Doria Cai</strong> – UX/UI design, frontend development</li>
+</ul>
+<h2>What's next for ConCreate</h2>
+<p>We plan to introduce a text interface that allows users to interact with the AI agent throughout each step of the process. Users will be able to provide real-time feedback, enabling the agent to refine the script, voiceover, and footage selection accordingly. This will create a more personalized and fine-tuned content creation experience.</p>
+</div>

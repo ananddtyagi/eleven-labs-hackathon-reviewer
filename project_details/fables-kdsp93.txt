@@ -1,0 +1,22 @@
+<div>
+<h2>Inspiration</h2>
+<p>I got the inspiration to build this project on a road-trip with my two daughters.
+We had listened for the 11th time to the same story on spotify and I was thinking to myself that an AI could generate a better story.</p>
+<h2>What it does</h2>
+<p>Fables helps their users create novel stories in a podcast style format in minutes. The user provides characters, places and the basic storylines from their fantasy. </p>
+<p>Fables then builds out the story and illustrates it.</p>
+<h2>How we built it</h2>
+<p>Build 99.9% with vibe coding using lovable and windsurf.</p>
+<h2>Challenges we ran into</h2>
+<p>I think the main challenge is to balance the speed of completion for the user in the UI with the story depth, quality and length.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>It's amazing that it's now possible to build something like this during a weekend while being at home with the kids. I've cooked two meals, put the kids to bed one of the nights and also did a 5 hour road-trip with one of my kids, we did however get ample time to test the product and we spent more than 1.5 hours using it during the trip (benchmarking my AI stories vs the old favorites on spotify). Despite the limited time, it's possible to ship a decent and engaging proof-of-concept product.</p>
+<h2>What we learned</h2>
+<p>Vibe coding kind of works now. Lovable feels more solid than devin for frontend only work.
+Fal.ai is awesome. 
+I'm also surprised how far elevenlabs have gotten, hadn't checked it out before.</p>
+<h2>What's next for Fables</h2>
+<p>I think next steps is to figure if out other parents and their kids find this useful. Do some iterations and then figure out monetization and launch it.
+Mid term, building out some soical sharing for the users and feeding that into existing platforms like spotify, instagram etc to get organic user growth.
+Further down the road, getting into TV series and movie style content would be a logical next steps and on the road to a unicorn company perhaps going into custom game world development would fit the same theme (and characters, worlds and values could be reapplied here too of course)</p>
+</div>

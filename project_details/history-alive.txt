@@ -1,0 +1,83 @@
+<div>
+<h1>ElevenLabs Hackathon: AI-Powered Historical Documentary Generator</h1>
+<h2>Project Overview</h2>
+<p>A system that brings historical paintings to life through AI-generated documentaries, combining ElevenLabs' state-of-the-art Text-to-Speech with fal.ai's video generation models. The project uses a multi-agent architecture to create engaging historical narratives directly from primary sources.</p>
+<h2>Technical Innovation</h2>
+<h3>AI Integration Stack</h3>
+<ul>
+<li>ElevenLabs TTS : Creates historically authentic voices for narration</li>
+<li>fal.ai Video Models :
+
+<ul>
+<li>MiniMax 0-1: Generates dynamic video content from historical paintings</li>
+<li>Hunyuan Video: Enhances visual storytelling through generated filler scenes</li>
+</ul></li>
+<li>Multi-Agent System : Orchestrates content creation through specialized AI agents</li>
+<li>Video Processing Pipeline: Stitches Generated Content
+## Key Features
+### 1. Historical Authenticity</li>
+<li>Direct integration of primary source materials</li>
+<li>Period-accurate voice synthesis</li>
+<li>Historically contextual narrative generation
+### 2. Dynamic Content Generation</li>
+<li>Automated transformation of static paintings into video content</li>
+<li>Intelligent scene composition and transitions</li>
+<li>Multi-perspective historical storytelling
+### 3. Production Automation</li>
+<li>Specialized AI agents for research, scripting, and direction</li>
+<li>Automated video compilation and processing</li>
+<li>Seamless integration of multiple AI services
+## Technical Architecture
+### Agent System</li>
+<li>Researcher Agent : Analyzes primary sources and ensures historical accuracy</li>
+<li>Director Agent : Orchestrates visual and narrative elements</li>
+<li>Scriptwriter Agent : Creates engaging, historically accurate narratives</li>
+<li>Cameraperson Agent : Manages visual composition and transitions
+### Content Pipeline</li>
+<li>Historical painting analysis</li>
+<li>Primary source integration</li>
+<li>Narrative generation</li>
+<li>Voice synthesis via ElevenLabs</li>
+<li>Video generation through fal.ai</li>
+<li>Automated compilation and post-processing
+## Innovation Highlights
+### 1. Historical Education Enhancement</li>
+<li>Makes history accessible and engaging</li>
+<li>Brings static artifacts to life</li>
+<li>Creates immersive learning experiences
+### 2. AI Service Integration</li>
+<li>Seamless combination of multiple AI technologies</li>
+<li>Automated end-to-end production pipeline</li>
+<li>High-quality, consistent output
+### 3. Scalability</li>
+<li>Modular architecture for easy expansion</li>
+<li>Support for multiple historical periods and styles</li>
+<li>Adaptable to various educational contexts
+## Future Potential
+### Commercial Applications</li>
+<li>Educational institutions</li>
+<li>Museums and cultural institutions</li>
+<li>Historical tourism</li>
+<li>Documentary production
+### Technical Expansion</li>
+<li>Additional AI model integration</li>
+<li>Enhanced interactive features</li>
+<li>Expanded historical coverage</li>
+<li>Customizable narrative styles
+## Technical Requirements</li>
+<li>Python 3.9+</li>
+<li>FastAPI backend</li>
+<li>ElevenLabs API integration</li>
+<li>fal.ai API integration</li>
+<li>MoviePy for video processing
+## Impact
+This project demonstrates the potential of AI in revolutionizing historical education and documentation, making history more accessible and engaging while maintaining historical accuracy and educational value.</li>
+</ul>
+<h2>Competitive Advantage</h2>
+<ul>
+<li>Focus on historical accuracy and educational value</li>
+<li>Scalable, automated production pipeline</li>
+<li>Reasonably high quality output</li>
+<li>Fun!</li>
+</ul>
+</div>

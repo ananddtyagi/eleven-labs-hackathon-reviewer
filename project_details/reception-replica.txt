@@ -1,0 +1,16 @@
+<div>
+<h2>Inspiration</h2>
+<p>Every company has their new interface you need to learn to do AI their way, but that's not the most natural way to do it. AI excels at picking up patterns from examples. You can simply provide examples and let AI infer the rest.</p>
+<h2>What it does</h2>
+<p>It loads a patient persona in eleven labs and you role play as the office. After the conversation ends, we pull the transcript and infer the steps the office would like your AI agent to take. We can then just shove these steps into a system prompt for a personalized experience on rails.</p>
+<h2>How we built it</h2>
+<p>Basic interface made in lovable and the worked on locally. Needed to use custom-llm because eleven labs default system prompts get in the way of acting like a patient.</p>
+<h2>Challenges we ran into</h2>
+<p>Not many, just a few race conditions. For the video recording we had to splice it, because the transcript wasn't available the second the call ended (which is fine)</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>This is the first time we've seen a flow like this and it seems incredibly valuable for any sort of customer onboarding. I can't imagine a better possible flow for gathering exactly how a customer wants an agent to handle a call.</p>
+<h2>What we learned</h2>
+<p>We learned that examples are much better than plans and that this is the right way to do things.</p>
+<h2>What's next for Reception Replica</h2>
+<p>Build this into our core product, if people like this pattern, we can keep it up as an example and possibly as a standalone tool.</p>
+</div>

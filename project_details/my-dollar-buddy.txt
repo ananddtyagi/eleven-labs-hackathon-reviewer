@@ -1,0 +1,34 @@
+<div>
+<h2>Inspiration</h2>
+<h2>What it does</h2>
+<ul>
+<li>User can update personal finance profile, create a monthly budget, and update expense tracker by give a call to Conversational AI Agent</li>
+<li>AI Agent will provide customized personal finance help to guide user to design and optimize their personal finance practice by: create a budget that meet their needs, update expense, and create calendar reminders to develop good spending habits (such as pay back credit card regularly, go to buy grocery instead of dine out)</li>
+</ul>
+<h2>What it does</h2>
+<h2>How we built it</h2>
+<ul>
+<li>ElevenLab Conversational AI Agent</li>
+<li>Lovable</li>
+<li>Tech Stack: React + Supabase backend</li>
+</ul>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>The AI Agent could help facilitate the tasks directly if I was about to extract structured data output from the call. The structured data output was configured but I ran out of time to integrate the output to update the database. Also if have time, leveraging knowledge base to supply the AI Agent with user current profile, current budget, and past spending data could help the agent to be more helpful and provide personalized advice. </li>
+</ul>
+<h2>Accomplishments</h2>
+<ul>
+<li>Fully working app with call features</li>
+<li>Support Conversational AI Agent with skills and process to guide user for their personal finance needs.</li>
+</ul>
+<h2>What is next</h2>
+<ul>
+<li>I would like to continue develop the app to finalize the feature: including automate the budget setup and expense update</li>
+<li>I would also want to add additional LLM to review user spending dashboard, provide advice or quick suggestions
+## How we built it</li>
+</ul>
+<h2>Challenges we ran into</h2>
+<h2>Accomplishments that we're proud of</h2>
+<h2>What we learned</h2>
+<h2>What's next for LeapBudget</h2>
+</div>

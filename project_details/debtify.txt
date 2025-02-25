@@ -1,0 +1,16 @@
+<div>
+<h2>Inspiration</h2>
+<p>Debt collection is a huge market. Leveraging agents to reach out to creditors is the perfect example of automation for a  task that is not intellectually stimulating for a human, and that could potentially be performed better by an AI agent.</p>
+<h2>What it does</h2>
+<p>Debt collection doesn't have to be awkward or aggressive. Meet Debtify—the smart, hassle-free way to recover outstanding payments. Simply upload a CSV or Google Sheet with your creditor data, hit 'Send Outreach,' and let our AI-powered conversational agent handle the rest. Powered by ElevenLabs, Debtify makes automated collection calls that are polite, friendly, and understanding—helping you recover debts while maintaining positive customer relationships. Streamline your collections with Debtify today!</p>
+<h2>How we built it</h2>
+<p>Frontend built with Lovable, integrated with Supabase and ElevenLabs for the conversational agent</p>
+<h2>Challenges we ran into</h2>
+<p>Making outbound calls using Eleven Labs. </p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Learning how to work with an Agent on Eleven Labs, and having a nice MVP at the end.</p>
+<h2>What we learned</h2>
+<p>How to use ElevenLabs Conversational Agent.</p>
+<h2>What's next for Debtify</h2>
+<p>A lot more functionality could be added, such as automating the outbound calls based on the last update and more in-depth analytics, for example.</p>
+</div>

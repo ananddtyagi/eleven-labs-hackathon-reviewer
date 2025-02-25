@@ -1,0 +1,43 @@
+<div>
+<h2>Inspiration</h2>
+<p>It's been a decade since I last heard any radio or TV news, not because I don't like news or radio but because they're more noise than information. News channels basically become political propaganda machines and radio is just advertisement. I used NotebookLM by Google a few days back I found it useful - you just upload a PDF and it converts them into a cool podcast. That's where I got the idea for this project. What if instead of PDF I could simply make a feed and use AI to make my own radio station which I can listen to when doing work? I can include any type of news, blog, RSS feed I like and it auto generates audio and plays it for me.</p>
+<h2>What it does</h2>
+<p>RssWave allows users to use RSS feeds to generate their own content. You just have to enter your RSS feed URL and it automatically transcribes them using Gemini AI and then converts that transcript into audio using ElevenLabs AI.</p>
+<h2>How we built it</h2>
+<p>RssWave was made fully using <strong>Lovable</strong> and prompting. After main functionality, I downloaded it and made my custom changes and deployed it to Vercel. I used <strong>Gemini AI and ElevenLabs AI to transcribe articles and convert transcripts into audio</strong>. I used Lovable Dev's built-in Supabase feature to integrate Supabase into my project.</p>
+<h2>Challenges we ran into</h2>
+<p>Problem: There is no app which allows users to automatically convert RSS feeds of their choice into an audible radio station.</p>
+<p><strong>Technical Problem 1:</strong>
+Initially I was confused what to use to build this project - should I build it using my local IDE or Lovable Dev? I used Lovable Dev before but it starts getting into trouble if file size exceeds a large limit. What if I wasn't able to finish the project in Lovable? After all these thoughts I decided to use Lovable, use my prompting skills to make this project. After 90% of project was done I downloaded it and used my local IDE to make homepage and other necessary changes. My file became 1200 lines large, Lovable started causing problems so I downloaded it, refactored code and uploaded it and again started work.</p>
+<p><strong>Technical Problem 2:</strong>
+Create a database and relations between items. I am not good with databases, so I used Supabase and I tried to keep my database tables simple. In the end everything works.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>After 1 complete day of hard work and 100+ prompts, I was able to make my app fully functional with just barely few lines of manual code editing. I am a PHP developer, I don't know React or anything, despite that I was able to complete this project without any problem and make it achieve all my goals which I initially thought of.</p>
+<h2>What we learned</h2>
+<p>Most important lesson I learned is if you prompt better you can make fully functional apps without writing a single line of code by yourself. But instead of asking to do 100 things in one prompt you ask it to make one item at a time then make that item functional then move to next item. My mistake was that I didn't prompt it to use different files for different components due to which my file became so large and refactoring caused a lot of problems. I'll include this in system prompt next time to use new files for different components to keep code small and manageable.</p>
+<h2>What's next for RssWave</h2>
+<ol>
+<li>I have huge plans for RssWave. Because of lack of funding I am giving users option to use their own API keys for Gemini and ElevenLabs to make audio. Once I have enough funding I'll provide a subscription where they get specific time-based credits based on their subscription to listen to their radio.</li>
+<li>Another thing I will add is to give option for users to create radio stations and people can subscribe to each other's stations. There will be a community to share each type of station and like, use analytics to show trending stations.</li>
+<li>I will also include option to add more languages.</li>
+<li>I will also give users option to add more feeds so they can get feeds in one click which they're interested in. Community suggested feeds will also be added in my project.</li>
+<li>Last but not least I'll give option to use ElevenLabs studio option to generate podcasts using RSS feeds.</li>
+</ol>
+<h2>Members:</h2>
+<p>I am Ajay Malik, I am a solo hacker of this project from initial idea to finish. I done all this by myself.</p>
+<h2>Tech Stack</h2>
+<ul>
+<li>Lovable Dev</li>
+<li>Vercel</li>
+<li>Supabase</li>
+<li>Tailwind CSS</li>
+<li>Gemini AI</li>
+<li>ElevenLabs AI</li>
+<li>TypeScript</li>
+</ul>
+<h2>Important Links</h2>
+<ul>
+<li><a href="https://github.com/ajaymalik14/rsswave" rel="nofollow">GitHub Repository</a></li>
+<li><a href="https://www.rsswave.com/" rel="nofollow">RssWave Website</a></li>
+</ul>
+</div>

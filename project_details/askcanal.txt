@@ -1,0 +1,34 @@
+<div>
+<h2>Inspiration</h2>
+<p>Accessing analytics on the go is hard—especially for non-technical users. I wanted a seamless way to interact with data without dashboards, queries, or setup—just by talking. AskCanal was born to make insights as easy as a conversation.</p>
+<h2>What it does</h2>
+<p>AskCanal lets users speak to their analytics and get instant insights in natural speech. No more manual queries, dashboards, or complex setups—just ask.</p>
+<h2>How we built it</h2>
+<p>Frontend: SwiftUI for a clean iOS experience.
+Voice Input: Apple’s native Speech Recognition.
+Backend: MCP server to process prompts and return data.
+Voice Output: ElevenLabs API via REST for natural speech responses.</p>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>Achieving fast text-to-voice response.</li>
+<li>Originally aimed to build a developer-on-the-go tool (GoWriter) but ran into authentication, UX, and server-client complexities—pivoted to AskCanal on Sunday, 23rd.</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>Bridging voice and analytics seamlessly.</li>
+<li>Simplifying complex data access for anyone, anywhere.</li>
+<li>A clean, intuitive interface.</li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>Handling real-time speech transformations (input &amp; output).</li>
+<li>Connecting iOS apps with MCP server responses.</li>
+</ul>
+<h2>What's next for AskCanal</h2>
+<ul>
+<li>Implementing key metrics &amp; insights.</li>
+<li>Developing first-pass analysis for instant understanding.</li>
+<li>Improving user interface &amp; experience.</li>
+</ul>
+<p>AskCanal is just getting started. 🚀</p>
+</div>

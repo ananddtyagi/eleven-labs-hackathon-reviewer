@@ -1,0 +1,50 @@
+<div>
+<h2>Inspiration</h2>
+<p>Employee pulse surveys often fail to capture how people truly feel. We've experienced this firsthand.  </p>
+<p>Traditional surveys rely on numerical self-assessments for wellbeing, workload, or motivation—usually on a scale from 0 to 10. These numbers lack context, do not account for emotions, and ultimately leave employees feeling unheard.  </p>
+<p>As a result, most people-related issues in companies are detected when it’s already too late. Organizations need a more natural and empathetic way to understand employee wellbeing before problems escalate.  </p>
+<h2>What It Does</h2>
+<p>Pulsato is an AI voice agent that enables employees to have short, meaningful check-in conversations about their wellbeing.  </p>
+<h2>How it works</h2>
+<ol>
+<li><strong>Conversational Check-Ins</strong> – Employees engage in a natural conversation with Pulsato, which asks relevant questions, follows up where needed, and adapts based on the discussion.<br/></li>
+<li><strong>Insight Extraction &amp; Anonymization</strong> – Pulsato processes the conversation, extracts key insights, and generates an anonymized wellbeing report. Employees can review and approve their report before submitting it.<br/></li>
+<li><strong>Company-Wide Analytics</strong> – HR teams receive an aggregated wellbeing dashboard, allowing them to track trends over time while maintaining full anonymity and employee privacy.<br/></li>
+</ol>
+<h2>How We Built It</h2>
+<ul>
+<li><strong>Frontend:</strong> Developed using Lovable, a platform for AI-driven applications.<br/></li>
+<li><strong>Backend:</strong> Powered by Supabase, providing authentication, database, and storage functionalities.<br/></li>
+<li><strong>Voice AI:</strong> Integrated with ElevenLabs API to enable a realistic and engaging AI voice agent.<br/></li>
+<li><strong>Knowledge Base:</strong> Fine-tuned using Mistral, allowing Pulsato to ask intelligent, context-aware questions.<br/></li>
+</ul>
+<h2>Challenges We Faced</h2>
+<ol>
+<li><strong>Row-Level Security (RLS) in Supabase</strong> – Initially, we encountered several access control issues, leading us to disable RLS for the demo. We plan to implement a secure alternative.<br/></li>
+<li><strong>Design Limitations in Lovable</strong> – Making UI adjustments and customizing interactions proved to be more rigid than expected.<br/></li>
+<li><strong>Defining Use Cases for Voice AI</strong> – Without prior experience in voice-based AI applications, we had to spend considerable time refining the right conversation flows and use cases.<br/></li>
+</ol>
+<h2>Accomplishments</h2>
+<ul>
+<li>Successfully built our first AI voice agent within <strong>less than 10 hours of development time</strong>.<br/></li>
+<li>Created an intuitive, anonymous, and privacy-first wellbeing tracking tool.<br/></li>
+<li>Developed a structured process for integrating voice AI into business workflows.<br/></li>
+</ul>
+<h2>What We Learned</h2>
+<ul>
+<li>How to develop and deploy AI voice agents using ElevenLabs.<br/></li>
+<li>Integrating conversational AI into a structured workflow using Lovable.<br/></li>
+<li>Designing meaningful AI interactions that feel natural and engaging.<br/></li>
+</ul>
+<h2>Next Steps</h2>
+<ol>
+<li><strong>Pilot Testing in Our Organization</strong> – We are deploying Pulsato in our own company (50 full-time employees) to gather real-world feedback.<br/></li>
+<li><strong>Improving Security and Data Handling</strong> – Implementing a robust Row-Level Security strategy to protect individual responses while maintaining anonymity.<br/></li>
+<li><strong>Enhancing AI Conversations</strong> – Refining Pulsato’s conversational flow to better detect subtle emotional cues and context.<br/></li>
+<li><strong>Advanced HR Dashboard Features</strong> – Expanding analytics capabilities to allow HR teams to detect patterns, track long-term trends, and measure the impact of interventions.<br/></li>
+<li><strong>Expanding to Other Organizations</strong> – Once refined, we will introduce Pulsato to select external companies for broader testing.<br/></li>
+<li><strong>Exploring Additional Integrations</strong> – Investigating integrations with Slack, Microsoft Teams, and other internal communication tools for seamless adoption.<br/></li>
+<li><strong>Multilingual Support</strong> – Expanding Pulsato’s capabilities to support multiple languages, making it more accessible for diverse teams.<br/></li>
+</ol>
+<p>Our goal is to build a tool that not only collects wellbeing insights but also helps companies take proactive steps in improving employee satisfaction and mental health.  </p>
+</div>

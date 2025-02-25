@@ -1,0 +1,16 @@
+<div>
+<h2>Inspiration</h2>
+<p>Inspired by curious kids in my life.</p>
+<h2>What it does</h2>
+<p>Answers endless questions in age-appropriate ways. </p>
+<h2>How I built it</h2>
+<p>Spent all day Sunday just messing around with Lovable and ElevenLabs API.</p>
+<h2>Challenges I ran into</h2>
+<p>formatting and getting the API to work correctly. With more time, I want to add some animations and other features like a ring dial tone to make it feel more like a phone call.</p>
+<h2>Accomplishments that I'm proud of</h2>
+<p>No coding experience.</p>
+<h2>What I learned</h2>
+<p>How to build no-code apps with AI</p>
+<h2>What's next for WHY App</h2>
+<p>Maybe turn it into an actual mobile app. </p>
+</div>

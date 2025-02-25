@@ -1,0 +1,39 @@
+<div>
+<h2>Inspiration</h2>
+<p>While volunteering with the Alzheimer association, we saw how dementia patients struggle with daily life, and caregivers lack tools for personalized support. With Sam’s expertise in AI-driven healthcare and Peter’s experience building scalable AI solutions, we created Otherly—an evolving AI twin that preserves memories, detects emotions, and provides real-time companionship.</p>
+<h2>What it does</h2>
+<ul>
+<li>Learns and adapts from conversations, voice, and past experiences.</li>
+<li>Detects emotions and responds empathetically in real time.</li>
+<li>Supports dementia patients and caregivers, offering familiarity and reassurance.</li>
+</ul>
+<h2>How we built it</h2>
+<p>The frontend is a website that records audio and sends the speech to a Python backend.
+STT: OpenAI Whisper
+LLM: Llama-3.3-70B-Versatile
+TTS and Voice Cloning: Play.ht
+The processed audio data is sent back to the website, where it is autoplayed.
+The LLM's knowledge and reminders are managed by feeding information through the system prompt.</p>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>Developing reliable emotion recognition without misinterpretations</li>
+<li>Creating medical safety safeguards, especially for drug adherence</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>Built AI capable of emotion-aware responses</li>
+<li>Implemented guard rails to prevent unverified medical guidance.</li>
+<li>Created a supportive tool benefiting dementia care.</li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>Responds better when AI adjusts its tone and responses based on mood.</li>
+<li>Reducing latency in STT, LLM, and TTS pipelines improves user experience.</li>
+<li>Expanding beyond the website (e.g., mobile apps, smart speakers) makes adoption easier</li>
+</ul>
+<h2>What's next for Otherly</h2>
+<ul>
+<li>Expanding to medication adherence tracking and integration with healthcare providers.</li>
+<li>Get old folks using it!</li>
+</ul>
+</div>

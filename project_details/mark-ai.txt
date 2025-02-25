@@ -1,0 +1,43 @@
+<div>
+<h2>Inspiration</h2>
+<p>While preparing for the hackathon, we encountered Alexis, the ElevenLabs AI agent embedded in their documentation website. After interacting with it, we saw opportunities for improvement.</p>
+<h2>Problem</h2>
+<p>Let’s face it! Conversational AIs often produce inaccurate or misleading responses. This leads to low user trust in their answers.</p>
+<h2>Solution</h2>
+<p>Mark is similar to Alexis. He answers to questions about the ElevenLabs documentation. However, he supports his verbal responses with visual proof. He scrolls through the webpage of the documentation and highlights relevant content that directly addresses your questions.</p>
+<h3>Value Proposition</h3>
+<ul>
+<li>Build user trust in AI-generated responses.</li>
+<li>Save time and minimize effort needed to navigate documentation.</li>
+</ul>
+<h2>How We Built It</h2>
+<p>We equipped Mark with a client-side tool that highlights text on the active page. The page’s HTML content is passed to Mark’s system prompt via dynamic variables, enabling him to analyze the article and generate human-like responses.</p>
+<p>We integrated three ElevenLabs documentation articles into our Next.js application, embedded Mark through the ElevenLabs widget (<code>&lt;elevenlabs-convai&gt;</code>), and implemented client-side tools using TypeScript. </p>
+<p>We deployed the app using Vercel, set up analytics using PostHog, and used ElevenLabs Sound Effects to spice up our video demonstration.</p>
+<h2>Challenges</h2>
+<p>We attempted to give Mark a feature that redirects users to another URL if the answer isn’t in the currently viewed article. However, the ElevenLabs AI agent widget has a limitation: its dynamic variables cannot be modified during runtime. Changing them mid-conversation causes the connection to drop.</p>
+<h2>Accomplishments</h2>
+<p>Despite challenges, Mark successfully delivers AI-driven document exploration, pioneering a new UX paradigm.</p>
+<h2>Lessons Learned</h2>
+<p>The ElevenLabs Conversational AI framework offers vast potential across various use cases.</p>
+<h2>What's next for Mark.ai</h2>
+<p>Mark has potential for:</p>
+<ul>
+<li><strong>long-term success</strong>, since he can be implemented in any text-heavy environment (e.g., API documentation, legal texts, academic research, technical manuals, textbooks);</li>
+<li><strong>scalability</strong>, since he can scale to thousands of pages efficiently using embedding-based retrieval;</li>
+<li><strong>societal impact</strong>, since he reduces cognitive load associated with navigating documentation.</li>
+</ul>
+<p>Mark is:</p>
+<ul>
+<li><strong>unique</strong>, since existing AI agents either return links to sources or answer questions without references;</li>
+<li><strong>innovative</strong>, since he uses a modern cross-browser API called text fragments;</li>
+<li><strong>creative</strong>, since he enables building user trust in AI-generated responses using an unconventional approach.</li>
+</ul>
+<h2>Team &amp; Contributions</h2>
+<ul>
+<li>Wojciech Mroczyński (prompt engineering, backend development)</li>
+<li>Marko Golovko (full stack development)</li>
+</ul>
+<h2>Compliance</h2>
+<p>We adhere to hackathon rules and deadlines.</p>
+</div>

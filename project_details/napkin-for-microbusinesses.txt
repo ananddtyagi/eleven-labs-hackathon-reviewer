@@ -1,0 +1,27 @@
+<div>
+<h2>Problem 😭</h2>
+<p>Many small businesses struggle with pricing their services efficiently. They rely on experience, rough estimates, and even handwritten notes to generate quotes. This is not scaleable, or automatable. Napkin solves this problem.</p>
+<h2>Solution 🥳</h2>
+<p>Napkin helps micro-businesses automate their pricing process. It interviews the business owner to create a custom pricing function based on relevant inputs, allowing for instant and consistent price calculations. Napkin also integrates with a phone line via Elevenlabs, so customers can call in and receive a quote without waiting for the business owner to be available.</p>
+<h3>How does it do it? 🪄</h3>
+<p>Napkin gathers the pricing setup from the business owner, and uses a separate LLM to generate a simple javascript function that can produce the price. The function signature is analyzed and provided to the pricing agent to be able to evaluate it, and produce a price when talking to the customer.</p>
+<h2>Future potential 🧨</h2>
+<p>Napkin has a lot of potential, with additional features. For instance:</p>
+<ul>
+<li>Easily generated &amp; modified tables for material prices, hourly rates, etc.</li>
+<li>Ability to let the business owner take further non-pricing notes which the agent can relay to the customer at call</li>
+<li>Take orders</li>
+<li>Work with email, in addition to the voice agent</li>
+<li>Let the agent take notes of areas that are unclear and use that to improve itself with the help of the business owner</li>
+<li>Automatically forward the call to a human once the agent feels lost or is unable to help</li>
+</ul>
+<h2>Tech 🔧</h2>
+<p>It is built with Next.js, hosted on Vercel. The agents are powered by Elevenlabs (Conversational, using tools). There is also additional use of LLM completion (OpenAI using Vercel's SDK) to generate the code asynchronously with the conversation.</p>
+<h3>What can could be improved</h3>
+<p>As this is a proof-of-concept, it does not implement any proper backend. But in order for testers to be able to modify products on the demo app, Localstorage is used.</p>
+<p>This, however, requires the use of client tools in Elevenlabs, which would not fly for a production version. However, everything could easily be re-implemented as a proper app with a backend, given more time.</p>
+<p>The lack of a backend required the pricing functions to be evaluated on the client's web browser. This is not suitable, either, for a production environment, as the pricing functions should be evaluated on the server in a sandbox.</p>
+<p>More on this on the <a href="https://github.com/FrankSandqvist/napkin-xi-hack" rel="nofollow">git repo</a>.</p>
+<h2>Team 🙋‍♂️</h2>
+<p>I decided to ahead as a solo hacker this time!</p>
+</div>

@@ -1,0 +1,82 @@
+<div>
+<h1>🚀 Person AI – Your AI Mentor for Growth &amp; Habits</h1>
+<h2>🛑 The Problem</h2>
+<p>People often fail to analyze their actions, don’t learn from mistakes, and lose motivation. They lack a structured, intelligent system that helps them make better decisions and build long-term habits based on real insights.</p>
+<p>How many times in the past month have you lost motivation just because something didn’t go as planned? What if you could share your challenges with Steve Jobs or Henry Ford and get constructive advice + a clear action plan in return?</p>
+<p>With <strong>Person AI</strong>, that’s no longer a fantasy—it’s a reality.</p>
+<hr/>
+<h2>✨ What is Person AI?</h2>
+<p><strong>Person AI</strong> is an <strong>AI-powered mentor</strong> that helps users reflect, improve, and stay motivated. Using advanced <strong>Conversational AI</strong> and <strong>AI Journaling techniques</strong>, it provides personalized feedback, tracks progress, and offers actionable insights.</p>
+<h3>🌍 <a href="https://mindful-mentor-owl.vercel.app/" rel="nofollow">Try the application here!</a></h3>
+<p>This isn’t just another chatbot—it’s a <strong>digital coach</strong> designed to help you make better decisions and grow both personally and professionally.</p>
+<hr/>
+<h2>🔥 Key Features</h2>
+<h3>🤖 <strong>AI Mentor Conversations</strong></h3>
+<ul>
+<li>Daily &amp; weekly check-ins to help you reflect, learn, and plan your next moves.</li>
+<li>Hyper-personalized insights based on your actions and history.</li>
+</ul>
+<h3>📅 <strong>Calendar Integration</strong></h3>
+<ul>
+<li>AI adapts its recommendations based on your real schedule.</li>
+<li>Syncs with your calendar to align growth with your daily routine.</li>
+</ul>
+<h3>📄 <strong>Upload Your CV for Tailored Career Guidance</strong></h3>
+<ul>
+<li>Users can <strong>upload their CV</strong>, allowing AI to analyze career history and provide targeted coaching.</li>
+<li>Helps in skill-gap identification and personalized career growth strategies.</li>
+<li>Grab mine CV if you're hiring! 🤣 <a href="/jacek-ciuba-cv.pdf" rel="nofollow">link</a></li>
+</ul>
+<h3>🧠 <strong>Context Awareness</strong></h3>
+<ul>
+<li>Pulls insights from journals &amp; past chats for personalized coaching.</li>
+<li>Delivers <strong>actionable advice</strong> instead of generic responses.</li>
+</ul>
+<h3>💬 <strong>Conversational AI</strong></h3>
+<ul>
+<li>Powered by <strong>ElevenLabs</strong>, making AI discussions <strong>natural &amp; engaging</strong>.</li>
+<li>Talk to AI versions of <strong>your role models</strong> (e.g., Steve Jobs, Coco Chanel, Henry Ford) for strategic guidance!</li>
+</ul>
+<h3>🔗 <a href="https://person-i-backend-git-main-cjacas-projects.vercel.app/api/docs/" rel="nofollow">Explore the API here!</a></h3>
+<hr/>
+<h2>💰 Monetization Strategy</h2>
+<h3><strong>B2C – Freemium Model</strong></h3>
+<ul>
+<li>Free plan + Premium subscriptions ($10–$50/month) for individuals.</li>
+</ul>
+<h3><strong>B2B – HR &amp; Managerial Solutions</strong></h3>
+<ul>
+<li>AI Mentor for <strong>performance reviews &amp; employee development</strong> ($99–$5000/month).</li>
+</ul>
+<h3><strong>AI Feature Upsell</strong></h3>
+<ul>
+<li>Advanced AI analytics, voice memos, external API integrations.</li>
+</ul>
+<hr/>
+<h2>🛠️ Tech Stack</h2>
+<ul>
+<li><strong>Backend</strong>: FastAPI, Python</li>
+<li><strong>Frontend</strong>: React, Next.js</li>
+<li><strong>AI</strong>: OpenAI, ElevenLabs</li>
+<li><strong>Database</strong>: PostgreSQL</li>
+<li><strong>Hosting</strong>: Vercel</li>
+<li><strong>Frontend project</strong>: Lovable</li>
+</ul>
+<hr/>
+<h2>🚀 Get Started</h2>
+<h3>1️⃣ <strong>Try the App</strong></h3>
+<p><a href="https://mindful-mentor-owl.vercel.app/" rel="nofollow">Click here to use Person I</a></p>
+<h3>2️⃣ <strong>Explore the API</strong></h3>
+<p><a href="https://person-i-backend-git-main-cjacas-projects.vercel.app/api/docs/" rel="nofollow">View API Documentation</a></p>
+<h3>Frontend repository</h3>
+<p><a href="https://github.com/Person-I/mindful-mentor-owl" rel="nofollow">View Frontend Repository</a></p>
+<h3>Backend repository</h3>
+<p><a href="https://github.com/Person-I/person-i-backend" rel="nofollow">View Backend Repository</a></p>
+<hr/>
+<h2>🤝 Contributing</h2>
+<p>We welcome contributions! Feel free to fork the repo, create a branch, and submit a PR with improvements.</p>
+<hr/>
+<h2>📩 Contact</h2>
+<p>For questions, reach out at: <strong><a href="mailto:ciubajacek+personi@gmail.com" rel="nofollow">ciubajacek+personi@gmail.com</a></strong></p>
+<p>Made with ❤️ by <strong>Karol Wiater</strong> &amp;&amp; <strong>Jacek Ciuba</strong></p>
+</div>

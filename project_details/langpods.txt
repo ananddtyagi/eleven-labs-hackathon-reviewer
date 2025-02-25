@@ -1,0 +1,27 @@
+<div>
+<h1>Project Story</h1>
+<h2>The Inspiration</h2>
+<p>Our journey began with a shared passion for language learning. As polyglots and language enthusiasts, we've experienced firsthand the ups and downs of mastering new languages. Hamed, speaking 7 languages including Persian, Turkish, and Russian, along with Elliot Norrevik and Elliot Lindberg, both intermediate Chinese speakers, discovered that podcasts were incredibly effective for language acquisition. However, we all hit the same wall: finding opportunities to actually practice speaking.</p>
+<h2>The Problem</h2>
+<p>While listening to language podcasts helped immensely with comprehension, the leap from passive listening to active speaking remained a significant challenge. Traditional language apps couldn't provide the dynamic, conversational practice we needed, and finding native speakers for regular practice sessions proved difficult and expensive.</p>
+<h2>The Solution</h2>
+<p>That's when LangPod was born. We combined our experience in language learning with modern AI technology to create a platform that generates personalized language learning podcasts and provides an AI conversation partner. What makes LangPod unique is its ability to adapt to your native language and generate content that's relevant to your interests and proficiency level, all while using natural-sounding voices through ElevenLabs' technology.</p>
+<h3>Tech Stack</h3>
+<ul>
+<li>🚀 Next.js 15 (App Router) + TypeScript</li>
+<li>🎯 ElevenLabs API for voice generation</li>
+<li>🔐 Clerk for authentication</li>
+<li>📊 PostHog for analytics</li>
+<li>💾 Neon (PostgreSQL) for database</li>
+<li>🎨 Shadcn UI + Tailwind CSS for styling</li>
+<li>🛠️ ZenStack for type-safe database operations</li>
+<li>Inngest for background jobs</li>
+<li>Vercel for deployment (with vercel blob for saving the audio files and ai sdk for using ai)</li>
+</ul>
+<h2>Technical Challenges</h2>
+<p>Building LangPod came with its share of challenges. Integrating ElevenLabs' voice generation to sound natural and maintaining conversation flow required careful prompt engineering. We also had to ensure the AI responses were both educational and engaging, striking the right balance between correction and encouragement. Managing real-time voice streaming while maintaining low latency was another hurdle we had to overcome.</p>
+<h2>What We Learned</h2>
+<p>This project taught us the power of combining AI with language education. We learned that effective language learning tools need to be both technically sophisticated and pedagogically sound. The experience of building LangPod has also shown us how AI can be used to create more personalized and engaging learning experiences.</p>
+<h2>What's Next</h2>
+<p>Looking ahead, we're excited to expand LangPod's capabilities. We plan to add more languages, implement advanced speech recognition for better feedback, and create a community feature where learners can share their favorite generated scenarios. Our goal is to make language learning more accessible and enjoyable for everyone, regardless of their native language or learning goals.</p>
+</div>

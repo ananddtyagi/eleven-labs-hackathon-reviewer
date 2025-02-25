@@ -1,0 +1,16 @@
+<div>
+<h2>Inspiration</h2>
+<p><a href="https://supacrawl.com" rel="nofollow">Supacrawl</a> was inspired by tools like Selenium and Puppeteer. Wanted to scale crawling websites for data extraction while making it into an easy to use API.</p>
+<h2>What it does</h2>
+<p>Supacrawl simplifies crawling pages for LLMs by turning websites into clean, easy-to-read markdown. It’s a straightforward tool that gathers the web content you need, fast and hassle-free.</p>
+<h2>How we built it</h2>
+<p>Made with Nextjs and website crawling with Puppeteer. The service creates clean Markdown for LLMs and uses Elevenlabs to turn a webpage into audio automatically.</p>
+<h2>Challenges we ran into</h2>
+<p>Web scraping is very difficult to do at scale. Many websites have anti scraping measures set up. In the future we will improve access to more sites.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>When the service actually returned the scrapped data. This allowed us to use Elevenlabs to convert the result of the webpage into audio.</p>
+<h2>What we learned</h2>
+<p>Learned about crawling websites at scale. This is important for projects looking to do bulk scraping for things like price comparison websites, </p>
+<h2>What's next for SupaCrawl</h2>
+<p>We are going to continue to improve the types of websites we can crawl. Some websites block requests so we will create new ways to access them.</p>
+</div>

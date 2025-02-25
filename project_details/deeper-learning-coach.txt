@@ -1,0 +1,26 @@
+<div>
+<h2>Inspiration</h2>
+<p>Challenged by the idea of having an AI <strong>proactively interact</strong> with a human, taping on his context to offer guidance and peer support in (one of) our most human activity: <strong>learning</strong> and making progress.</p>
+<h2>What it does</h2>
+<p>Send spaced nudges, suggestions and guidance to a learner based on learning science, his learning history and his goals.</p>
+<h2>How we built it</h2>
+<p>I started with lovable for user interface and the general architecture.
+using github sync I fixed the AI part and the UX.</p>
+<h2>Challenges we ran into</h2>
+<p>The AI provider Mistral has interesting possibilities we could leverage but that stretched too far the possibility of a simple web app, we hit some limits.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>It works. it's not pretty nor perfect but it's a good proof of concept to iterate upon.</p>
+<h2>What we learned</h2>
+<p>How to use lovable and stretch it beyond a simple UI.
+How to use Mistral agents and tool calls.
+How to use ElevenLabs API</p>
+<h2>What's next for Deeper Learning Coach</h2>
+<p>Build the server side and move some off the load on the server.
+Try a mobile app using expo ASAP because that's where such app will shine, always in your pocket.
+Add more integrations.</p>
+<h2>The video</h2>
+<p>The video is made of two parts, the demo starts at 1'25</p>
+<p>I hereby Bruno Winck, Acknowledge adherence to hackathon rules and deadlines.</p>
+<p>I was the solo team for this project and did everything.</p>
+<p>We finished at 23:45 local time.</p>
+</div>

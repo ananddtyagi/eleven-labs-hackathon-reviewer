@@ -1,0 +1,43 @@
+<div>
+<h2>Inspiration</h2>
+<p>Baseball players at all levels struggle with perfecting their swing, often relying on expensive coaching sessions or video analysis that lacks real-time feedback. We were inspired to build an <strong>AI-powered hitting coach</strong> that can provide <strong>instant, dynamic feedback</strong> using <strong>computer vision and AI voice coaching</strong>—just like having a professional coach with you at all times.</p>
+<h2>What it does</h2>
+<p>AI Hitting Coach <strong>analyzes a player’s swing in real-time</strong> using <strong>MoveNet (TensorFlow.js) for body tracking</strong> and an <strong>AI Agent (ElevenLabs) for instant voice coaching</strong>. The system detects:</p>
+<ul>
+<li><strong>Swing mechanics and positioning</strong></li>
+<li><strong>Common errors like dropping hands or shifting too early</strong></li>
+<li><strong>Corrects mistakes with AI-generated real-time voice coaching</strong></li>
+</ul>
+<p>With <strong>AI-powered feedback</strong>, players can get <strong>immediate corrections</strong> instead of waiting for post-game analysis.</p>
+<h2>How we built it</h2>
+<p>We combined multiple technologies to bring <strong>real-time swing analysis to life</strong>:</p>
+<ul>
+<li><strong>Frontend</strong>: JavaScript, HTML, CSS, TensorFlow.js (MoveNet), WebSockets</li>
+<li><strong>Backend</strong>: Node.js, Express, Socket.io</li>
+<li><strong>AI</strong>: ElevenLabs AI Agents for natural voice coaching</li>
+<li><strong>Real-time Data Processing</strong>: MoveNet detects <strong>swing mechanics</strong>, and WebSockets handle low-latency <strong>AI-generated coaching responses</strong></li>
+</ul>
+<p>The system <strong>tracks swing movements, identifies errors, and speaks personalized feedback</strong> instantly.</p>
+<h2>Challenges we ran into</h2>
+<ol>
+<li><strong>Swing Detection Sensitivity</strong> – Initially, our model detected <strong>false positives</strong> from simple movements, requiring fine-tuning to <strong>only detect real swings</strong>.<br/></li>
+<li><strong>WebSocket Stability</strong> – Ensuring <strong>real-time communication</strong> between the frontend and ElevenLabs AI Agent required <strong>persistent WebSocket handling</strong>.<br/></li>
+<li><strong>AI Response Timing</strong> – Generating <strong>dynamic feedback</strong> without latency was crucial for <strong>real-time coaching.</strong><br/></li>
+</ol>
+<h2>Accomplishments that we're proud of</h2>
+<p>✅ Successfully <strong>integrated real-time AI voice coaching</strong> using ElevenLabs AI Agents<br/>
+✅ Built a <strong>fully functional, hands-free swing trainer</strong> that provides instant <strong>spoken corrections</strong><br/>
+✅ Created an <strong>interactive, data-driven experience</strong> that mimics a real hitting coach<br/>
+✅ Overcame <strong>technical challenges</strong> to ensure <strong>accurate and fast feedback</strong> </p>
+<h2>What we learned</h2>
+<p>🔹 <strong>Real-time AI interactions are challenging</strong> – Optimizing latency and response times was a key lesson.<br/>
+🔹 <strong>Motion tracking requires fine-tuning</strong> – Raw pose data isn't enough; <strong>context-aware filtering</strong> is needed.<br/>
+🔹 <strong>WebSockets provide a huge advantage</strong> – Moving from API polling to <strong>persistent WebSocket connections</strong> dramatically improved speed.<br/>
+🔹 <strong>AI feedback needs natural variations</strong> – We learned how to <strong>train AI Agents</strong> to provide <strong>dynamic, non-repetitive responses</strong> for a better coaching experience.  </p>
+<h2>What's next for AI Hitting Coach</h2>
+<p>🚀 <strong>Expand AI Knowledge</strong> – Train the AI Agent to <strong>detect more swing issues</strong> and provide <strong>customized training plans</strong>.<br/>
+🎯 <strong>Multi-Player Mode</strong> – Enable teams to use the system for <strong>group swing analysis</strong>.<br/>
+📊 <strong>Data-Driven Performance Tracking</strong> – Store swing data over time to provide <strong>detailed progress reports</strong>.<br/>
+📲 <strong>Mobile App Integration</strong> – Bring AI Hitting Coach to <strong>smartphones for on-the-go training</strong>.  </p>
+<p>⚾ <strong>AI Hitting Coach is just getting started. The future of baseball training is here!</strong></p>
+</div>

@@ -1,0 +1,40 @@
+<div>
+<h2>Inspiration</h2>
+<p>I am a kid from the 90s. I have spent hours on my computer playing games like <em>Doom</em> and <em>Duke Nukem</em>, as well as puzzle games like <em>Myst</em>.</p>
+<p>More often than I would like to admit, I got stuck in games and could not make any progress.
+This is where I would go to the newspaper stand and buy video game magazines. Those magazines they had pages and pages of walkthroughs, describing every single quest and all the different cheat codes to progress faster in the game.</p>
+<p>This was my entry into programming: finding the console in The Sims, entering <em>rosebud</em>, and then opening a world of modding. 🤩</p>
+<p>Before the magazines, there were hotlines you could call, and real video game experts on the other side would give you hints on how to progress.</p>
+<p>I wanted to recreate this so today's gamers could experience a similar <em>thrill</em> while they play.</p>
+<h2>What it does</h2>
+<p>Gamepal is an agent specifically trained on walkthroughs available online, such as the amazing <a href="https://www.zeldadungeon.net/" rel="nofollow">Zeldadungeon</a> for all Zelda games.</p>
+<p>You can ask questions about the game you are currently playing, such as:</p>
+<ul>
+<li><p>What is the recipe for a stamina elixir?</p></li>
+<li><p>Where can I find the Chaas Qeta shrine?</p></li>
+<li><p>Is there a cheat code to obtain full hearts?</p></li>
+</ul>
+<p>If Gamepal knows the answer, it will reference its knowledge base; otherwise, it will search the internet to find it.</p>
+<h2>How we built it</h2>
+<p>The app UI has been built using <a href="https://lovable.dev/" rel="nofollow">Lovable</a></p>
+<p>The agent interaction is built on top of <a href="https://elevenlabs.io/docs/conversational-ai" rel="nofollow">Elevenlabs Conversational AI</a>.</p>
+<p>Knowledge comes from crawling via <a href="https://www.firecrawl.dev/" rel="nofollow">Firecrawl</a> or on-demand search via a make scenario that is calling <a href="https://exa.ai/" rel="nofollow">Exa API</a></p>
+<p>Finally, I used Supabase for all the user authentication and databases need.</p>
+<h2>Challenges we ran into</h2>
+<p>Elevenlabs:</p>
+<ul>
+<li>prompting the agent correctly to trigger the client's tools</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<p><a href="https://github.com/elevenlabs/elevenlabs-docs/pull/794" rel="nofollow">Opened PR on Elevenlabs doc</a></p>
+<p>Built something visually appealing</p>
+<p>discovered new tools like Exa and Firecrawl</p>
+<p>have a better understanding of conversation agent</p>
+<h2>What we learned</h2>
+<p>How to create and guide apps with Lovable</p>
+<p>How to build a conversational agent with Elevenlabs</p>
+<p>How to crawl and search using Exa and Firecrawl</p>
+<h2>What's next for Gamepal</h2>
+<p>If I had more time, I could have connected it to a real Twilio number, so really re-enact the original experience. Right now it's only connected to a test number</p>
+<p>Also, I would love to build a way to augment the knowledge base automatically so it does not have to search the web.</p>
+</div>

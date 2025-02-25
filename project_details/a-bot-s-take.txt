@@ -1,0 +1,74 @@
+<div>
+<p><img alt="a bot's take - logo copy 2" src="https://github.com/user-attachments/assets/8fe5330e-2aed-4588-99a1-bc9775b8f269"/></p>
+<h2>Inspiration</h2>
+<p>The internet is a 24/7 conversation, constantly generating news, opinions, and debates. Traditional media struggles to keep up, and with its flaws – we've seen the rise and popularity of <a href="https://en.wikipedia.org/wiki/Digital_journalism#Citizen_journalism" rel="nofollow">Citizen Internet Journalism</a> providing unfiltered on-the-ground reporting from everyday people.</p>
+<p>In the <a href="https://www.youtube.com/@JasonLivinginChina" rel="nofollow">East</a> and the <a href="https://www.youtube.com/@CashJordan" rel="nofollow">West</a> <br/></p>
+<p>Unfortunately, these forms are still flawed – often doing whatever it takes to get views (e.g. fake AI generated provacative cover images)</p>
+<p><img alt="Screenshot 2025-02-24 at 9 18 18 AM" src="https://github.com/user-attachments/assets/b4fc9bd9-b9cc-4769-9cbb-23afa4ac68e5"/></p>
+<p>AI has the potential to bridge the gaps in traditional and digital journalism. 
+We wanted to build an <strong>AI-powered news show</strong> that captures and contextualizes trending stories in <strong>real time</strong>, bringing fresh, AI-generated commentary to the digital world.  </p>
+<ul>
+<li>[ ]  Could we <strong>break</strong> the echo-chambers of the internet with a fresh voice?<br/></li>
+<li>[ ]  Could that <strong>give pause</strong> – and prompt people to think differently and consider other perspectives?  <br/></li>
+</ul>
+<p>Inspired by the chaotic, unfiltered discussions happening online, <strong>A Bot’s Take</strong> was born: a news show where AI-powered anchors analyze, report, and react to the internet’s biggest stories.  </p>
+<h2>What it does</h2>
+<h2><img alt="Screenshot 2025-02-25 at 11 56 16 AM" src="https://github.com/user-attachments/assets/030769ac-ed9f-4d6e-a4b6-95ff8ff80e81"/></h2>
+<p><strong>A Bot’s Take</strong> is an AI-driven news show streamed on <strong>Twitch</strong>, featuring <strong>two AI anchors</strong> that deliver commentary and insights on trending stories. Based of the futuristic TV-show Futurama – we have <em>Linda, a composed and optimistic news anchor</em>, and <em>Morbo, an alien calling out any foolishness and future doom of the news covered.</em></p>
+<p>The show pulls from <strong>Reddit’s front page</strong> to bring in the most discussed content. The anchors' avatars speak with <strong>AI-generated voices from ElevenLabs</strong>, adding personality and flair to the commentary. The show includes an <strong>animated news ticker</strong> at the bottom, keeping the energy fast-paced and engaging, while the <strong>topic headline</strong> updates dynamically. The content is fully automated, with real-time updates and minimal human intervention.</p>
+<h2>How we built it</h2>
+<p><img alt="design diagram fixed" src="https://github.com/user-attachments/assets/f1e492f9-7f48-4635-bfe9-641236e55878"/></p>
+<ul>
+<li><strong>Initial development</strong>: We used <strong>Lovable</strong>, a promptable AI full-stack engineer, to generate the initial boilerplate code and the foundational UI for the project.<br/></li>
+<li><strong>Code editing &amp; refinement</strong>: After setting the base, we utilized <strong>Cursor</strong> to fine-tune the codebase and implement more advanced features.<br/></li>
+<li><strong>AI-powered narration</strong>: For voice generation, we leveraged <strong>ElevenLabs</strong>, providing high-quality AI-generated voices for our two anchors suited for their stark personalities.<br/></li>
+<li><strong>UI &amp; animation</strong>: We incorporated a <strong>dynamic news ticker</strong> at the bottom of the screen to keep the content visually engaging.</li>
+<li><strong>LLM Observability</strong>: We used <strong>PostHog</strong> to track the usage of the LLMs.</li>
+<li><strong>Content processing &amp; summarization</strong>: We use <strong>OpenAI’s gpt-4o</strong> to extract and summarize key insights from trending Reddit posts, ensuring the news show remains informative and relevant.<br/></li>
+<li><strong>Real-time streaming</strong>: We stream the show live on <strong>Twitch</strong>, creating a seamless experience for viewers to tune in to AI-generated content in real time.<br/></li>
+<li><strong>Dynamic Content</strong>: The pipeline is designed to continuously fetch new content and automatically generate new episodes, ensuring minimal manual intervention.<br/></li>
+</ul>
+<h2>Challenges we ran into</h2>
+<ul>
+<li><strong>3 Project Pivots</strong>: Simultaneously we tried an <a href="https://github.com/justinmae/ai-podcaster-convo" rel="nofollow">AI Podcast Show</a>, an <a href="https://github.com/iamarsenibragimov/ai-podcaster-experience" rel="nofollow">AI Podcast Host</a> where anyone could be a guest, then an AI debating show (current repo initially) before landing on this idea. We'd like to thank <strong>Lovable</strong> for the ability to prototype quickly and pivot without too much pain.</li>
+</ul>
+<p><img alt="loving lovable" src="https://github.com/user-attachments/assets/2383df9c-6005-4650-9655-22f1c416c5ac"/> <br/></p>
+<ul>
+<li><strong>Balancing Unfiltered Expression, Unwarranted Bias, and Lack of Context</strong>: Sometimes the anchor (Morbo) gives comments lacking in context. We found our Reddit scrape could sometimes miss the full context behind topics and hence, lead to a shallow reporting. <br/> e.g. Image of an anchor's comment. Zenlensky was recently offering to resign to seal Ukraine's NATO membership. However, Morbo's comment in isolation is not a fair view, and could lead to listeners missing the full picture. </li>
+</ul>
+<p><img alt="Zenlensky comment" src="https://github.com/user-attachments/assets/1a758f17-60a2-4177-b252-011ff623698f"/> <br/></p>
+<ul>
+<li><strong>Ensuring relevance &amp; filtering noise</strong>: Not all trending Reddit posts are suitable for the show. We used OpenAI to provide intelligence in filtering out NSFW content, then scrape the top 50 posts and rank by newsworthiness – picking the top 10 to report on.</li>
+<li><strong>AI-generated content tone</strong>: Creating AI-generated commentary that feels natural and engaging is a challenge. We focused on optimizing the <strong>humor, tone, and flow</strong> of the content to feel more human-like.<br/></li>
+<li><strong>Dynamic Content</strong>: Ensuring the system runs autonomously while maintaining content quality required adjustments to our <strong>automation pipelines</strong>.</li>
+<li><strong>Streaming Platform</strong>: Initially, we wanted to stream on YouTube, but we were blocked. We explored alternatives and found Twitch. We then uploaded that recording to YouTube.</li>
+<li><strong>3 Timezones of asynchronous collaboration</strong>: We're a team of 3 strangers working from New York, the Netherlands, and Australia – there's only a few hours we're all awake.</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li><strong>Fully automated AI-driven news show</strong>: We created a dynamic, real-time news show that streams on <strong>Twitch</strong>.<br/></li>
+<li><strong>Seamless AI anchor integration</strong>: We built two AI anchors with distinct personalities, delivering commentary in a natural and engaging way.<br/></li>
+<li><strong>Developed an animated news ticker</strong>: While the anchors remain static, the <strong>animated news ticker</strong> keeps the show visually exciting.<br/></li>
+<li><strong>Integrated multiple AI technologies</strong>: We combined <strong>OpenAI’s LLMs</strong>, <strong>ElevenLabs</strong>, and <strong>Twitch Streaming</strong> for a cohesive and automated experience.<br/></li>
+<li><strong>Leveraged strengths of high and low levels of abstraction in AI-assisted development</strong>: We used Lovable for the skeleton of our codebase, and Cursor for the meat.</li>
+<li><strong>Scalable content pipeline</strong>: We built a system capable of continuously generating content as internet trends evolve.</li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li><strong>Human-like AI expression</strong>: Balancing AI automation with a more <strong>human-like tone</strong> is essential for creating engaging content.<br/></li>
+<li><strong>Effective filtering and curation</strong>: The quality of the content we deliver is as important as the speed with which we source it.<br/></li>
+<li><strong>Seamless tech integration</strong>: Combining various AI tools like <strong>ElevenLabs</strong>, <strong>OpenAI</strong>, and <strong>Twitch</strong> into a unified experience is crucial for the success of an automated show.<br/></li>
+<li><strong>Real-time automation</strong>: Generating content and streaming in real time presents unique challenges, but offers significant scalability potential.</li>
+</ul>
+<h2>What's next for <em>A Bot’s Take</em></h2>
+<ul>
+<li><strong>Increase Context for Anchors</strong>: To prevent shallow reporting on the information contained in the Reddit post – it's important we expand the context referenced by the agent to provide a fuller picture of a topic.</li>
+<li><strong>Expanding AI personalities &amp; emotions</strong>: We want to enhance the anchors’ <strong>expressiveness</strong> through animated facial expressions and avatars, making them more relatable to viewers.<br/></li>
+<li><strong>Switch-out Anchors</strong>: We want the option of choosing who anchors your news. With different anchors having different biases and personalities. This would help cover more perspectives and allow personalisation of experience.</li>
+<li><strong>Integrating viewer interactions</strong>: We plan to incorporate real-time user submissions or voting to influence the content. And make consuming the news a more active process and less one-way channel.<br/></li>
+<li><strong>Exploring multiple content formats</strong>: Short-form clips for <strong>social media</strong> could expand the reach of the show.<br/></li>
+<li><strong>Enhancing video production</strong>: We may explore adding more sophisticated <strong>video animations</strong> to improve the visual appeal of the show.<br/></li>
+<li><strong>Multi-language support</strong>: We want to make the show more accessible to a wider audience by supporting multiple languages.</li>
+</ul>
+<p><em>A Bot’s Take</em> is just the beginning—<strong>the internet speaks, AI reports!</strong></p>
+</div>

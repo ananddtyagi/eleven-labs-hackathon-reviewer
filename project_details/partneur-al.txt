@@ -1,0 +1,85 @@
+<div>
+<h1>Inspiration</h1>
+<p>After hearing firsthand accounts from his father-in-law’s experience in law enforcement, Umer realized how critical every second is during high-risk situations. Even a brief delay in securing backup can drastically escalate danger for officers and civilians. Simultaneously, officers often spend up to 30% of their shifts on administrative tasks, tying up resources and slowing response times. <strong>An AI agent that streamlines reporting and accelerates backup coordination can save precious minutes, enhance officer/civilian safety, and improve day-to-day operations.</strong></p>
+<hr/>
+<h1>Team Information</h1>
+<h2>Umer Haider</h2>
+<ul>
+<li>Responsible for the Front-End<br/></li>
+<li>Responsible for the Real-Time Streaming<br/></li>
+<li>Responsible for AI Agent Alerting<br/></li>
+</ul>
+<h2>Joshua Shu</h2>
+<ul>
+<li>Responsible for the Transcription Service<br/></li>
+<li>Responsible for Footage Procurement<br/></li>
+</ul>
+<hr/>
+<h1>Problem Statement</h1>
+<h2>The Issue</h2>
+<ol>
+<li><strong>High-Risk Encounters:</strong> Law enforcement officers regularly face urgent, high-stakes situations where every second counts in ensuring personal and public safety.<br/></li>
+<li><strong>Excessive Paperwork:</strong> Officers can spend up to 30% of their shifts on administrative tasks, significantly reducing their time and availability for active duty.<br/></li>
+<li><strong>Overloaded Dispatchers:</strong> Rising call volumes, increasingly more complex emergencies, and poor public perception of law enforcement have led to understaffed dispatch centers that need a solution to assist them in their jobs.</li>
+</ol>
+<h2>Why It Matters</h2>
+<ul>
+<li><strong>Critical Delays:</strong> Delays in backup requests or coordination can escalate danger for both officers and civilians.<br/></li>
+<li><strong>Operational Inefficiency:</strong> Time-intensive documentation ties up resources.</li>
+</ul>
+<hr/>
+<h1>Solution Overview</h1>
+<h2>Approach</h2>
+<ul>
+<li>Integrate real-time audio/video streaming from officer body cams.<br/></li>
+<li>Transcribe and analyze these streams using AI (LLMs) to identify critical moments and take automated actions—like requesting backup or running background checks.<br/></li>
+<li>Provide a dashboard where command centers can monitor multiple officers in real-time.</li>
+</ul>
+<h2>Key Features</h2>
+<ol>
+<li><strong>Real-Time Video &amp; Audio Processing:</strong> Body cam or webcam feeds are streamed and transcribed on the fly (we are using existing body cam footage).<br/></li>
+<li><strong>Actionable Alerts &amp; Coordination:</strong> Automated flags when threats are detected or an officer needs backup.<br/></li>
+<li><strong>Officer Dashboard:</strong> A unified interface showing all active streams, with quick access to transcripts, threat level indicators, and location-based maps.</li>
+</ol>
+<h2>Impact</h2>
+<ul>
+<li><strong>Officer Safety:</strong> Automated triggers for backup requests and hazard alerts.<br/></li>
+<li><strong>Reduced Administration:</strong> Less time spent on manual reporting and documentation.<br/></li>
+<li><strong>Faster Response:</strong> Officers remain focused on critical tasks, improving public safety overall.</li>
+</ul>
+<hr/>
+<h1>Technical Details</h1>
+<h2>Architecture</h2>
+<p><strong>Audio/Video Input → Transcription Service → Database (Supabase)</strong>
+-- We ran a simulation which simulated the streaming of audio from a body cam. We used real body cam footage audio that was then transcribed using OpenAI’s Whisper API. To simulate live-streaming we chunked the transcription messages into the database.</p>
+<p><strong>Transcription Streaming</strong>
+-- We set up a real-time database (Supabase) which we subscribed to on the frontend to simulate the transcription being streamed in real-time.</p>
+<p><strong>LLM/Agent subscribes to new transcripts in the database to determine if actions are needed</strong> (e.g. background checks and backup requests).<br/>
+-- We used the same subscription for the transcription streaming to stream directly to our AI agent which would then run automated actions.</p>
+<p><strong>Alerts/Actions</strong> are written back to a table that the dashboard queries in real-time, updating officer status and threat levels on a map UI.<br/>
+-- During transcription rendering we tried to include moments where a threat was detected, e.g. a gunshot noise going off. Our AI agent would read threats and determine whether or not to alert for backup.</p>
+<p><strong>Backup Call</strong>
+-- When our AI agent fires off an alert, we used ElevenLabs to generate the audio from text. With this audio, we made a call to Twilio to call a phone number. This required setting up a webhook which Twilio would call to retrieve the audio file.</p>
+<hr/>
+<h1>Challenges We Ran Into</h1>
+<h3>Speech Diarization</h3>
+<p>Separating different speakers (e.g. officer vs. suspect) within noisy or overlapping audio was a major challenge. Accurate identification of who is speaking at any given moment is crucial for contextual understanding and actionable insights. We experimented with various diarization techniques, but background noise, multiple overlapping voices, and varied accents made it an ongoing area for refinement.</p>
+<h3>Real-Time Streaming Complexity</h3>
+<p>Ensuring continuous transcription updates and near-instant synchronization between the database, the LLM, and the UI.</p>
+<h3>Finding Useful Body Cam Footage</h3>
+<p>Finding publicly accessible footage that is simple to transcribe is more challenging than it seems. Privacy and legal issues combined with restrictive police department policies mean that footage generally isn’t found on sites like YouTube unless an individual went out of their way to request it from their local police station and post it online.</p>
+<hr/>
+<h1>Conclusion &amp; Future Plans</h1>
+<h2>Next Steps:</h2>
+<ol>
+<li><strong>Integrate with Police Databases:</strong> Real-time checking of suspect information against official records.<br/></li>
+<li><strong>Connect with Radio Telecommunication:</strong> Instead of communicating with phones, we would likely need to relay information over radio channels to other officers.<br/></li>
+<li><strong>Enhanced Analytics:</strong> Use advanced NLP models for sentiment analysis, threat profiling, and officer well-being monitoring.<br/></li>
+<li><strong>Speech Diarization:</strong> Correctly identify who is speaking in any given situation.<br/></li>
+<li><strong>Sound Classification:</strong> Parse out important non-speech sounds like gunshots, screams, and explosions from all active audio feeds and tie them to useful alerts.<br/></li>
+<li><strong>Integrate with Other Departments:</strong> Integrate with departments such as EMS, Fire Departments, etc.</li>
+</ol>
+<hr/>
+<h1>Compliance</h1>
+<p>We comply with all the rules for the ElevenLabs x a16z hackathon.</p>
+</div>

@@ -1,0 +1,16 @@
+<div>
+<h2>Inspiration</h2>
+<p>Watching my grandmother struggle with her daily medications – forgetting doses, mixing up timings, and getting anxious about tracking her vital signs – sparked this idea. One day, she accidentally doubled her blood pressure medication, and it hit me: we needed something more reliable than occasional phone calls. If technology could make banking easier, why couldn't it help our elderly loved ones manage their health safely and independently? That's why I created this AI Medical Companion – to be the constant, caring reminder that families can't always be.</p>
+<h2>What it does</h2>
+<p><strong>Makes automated, intelligent calls to elderly patients to remind them about medications and record vital signs at prescribed times.</strong> Collects and securely stores all health data, making it instantly accessible to family members through a mobile app.</p>
+<h2>How we built it</h2>
+<p>I used ElevenLabs for AI calling along with Twilio. I setup a server and create websocket connection with twilio and elevenlabs. <strong>When the careplan is fed in the system, it generates a series of events for medications and vital readings at fixed times throughout the day. The AI agent calls at those fixed times and interactively talks to the patient and collects information.</strong> For workflow I am using Activepieces. I am storing the call data in DynamoDB. From DyanmoDB I am pulling. a daily report. This report is fed to the app. The family members will few the daily analysis report in their app. I am using Lovable for web building. Right now the integration is not there with backend for time limitation. But the app generated data is same as the data from database (from BE).</p>
+<h2>Challenges we ran into</h2>
+<p>Faced issues with Twilio, twilio suspended my account for voice calling. Had to wait a lot and later create a new account.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>It is a great product which can successfully cut down the family member times by unnecessary calling their closed ones just to check whether the care plan is followed or not and to stay on top. It saves time of both the parties. <strong>Also if Elevenlabs exposes their API's for PVC, then the closed family members like sons/daughters can professionally clone their own voice and can call their elderly patients. This will create a very close connection.</strong></p>
+<h2>What we learned</h2>
+<p>I personally learned a lot about voice LLM's</p>
+<h2>What's next for Intelligent Medical Care Reminder</h2>
+<p>I plan to put it to production later or club with some health-tech to push this solution.</p>
+</div>

@@ -1,0 +1,63 @@
+<div>
+<h1>Inspiration</h1>
+<p>I was inspired by a dream—a vision fueled by technology, creativity, and the boundless potential of innovation. The idea of creating a system that transcends traditional limitations, an LLM that not only interacts with APIs but also writes its own code, reconfigures its structure, and continuously evolves, is nothing short of revolutionary. This project embodies the spirit of endless possibility and the magic of iterative, procedural evolution. It's more than just a hackathon entry; it's a manifesto for the future of dynamic, self-improving technology.</p>
+<h1>Abstract</h1>
+<p>This project, titled <strong>Advanced Computational System</strong>, represents a groundbreaking fusion of classical computation principles with modern artificial intelligence. By integrating the concept of a Turing machine with the adaptive capabilities of a Large Language Model, the system offers a novel approach to dynamic code generation, self-modification, and iterative learning. It is designed to push the boundaries of what computational systems can achieve, offering an infinitely expandable architecture that redefines automation and intelligent processing.</p>
+<h1>Summary of the Problem &amp; Solution</h1>
+<p><strong>The Problem:</strong><br/>
+Modern computational systems often operate within static, predefined frameworks that limit their ability to adapt and evolve. They struggle with dynamic, context-aware operations, and lack the flexibility to reconfigure themselves or learn from ongoing interactions. This rigidity hinders innovation and the capacity to solve complex, evolving problems.</p>
+<p><strong>The Solution:</strong><br/>
+The proposed system addresses these challenges by combining the timeless architecture of a Turing machine with the dynamic intelligence of a Large Language Model. By utilizing an infinitely expandable tape (node list), a movable read/write head (selected node), and state registers (boxes), the system can perform complex operations such as:</p>
+<ul>
+<li>Generating and executing contextual commands,</li>
+<li>Self-modifying code based on real-time data,</li>
+<li>Integrating with various APIs,</li>
+<li>Iteratively refining its processes through recursive command generation.<br/></li>
+</ul>
+<p>This synergy creates a computational platform that is not only adaptive and self-improving but also capable of rethinking its own operational framework—a true leap toward autonomous, intelligent systems.</p>
+<h1>Advanced Computational System</h1>
+<p>The Node Editor combines the principles of a Turing machine with Large Language Model capabilities, creating a powerful computational system with theoretically infinite possibilities.</p>
+<h2>Turing Machine Architecture</h2>
+<ul>
+<li><strong>Infinite Tape:</strong><br/>
+The node list acts as an infinitely expandable tape, where each node is a cell that can store arbitrary text.</li>
+<li><strong>Read/Write Head:</strong><br/>
+The currently selected node represents the read/write head, which can move left and right along the tape.</li>
+<li><strong>State Register:</strong><br/>
+The boxes serve as state registers, storing both intermediate data and program instructions.</li>
+<li><strong>Instruction Set:</strong><br/>
+Commands like <code>move</code>, <code>read</code>, and <code>write</code> mirror basic Turing machine operations.</li>
+</ul>
+<h2>LLM Enhancement</h2>
+<ul>
+<li><strong>Dynamic Command Generation:</strong><br/>
+The system can read the current node's content and generate contextual commands.</li>
+<li><strong>Memory Augmentation:</strong><br/>
+Boxes can store both data and prompts, allowing the system to:
+
+<ul>
+<li>Read from boxes to understand context.</li>
+<li>Write new prompts based on previous operations.</li>
+<li>Chain multiple operations together.</li>
+</ul></li>
+<li><strong>Recursive Processing:</strong><br/>
+The system can:
+
+<ul>
+<li>Generate commands that manipulate both data and other commands.</li>
+<li>Read its own output and generate new commands.</li>
+<li>Create self-modifying sequences of operations.</li>
+</ul></li>
+</ul>
+<h2>Extended Capabilities</h2>
+<ul>
+<li><strong>Infinite Memory:</strong><br/>
+Combine unlimited nodes with multiple storage boxes.</li>
+<li><strong>State Persistence:</strong><br/>
+Save and load complex states of computation.</li>
+<li><strong>Natural Language Interface:</strong><br/>
+Convert human instructions into precise operations.</li>
+<li><strong>Self-Modification:</strong><br/>
+Write commands that modify its own working environment.</li>
+</ul>
+</div>

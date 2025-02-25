@@ -1,0 +1,35 @@
+<div>
+<p>PS. in the demo video, I went to the ending scene as quickly as possible, to keep it nice and short. But it is possible to get a positive ending, to mess up unintentionally, or to just enjoy the story. Give it a try!</p>
+<h2>Inspiration</h2>
+<p>"Choose Your Own Adventure" books, the Black Mirror special "Bandersnatch". Everyone loves to play with interactive stories. We can now elevate this experience with AI agents (or even better, AI directors).</p>
+<h2>What it does</h2>
+<p>Echoverse is an AI-powered interactive storytelling app where you shape the narrative through your choices.</p>
+<p>What makes it special is that each scene is brought to life with: <br/>
+• An AI agent (or director) that creates every time different plots, settings, and characters <br/>
+• AI generated visuals (backgrounds and characters portraits) <br/>
+• Characters speaking with nuanced tones, thanks to ElevenLabs <br/>
+• Multiple ways to interact (text, voice, or choices) <br/></p>
+<h2>How we built it</h2>
+<p>I built it entirely with Lovable, never had to open any other IDE.</p>
+<h2>Challenges we ran into</h2>
+<p>First time taking part in an hackathon. <br/>
+First time building an app. <br/>
+First time playing with AI coding agents (thanks Lovable). <br/></p>
+<p>It was particluarly challenging to create the AI director logic, that has to: <br/>
+• choose randomly a genre for the plot <br/>
+• create characters and settings <br/>
+• create dialogues <br/>
+• keep track of every interaction, updating the plot accordingly <br/>
+• determine which player's choice would lead to the ending scenes (win or game-over) <br/></p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Shipping a functioning app. Let's go!</p>
+<h2>What we learned</h2>
+<p>I learned what an AI agent is, I learned how to build it. I learned that with AI it is possible to ship products faster than ever.</p>
+<h2>What's next for Echoverse</h2>
+<p>A few technical improvements: <br/>
+• adding background music and sound effects <br/>
+• adapt the app for all device sizes (now it displays correctly only on laptops) <br/>
+• upgrading the director's logic to handle more than one characters per story <br/>
+• improving the transcript, including also the player's choices <br/></p>
+<p>Also, the initial idea was to create a first-person interactive movie, but turned out to be too complex to build for this hackathon; will check its feasibility again.</p>
+</div>

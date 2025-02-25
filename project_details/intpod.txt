@@ -1,0 +1,33 @@
+<div>
+<h2>Inspiration</h2>
+<p>We love podcasts, and we believe it is a very lonely experience where you're sitting and listening to other people. We want to bring you into the center of the conversation.</p>
+<h2>What it does</h2>
+<p>IntPod allows you to interrupt podcasts and turn them into a conversation with one of the hosts, where you can ask any question and take notes at any given moment.</p>
+<h2>How we built it</h2>
+<p>Elevenlabs Conversation, Mistral for note taking, Vite, Supabase (db, auth), React, React Router (couldn't tell which version or framework vs. router mode, just saw an import), Tailwind (with Shadcn or Daisy UI components?), Lovable, Cursor</p>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>We transformed the API calls into edge functions so that we can enable and use them via single supabase API keys however this process took quite a while, and we ended up not using them because it just overcomplicated things</li>
+<li>Initially the entire voice → text → LLM → voice stack ran using Huggingface whisper, Mistral, and then elevenlabs, but we ended up using the conversational AI agents from elevenlabs in the end. Could have saved us a lot of time from the beginning.</li>
+</ul>
+<h2>Accomplishments that we're proud of</h2>
+<ul>
+<li>We’re proud of our design.</li>
+<li>And secondly, for some of us, it was the first time using conversational AI agents in a real world application, which was super fun and exciting!</li>
+</ul>
+<h2>What we learned</h2>
+<ul>
+<li>Cursor &gt; Lovable for the nasty stuff</li>
+<li>Voice applications are super exciting, and we already have multiple ideas of other things we’d like to build!</li>
+<li>Rest API functions are sometimes good enough for testing rather than SDKs</li>
+</ul>
+<h2>What's next for IntPod</h2>
+<p>Step 1: Collaboration with podcast hosts with voice cloning and authentic interactivity.</p>
+<p>Step 2: Prompting podcasters to implement questions to involve the audience and embrace the new interactive opportunity.</p>
+<p>Step 3: Approaching educational providers such as Coursera and edX to create interactive lectures.</p>
+<p>Step 4: We will pitch to podcast hosts and podcast platforms, start a TikTok campaign where totally authentic influencers pretend to be genuinely surprised about how they can talk to their beloved podcasts and will gain virality, and then pitch to Spotify.</p>
+<h2>Team Info</h2>
+<p>Het Dave - Backend Dev, AI Voice Wrangler (he is our quant)
+Florian Kristof - Infrastructure Dev, API and Account Manager
+Max Prokopp - Cursor Vibe Coder and Design Nerd</p>
+</div>

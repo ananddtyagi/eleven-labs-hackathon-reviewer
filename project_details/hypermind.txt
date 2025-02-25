@@ -1,0 +1,59 @@
+<div>
+<h2>Inspiration</h2>
+<p>People are excited about <a href="https://www.hyperbound.ai/" rel="nofollow">Hyperbound</a>, they have gotten investments from YCombinator <a href="https://www.cbinsights.com/company/hyperbound/financials" rel="nofollow">and more</a>, saying they have a lot of customers (over 7,000 companies, based on their own website), and my team mates in my current company keep telling me how good Hyperbound is. So I thought I shall give it a try to see how hard is it to make a clone of it, as I think that people might be too <em>hyper</em> about this.</p>
+<h2>What it does</h2>
+<p><strong>Train Sales Teams with AI-Powered Simulations</strong></p>
+<p>Ramp your sales reps 10x faster with personalized AI training. Create custom scenarios, practice difficult conversations, and master your pitch in days, not months.</p>
+<p><strong>Features</strong></p>
+<ul>
+<li>Practice realistic sales scenarios with different AI Agents</li>
+<li>Supports different types of sales meetings, from cold calling to account renewal meetings. </li>
+<li>Get real-time feedback on how you're doing in the call</li>
+<li>Post call analysis with detailed analytics on conversation performance, objection handling, and key metrics, to improve your sales skills</li>
+<li>Create your own agents and scenarios</li>
+</ul>
+<p><strong>Under the hood</strong> </p>
+<ul>
+<li>For each type of sales meeting, we define an ElevenLabs Conversational Agent, configured with specific tools and analysis items. </li>
+<li>We define different personas and scenarios in the database (users can create new personas and scenarios via the web interface), which are then used when calling the Agent, to override first message, prompt, and voice.</li>
+<li>The tools created in the Agent monitor the conversation and trigger messages back in the user's browser. We show those as real-time feedback messages, to help coach the user in the discussion. </li>
+<li>Additional analysis is shown to the user based on the analysis criteria defined for the specific agent type. </li>
+<li>When new personas are created, we use OpenAI to generate a persona avatar image based on the user's provided persona description. </li>
+<li>We capture the user's audio from the call in realtime, and save for further processing. We also retrieve the ElevenLabs recording post call and store it for future evaluation. </li>
+</ul>
+<h2>How I built it</h2>
+<ul>
+<li>ElevenLabs Conversation AI agents, defining one agent per sales call type.</li>
+<li>Lovable for building code, so in React, using Typescript, shadcn-ui, Tailwind CSS</li>
+<li>Supabase for auth, database (user profile, personas definitions, scenarios definitions, call history), and storage (storing: user profile image, persona avatar images, audio recordings of the call, two versions: user talk only, elevenlabs full conversation)</li>
+<li>OpenAI's dalle API for generating avatar images based on persona descriptions (e.g. "Professional, man in his 30s, always wearing a suit")</li>
+<li>ChatGPT 4o for learning about sales call types, and what is good or bad behaviour on the call.</li>
+</ul>
+<h2>Challenges I ran into</h2>
+<ul>
+<li>Lovable: Using Lovable was great for getting started, however it proved more challenging as the project grew, and several times I had to revert the code, more and more often towards the end of the hackathon. Also, not as good at generating realistic personas backgrounds as other LLMs, which is not unexpected.</li>
+<li>ElevenLabs: The tools call can be a bit tricky and not 100% reliable (For example for the main video demo that I recorded in one go I didn't manage to trigger feedback of being too manipulative in a sales call, yet afterwards doing it again it showed up - see second video <a href="https://youtu.be/bF8DR1A56EI" rel="nofollow">here</a>). Would be nicer to have more control. Would likely work more reliably with a smarter LLM than what I used. </li>
+</ul>
+<h2>Accomplishments that I'm proud of</h2>
+<ul>
+<li>Being able to provide realtime feedback during a conversation, which most solutions on the market don't have.</li>
+<li>Designing an almost complete solution in a weekend, getting it to a place where I can demo, and accept people to make accounts and signing them up for potentially paying in the future. </li>
+<li>Showing a demo on the main page before users sign up, as a strategy to build trust and get people started easily.</li>
+</ul>
+<h2>What I learned</h2>
+<ul>
+<li>How to use ElevenLabs Conversational Agents and configure these with overrides, tooling and extract key metrics and data of interest, and extracting conversation data and files via the API</li>
+<li>Lovable is super cool, very powerful to get something off the ground in very short time</li>
+</ul>
+<h2>What's next for hypermind</h2>
+<ul>
+<li>Adding more agents, configured specifically for the different types of sales meetings. We expect having basically about 10 different agents defined.</li>
+<li>Add ability to create a persona based on an actual lead (for example, by providing their LinkedIn profile)</li>
+<li>Integrate additional analysis of conversation based on non-verbal communication (for example, via  Hume.ai or Fal.ai)</li>
+<li>Integrate the user's profile info (role, company, product/service they sell) into the conversation. This data is already captured in the Profile section, so it's more about injecting this info into the prompt. </li>
+<li>Some simulation might require a multi step approach and thus chaining of more agents might be needed to simulate different stages of the conversation. </li>
+<li>Better generation of persona avatar images. Currently using Dalle which from my experience is not that great at realistic portraits, so using StableDiffusion instead would be a better option. </li>
+<li>Add ability to handle additional languages, currently is set to English</li>
+<li>Add billing config, and handle payments via Stripe.</li>
+</ul>
+</div>

@@ -1,0 +1,19 @@
+<div>
+<h2>From Personal experience:</h2>
+<p>This is an inspiration from Language learning from personal learning struggles and frustrations.</p>
+<h2>What it does</h2>
+<p>Pachingili teaches you from a wide range of language you desire to learn.</p>
+<h2>How I built it</h2>
+<p>It was built on the next.js web framework, using elevenlabs conversational AI agent for real time conversation and Gemini APi for chat conversation.</p>
+<h2>Challenges we ran into</h2>
+<p>Most challenges were based on getting the system to remember stuff without a database and getting it do act as expected. Another challenge was designing the UI.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Realtime Conversation.
+Intuitive user Interface
+Responsiveness across devices
+AI powered chat conversation.</p>
+<h2>What we learned</h2>
+<p>Really learned a lot of things in 24 hours ranging from designing a full system, limitations and pros of the conversational AI, and most importantly I learned a lot about speed of development...lol</p>
+<h2>What's next for Pachingili: Your AI language Tutor.</h2>
+<p>Yes, I'm planning to make Pachingili more robust and make a a proper language learning platform, where users can even request a pronunciation of a particular word audio from the chat interface or even send voice notes to the LLM.</p>
+</div>

@@ -1,0 +1,30 @@
+<div>
+<h1>Team Elephant's Hackathon Journey</h1>
+<h1>NOTE- we couldn't submit video because the agent ran out of credits.  and stopped talking</h1>
+<p>Hope the gallery is good enough.</p>
+<p>Lucinda, Jaswanth, and Scott all found each other on the first day of the hackathon and started working as a group, which we named <strong>Team Elephant</strong>. Scott proposed an idea related to his professional field: the translation industry. The group agreed on the idea, which involves an <strong>AI Agent that assists medical translators</strong> via expertly curated context documents, including multilingual medical glossaries, as well as anonymized medical treatment records.</p>
+<p>While our final solution was built directly in <strong>ElevenLabs</strong>, we experimented with a range of possible solutions, including a build in <strong>Loveable</strong>.</p>
+<h2>Collaboration &amp; Development</h2>
+<p>Our group collaborated via <strong>Discord server, Google Meet, and Google Docs</strong>, working directly on shared documents. We used <strong>Grok, ChatGPT, and Gemini</strong> to create and troubleshoot prompts for our Loveable build.</p>
+<p>Additionally, we <strong>curated and developed expert documentation</strong> to include as context for the AI Agent, including:</p>
+<ul>
+<li>A detailed <strong>English-Spanish Medical Insurance Glossary</strong><br/></li>
+<li>A sampling of <strong>anonymized patient records</strong> for clinical context<br/></li>
+</ul>
+<h2>Market Research &amp; Presentation</h2>
+<p>For our presentation, we also conducted <strong>market research</strong> on estimated <strong>cost savings</strong> and other <strong>potential impacts</strong> of our AI Agent.</p>
+<h2>Inspiration</h2>
+<p>Scott works in this area and knows the problem well.</p>
+<h2>What it does</h2>
+<p>Translates along multiple dimensions:  medical terminology, acronyms, English, Spanish, Insurance terms</p>
+<h2>How we built it</h2>
+<p>Tried many avenues- ended up using ElevenLabs Agents</p>
+<h2>Challenges we ran into</h2>
+<p>Can't easily hook into ElevenLabs, or embed in website or hook into LLM</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>Simple beautiful app in the end</p>
+<h2>What we learned</h2>
+<p>Use the most powerful simple tools to get the job done.</p>
+<h2>What's next for Medical Translation AI Assistant</h2>
+<p>Build out more data sources, and really important to have text output in addition to spoken word</p>
+</div>

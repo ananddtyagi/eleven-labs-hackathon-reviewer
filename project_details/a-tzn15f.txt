@@ -1,0 +1,31 @@
+<div>
+<h1>Project Story</h1>
+<h2>The Inspiration</h2>
+<p>Growing up in Vietnam, I witnessed firsthand how learning English has become more than just an academic requirement—it's seen as a crucial stepping stone to success. The young generation in Vietnam considers foreign language proficiency, especially English, as a must-have skill in today's globalized world.</p>
+<p>However, the traditional language learning approach has always frustrated me. Students are often confined to textbooks filled with pre-written passages about generic topics that may not spark any genuine interest. We've all been there—trying to stay engaged while reading about "A Day at the Zoo" or "My Summer Vacation" for the hundredth time.</p>
+<h2>The Vision</h2>
+<p>This experience inspired me to create Kaleido. I wanted to flip the traditional language learning model on its head: instead of forcing students to learn language through predetermined topics, why not let them learn through topics they're actually curious about?</p>
+<p>The name "Kaleido" comes from kaleidoscope—a device that creates beautiful, ever-changing patterns. Similarly, this app creates unique learning experiences from whatever subject interests the learner at that moment.</p>
+<h2>The Build</h2>
+<p>I built Kaleido as a web application that leverages AI to generate personalized language learning content. When a user enters any topic—whether it's quantum physics, K-pop, or noodle soup—the app creates:</p>
+<ul>
+<li>A well-structured reading passage</li>
+<li>An audio version for listening practice</li>
+<li>Interactive exercises to test comprehension</li>
+</ul>
+<p>The technical challenge was creating content that's not just informative but also structured appropriately for language learning. I implemented specific prompts and workflows to ensure the generated content maintains educational value while staying engaging and relevant to the chosen topic.</p>
+<h2>Challenges and Learnings</h2>
+<p>The biggest challenge was finding the right balance between flexibility and educational structure. While I wanted users to learn through topics they love, I also needed to ensure they're getting proper language practice. This led to careful design of the exercise generation system, which creates questions that target specific language learning objectives regardless of the topic.</p>
+<p>Another significant challenge was making the content generation feel instantaneous despite the complex processing happening behind the scenes. This required optimizing the workflow and adding engaging loading animations to maintain user interest.</p>
+<h2>Looking Forward</h2>
+<p>Kaleido represents my vision for the future of language learning—one where education adapts to the learner's interests rather than the other way around. The current version is just the beginning. I envision enhancing the platform with:</p>
+<ul>
+<li><strong>Personalized Vocabulary System</strong>: Smart flashcards that automatically extract and help users practice new vocabulary from their chosen topics</li>
+<li><strong>Social Learning Features</strong>: A multiplayer mode where friends can learn together, challenge each other, and share interesting generated content</li>
+<li><strong>Gamification Elements</strong>: Streak systems, achievement badges, and daily challenges to keep users motivated</li>
+<li><strong>Community Content</strong>: Allowing users to curate and share their favorite generated lessons, creating a library of diverse, interest-driven learning materials</li>
+<li><strong>Progress Tracking</strong>: Detailed analytics showing vocabulary growth, comprehension improvements, and learning patterns across different topics</li>
+<li><strong>Many Many Languages</strong>: This MVP focuses on English, but there are so many other I want to support.</li>
+</ul>
+<p>By combining AI-powered content generation with these social and gamification features, Kaleido aims to make language learning not just personalized, but also fun and community-driven.</p>
+</div>

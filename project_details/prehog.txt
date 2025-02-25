@@ -1,0 +1,47 @@
+<div>
+<h2>Inspiration</h2>
+<ul>
+<li>People like hedgehogs + want to prep for their interview at PostHog before they actually go for the job</li>
+</ul>
+<h2>Impact</h2>
+<ul>
+<li>A lot of whether you get a job comes down to your performance at interview</li>
+<li>At the same time, prepping for job interviews can be difficult if you don't have experience</li>
+<li>PrepHog can democratise access to high quality practice</li>
+<li>Whilst also serving as a recruitment / marketing tool for PostHog</li>
+</ul>
+<p>...Imagine if you could do customised interview practice for any job at any company - instantly and for free!</p>
+<h2>What it does</h2>
+<ul>
+<li>Combines voice, phone and chat modalities to enable you to prep for job interviews</li>
+</ul>
+<h2>How we built it</h2>
+<ul>
+<li>NextJS + React - front/back-end</li>
+<li>ElevenLabs - voice interview + support widget</li>
+<li>Twilio - outbound call handling</li>
+<li>PostHog analytics + LLM observability</li>
+<li>OpenAI - chat + feedback functionalities</li>
+<li>PicaOS - MCP / function calling</li>
+<li>PostHog - images</li>
+<li>Fal.ai / RunwayML - video generation / easter eggs</li>
+<li>Firecrawl - scraping to markdown</li>
+</ul>
+<h2>Challenges we ran into</h2>
+<ul>
+<li>Spent some time looking into live lip syncing with a video hedghog but doesn't look like the tech's there yet to handle real-time interview generation</li>
+<li>Chat interface + Posthog use different AI SDKs with slightly different interfaces - adding observability there wasn't possible in the timeframe</li>
+<li>Had difficulty populating the live feedback to the user on Q&amp;A pairs for some reason - kept not wanting to appear in the modal - actually got it working and then accidentally deleted it annoyingly!</li>
+</ul>
+<h2>What's next for PrepHog.ai (what was next on the roadmap before I ran out of time!)</h2>
+<ul>
+<li>Select which job you want to prep for</li>
+<li>Add Google Meet modality</li>
+<li>Upload your CV and apply to the job via the site (via Skyvern / Operator)</li>
+<li>Improved interview experience</li>
+<li>Training on additional PostHog data / interviews</li>
+<li>Ability to control the site via voice</li>
+<li>Like interview feedback provided to the user (LLM eval on Q&amp;A pairs)</li>
+<li>Deploy to vercel</li>
+</ul>
+</div>

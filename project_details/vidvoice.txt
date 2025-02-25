@@ -1,0 +1,162 @@
+<div>
+<h1><strong>VidVoice</strong></h1>
+<p>VidVoice is an AI-powered Streamlit application that generates YouTube scripts and voiceovers based on video titles. It helps content creators automate video production with minimal effort.  </p>
+<h2><strong>Live Demo</strong></h2>
+<p><a href="https://ai-youtube-voice-over-generator.streamlit.app" rel="nofollow">VidVoice Streamlit App</a> </p>
+<h2><strong>Features</strong></h2>
+<ul>
+<li><strong>AI-Powered Script Generation</strong>: Generates high-quality YouTube scripts based on the video title.<br/></li>
+<li><strong>AI Voiceovers</strong>: Converts scripts into natural-sounding voiceovers using TTS models.<br/></li>
+<li><strong>Multiple AI Models</strong>: Supports Google Gemini, Groq, and ElevenLabs APIs for text and speech generation.<br/></li>
+<li><strong>Editable Scripts</strong>: Modify generated scripts before converting them to voiceovers.<br/></li>
+<li><strong>Easy Download</strong>: Listen to and download generated voiceovers.<br/></li>
+</ul>
+<h2><strong>Requirements</strong></h2>
+<ul>
+<li>Google Gemini API Key<br/></li>
+<li>Groq API Key<br/></li>
+<li>ElevenLabs API Key (for advanced TTS)<br/></li>
+</ul>
+<h2><strong>Installation</strong></h2>
+<ol>
+<li>Clone the repository:<br/>
+<code>bash
+git clone https://github.com/your-username/VidVoice.git
+cd VidVoice
+</code></li>
+<li>Install dependencies:<br/>
+<code>bash
+pip install -r requirements.txt
+</code></li>
+<li>Run the Streamlit app:<br/>
+<code>bash
+streamlit run app.py
+</code></li>
+</ol>
+<h2><strong>Usage</strong></h2>
+<h3><strong>1. Generate YouTube Scripts</strong></h3>
+<ul>
+<li>Enter the video title.<br/></li>
+<li>Set the desired video length.<br/></li>
+<li>Click <strong>"Generate Script"</strong> to create the script.<br/></li>
+<li>Edit the script if needed.<br/></li>
+</ul>
+<h3><strong>2. Generate Voiceovers</strong></h3>
+<ul>
+<li>Select a <strong>TTS model</strong> from the sidebar.<br/></li>
+<li>Click <strong>"Generate Audio"</strong> to convert the script into a voiceover.<br/></li>
+<li>Download the generated audio.<br/></li>
+</ul>
+<h3><strong>3. Regenerate &amp; Edit</strong></h3>
+<ul>
+<li>Click <strong>"Regenerate Script"</strong> for a new version.<br/></li>
+<li>Edit the script and generate audio again if needed.<br/></li>
+</ul>
+<h2><strong>Future Improvements</strong></h2>
+<p>✅ <strong>Local AI Models</strong> – Reduce API dependency by integrating local text and voice generation models.<br/>
+✅ <strong>Voice Cloning</strong> – Allow users to choose from custom and cloned voices.<br/>
+✅ <strong>Multi-Language Support</strong> – Expand voice generation capabilities to multiple languages.  </p>
+<h2><strong>Inspiration</strong></h2>
+<p>Creating YouTube content can be time-consuming, requiring both scripting and voiceovers. We wanted to simplify this process using AI, making video creation effortless for everyone, from beginners to professionals.  </p>
+<h2><strong>What it does</strong></h2>
+<p>VidVoice generates high-quality YouTube scripts based on video titles and converts them into natural-sounding voiceovers using AI-powered TTS models. It streamlines content creation by automating scriptwriting and narration in a few clicks.  </p>
+<h2><strong>How we built it</strong></h2>
+<ul>
+<li><strong>Frontend</strong>: Streamlit for an interactive and user-friendly interface.<br/></li>
+<li><strong>AI Models</strong>: Google Gemini and Groq for script generation, ElevenLabs for TTS.<br/></li>
+<li><strong>Backend</strong>: Python for API integration and text processing.<br/></li>
+<li><strong>Hosting</strong>: Deployed using Streamlit Cloud for easy access.<br/></li>
+</ul>
+<h2><strong>Challenges we ran into</strong></h2>
+<ul>
+<li>Ensuring high-quality script generation across different video topics.<br/></li>
+<li>Optimizing voiceover output for natural and engaging narration.<br/></li>
+<li>Managing API rate limits and response times for seamless performance.<br/></li>
+</ul>
+<h2><strong>Accomplishments that we're proud of</strong></h2>
+<ul>
+<li>Successfully automating the entire YouTube content creation workflow.<br/></li>
+<li>Integrating multiple AI models for both text and speech generation.<br/></li>
+<li>Providing a free and accessible tool for content creators.<br/></li>
+</ul>
+<h2><strong>What we learned</strong></h2>
+<ul>
+<li>How to optimize AI-generated content for better readability and engagement.<br/></li>
+<li>The importance of voiceover quality in enhancing video production.<br/></li>
+<li>Balancing API dependencies while maintaining performance and affordability.<br/></li>
+</ul>
+<h2><strong>What's next for VidVoice</strong></h2>
+<p>✅ <strong>Local AI models</strong> to reduce dependency on external APIs.<br/>
+✅ <strong>Voice cloning</strong> for custom and personalized narrations.<br/>
+✅ <strong>Multi-language support</strong> for a global reach.<br/>
+✅ <strong>Background music &amp; sound effects</strong> to enhance audio production.  </p>
+<h1>VidVoice</h1>
+<p>Generating Voice over audio for Youtube Videos based on Youtube Title</p>
+<p>This project is a Streamlit application that leverages various AI models to generate YouTube scripts and voiceovers. It aims to assist content creators in producing high-quality YouTube videos with minimal effort.</p>
+<ul>
+<li>No Elven labs feautre in this Link</li>
+</ul>
+<h3>Audio Demo</h3>
+<ul>
+<li>Title : what is phenomenon beyond northern lights ---
+<a href="https://drive.google.com/file/d/1ZvUR4bttk6EIRcYnfAsnVYMTA_EAoqUb/view?usp=sharing" rel="nofollow">Demo Samlpe Link</a></li>
+</ul>
+<h2>WorkFlow</h2>
+<p><img alt="Workflow" src="https://github.com/user-attachments/assets/07d4c8ad-d8f8-4fea-bcd6-f5948f6185af"/></p>
+<h2>Requirements</h2>
+<ul>
+<li><a href="https://aistudio.google.com/app/apikey" rel="nofollow">Google Gemini Api Key</a></li>
+<li><a href="https://console.groq.com/keys" rel="nofollow">Groq API</a></li>
+<li><a href="https://elevenlabs.io/api" rel="nofollow">ElevenLabs API</a></li>
+</ul>
+<h2>Installation</h2>
+<ol>
+<li><p>Clone the repository:</p>
+<pre class="language-bash"><code>git clone https://github.com/your-username/AI-YouTube-Voice-Over-Generator.git
+cd AI-YouTube-Voice-Over-Generator
+</code></pre></li>
+<li><p>Install the required Python packages:</p>
+<pre class="language-bash"><code>pip install -r requirements.txt
+</code></pre></li>
+<li><p>Run the Streamlit application:</p>
+<pre class="language-bash"><code>streamlit run app.py
+</code></pre></li>
+</ol>
+<h2>Usage</h2>
+<h3>API Keys</h3>
+<ul>
+<li><strong>Gemini Models</strong>: Enter your Gemini API key in the sidebar if you are using Gemini-based text generation models.</li>
+<li><strong>Groq Models</strong>: Enter your Groq API key in the sidebar if you are using Groq-based text generation models.</li>
+<li><strong>ElevenLabs TTS</strong>: Enter your ElevenLabs API key in the sidebar if you select the ElevenLabs text-to-speech model.</li>
+</ul>
+<h3>Generating Scripts</h3>
+<ol>
+<li><strong>Enter Video Title</strong>: Input the title for your YouTube video.</li>
+<li><strong>Set Video Length</strong>: Specify the desired video length in minutes.</li>
+<li><strong>Generate Script</strong>: Click the "Generate Script" button.</li>
+<li><strong>Edit Script</strong>: Modify the generated script if needed.</li>
+</ol>
+<h3>Generating Voiceovers</h3>
+<ol>
+<li><strong>Select TTS Model</strong>: Choose a TTS model in the sidebar.</li>
+<li><strong>Generate Audio</strong>: Click the "Generate Audio" button after the script is ready.</li>
+<li><strong>Download Audio</strong>: Listen to and download the generated audio.</li>
+</ol>
+<h3>Regenerating and Editing</h3>
+<ul>
+<li><strong>Regenerate Script</strong>: Click to create a new script if desired.</li>
+<li><strong>Edit Script</strong>: Update the script and convert it to audio.</li>
+</ul>
+<h2>Contributing</h2>
+<p>Contributions are welcome! Please open an issue or submit a pull request if you have suggestions for improvements or new features.</p>
+<h2>Acknowledgments</h2>
+<ul>
+<li><a href="https://huggingface.co/mrfakename" rel="nofollow">mrfakename</a> for Hosting freely Hosting MELLO TTS model, without there contribution it woudn't be a possibilty to provide free TTS service to end users</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li><strong>Local Text Generation</strong>: Implement the use of local text generation models to enhance performance and reduce dependency on external APIs.</li>
+<li><strong>Local TTS Models</strong>: Integrate local TTS models for better audio generation and faster processing times.</li>
+<li><strong>Voice Cloning</strong>: Allow users to choose from a variety of voices for TTS, including options for voice cloning based on user preferences.</li>
+</ul>
+</div>

@@ -1,0 +1,16 @@
+<div>
+<h2>Inspiration</h2>
+<p>The inspiration for AcuHealth AI came from the need to provide quick and accurate medical insights to patients and healthcare providers in their own localized languages. With the increasing volume of medical data, it is crucial to have a tool that can efficiently process and summarize medical reports, and provide relevant information through an interactive interface in their own localized language.</p>
+<h2>What it does</h2>
+<p>AcuHealth AI allows users to upload medical reports, extract key details, and interact with an AI assistant to get insights and answers to their queries in their own localized language. The application supports both text and voice interactions, making it accessible and user-friendly.</p>
+<h2>How we built it</h2>
+<p>The app integrates several APIs—including Google Generative AI for content generation, Pinecone as a vector database for storing vector embeddings of the RAG system, and ElevenLabs and Fal.ai to provide a rich, conversational interface for medical insights. The mxbai-embed-large-v1 model from Hugging Face generates efficient English sentence embeddings, supporting Matryoshka Representation Learning and binary quantization to reduce memory usage and costs. These embeddings are stored in Pinecone for effective retrieval in the RAG system.Nextjs is the framework used for the application</p>
+<h2>Challenges we ran into</h2>
+<p>One of the main challenges we faced was integrating multiple APIs and ensuring seamless communication between them. Handling large medical reports and extracting relevant information accurately was also a complex task. Additionally, implementing voice interaction and ensuring accurate transcription and language detection required careful handling.</p>
+<h2>Accomplishments that we're proud of</h2>
+<p>We are proud of successfully integrating various APIs to create a cohesive and functional application. The ability to process medical reports and provide accurate insights through both text and voice interactions is a significant achievement. We also managed to create a user-friendly interface with a smooth user experience.</p>
+<h2>What we learned</h2>
+<p>Throughout the development of AcuHealth AI, we learned a lot about integrating different APIs and handling complex data processing tasks. We gained experience in building interactive user interfaces and implementing voice interaction features. Additionally, we learned the importance of thorough testing and debugging to ensure the application runs smoothly</p>
+<h2>What's next for AcuHealth AI</h2>
+<p>In the future, we plan to enhance AcuHealth AI by adding more advanced features, such as personalized health recommendations and integration with electronic health records (EHR) systems. We also aim to improve the accuracy of the AI assistant and expand its capabilities to cover a wider range of medical queries. Additionally, we plan to optimize the application for better performance and scalability.</p>
+</div>
