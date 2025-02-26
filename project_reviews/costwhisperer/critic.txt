@@ -1,0 +1,37 @@
+As a negative critic for the ElevenLabs Hackathon, I must point out several concerning issues with the "costwhisperer" project. Let me break down the weaknesses according to the judging criteria:
+
+Impact (25%):
+- The project appears extremely limited in scope and scalability
+- There's no clear evidence of long-term viability or sustainable business model
+- The societal impact seems minimal as it only addresses a narrow use case
+- The problem being solved isn't particularly pressing or widespread
+
+Technical Implementation (25%):
+- The technical description is extremely vague and superficial
+- Simply listing technologies (loveable, clerk, fire crawl, supabase) without explaining their integration shows lack of depth
+- No mention of how the resource calculation actually works
+- Missing crucial details about the accuracy of the estimations
+- No information about handling different hosting platforms' pricing models
+
+Creativity and Innovation (25%):
+- The concept is rather basic and has been done before by various cloud cost calculators
+- Shows no unique approach or novel solution
+- Lacks innovative features that would differentiate it from existing solutions
+- The implementation seems to be a simple combination of existing tools
+
+Pitch and Presentation (25%):
+- The project description is extremely brief and poorly structured
+- Critical details are missing about functionality and features
+- No screenshots, demos, or practical examples provided
+- Failed to articulate the value proposition clearly
+- No mention of target users or market analysis
+- Grammar and formatting issues suggest lack of attention to detail
+
+Major Areas of Concern:
+1. The project seems underdeveloped and possibly rushed
+2. Lack of technical sophistication or unique selling points
+3. Poor documentation and presentation
+4. No clear differentiation from existing solutions
+5. Missing crucial information about accuracy and reliability
+
+Overall, this project appears to be in a very early, underdeveloped stage and would need significant improvements across all evaluation criteria to be competitive in the hackathon.
