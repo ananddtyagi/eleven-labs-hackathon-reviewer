@@ -10,8 +10,7 @@ client = anthropic.Anthropic(
 
 # Stream results file in memory-efficient chunks, processing one at a time
 for result in client.messages.batches.results(
-    # "msgbatch_01Nj4dQALkX4VgCH7aGToBy9",
-    "msgbatch_014NZDW1cCvCyye8EDsEyTKq"
+    "msgbatch_id",
 ):
     match result.result.type:
         case "succeeded":
